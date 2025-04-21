@@ -239,6 +239,45 @@ Tras analizar a cada uno de nuestros competidores, las estrategias y tácticas q
 
 - **Estrategia de posicionamiento:** Buscamos posicionar a NutriSmart como la plataforma más completa y confiable para la planificación alimentaria personalizada en el mercado hispanohablante. Nos enfocaremos en diferenciarnos a través de nuestra doble propuesta de valor: planificación inteligente automatizada y contacto directo con nutricionistas certificados. Mientras otros ofrecen personalización limitada o asesoría general, NutriSmart entrega soluciones prácticas y ajustadas a la realidad diaria de cada usuario. La calidad de nuestras recomendaciones, la experiencia del usuario y la accesibilidad del servicio serán nuestros pilares clave para destacar en el mercado.
 
+## **2.2. Entrevistas**
+
+### **2.2.1. Diseño de entrevistas**
+
+#### Entrevista General:
+
+1. ¿Cuál es tu nombre y apellidos?
+2. ¿Cuántos años tienes?
+3. ¿En qué distrito reside actualmente?
+4. ¿A qué se dedica actualmente?
+
+#### Para personas que buscan mejorar su alimentación:
+
+1. ¿Cuáles son sus principales objetivos nutricionales actualmente? (Ej.: bajar de peso, ganar masa muscular, mejorar su salud, etc.)
+2. ¿Ha intentado seguir planes de alimentación en el pasado? ¿Cómo fue su experiencia?
+3. ¿Qué dificultades suele encontrar al intentar llevar una dieta equilibrada?
+4. ¿Qué tan importante es para usted que un plan de alimentación se adapte a sus preferencias, restricciones o disponibilidad de alimentos?
+5. ¿Utilizaría una plataforma que le genere automáticamente un menú semanal personalizado? ¿Por qué?
+6. ¿Qué tan dispuesto estaría a pagar por contactar a un nutricionista dentro de una plataforma?
+7. ¿Qué características considera imprescindibles en una app de nutrición? (Ej.: recetas, lista de compras, contacto con especialistas, seguimiento de progreso, etc.)
+8. ¿Qué tan frecuentemente seguiria las recetas sugeridas si estuvieran adaptadas a sus objetivos y disponibilidad?
+9. ¿Le interesaría recibir seguimiento de un profesional o prefiere soluciones automatizadas?
+10.¿Qué factores considera más importantes en una app de nutrición: facilidad de uso, confiabilidad, variedad de recetas, interacción profesional, entre otros?
+
+### Para nutricionistas:
+1. ¿Cuánto tiempo lleva ejerciendo como nutricionista y en qué tipo de espacios (consultorio, clínicas, en línea, etc.)?
+2. ¿Qué tipo de servicios nutricionales ofrece actualmente (planes, consultas, seguimiento, talleres, etc.)?
+3. ¿Ha usado alguna plataforma en línea para ofrecer sus servicios?
+4. ¿Cuál es su mayor desafío para captar nuevos pacientes en canales digitales?
+5. ¿Qué tan atractivo le parecería conectarse con pacientes a través de una plataforma digital que centralice sus necesidades?
+6. ¿Qué características considera más valiosas en una plataforma que le permita atender a pacientes virtualmente?
+7. ¿Estaría dispuesto a responder dudas rápidas o mensajes dentro de una app como parte del servicio?
+8. ¿Qué tan importante es para usted contar con herramientas para generar y enviar planes alimentarios fácilmente?
+9. ¿Le interesaría recibir métricas del progreso de sus pacientes (peso, adherencia al plan, etc.) mediante la plataforma?
+10. ¿Qué factores considera indispensables para que una plataforma digital sea efectiva y confiable para usted como profesional?
+
+
+### **2.2.2. Registro de entrevistas**
+
 
 ## Capítulo III: Requirements Specification
 ## Capítulo IV: Product Design
