@@ -229,6 +229,16 @@ Conoce al menos un sector empresarial o dominio de aplicación de soluciones de 
 
 </div>
 
+### **2.1.2. Estrategias y tácticas frente a competidores**
+
+Tras analizar a cada uno de nuestros competidores, las estrategias y tácticas que emplearemos serán:
+
+- **Centrarnos en nuestro aporte de valor:** NutriSmart no es simplemente una app de conteo calórico ni una base de datos de recetas. Nuestro enfoque se centra en brindar una experiencia nutricional personalizada que combine tecnología inteligente con el respaldo de nutricionistas reales. A diferencia de competidores como Fitia o Nootric, NutriSmart integra variables clave como alimentos disponibles, restricciones alimentarias, nivel de actividad física y objetivos específicos del usuario. Además, nuestra opción Premium permite a los usuarios contactar directamente con nutricionistas para resolver dudas o solicitar un plan completamente hecho a medida. Esta combinación de personalización automática + asesoría profesional nos diferencia claramente.
+
+- **Hacer publicidad y marketing:** Aprovecharemos una estrategia de marketing digital activa y sostenida, con presencia en diversas redes sociales, enfocándonos en contenidos breves y útiles: recetas saludables, consejos nutricionales, historias de transformación de usuarios, y la voz de nuestros nutricionistas aliados. Asimismo, realizaremos colaboraciones con creadores de contenido en bienestar, nutrición y fitness. La estrategia de contenido educativo será clave para atraer usuarios que están en busca de orientación confiable en un mar de desinformación alimentaria en redes. También impulsaremos campañas en Google Ads y presencia en medios digitales especializados en salud y tecnología.
+
+- **Estrategia de posicionamiento:** Buscamos posicionar a NutriSmart como la plataforma más completa y confiable para la planificación alimentaria personalizada en el mercado hispanohablante. Nos enfocaremos en diferenciarnos a través de nuestra doble propuesta de valor: planificación inteligente automatizada y contacto directo con nutricionistas certificados. Mientras otros ofrecen personalización limitada o asesoría general, NutriSmart entrega soluciones prácticas y ajustadas a la realidad diaria de cada usuario. La calidad de nuestras recomendaciones, la experiencia del usuario y la accesibilidad del servicio serán nuestros pilares clave para destacar en el mercado.
+
 
 ## Capítulo III: Requirements Specification
 ## Capítulo IV: Product Design
