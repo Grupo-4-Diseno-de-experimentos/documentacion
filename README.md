@@ -270,6 +270,39 @@ Nuestra plataforma "NutriSmart" busca abordar una problemática creciente relaci
 #### 1.2.2.4. Lean UX Canvas
 <table> <tr> <th valign="top"> <p><b>1. Business Problem</b></p> <p>Millones de personas desean mejorar su alimentación, pero enfrentan barreras como la falta de tiempo, el desconocimiento nutricional, las restricciones alimenticias y el costo elevado de asesoramiento profesional. Por otro lado, los nutricionistas tienen una presencia digital limitada, lo que restringe su capacidad de alcanzar y guiar a nuevos pacientes. La falta de una plataforma accesible y personalizada que conecte ambas partes impide que se adopten hábitos alimentarios sostenibles.</p> </th> <th valign="top"> <p><b>2. Business Outcomes</b></p> <p>- Aumento en la retención de usuarios (usuarios comunes y nutricionistas).</p> <p>- Incremento en la tasa de suscripciones al plan premium.</p> <p>- Mayor cantidad de planes de comida personalizados generados.</p> <p>- Expansión de la red de nutricionistas registrados.</p> <p>- Mejora en los indicadores de salud y satisfacción del usuario.</p> </th> <th rowspan="2" valign="top"> <p><b>5. Solutions</b></p> <p>- Desarrollo de una plataforma web que genere planes alimenticios personalizados en función de objetivos, restricciones y estilo de vida.</p> <p>- Implementación de un modelo freemium que permita acceder a funciones básicas y, en modo premium, contactar a nutricionistas certificados.</p> <p>- Sistema de perfil inteligente con registro de datos clave: metas, alergias, alimentos disponibles y nivel de actividad física.</p> <p>- Inclusión de recetas balanceadas, herramientas de seguimiento y mensajería con especialistas.</p> </th> </tr> <tr> <td valign="top"> <p><b>3. Users</b></p> <p>- Usuarios primarios: Personas interesadas en mejorar sus hábitos alimenticios, bajar de peso, ganar masa muscular o mantener su salud.</p> <p>- Usuarios secundarios: Nutricionistas independientes o afiliados a centros que deseen ampliar su red de pacientes.</p> <p>- Clientes: Usuarios del plan gratuito y suscriptores premium que acceden a consultas personalizadas.</p> </td> <td valign="top"> <p><b>4. User Benefits</b></p> <p>- Usuarios: Acceso rápido a planes de alimentación adaptados a sus necesidades reales, con opciones gratuitas y de pago.</p> <p>- Nutricionistas: Mayor visibilidad profesional, contacto directo con pacientes potenciales y posibilidad de gestionar consultas dentro de la plataforma.</p> <p>- Ambos: Herramientas de educación nutricional, recetas saludables y sistema de seguimiento de progreso alimentario.</p> </td> </tr> <tr> <td valign="top"> <p><b>6. Hypothesis</b></p> <p>- Creemos que los usuarios valorarán una plataforma que les permita generar planes alimenticios personalizados de forma práctica. Sabremos que esta afirmación es cierta cuando observemos una alta tasa de creación de perfiles y uso frecuente de los planes.</p> <p>- Creemos que los nutricionistas estarán interesados en usar la plataforma para captar nuevos pacientes. Sabremos que es cierto cuando aumente el número de profesionales registrados y consultas activas.</p> <p>- Creemos que un modelo freemium aumentará la conversión a usuarios premium. Sabremos que esta afirmación es cierta cuando crezca el porcentaje de usuarios pagos respecto al total de usuarios activos.</p> <p>- Creemos que las recetas adaptadas y fáciles de seguir mejorarán la retención. Sabremos que es cierto cuando los usuarios usen la app de forma recurrente y compartan reseñas positivas.</p> <p>- Creemos que la opción de consultar directamente con un nutricionista aumentará la confianza y fidelidad. Sabremos que es cierto cuando se intensifique el uso del chat o la mensajería y se eleve la satisfacción del cliente.</p> </td> <td valign="top"> <p><b>7. What’s the most important thing we need to learn first?</b></p> <p>Validar si los usuarios encuentran suficiente valor en la personalización automática de los planes y si estarían dispuestos a pagar por contacto directo con nutricionistas certificados.</p> </td> <td valign="top"> <p><b>8. What’s the least amount of work we need to do to learn the next most important thing?</b></p> <p>Lanzar una versión beta con el generador de planes, recetas personalizadas y sistema de contacto limitado con nutricionistas, para recopilar métricas de adopción, retención y conversión.</p> </td> </tr> </table>
 
+## 1.3. Segmentos objetivo
+El segmento objetivo de NutriSmart se enfoca tanto en personas interesadas en mejorar su alimentación y calidad de vida mediante planes personalizados, como en profesionales de la nutrición que buscan una plataforma digital eficiente para ofrecer sus servicios. La plataforma está diseñada para responder a las necesidades reales de cada grupo, conectándolos en un entorno digital práctico, seguro y personalizado. A continuación, se describen los dos principales segmentos con sus características demográficas y motivacionales.
+
+**1. Personas que buscan mejorar sus hábitos alimentarios**
+
+Este segmento incluye a individuos de distintas edades que desean mejorar su salud mediante una alimentación más consciente, ya sea por razones estéticas, médicas o preventivas. Son personas que buscan orientación profesional, planes accesibles, recetas prácticas y seguimiento constante sin necesidad de asistir presencialmente a una consulta.
+
+ ### Características Demográficas
+- Edad: 18-50 años.
+
+- Nivel educativo: Varía desde educación técnica hasta universitaria.
+
+- Estilo de vida: Trabajadores activos, estudiantes universitarios, padres de familia, personas con enfermedades crónicas o intereses deportivos.
+
+- Motivaciones: Alcanzar objetivos como bajar de peso, ganar masa muscular o mantener un estilo de vida saludable es posible mediante una alimentación equilibrada que contribuya al bienestar físico y mental, a la vez que se accede a planes personalizados sin incurrir en los altos costos de las consultas tradicionales y se supera la confusión generada por la abundancia de información contradictoria sobre nutrición en redes sociales.
+<br>
+<br>
+
+
+**2. Nutricionistas**
+
+Este segmento está conformado por profesionales de la salud especializados en nutrición, interesados en ofrecer sus servicios a una audiencia más amplia a través de medios digitales. Buscan herramientas que les permitan conectar con pacientes, gestionar planes nutricionales y diversificar sus fuentes de ingreso de forma remota, ordenada y segura.
+
+### Características Demográficas
+- Edad: 22-45 años.
+
+- Educación: Titulados o egresados de carreras de Nutrición Humana, con o sin especializaciones.
+
+- Experiencia profesional: Desde nutricionistas recién egresados hasta profesionales independientes o afiliados a clínicas o centros de salud.
+
+- Motivaciones: Expandir su alcance profesional a través de plataformas digitales permite a los nutricionistas llegar a más personas y posicionarse en un mercado cada vez más conectado. A través de estas herramientas, pueden gestionar y monitorear a sus pacientes en línea de manera eficiente, optimizando la atención sin comprometer la calidad del servicio. Además, tienen la oportunidad de aumentar sus ingresos ofreciendo servicios personalizados dentro de un entorno seguro y validado, lo que genera confianza tanto para el profesional como para el paciente. Al mismo tiempo, el uso de soluciones digitales ayuda a ahorrar tiempo en tareas administrativas, permitiéndoles enfocarse más en el acompañamiento nutricional y en brindar un seguimiento más cercano y efectivo.
+
+
 
 
 ## Capítulo II: Requirements Elicitation & Analysis
