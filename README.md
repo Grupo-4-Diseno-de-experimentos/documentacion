@@ -213,6 +213,41 @@ HealthySoft es una startup innovadora especializada en el desarrollo de solucion
 
   <b> Misión: </b>  La misión de HealthySoft es diseñar y desarrollar herramientas digitales innovadoras, accesibles y personalizadas que contribuyan a mejorar la salud y calidad de vida de las personas a través de una alimentación consciente y guiada por expertos.
 
+### 1.1.2. Perfiles de integrantes del equipo
+
+### Aliaga Pimentel George Arturo
+Soy estudiante en la Universidad Peruana de Ciencias Aplicadas y soy de la carrera de Ingeniería de Software. Me considero una persona cooperativa y responsable, lo cual es requerido para un proyecto grupal. Junto a mis compañeros de grupo espero desarrollar un buen proyecto con las tecnologías que se aprenderán dentro del curso
+
+
+## 1.2. Solution Profile
+
+### 1.2.1. Antecedentes y problemática
+
+###  What (¿Qué?)
+En el Perú, los malos hábitos alimentarios se han convertido en una problemática crítica de salud pública. Diversos estudios señalan que estos hábitos no solo afectan el bienestar general, sino que pueden desencadenar afecciones graves como obesidad, sobrepeso, problemas digestivos, y enfermedades crónicas no transmisibles. En contextos clínicos, se observa una creciente cantidad de personas que acuden a emergencias por síntomas como náuseas, vómitos, diarreas o dolores abdominales, cuya causa está estrechamente relacionada con dietas inadecuadas o desequilibradas (Orozco Almeida, 2024).
+
+### Who (¿Quién?)
+El problema afecta principalmente a adultos jóvenes y personas económicamente activas que desean mejorar su salud o condición física (bajar de peso, ganar masa muscular o mantener su peso), pero también a aquellos con enfermedades crónicas, alergias o restricciones alimenticias como el veganismo o la celiaquía. Este grupo no siempre cuenta con los medios económicos o el tiempo para consultar con nutricionistas, y muchas veces recurre a dietas no personalizadas o desinformación encontrada en redes sociales (Astorga Castro et al., 2024).
+
+### Where (¿Dónde?)
+Si bien es una situación generalizada en el país, la problemática se acentúa en entornos urbanos como Lima Metropolitana, donde predominan estilos de vida sedentarios y una oferta alimentaria rica en productos ultraprocesados. Un estudio realizado en una clínica privada en Lima revela que muchos pacientes atendidos en emergencias presentaban síntomas vinculados directamente a sus hábitos alimenticios diarios (Orozco Almeida, 2024).
+
+### When (¿Cuándo?)
+El aumento del interés por la salud y la nutrición se ha intensificado desde la pandemia de COVID-19, que modificó hábitos de consumo y reveló la importancia de una alimentación adecuada para fortalecer el sistema inmunológico (Astorga Castro et al., 2024). Millones de personas comenzaron a buscar opciones saludables por internet, pero esta tendencia no fue acompañada por una democratización del acceso a asesoramiento nutricional personalizado.
+
+
+### Why (¿Por qué?)
+Las causas incluyen la falta de educación nutricional desde edades tempranas, la limitada implementación de políticas como el Programa de Quioscos Escolares Saludables (MINEDU, 2019), y el enfoque gubernamental aún muy centrado en menores de edad y gestantes (Astorga Castro et al., 2024). Además, los servicios de nutrición suelen ser costosos, escasos en regiones alejadas y poco adaptados a los nuevos estilos de vida digitales, lo que deja a muchos peruanos sin apoyo profesional en su alimentación diaria.
+
+### How (¿Cómo?)
+La falta de soluciones tecnológicas eficientes, accesibles y personalizadas representa una gran brecha. Las plataformas existentes suelen ser genéricas, centradas en recetas o conteo de calorías, pero no toman en cuenta restricciones alimentarias, alimentos disponibles ni objetivos específicos. Tampoco conectan a los usuarios con nutricionistas reales de forma práctica y directa, limitando el acceso a planes alimenticios confiables (Astorga Castro et al., 2024).
+
+### How much (¿Cuánto?)
+El impacto económico es significativo. La falta de prevención en temas de salud nutricional lleva a un incremento en los gastos del sistema sanitario por enfermedades no transmisibles como la diabetes o problemas cardiovasculares (OMS, 2023, citado en Astorga Castro et al., 2024). Además, muchas personas no pueden costear consultas regulares con nutricionistas, mientras que el gasto en alimentos saludables ha aumentado hasta un 60% en algunos sectores de Lima, lo que refuerza la percepción de que una buena alimentación es costosa (Gestión, 2021, citado en Astorga Castro et al., 2024).
+
+<br>
+
+
 ## Capítulo II: Requirements Elicitation & Analysis
 ## Capítulo III: Requirements Specification
 ## Capítulo IV: Product Design
