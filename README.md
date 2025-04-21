@@ -203,6 +203,16 @@ Conoce al menos un sector empresarial o dominio de aplicación de soluciones de 
 <br><br>
 
 ## Capítulo I: Introducción
+## 1.1. Startup Profile
+### 1.1.1. Descripción de la Startup
+HealthySoft es una startup innovadora especializada en el desarrollo de soluciones tecnológicas para el bienestar y la salud personal. Surge de la iniciativa de un equipo multidisciplinario de ingenieros de software de la Universidad Peruana de Ciencias Aplicadas, quienes comparten una visión común: transformar la manera en que las personas se alimentan y cuidan su salud mediante la tecnología. HealthySoft se distingue por su enfoque centrado en el usuario, trabajando de forma colaborativa con profesionales del ámbito de la nutrición y la salud para diseñar plataformas intuitivas, inteligentes y adaptadas a las necesidades reales de las personas. Su equipo combina conocimientos técnicos de vanguardia con una comprensión profunda de los desafíos actuales en materia de nutrición, hábitos saludables y personalización de servicios digitales.
+
+  Entre sus principales productos destaca NutriSmart, una aplicación web que permite a los usuarios crear planes de alimentación personalizados según sus objetivos, estilo de vida y restricciones alimentarias, generando recomendaciones respaldadas por nutricionistas y potenciadas con tecnología inteligente. HealthySoft emplea metodologías ágiles y tecnologías modernas para garantizar que sus soluciones sean robustas, escalables y capaces de evolucionar con las necesidades del mercado. Además, la empresa ofrece soporte continuo y mejora constante a sus plataformas, priorizando siempre la experiencia del usuario.
+
+   <b> Visión: </b> La visión de HealthySoft es convertirse en líder global en el desarrollo de soluciones tecnológicas aplicadas al bienestar personal, empoderando a las personas para que tomen decisiones más saludables, informadas y sostenibles.
+
+  <b> Misión: </b>  La misión de HealthySoft es diseñar y desarrollar herramientas digitales innovadoras, accesibles y personalizadas que contribuyan a mejorar la salud y calidad de vida de las personas a través de una alimentación consciente y guiada por expertos.
+
 ## Capítulo II: Requirements Elicitation & Analysis
 ## Capítulo III: Requirements Specification
 ## Capítulo IV: Product Design
