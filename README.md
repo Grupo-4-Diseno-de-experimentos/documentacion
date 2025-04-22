@@ -354,16 +354,24 @@ Mediante los User Journey Maps, se representa la situación (AS-Is) de la experi
 
 ![User Journey Map 3](https://i.ibb.co/wZMLKK6H/User-Journey-Map-3.png)
 
-### **2.3.3. User Journey Mapping**
 
 ### **2.3.4. Empathy Mapping**
+
+### Usuario que busca buenos habitos alimenticios
+
+![EmpathyMap](https://i.ibb.co/Zp4Gd8Yz/Empathy-map.png)
+
+### Nutricionistas
+
+![EmpathyMap2](https://i.ibb.co/fVm7vL1G/Empathy-map-1.png)
+
 
 ### **2.3.5. As-is Scenario Mapping**
 
 ### **2.4. Ubiquitous Language**
 
 En esta sección se presenta el lenguaje ubicuo, una herramienta que permite establecer un vocabulario común y preciso para la comunicación entre los miembros del equipo de desarrollo y los stakeholders.  
-Este lenguaje facilita la comprensión y el consenso en torno a los conceptos y términos clave del proyecto **NutriSmart**.
+Este lenguaje facilita la comprensión y el consenso en torno a los conceptos y términos clave del proyecto NutriSmart.
 
 - **Usuario final:** Persona que busca mejorar su alimentación mediante planes personalizados generados por la plataforma.
 - **Nutricionista:** Profesional de la salud especializado en nutrición que ofrece planes alimenticios personalizados y responde dudas en la plataforma.
@@ -376,7 +384,6 @@ Este lenguaje facilita la comprensión y el consenso en torno a los conceptos y 
 - **Panel de usuario:** Interfaz donde los usuarios gestionan su información, acceden a sus planes, recetas, historial y contacto con profesionales.
 - **Notificación:** Mensaje automático enviado por la plataforma para recordar acciones, entregar recomendaciones o motivar la constancia del usuario.
 - **Adherencia:** Grado en el que el usuario sigue el plan de alimentación recomendado.
-
 
 
 ## Capítulo III: Requirements Specification
