@@ -344,6 +344,19 @@ Los siguientes cuadros muestran la relación entre las tareas principales que re
 
 ### **2.3.3. User Journey Mapping**
 
+Mediante los User Journey Maps, se representa la situación (AS-Is) de la experiencia de los usuarios al interactuar con NutriSmart, desde el primer contacto hasta el uso activo de la plataforma. Estos mapas permiten visualizar las acciones, emociones y puntos de contacto a lo largo del recorrido, identificando oportunidades de mejora para optimizar la experiencia general.
+
+<b>Usuario<b>
+
+![asdasUser Journey Map](https://i.ibb.co/rRb045Wn/User-Journey-Map-1.png)
+
+<b>Nutricionista<b>
+
+![User Journey Map 3](https://i.ibb.co/wZMLKK6H/User-Journey-Map-3.png)
+
+
+
+
 
 ## Capítulo III: Requirements Specification
 ## Capítulo IV: Product Design
