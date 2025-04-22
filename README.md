@@ -368,6 +368,14 @@ Mediante los User Journey Maps, se representa la situación (AS-Is) de la experi
 
 ### **2.3.5. As-is Scenario Mapping**
 
+### Usuario que busca buenos habitos alimenticios
+
+![ScenarioMap1](https://i.ibb.co/1GfcscJ4/image.png)
+
+### Nutricionistas
+
+![ScenarioMap2](https://i.ibb.co/0RzY1JLg/image.png)
+
 ### **2.4. Ubiquitous Language**
 
 En esta sección se presenta el lenguaje ubicuo, una herramienta que permite establecer un vocabulario común y preciso para la comunicación entre los miembros del equipo de desarrollo y los stakeholders.  
