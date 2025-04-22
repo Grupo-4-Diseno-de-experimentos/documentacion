@@ -292,7 +292,7 @@ Estas representaciones ficticias se basan en los datos recopilados durante el pr
 #### **User Persona 1: Camila**
 
 
-![Camila Herrera](https://i.ibb.co/TMsSFn9W/Camila-Herrera-1.png)
+![Camila Herrera](https://i.ibb.co/PJRL9XN/Camila-Herrera-1.png)
 
 
 #### **User Persona 2: Luis**
