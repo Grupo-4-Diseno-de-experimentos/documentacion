@@ -302,6 +302,49 @@ Estas representaciones ficticias se basan en los datos recopilados durante el pr
 
 ### **2.3.2. User Task Matrix**
 
+En esta sección se presenta el **User Task Matrix**, una herramienta que permite identificar las tareas más relevantes para los segmentos de usuarios finales de la plataforma NutriSmart: usuarios que desean mejorar sus hábitos alimentarios y nutricionistas que desean ofrecer sus servicios a través de medios digitales.
+
+**Usuarios** (como Camila): Este segmento está compuesto por personas que buscan orientación clara, accesible y confiable para mejorar su alimentación. Valoran la personalización, la simplicidad y el respaldo profesional al momento de seguir un plan nutricional.
+
+**Nutricionistas** (como Luis): Este grupo está conformado por profesionales que desean digitalizar y expandir sus servicios, buscando herramientas que les permitan gestionar pacientes, crear planes personalizados y brindar seguimiento eficiente.
+
+Los siguientes cuadros muestran la relación entre las tareas principales que realiza cada segmento, junto con la frecuencia e importancia asignadas a cada una de ellas.
+
+| **User Task Matrix**                                | **Camila**     |                 |
+|-----------------------------------------------------|----------------|-----------------|
+| **Actividades**                                     | **Frecuencia** | **Importancia** |
+| Completar su perfil con objetivos y restricciones   | Una vez        | Alta            |
+| Recibir plan de comida semanal automático           | A menudo       | Alta            |
+| Consultar recetas adaptadas a sus necesidades       | A menudo       | Alta            |
+| Organizar sus comidas diarias                       | Siempre        | Alta            |
+| Descargar o revisar lista de compras sugerida       | A menudo       | Media           |
+| Contactar a un nutricionista para dudas             | Rara vez       | Alta            |
+| Solicitar un plan personalizado en versión Premium  | A veces        | Alta            |
+| Revisar su progreso nutricional                     | A veces        | Media           |
+| Recibir notificaciones o recordatorios de comida    | A menudo       | Media           |
+| Valorar o calificar el servicio recibido            | Rara vez       | Media           |
+
+<br>
+
+
+| **User Task Matrix**                                | **Luis**        |                 |
+|-----------------------------------------------------|-----------------|-----------------|
+| **Actividades**                                     | **Frecuencia**  | **Importancia** |
+| Completar su perfil profesional en la plataforma    | Una vez         | Alta            |
+| Recibir solicitudes de usuarios Premium             | A menudo        | Alta            |
+| Elaborar planes de alimentación personalizados      | Siempre         | Alta            |
+| Responder consultas rápidas desde el chat           | A menudo        | Alta            |
+| Consultar historial nutricional del usuario         | Siempre         | Alta            |
+| Monitorear el progreso del paciente                 | A menudo        | Alta            |
+| Editar y actualizar planes previamente enviados     | A veces         | Media           |
+| Enviar consejos o recomendaciones semanales         | A veces         | Media           |
+| Gestionar su agenda de atención online              | A menudo        | Alta            |
+| Evaluar la satisfacción del usuario                 | A veces         | Media           |
+
+
+### **2.3.3. User Journey Mapping**
+
+
 ## Capítulo III: Requirements Specification
 ## Capítulo IV: Product Design
 ## Capítulo V: Product Implementation, Validation & Deployment
