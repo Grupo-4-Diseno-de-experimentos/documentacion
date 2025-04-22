@@ -278,6 +278,29 @@ Tras analizar a cada uno de nuestros competidores, las estrategias y tácticas q
 
 ### **2.2.2. Registro de entrevistas**
 
+### **2.2.3. Análisis de entrevistas**
+
+## **2.3. Needfinding**
+
+Mediante el proceso de needfinding, se identificaron las necesidades, motivaciones y frustraciones de nuestros dos segmentos principales: personas que buscan mejorar su alimentación y nutricionistas que desean ofrecer sus servicios en plataformas digitales. Esto permitió comprender sus expectativas y requerimientos en relación con el uso de NutriSmart como solución de planificación nutricional personalizada.
+
+### **2.3.1. User Personas**
+
+En este apartado se presentan dos user personas que representan a los usuarios finales de la plataforma NutriSmart: personas que buscan mejorar sus hábitos alimentarios y nutricionistas que desean ofrecer sus servicios de forma digital.
+Estas representaciones ficticias se basan en los datos recopilados durante el proceso de needfinding y reflejan las características, necesidades y comportamientos de los usuarios reales.
+
+#### **User Persona 1: Camila**
+
+
+![Camila Herrera](https://i.ibb.co/TMsSFn9W/Camila-Herrera-1.png)
+
+
+#### **User Persona 2: Luis**
+
+
+![Luis Gamarra](https://i.ibb.co/gMPrBrk3/Luis-Gamarra.png)
+
+### **2.3.2. User Task Matrix**
 
 ## Capítulo III: Requirements Specification
 ## Capítulo IV: Product Design
