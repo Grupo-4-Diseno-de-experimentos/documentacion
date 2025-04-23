@@ -448,9 +448,18 @@ Conoce al menos un sector empresarial o dominio de aplicación de soluciones de 
 
 ### 4.9. Software Object-Oriented Design
 #### 4.9.1. Class Diagrams
+
+<p align="center">
+  <img src="./imagenes/Diagrama de Flujo.png" alt="faq-mockup" width="850">
+</p>
+
 #### 4.9.2. Class Dictionary
 ### 4.10. Database Design
 #### 4.10.1. Relational/Non-Relational Database Diagram
+
+<p align="center">
+  <img src="./imagenes/basededatosexp.png" alt="faq-mockup" width="850">
+</p>
 
 <hr>
 
