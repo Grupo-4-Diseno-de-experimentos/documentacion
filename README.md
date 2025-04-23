@@ -144,7 +144,6 @@
 - [4.10. Database Design](#48-database-design)
   - [4.10.1. Relational/Non-Relational Database Diagram](#481-database-diagram)
 
-
 ### [Capítulo V: Product Implementation, Validation & Deployment](#capc3adtulo-v-product-implementation-validation--deployment-1)
   - [5.1. Software Configuration Management](#51-software-configuration-management)
     - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
@@ -159,6 +158,7 @@
     - [5.2.5. Implemented RESTful API and/or Serverless Backend Evidence](#521-sprint)
     - [5.2.6. RESTful API documentation](#521-sprint)
     - [5.2.7. Team Collaboration Insights](#521-sprint)
+  
 ### [Conclusiones](#conclusiones-1)
 
 
