@@ -123,7 +123,7 @@
   - [4.4.1. Mobile Applications Wireframes](#45-web-applications-prototyping)
   - [4.4.2. Mobile Applications Wireflow Diagrams](#45-web-applications-prototyping)
   - [4.4.3. Mobile Applications Mock-ups](#45-web-applications-prototyping)
-  - [4.4.4. Mobile Applications User Flow Diagrams](#45-web-applications-prototyping)
+  - [4.4.3. Mobile Applications User Flow Diagrams](#45-web-applications-prototyping)
 - [4.5. Mobile Applications Prototyping](#45-web-applications-prototyping)
   - [4.5.1. Android Mobile Applications Prototyping](#45-web-applications-prototyping)
   - [4.5.2. iOS Mobile Applications Prototyping](#45-web-applications-prototyping)
@@ -142,7 +142,6 @@
   - [4.9.2. Class Dictionary](#472-class-dictionary)
 - [4.10. Database Design](#48-database-design)
   - [4.10.1. Relational/Non-Relational Database Diagram](#481-database-diagram)
-  
 ### [Capítulo V: Product Implementation, Validation & Deployment](#capc3adtulo-v-product-implementation-validation--deployment-1)
   - [5.1. Software Configuration Management](#51-software-configuration-management)
     - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
@@ -343,8 +342,6 @@ Conoce al menos un sector empresarial o dominio de aplicación de soluciones de 
 <p align="center">
   <img src="./imagenes/basededatosexp.png" alt="faq-mockup" width="850">
 </p>
-
-
 
 ## Capítulo V: Product Implementation, Validation & Deployment
 
