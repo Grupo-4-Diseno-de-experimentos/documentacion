@@ -104,6 +104,7 @@
 - [3.4. Product Backlog](#34-product-backlog)
 
 ### [Capítulo IV: Product Design](#capc3adtulo-iv-product-design-1)
+
 - [4.1. Style Guidelines](#41-style-guidelines)
   - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
   - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
@@ -142,6 +143,8 @@
   - [4.9.2. Class Dictionary](#472-class-dictionary)
 - [4.10. Database Design](#48-database-design)
   - [4.10.1. Relational/Non-Relational Database Diagram](#481-database-diagram)
+
+
 ### [Capítulo V: Product Implementation, Validation & Deployment](#capc3adtulo-v-product-implementation-validation--deployment-1)
   - [5.1. Software Configuration Management](#51-software-configuration-management)
     - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
@@ -157,6 +160,9 @@
     - [5.2.6. RESTful API documentation](#521-sprint)
     - [5.2.7. Team Collaboration Insights](#521-sprint)
 ### [Conclusiones](#conclusiones-1)
+
+
+
 
 - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
 - [Video About-the-Product](#video-about-the-product)
