@@ -225,10 +225,8 @@ Conoce al menos un sector empresarial o dominio de aplicación de soluciones de 
 ## Capítulo I: Introducción
 
 ## Capítulo II: Requirements Elicitation & Analysis
-<hr>
 
 ## Capítulo III: Requirements Specification
-<hr>
 
 ## Capítulo IV: Product Design
 
@@ -367,18 +365,17 @@ Conoce al menos un sector empresarial o dominio de aplicación de soluciones de 
   <img src="./imagenes/basededatosexp.png" alt="faq-mockup" width="850">
 </p>
 
-<hr>
+
 
 ## Capítulo V: Product Implementation, Validation & Deployment
-<hr>
+
 
 ## Conclusiones
 
-<hr>
+
 
 ## Bibliografía
 
-<hr>
 
 ## Anexos
 
