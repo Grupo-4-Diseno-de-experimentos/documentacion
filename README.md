@@ -156,7 +156,6 @@
     - [5.2.5. Implemented RESTful API and/or Serverless Backend Evidence](#521-sprint)
     - [5.2.6. RESTful API documentation](#521-sprint)
     - [5.2.7. Team Collaboration Insights](#521-sprint)
-
 ### [Conclusiones](#conclusiones-1)
 
 - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
@@ -344,4 +343,3 @@ Conoce al menos un sector empresarial o dominio de aplicación de soluciones de 
 </p>
 
 ## Capítulo V: Product Implementation, Validation & Deployment
-
