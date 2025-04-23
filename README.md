@@ -158,7 +158,6 @@
     - [5.2.5. Implemented RESTful API and/or Serverless Backend Evidence](#521-sprint)
     - [5.2.6. RESTful API documentation](#521-sprint)
     - [5.2.7. Team Collaboration Insights](#521-sprint)
-  
 ### [Conclusiones](#conclusiones-1)
 
 
