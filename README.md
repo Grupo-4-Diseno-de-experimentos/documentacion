@@ -207,3 +207,125 @@ Conoce al menos un sector empresarial o dominio de aplicación de soluciones de 
 ## Capítulo III: Requirements Specification
 ## Capítulo IV: Product Design
 ## Capítulo V: Product Implementation, Validation & Deployment
+### 5.1. Software Configuration Management.
+#### 5.1.1. Software Development Environment Configuration.
+
+La configuración del entorno de desarrollo garantiza que todos los colaboradores trabajen en condiciones homogéneas. A continuación, se detalla el stack tecnológico y las herramientas utilizadas:
+| Herramienta              | Descripción                                                |
+|--------------------------|------------------------------------------------------------|
+| VS Code / WebStorm / IntelliJ IDEA | Entorno de desarrollo integrado utilizado para editar el código fuente. |
+| Angular CLI              | Herramienta para gestionar el proyecto Angular (landing page). |
+| Tailwind CSS             | Framework de utilidades CSS para estilos responsivos.     |
+| Git                      | Control de versiones distribuido.                         |
+| GitHub                   | Repositorio remoto y plataforma de colaboración.          |
+
+#### 5.1.2. Source Code Management
+Se utilizó Git con el flujo de trabajo basado en Git Flow, que define roles claros para las ramas y evita conflictos en integración.
+| Rama         | Propósito                                                      |
+|--------------|----------------------------------------------------------------|
+| `main`       | Rama estable desplegable (producción o GitHub Pages).         |
+| `develop`    | Rama de integración para nuevas funcionalidades.              |
+| `feature/*`  | Nuevas funcionalidades o páginas específicas.                  |
+| `hotfix/*`   | Correcciones urgentes directamente sobre `main`.              |
+| `release/*`  | Preparación de una nueva versión (mezcla hacia `main`).       |
+
+| Tipo         | Descripción                          | Ejemplo                           |
+|--------------|--------------------------------------|-----------------------------------|
+| `feat`       | Nueva funcionalidad                  | `feat: add hero section layout`   |
+| `fix`        | Corrección de bug                    | `fix: corrige scroll en navbar`   |
+| `style`      | Cambios de estilo (sin lógica)       | `style: mejora paddings`          |
+| `refactor`   | Mejora interna sin cambiar función   | `refactor: extrae componente Hero`|
+| `docs`       | Cambios en documentación             | `docs: actualiza README.md`       |
+| `chore`      | Tareas menores (configs, etc.)       | `chore: configura husky`          |
+
+#### 5.1.3. Source Code Style Guide & Conventions
+Para asegurar un desarrollo coherente, mantenible y limpio en la aplicación NutriSmart, se definieron convenciones de código específicas para las tecnologías utilizadas: Angular, Tailwind CSS, CSS Modules (en caso de usarse), y Git.
+
+
+#### Angular
+
+- **Estructura por módulos**: el proyecto se organiza por módulos funcionales (bounded contexts), como `landing`, `auth`, `planner`, etc.
+- **Convención de nombres**:
+  - Componentes: `NombreComponent`
+  - Servicios: `nombre.service.ts`
+  - Módulos: `nombre.module.ts`
+  - Interfaces: `nombre.interface.ts`
+- **Lazy Loading**: los módulos de funcionalidad se cargan bajo demanda a través de rutas con `loadChildren`.
+- **Separación de responsabilidades**: los componentes solo gestionan la vista; toda lógica de negocio va a servicios (`services/`).
+- **Uso de interfaces** para tipar respuestas, formularios y entidades (`interfaces/`).
+- **Uso de pipes y guards personalizados** cuando es necesario transformar datos o proteger rutas.
+
+
+
+
+#### Tailwind CSS
+
+- **Clases utilitarias en el HTML/Angular** para maquetación rápida y responsiva.
+- **Convenciones de uso**:
+- Las clases deben escribirse de forma clara, semántica y ordenada.
+- Ejemplo:
+  ```html
+  <div class="bg-white p-6 rounded-lg shadow-md text-center">
+    <h2 class="text-xl font-bold mb-2">Tu Plan</h2>
+    <p class="text-gray-600">Alcanza tus metas nutricionales</p>
+  </div>
+  ```
+- **Responsive design por defecto**:
+- Uso de breakpoints como `sm:`, `md:`, `lg:`, `xl:` para adaptar el diseño.
+- **Reutilización de estilos con `@apply`** (opcional, si se usa Tailwind con SCSS/CSS):
+```css
+.btn-primary {
+  @apply bg-[#245e4f] text-white py-2 px-4 rounded hover:bg-[#1e423a];
+}
+```
+#### Git & GitHub Flow
+
+Para la gestión del código fuente se utilizó Git como sistema de control de versiones distribuido y GitHub como plataforma de colaboración en línea. Se adoptó una variante simplificada de **Git Flow** para mantener un flujo de trabajo claro y estructurado.
+
+##### Convenciones de commits semánticos
+
+Se sigue el estándar **Conventional Commits**, que permite generar changelogs automáticos y facilita el entendimiento del historial de cambios.
+
+| Tipo       | Uso común                              | Ejemplo                                    |
+|------------|----------------------------------------|--------------------------------------------|
+| `feat`     | Nueva funcionalidad                    | `feat: agrega sección de beneficios`       |
+| `fix`      | Corrección de errores                  | `fix: resuelve error de animación en hero` |
+| `refactor` | Reestructuración sin cambio funcional  | `refactor: simplifica lógica del navbar`   |
+| `style`    | Cambios visuales o de formato          | `style: ajusta márgenes y colores`         |
+| `docs`     | Cambios en la documentación            | `docs: agrega instrucciones de despliegue` |
+| `chore`    | Tareas menores no relacionadas al código funcional | `chore: configura Prettier`            |
+
+##### Flujo de trabajo recomendado
+
+1. Crear una rama desde `develop`:
+
+   ```bash
+   git checkout develop
+   git checkout -b feature/seccion-hero
+    ```
+
+#### 5.1.4. Software Deployment Configuration
+Se eligió GitHub Pages para el despliegue del frontend debido a su simplicidad, velocidad y gratuidad. El proyecto se configura automáticamente a partir de la rama gh-pages ulizando los siguientes comandos en la terminal:
+
+`ng build --configuration production --base-href "https://usuario.github.io/repo/"`
+
+`npx angular-cli-ghpages --dir=dist/landing`
+
+### 5.2. Product Implementation & Deployment
+#### 5.2.1. Sprint Backlogs
+| User Story ID | User Story                              | Task ID | Work-Item / Task                  | Descripción                                                                 | Estimación (Horas) | Asignado a | Estado     |
+|---------------|------------------------------------------|---------|----------------------------------|-----------------------------------------------------------------------------|---------------------|-------------|------------|
+| US-01         | Navegación inicial                       | W-01    | Implementar navbar principal     | Crear un navbar con enlaces ancla a distintas secciones y estilo responsive | 1                   | Jorge       | In process |
+| US-02         | Primer impacto visual                    | W-02    | Crear sección Hero               | Desarrollar una sección de bienvenida con CTA y animación de imágenes      | 2                   | Jorge      | To do      |
+| US-03         | Beneficios para el usuario               | W-03    | Sección de Beneficios            | Mostrar los beneficios de usar NutriSmart con imágenes e íconos            | 1                   | Jorge        | To do      |
+| US-04         | Explicación del proceso personalizado    | W-04    | Sección "Pasos de cómo funciona" | Mostrar los 3 pasos para obtener un plan nutricional personalizado         | 1                   | Jorge      | To do      |
+| US-05         | Visualización de precios                 | W-05    | Sección de Planes                | Crear tabla de precios con beneficios por plan de suscripción              | 1                   | Jorge        | To do      |
+| US-06         | Respuestas a preguntas y cierre          | W-06    | Sección de Preguntas frecuentes y Footer  | Respuestas a preguntas y pie de página informativo                         | 1                   | Jorge        | To do      |
+
+#### 5.2.2. Implemented Landing Page Evidence
+
+#### 5.2.3. Implemented Frontend-Web Application Evidence
+#### 5.2.4. Implemented Native-Mobile Application Evidence
+#### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
+#### 5.2.6. RESTful API documentation
+#### 5.2.7. Team Collaboration Insights
