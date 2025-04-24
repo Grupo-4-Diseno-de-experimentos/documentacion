@@ -890,6 +890,7 @@ Se eligió GitHub Pages para el despliegue del frontend debido a su simplicidad,
 <p align="center">
   <img src="./imagenes/faq.png" alt="FAQ Section" width="750">
 </p>
+
 #### 5.2.3. Implemented Frontend-Web Application Evidence
 #### 5.2.4. Implemented Native-Mobile Application Evidence
 #### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
