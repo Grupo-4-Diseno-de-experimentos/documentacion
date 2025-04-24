@@ -320,6 +320,12 @@ Conoce al menos un sector empresarial o dominio de aplicación de soluciones de 
   <img src="./imagenes/plantillawire.png" alt="faq-mockup" width="850">
 </p>
 
+**Nutricionista Pantalla**
+
+<p align="center">
+  <img src="./imagenes/nutricionistawire.png" alt="faq-mockup" width="850">
+</p>
+
 #### 4.6.2. Web Applications Wireflow Diagrams
 #### 4.6.3. Web Applications Mock-ups
 
@@ -344,10 +350,10 @@ Conoce al menos un sector empresarial o dominio de aplicación de soluciones de 
 **Plantillas de alimentos saludables**
 
 <p align="center">
-  <img src="./imagenes/plantilla.png" alt="faq-mockup" width="850">
+  <img src="./imagenes/nutricionista.png" alt="faq-mockup" width="850">
 </p>
 
-**Contactar nutricionista**
+**Nutricionista Pantalla**
 
 #### 4.6.4. Web Applications User Flow Diagrams
 ### 4.7. Web Applications Prototyping
