@@ -17,15 +17,12 @@
 
 <h3 align="center"> Docente: </h3>
 
-Julio Manuel Noriega Melendez
+<h3 align="center"> Julio Manuel Noriega Melendez </h3>
 
 <h3> Startup: </h3>
-
-HealthySoft
-
+<h3 align="center"> HealthySoft </h3>
 <h3> Product: </h3>
-
-NutriSmart
+<h3 align="center"> NutriSmart </h3>
 
 <h3> Team Members: </h3>
 
