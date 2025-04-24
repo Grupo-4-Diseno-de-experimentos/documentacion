@@ -205,5 +205,11 @@ Conoce al menos un sector empresarial o dominio de aplicación de soluciones de 
 ## Capítulo I: Introducción
 ## Capítulo II: Requirements Elicitation & Analysis
 ## Capítulo III: Requirements Specification
+### 3.1.- To-Be Scenario Mapping:
+**TO-BE Usuario**
+### 3.2.- User Stories:
+### 3.3.- Product Backlog:
+### 3.4.- Impact Mapping:
+
 ## Capítulo IV: Product Design
 ## Capítulo V: Product Implementation, Validation & Deployment
