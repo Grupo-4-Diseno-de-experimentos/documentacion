@@ -498,6 +498,200 @@ Este lenguaje facilita la comprensión y el consenso en torno a los conceptos y 
 
 ## Capítulo III: Requirements Specification
 ## Capítulo IV: Product Design
+### 4.1. Style Guidelines
+
+#### 4.1.1. General Style Guidelines
+
+### 4.2. Information Architecture
+
+#### 4.2.1. Organization Systems
+
+#### 4.2.2. Labeling Systems
+
+#### 4.2.3. SEO Tags and Meta Tags
+
+#### 4.2.4. Searching Systems
+
+#### 4.2.5. Navigation Systems
+### 4.3. Landing Page UI Design
+#### 4.3.1. Landing Page Wireframe
+**Hero Section**
+<p align="center">
+  <img src="./imagenes/hero-wireframe.png" alt="hero-wireframe" width="850">
+</p>
+
+**Features Section**
+<p align="center">
+  <img src="./imagenes/features-wireframe.png" alt="features-wireframe" width="850">
+</p>
+
+**Benefits Section**
+<p align="center">
+  <img src="./imagenes/benefits-wireframe.png" alt="benefits-wireframe" width="850">
+</p>
+
+**Steps Section**
+<p align="center">
+  <img src="./imagenes/steps-wireframe.png" alt="steps-wireframe" width="850">
+</p>
+
+**Pricing Section**
+<p align="center">
+  <img src="./imagenes/pricing-wireframe.png" alt="pricing-wireframe" width="850">
+</p>
+
+**FAQ Section**
+<p align="center">
+  <img src="./imagenes/faq-wireframe.png" alt="faq-wireframe" width="850">
+</p>
+
+
+#### 4.3.2. Landing Page Mock-up
+**Hero Section**
+<p align="center">
+  <img src="./imagenes/hero-mockup.png" alt="hero-mockups" width="850">
+</p>
+
+**Features Section**
+<p align="center">
+  <img src="./imagenes/features-mockup.png" alt="features-mockup" width="850">
+</p>
+
+**Benefits Section**
+<p align="center">
+  <img src="./imagenes/benefits-mockup.png" alt="benefits-mockup" width="850">
+</p>
+
+**Steps Section**
+<p align="center">
+  <img src="./imagenes/steps-mockup.png" alt="steps-mockup" width="850">
+</p>
+
+**Pricing Section**
+<p align="center">
+  <img src="./imagenes/pricing-mockup.png" alt="pricing-mockup" width="850">
+</p>
+
+**FAQ Section**
+<p align="center">
+  <img src="./imagenes/faq-mockup.png" alt="faq-mockup" width="850">
+</p>
+
+### 4.4. Mobile Applications UX/UI Design
+#### 4.4.1. Mobile Applications Wireframes
+#### 4.4.2. Mobile Applications Wireflow Diagrams
+#### 4.4.3. Mobile Applications Mock-ups
+#### 4.4.3. Mobile Applications User Flow Diagrams
+### 4.5. Mobile Applications Prototyping
+#### 4.5.1. Android Mobile Applications Prototyping
+#### 4.5.2. iOS Mobile Applications Prototyping
+### 4.6. Web Applications UX/UI Design
+#### 4.6.1. Web Applications Wireframes
+**Inicio Sesión**
+
+<p align="center">
+  <img src="./imagenes/iniciosesionwire.png" alt="faq-mockup" width="850">
+</p>
+
+**Registro**
+
+<p align="center">
+  <img src="./imagenes/registrowire.png" alt="faq-mockup" width="850">
+</p>
+
+**Home**
+
+<p align="center">
+  <img src="./imagenes/homewire.png" alt="faq-mockup" width="850">
+</p>
+
+**Plantillas de alimentos saludables**
+
+<p align="center">
+  <img src="./imagenes/plantillawire.png" alt="faq-mockup" width="850">
+</p>
+
+**Nutricionista Pantalla**
+
+<p align="center">
+  <img src="./imagenes/nutricionistawire.png" alt="faq-mockup" width="850">
+</p>
+
+#### 4.6.2. Web Applications Wireflow Diagrams
+#### 4.6.3. Web Applications Mock-ups
+
+**Inicio Sesión**
+
+<p align="center">
+  <img src="./imagenes/Iniciosesion.png" alt="faq-mockup" width="850">
+</p>
+
+**Registro**
+
+<p align="center">
+  <img src="./imagenes/registro.png" alt="faq-mockup" width="850">
+</p>
+
+**Home**
+
+<p align="center">
+  <img src="./imagenes/Home.png" alt="faq-mockup" width="850">
+</p>
+
+**Plantillas de alimentos saludables**
+
+<p align="center">
+  <img src="./imagenes/nutricionista.png" alt="faq-mockup" width="850">
+</p>
+
+**Nutricionista Pantalla**
+
+#### 4.6.4. Web Applications User Flow Diagrams
+### 4.7. Web Applications Prototyping
+### 4.8. Domain-Driven Software Architecture
+#### 4.8.1. Software Architecture Context Diagram
+
+<p align="center">
+  <img src="./imagenes/structurizr-95175-SystemContext-001.png" alt="faq-mockup" width="850">
+</p>
+
+#### 4.8.2. Software Architecture Container Diagrams
+
+<p align="center">
+  <img src="./imagenes/structurizr-95175-Container-001.png" alt="faq-mockup" width="850">
+</p>
+
+#### 4.8.3. Software Architecture Components Diagrams
+
+<p align="center">
+  <img src="./imagenes/structurizr-95175-Component-001.png" alt="faq-mockup" width="850">
+</p>
+
+<p align="center">
+  <img src="./imagenes/structurizr-95175-Component-002.png" alt="faq-mockup" width="850">
+</p>
+
+<p align="center">
+  <img src="./imagenes/structurizr-95175-Component-003.png" alt="faq-mockup" width="850">
+</p>
+
+### 4.9. Software Object-Oriented Design
+#### 4.9.1. Class Diagrams
+
+<p align="center">
+  <img src="./imagenes/Diagrama de Flujo.png" alt="faq-mockup" width="850">
+</p>
+
+#### 4.9.2. Class Dictionary
+### 4.10. Database Design
+#### 4.10.1. Relational/Non-Relational Database Diagram
+
+<p align="center">
+  <img src="./imagenes/basededatosexp.png" alt="faq-mockup" width="850">
+</p>
+
+## Capítulo V: Product Implementation, Validation & Deployment
+=======
 ## Capítulo V: Product Implementation, Validation & Deployment
 ### 5.1. Software Configuration Management.
 #### 5.1.1. Software Development Environment Configuration.
@@ -546,9 +740,6 @@ Para asegurar un desarrollo coherente, mantenible y limpio en la aplicación Nut
 - **Separación de responsabilidades**: los componentes solo gestionan la vista; toda lógica de negocio va a servicios (`services/`).
 - **Uso de interfaces** para tipar respuestas, formularios y entidades (`interfaces/`).
 - **Uso de pipes y guards personalizados** cuando es necesario transformar datos o proteger rutas.
-
-
-
 
 #### Tailwind CSS
 
@@ -615,9 +806,9 @@ Se eligió GitHub Pages para el despliegue del frontend debido a su simplicidad,
 | US-06         | Respuestas a preguntas y cierre          | W-06    | Sección de Preguntas frecuentes y Footer  | Respuestas a preguntas y pie de página informativo                         | 1                   | Jorge        | To do      |
 
 #### 5.2.2. Implemented Landing Page Evidence
-
 #### 5.2.3. Implemented Frontend-Web Application Evidence
 #### 5.2.4. Implemented Native-Mobile Application Evidence
 #### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
 #### 5.2.6. RESTful API documentation
 #### 5.2.7. Team Collaboration Insights
+
