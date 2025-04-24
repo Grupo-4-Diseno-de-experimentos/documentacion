@@ -296,8 +296,59 @@ Conoce al menos un sector empresarial o dominio de aplicación de soluciones de 
 #### 4.5.2. iOS Mobile Applications Prototyping
 ### 4.6. Web Applications UX/UI Design
 #### 4.6.1. Web Applications Wireframes
+**Inicio Sesión**
+
+<p align="center">
+  <img src="./imagenes/iniciosesionwire.png" alt="faq-mockup" width="850">
+</p>
+
+**Registro**
+
+<p align="center">
+  <img src="./imagenes/registrowire.png" alt="faq-mockup" width="850">
+</p>
+
+**Home**
+
+<p align="center">
+  <img src="./imagenes/homewire.png" alt="faq-mockup" width="850">
+</p>
+
+**Plantillas de alimentos saludables**
+
+<p align="center">
+  <img src="./imagenes/plantillawire.png" alt="faq-mockup" width="850">
+</p>
+
 #### 4.6.2. Web Applications Wireflow Diagrams
 #### 4.6.3. Web Applications Mock-ups
+
+**Inicio Sesión**
+
+<p align="center">
+  <img src="./imagenes/Iniciosesion.png" alt="faq-mockup" width="850">
+</p>
+
+**Registro**
+
+<p align="center">
+  <img src="./imagenes/registro.png" alt="faq-mockup" width="850">
+</p>
+
+**Home**
+
+<p align="center">
+  <img src="./imagenes/Home.png" alt="faq-mockup" width="850">
+</p>
+
+**Plantillas de alimentos saludables**
+
+<p align="center">
+  <img src="./imagenes/plantilla.png" alt="faq-mockup" width="850">
+</p>
+
+**Contactar nutricionista**
+
 #### 4.6.4. Web Applications User Flow Diagrams
 ### 4.7. Web Applications Prototyping
 ### 4.8. Domain-Driven Software Architecture
