@@ -819,7 +819,7 @@ Para asegurar un desarrollo coherente, mantenible y limpio en la aplicación Nut
   ```
 - **Responsive design por defecto**:
 - Uso de breakpoints como `sm:`, `md:`, `lg:`, `xl:` para adaptar el diseño.
-- **Reutilización de estilos con `@apply`** (opcional, si se usa Tailwind con SCSS/CSS):
+
 ```css
 .btn-primary {
   @apply bg-[#245e4f] text-white py-2 px-4 rounded hover:bg-[#1e423a];
@@ -847,8 +847,8 @@ Se sigue el estándar **Conventional Commits**, que permite generar changelogs a
 1. Crear una rama desde `develop`:
 
    ```bash
-   git checkout develop
-   git checkout -b feature/seccion-hero
+   git switch develop
+   git switch -c feature/seccion-hero
     ```
 
 #### 5.1.4. Software Deployment Configuration
@@ -858,6 +858,7 @@ Se eligió GitHub Pages para el despliegue del frontend debido a su simplicidad,
 
 `npx angular-cli-ghpages --dir=dist/landing`
 
+` ng deploy --base-href=https://usuario.github.io/repo/`
 ### 5.2. Product Implementation & Deployment
 #### 5.2.1. Sprint Backlogs
 | User Story ID | User Story                              | Task ID | Work-Item / Task                  | Descripción                                                                 | Estimación (Horas) | Asignado a | Estado     |
@@ -870,6 +871,25 @@ Se eligió GitHub Pages para el despliegue del frontend debido a su simplicidad,
 | US-06         | Respuestas a preguntas y cierre          | W-06    | Sección de Preguntas frecuentes y Footer  | Respuestas a preguntas y pie de página informativo                         | 1                   | Jorge        | To do      |
 
 #### 5.2.2. Implemented Landing Page Evidence
+<p align="center">
+  <img src="./imagenes/hero.png" alt="Hero Section" width="750">
+</p>
+
+<p align="center">
+  <img src="./imagenes/features.png" alt="Features Section" width="750">
+</p>
+<p align="center">
+  <img src="./imagenes/benefits.png" alt="Benefits Section" width="750">
+</p>
+<p align="center">
+  <img src="./imagenes/steps.png" alt="Steps Section" width="750">
+</p>
+<p align="center">
+  <img src="./imagenes/pricing.png" alt="Pricing Section" width="750">
+</p>
+<p align="center">
+  <img src="./imagenes/faq.png" alt="FAQ Section" width="750">
+</p>
 #### 5.2.3. Implemented Frontend-Web Application Evidence
 #### 5.2.4. Implemented Native-Mobile Application Evidence
 #### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
