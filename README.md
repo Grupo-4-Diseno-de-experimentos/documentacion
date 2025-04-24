@@ -618,6 +618,28 @@ Este lenguaje facilita la comprensión y el consenso en torno a los conceptos y 
 </p>
 
 #### 4.6.2. Web Applications Wireflow Diagrams
+
+<p align="center">
+  <img src="./imagenes/usergoalwire1.png" alt="faq-mockup" width="850">
+</p>
+
+<p align="center">
+  <img src="./imagenes/usergoalwire2.png" alt="faq-mockup" width="850">
+</p>
+
+<p align="center">
+  <img src="./imagenes/usergoalwire3.png" alt="faq-mockup" width="850">
+</p>
+
+<p align="center">
+  <img src="./imagenes/usergoalwire4.png" alt="faq-mockup" width="850">
+</p>
+
+<p align="center">
+  <img src="./imagenes/usergoalwire5.png" alt="faq-mockup" width="850">
+</p>
+
+
 #### 4.6.3. Web Applications Mock-ups
 
 **Inicio Sesión**
@@ -671,8 +693,6 @@ Este lenguaje facilita la comprensión y el consenso en torno a los conceptos y 
 <p align="center">
   <img src="./imagenes/usergoal5.png" alt="faq-mockup" width="850">
 </p>
-
-
 
 ### 4.7. Web Applications Prototyping
 ### 4.8. Domain-Driven Software Architecture
