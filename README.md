@@ -1062,4 +1062,10 @@ Evidencia de codigo de un unit test para usuario nutricionista.
   <img src="./imagenes/Teamcollab.png" alt="FAQ Section" width="750">
 </p>
 
+### Documento collaboration
+
+<p align="center">
+  <img src="./imagenes/TeamCollabInfo.png" alt="FAQ Section" width="750">
+</p>
+
 
