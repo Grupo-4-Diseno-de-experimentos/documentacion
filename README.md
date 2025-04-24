@@ -207,9 +207,53 @@ Conoce al menos un sector empresarial o dominio de aplicación de soluciones de 
 ## Capítulo III: Requirements Specification
 ### 3.1.- To-Be Scenario Mapping:
 **TO-BE Usuario**
+<p align="center">
+  <img src="./imagenes/tobe-usuario.jpg" alt="tobe-usuario" width="850">
+</p>
+**TO-BE Nutricionista**
+<p align="center">
+  <img src="./imagenes/tobe-nutricionista.jpg" alt="tobe-nutricionista" width="850">
+</p>
+
 ### 3.2.- User Stories:
+**Epics:**
+EC-01: Gestión del perfil e información nutricional del usuario
+EC-02: Interacción con Nutricionistas
+EC-03: Seguimiento y Analytics de data nutricional y estado físico
+
+**User Stories:**
+1.	US-01: Como usuario, quiero registrarme con mi correo y contraseña para acceder a la plataforma.
+2.	US-02: Como usuario, quiero completar mi perfil con mis objetivos (bajar de peso, ganar masa muscular, etc.).
+3.	US-03: Como usuario, quiero indicar mis restricciones alimentarias (vegano, sin gluten, etc.).
+4.	US-04: Como usuario, quiero que la plataforma genere un plan semanal automático basado en mi perfil.
+5.	US-05: Como usuario, quiero ajustar las recetas sugeridas según mis preferencias.
+6.	US-06: Como usuario Premium, quiero contactar a un nutricionista via chat para resolver dudas.
+7.	US-07: Como usuario Premium, quiero agendar una consulta virtual con un nutricionista.
+8.	US-08: Como nutricionista, quiero crear y enviar planes personalizados a mis pacientes.
+9.	US-09: Como nutricionista, quiero recibir notificaciones de nuevas consultas.
+10.	US-10: Como usuario, quiero registrar mi peso semanal para ver mi progreso.
+11.	US-11: Como usuario, quiero recibir notificaciones diarias de mis comidas.
+12.	US-12: Como nutricionista, quiero visualizar gráficos de progreso de mis pacientes.
+
+**Technical Stories**
+1.	TS-01: Implementar autenticación segura con JWT.
+2.	TS-02: Diseñar base de datos para almacenar perfiles de usuarios y nutricionistas.
+3.	TS-03: Crear algoritmo de generación de planes basado en objetivos y restricciones.
+4.	TS-04: Integrar sistema de chat en tiempo real.
+5.	TS-05: Desarrollar dashboard de seguimiento con gráficos (Chart.js).
+
 ### 3.3.- Product Backlog:
+| ID | User Story	| Story Points(1,2,3,5,8) |
+| --- | ---------- | -------------------- | ---- | 
+| US-01	| Registro de usuario |	3   |
+| US-04	| Generar plan semanal automático	| 	3  |
+| US-10	| Registro de peso del usuario | 	2  |
+| TS-03 |	Algoritmo de generación de planes	| 	5  |
+
 ### 3.4.- Impact Mapping:
+<p align="center">
+  <img src="./imagenes/impact-map.jpg" alt="impact-map" width="850">
+</p>
 
 ## Capítulo IV: Product Design
 ## Capítulo V: Product Implementation, Validation & Deployment
