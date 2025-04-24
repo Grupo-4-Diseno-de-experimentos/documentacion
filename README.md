@@ -656,6 +656,10 @@ EC-03: Seguimiento y Analytics de data nutricional y estado físico
 | TS-03 |	Algoritmo de generación de planes	| 	5  |
 
 ### 3.4.- Impact Mapping:
+<p align="center">
+  <img src="./imagenes/impact-map.png" alt="impact-map" width="850">
+</p>
+
 
 ## Capítulo IV: Product Design
 ### 4.1. Style Guidelines
