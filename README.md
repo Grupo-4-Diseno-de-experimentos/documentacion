@@ -17,9 +17,15 @@
 
 <h3 align="center"> Docente: </h3>
 
+Julio Manuel Noriega Melendez
+
 <h3> Startup: </h3>
 
+HealthySoft
+
 <h3> Product: </h3>
+
+NutriSmart
 
 <h3> Team Members: </h3>
 
@@ -42,8 +48,9 @@
 
 <div align="center">
 
-| Versión |   Fecha    |              Autor               | Descripción de modificación                                                                                                                                                                                                                                                                                                                                                             |
-| :-----: | :--------: | :------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Versión |   Fecha    |              Autor               | Descripción de modificación |
+| :-----: | :--------: | :------------------------------: | :--------------------------: |
+|   TB1   |    24/04   | Todos los integrantes            | Se estableció la solución propuesta, se realizó un análisis Lean UX, se definió el segmento objetivo y se recopilaron los requisitos necesarios para desarrollar las herramientas necesarias. A su vez, se implementó el landing page y un avance del backend.
 
 </div>
 
@@ -185,6 +192,28 @@ Conoce al menos un sector empresarial o dominio de aplicación de soluciones de 
 <tr>
     <td><b>Participa en equipos multidisciplinarios con eficacia, eficiencia y objetividad, en el marco de un proyecto en soluciones de ingeniería de software.</b></td>
     <td>
+    <td>TB1<br>
+    <b>Chirinos Arevalo, Daniel Rodrigo</b>
+        <br>
+        - Realicé mis tareas asignadas en el horario correspondiente<br/>
+        - Realicé las partes del trabajo como el diagrama de clases, c4 y el diseño temprano de la aplicación web y avance con el avance de la backend .<br/>
+        <br>
+    <b>Aliaga Pimentel, George Arturo</b>
+        <br>
+        - Realicé mis tareas asignadas en el horario correspondiente<br/>
+        - Realicé las partes del trabajo como todo el capitulo 1 y el capitulo 2, identificando la problematica de nuestro tema.<br/>
+        <br>
+    <b>Carlos Daniel Pingus Rodriguez</b>
+        <br>
+        - Realicé mis tareas asignadas<br/>
+        - Realicé las partes del trabajo como los escenarios as-is y to-be, y los user personas .<br/>
+        <br>
+    <b>Jorge Alexandro Linares Arroyo</b>
+        <br>
+        - Realicé mis tareas asignadas en el horario correspondiente<br/>
+        - Realicé la landing page y el capitulo 5 .<br/>
+        <br>
+    </td>
     </td>
     <td>
     </td>
@@ -193,7 +222,28 @@ Conoce al menos un sector empresarial o dominio de aplicación de soluciones de 
 <tr>
 <td><b>
 Conoce al menos un sector empresarial o dominio de aplicación de soluciones de software.</b></td>
-    <td> 
+    <td>
+    <td>TB1<br>
+    <b>Chirinos Arevalo, Daniel Rodrigo</b>
+        <br>
+        - Realicé mis tareas asignadas en el horario correspondiente<br/>
+        - Realicé las partes del trabajo como el diagrama de clases, c4 y el diseño temprano de la aplicación web y avance con el avance de la backend .<br/>
+        <br>
+    <b>Aliaga Pimentel, George Arturo</b>
+        <br>
+        - Realicé mis tareas asignadas en el horario correspondiente<br/>
+        - Realicé las partes del trabajo como todo el capitulo 1 y el capitulo 2, identificando la problematica de nuestro tema.<br/>
+        <br>
+    <b>Carlos Daniel Pingus Rodriguez</b>
+        <br>
+        - Realicé mis tareas asignadas<br/>
+        - Realicé las partes del trabajo como los escenarios as-is y to-be, y los user personas .<br/>
+        <br>
+    <b>Jorge Alexandro Linares Arroyo</b>
+        <br>
+        - Realicé mis tareas asignadas en el horario correspondiente<br/>
+        - Realicé la landing page y el capitulo 5 .<br/>
+        <br> 
 </td>
     <td>
     </td>
@@ -217,6 +267,9 @@ HealthySoft es una startup innovadora especializada en el desarrollo de solucion
 
 ### Aliaga Pimentel George Arturo
 Soy estudiante en la Universidad Peruana de Ciencias Aplicadas y soy de la carrera de Ingeniería de Software. Me considero una persona cooperativa y responsable, lo cual es requerido para un proyecto grupal. Junto a mis compañeros de grupo espero desarrollar un buen proyecto con las tecnologías que se aprenderán dentro del curso
+
+### Daniel Rodrigo Chirinos Arevalo
+Me llamo Daniel Chirinos Arevalo y soy de la carrera de Ingeniería de Software. Mi experiencia en la universidad es bastante normal y me encuentro cursando el sexto ciclo. A lo largo del tiempo, sí que tuve algunas dificultades con algunos cursos, pero logré enfrentarlos. Mi habilidad es ser líder en algunas ocasiones, trabajar con tiempo y lo más importante, ser siempre amistoso con el equipo.
 
 
 ## 1.2. Solution Profile
@@ -933,8 +986,33 @@ Se eligió GitHub Pages para el despliegue del frontend debido a su simplicidad,
 </p>
 
 #### 5.2.3. Implemented Frontend-Web Application Evidence
+
+Para esta entrega, se decidió no presentar la frontend.
+
 #### 5.2.4. Implemented Native-Mobile Application Evidence
+
+Para esta entrega, se decidió no presentar la native mobile.
+
 #### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
+
+Evidencia de codigo de un unit test para usuario nutricionista.
+
+<p align="center">
+  <img src="./imagenes/backendtest.png" alt="FAQ Section" width="750">
+</p>
+
 #### 5.2.6. RESTful API documentation
+
+<p align="center">
+  <img src="./imagenes/restfulapi.png" alt="FAQ Section" width="750">
+</p>
+
 #### 5.2.7. Team Collaboration Insights
+
+### Backend collaboration
+
+<p align="center">
+  <img src="./imagenes/Teamcollab.png" alt="FAQ Section" width="750">
+</p>
+
 
