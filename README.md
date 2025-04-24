@@ -755,8 +755,6 @@ Este lenguaje facilita la comprensión y el consenso en torno a los conceptos y 
 </p>
 
 ## Capítulo V: Product Implementation, Validation & Deployment
-=======
-## Capítulo V: Product Implementation, Validation & Deployment
 ### 5.1. Software Configuration Management.
 #### 5.1.1. Software Development Environment Configuration.
 
