@@ -278,7 +278,67 @@ Tras analizar a cada uno de nuestros competidores, las estrategias y tácticas q
 
 ### **2.2.2. Registro de entrevistas**
 
+**Nutricionistas**
+
+**Entrevista 1 - Nutricionista**
+
+- Nombre: Adrian
+- Apellidos: Zapata
+- Edad: 22 años
+- Distrito: Carabayllo - Lima
+- Minuto donde Empieza: 0:00
+- Duración: 13:32 minutos
+
+Evidencia de la reunión:
+
+![ImagenZapata](https://i.ibb.co/6cVC23zv/image.png)
+
+**Resumen de la entrevista:**
+
+Adrián Zapata es un joven nutricionista de 22 años que actualmente reside en Carabayllo. Con aproximadamente 4 años de experiencia, ofrece servicios tanto de forma presencial desde su consultorio en casa, como en línea, principalmente utilizando WhatsApp como medio de atención y coordinación con sus pacientes. Su enfoque profesional se basa en brindar consultas personalizadas y planes de alimentación ajustados a rutinas específicas, incluyendo aspectos de actividad física y necesidades calóricas.
+Adrián no ha utilizado plataformas específicas para nutricionistas, pero considera muy útil una que esté diseñada exclusivamente para el rubro nutricional, que permita agilizar el proceso de atención, crear y modificar plantillas de planes, organizar información de pacientes, y generar métricas automáticas de progreso como peso, adherencia y consumo calórico.
+Uno de los principales desafíos que enfrenta es la disponibilidad de los pacientes, ya que muchos no tienen tiempo para seguir estrictamente sus planes, lo que dificulta la planificación y seguimiento. También señala que coordinar múltiples clientes en canales como WhatsApp puede ser desordenado y poco profesional.
+Adrián expresó que una plataforma que centralice funciones como comunicación, gestión de archivos, formularios, historial de pacientes y seguimiento no solo facilitaría su labor, sino que permitiría una atención más profesional, formal y eficiente. Además, mostró disposición para responder consultas rápidas dentro de la app, siempre que el sistema permita establecer horarios de atención.
+Le otorga gran importancia a la posibilidad de que los pacientes registren su ingesta fuera del plan, y que la plataforma pueda convertir alimentos a calorías o nutrientes, lo cual considera un diferencial valioso para educar al usuario y mejorar su adherencia al tratamiento.
+
+**Entrevista 2 - Nutricionista**
+
+**Entrevista 3 - Nutricionista**
+
+**Usuarios que desean mejorar sus hábitos alimentarios**
+
+**Entrevista 4 - Usuario**
+
+**Entrevista 5- Usuario**
+
+**Entrevista 6- Usuario**
+
+
 ### **2.2.3. Análisis de entrevistas**
+
+**Nutricionistas**
+
+#### **Primer Entrevistado: Adrián Zapata**
+
+**Desafíos en la Atención Nutricional Digital:** Adrián destacó que su mayor dificultad es la falta de tiempo de los pacientes para cumplir con los planes nutricionales. Esto no solo complica el seguimiento, sino también la organización de sus horarios como profesional. 
+
+**Uso Actual de Plataformas:** Actualmente ofrece sus servicios de forma presencial y digital, usando principalmente **WhatsApp** como medio de consulta y entrega de planes. Aunque también utiliza **Facebook** para promocionarse, reconoce que estas herramientas no están diseñadas para profesionales de la nutrición. **Nos comenta que carece de una plataforma especializada que integre todas sus necesidades de atención y gestión.**
+
+**Interés en una Plataforma Profesional:** Adrián considera muy valioso contar con una plataforma que le permita centralizar funciones como la creación de planes, organización de pacientes, plantillas editables y agendamiento eficiente. **Lo que nos cuenta es preferiría atender en un entorno más formal y profesional si existiera una herramienta completa para ello.**
+
+**Disposición a Utilizar Funciones de Comunicación:** Está dispuesto a responder dudas dentro de la plataforma, siempre que pueda establecer un horario de atención claro. Resalta que este canal debe estar bien delimitado para mantener profesionalismo sin saturación. **Se considera de suma importancia tener canales de atención integrados con control de disponibilidad.**
+
+**Importancia de Herramientas para Crear y Enviar Planes:** Adrián menciona que es fundamental contar con recursos digitales que faciliten la creación y envío de planes alimentarios. Le interesa una herramienta que le permita generar documentos completos y enviarlos directamente desde la app. **En otras palabras, se afirma que automatizar este proceso mejoraría su eficiencia y reduciría errores.**
+
+**Necesidad de Seguimiento Automatizado:** Considera útil que la plataforma pueda recolectar métricas como peso, progreso semanal y adherencia al plan. Además, sugiere que el usuario pueda registrar alimentos consumidos fuera del plan y recibir conversión calórica en tiempo real. **Un seguimiento automatizado mejora la calidad del servicio y permite mayor personalización.**
+
+**Interés en Funciones Educativas para el Usuario:** Destaca que la app también debería facilitar la comprensión del cliente sobre qué consume y cómo se traduce en términos nutricionales. Esta función educativa puede mejorar la adherencia y los resultados. **Basicamente esta considerando que el usuario debe tener mayor protagonismo en su propio proceso nutricional.**
+
+**Basándonos en el análisis de la entrevista**, Adrián representa un perfil profesional alineado con la propuesta de **NutriSmart**: busca eficiencia, organización y profesionalismo en sus servicios digitales. **Señala que una plataforma especializada y fácil de usar es clave para escalar su atención sin comprometer la calidad.** Su interés en ofrecer mejor experiencia al paciente, junto con la automatización del trabajo administrativo, confirma la viabilidad de una herramienta como la que propone el proyecto.
+
+
+**Usuarios que desean mejorar sus hábitos alimentarios**
+
 
 ## **2.3. Needfinding**
 
