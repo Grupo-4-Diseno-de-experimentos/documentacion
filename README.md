@@ -651,6 +651,29 @@ Este lenguaje facilita la comprensión y el consenso en torno a los conceptos y 
 </p>
 
 #### 4.6.4. Web Applications User Flow Diagrams
+
+<p align="center">
+  <img src="./imagenes/usergoal1.png" alt="faq-mockup" width="850">
+</p>
+
+<p align="center">
+  <img src="./imagenes/usergoal2.png" alt="faq-mockup" width="850">
+</p>
+
+<p align="center">
+  <img src="./imagenes/usergoal3.png" alt="faq-mockup" width="850">
+</p>
+
+<p align="center">
+  <img src="./imagenes/usergoal4.png" alt="faq-mockup" width="850">
+</p>
+
+<p align="center">
+  <img src="./imagenes/usergoal5.png" alt="faq-mockup" width="850">
+</p>
+
+
+
 ### 4.7. Web Applications Prototyping
 ### 4.8. Domain-Driven Software Architecture
 #### 4.8.1. Software Architecture Context Diagram
@@ -694,8 +717,6 @@ Este lenguaje facilita la comprensión y el consenso en torno a los conceptos y 
   <img src="./imagenes/basededatosexp.png" alt="faq-mockup" width="850">
 </p>
 
-## Capítulo V: Product Implementation, Validation & Deployment
-=======
 ## Capítulo V: Product Implementation, Validation & Deployment
 ### 5.1. Software Configuration Management.
 #### 5.1.1. Software Development Environment Configuration.
