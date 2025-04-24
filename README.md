@@ -208,11 +208,13 @@ Conoce al menos un sector empresarial o dominio de aplicación de soluciones de 
 ### 3.1.- To-Be Scenario Mapping:
 **TO-BE Usuario**
 <p align="center">
-  <img src="./imagenes/tobe-usuario.jpg" alt="tobe-usuario" width="850">
+  <img src="./imagenes/tobeusuario.jpeg" alt="tobe-usuario" width="850">
 </p>
+
 **TO-BE Nutricionista**
+
 <p align="center">
-  <img src="./imagenes/tobe-nutricionista.jpg" alt="tobe-nutricionista" width="850">
+  <img src="./imagenes/tobenutricionista.jpeg" alt="tobe-nutricionista" width="850">
 </p>
 
 ### 3.2.- User Stories:
@@ -243,17 +245,15 @@ EC-03: Seguimiento y Analytics de data nutricional y estado físico
 5.	TS-05: Desarrollar dashboard de seguimiento con gráficos (Chart.js).
 
 ### 3.3.- Product Backlog:
-| ID | User Story	| Story Points(1,2,3,5,8) |
-| --- | ---------- | -------------------- | ---- | 
+
+| ID | User Story	| Story Points(1,2,3,5,8)|
+| --- | ---------- | --------------------| 
 | US-01	| Registro de usuario |	3   |
 | US-04	| Generar plan semanal automático	| 	3  |
 | US-10	| Registro de peso del usuario | 	2  |
 | TS-03 |	Algoritmo de generación de planes	| 	5  |
 
 ### 3.4.- Impact Mapping:
-<p align="center">
-  <img src="./imagenes/impact-map.jpg" alt="impact-map" width="850">
-</p>
 
 ## Capítulo IV: Product Design
 ## Capítulo V: Product Implementation, Validation & Deployment
