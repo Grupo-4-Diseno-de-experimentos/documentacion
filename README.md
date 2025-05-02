@@ -163,6 +163,24 @@
     - [5.2.6. RESTful API documentation](#521-sprint)
     - [5.2.7. Team Collaboration Insights](#521-sprint)
 
+### [Capítulo VI: Product Verification & Validation](#capc3adtulo-v-product-implementation-validation--deployment-1)
+  - [6.1. Testing Suites & Validation](#51-software-configuration-management)
+    - [6.1.1. Core Entities Unit Tests](#511-software-development-environment-configuration)
+    - [6.1.2. Core Integration Tests](#512-source-code-management)
+    - [6.1.3. Core Behavior-Driven Development](#513-source-code-style-guide--conventions)
+    - [6.1.4. Core System Tests](#514-software-deployment-configuration)
+
+### [Capítulo VII: DevOps Practices](#capc3adtulo-v-product-implementation-validation--deployment-1)
+  - [7.1. Continuous Integration](#51-software-configuration-management) 
+    - [7.1.1. Tools and Practices](#511-software-development-environment-configuration)
+    - [7.1.2. Build & Test Suite Pipeline Components](#511-software-development-environment-configuration)
+  - [7.2. Continuous Delivery](#51-software-configuration-management) 
+    - [7.2.1. Tools and Practices](#511-software-development-environment-configuration)
+    - [7.2.2. Stages Deployment Pipeline Components](#511-software-development-environment-configuration)
+  - [7.3. Continuous deployment](#51-software-configuration-management) 
+    - [7.3.1. Tools and Practices](#511-software-development-environment-configuration)
+    - [7.3.2. Production Deployment Pipeline Components](#511-software-development-environment-configuration)
+
 ### [Conclusiones](#conclusiones-1)
 
 - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
@@ -1062,4 +1080,21 @@ Evidencia de codigo de un unit test para usuario nutricionista.
   <img src="./imagenes/Teamcollab.png" alt="FAQ Section" width="750">
 </p>
 
+## Capítulo VI: Product Verification & Validation
+### 6.1. Testing Suites & Validation
+### 6.1.1. Core Entities Unit Tests
+### 6.1.2. Core Integration Tests
+### 6.1.3. Core Behavior-Driven Development
+### 6.1.4. Core System Tests
+
+## Capítulo VII: DevOps Practices
+### 7.1. Continuous Integration
+### 7.1.1. Tools and Practices
+### 7.1.2. Build & Test Suite Pipeline Components
+### 7.2. Continuous Delivery
+### 7.2.1. Tools and Practices
+### 7.2.2. Stages Deployment Pipeline Components
+### 7.3. Continuous deployment
+### 7.3.1. Tools and Practices
+### 7.3.2. Production Deployment Pipeline Components
 
