@@ -499,11 +499,32 @@ Este lenguaje facilita la comprensión y el consenso en torno a los conceptos y 
 ## Capítulo III: Requirements Specification
 ## Capítulo IV: Product Design
 ### 4.1. Style Guidelines
-
 #### 4.1.1. General Style Guidelines
+#### Pincipios de Diseño
+- Claridad: Interfaz minimalista con jerarquía visual definida (ej: títulos H1 32px, texto cuerpo 16px).
 
+- Accesibilidad: Cumple WCAG 2.1 AA (contraste 4.5:1, tamaños de texto escalables).
+
+- Consistencia: Mismos componentes reutilizables en todas las pantallas (botones, cards, forms).
+  
+#### Paleta de Colores
+| Rol                | Hex     | Uso                       |
+| ------------------ | ------- | ------------------------- |
+| Primario (Verde)   | #245E4F | Botones y elementos clave |
+| Secundario (Arena) | #F5E6C8 | Fondos y resaltes         |
+| Error              | #D32F2F | Mensajes de alerta        |
+| Éxito              | #388E3C | Confirmaciones            |
+
+#### Tipografía:
+a. **Principal**: "Inter" (Sans-serif)
+
+- Headers: Semibold 600
+
+- Body: Regular 400
+
+b. Secundaria: "Roboto" para citas y notas.
 ### 4.2. Information Architecture
-
+En este apartado se presentan las determinaciones clave tomadas durante el diseño de la plataforma, abarcando desde la arquitectura de información hasta la experiencia de navegación y funcionalidades de búsqueda, que constituyen el marco de referencia para su desarrollo.
 #### 4.2.1. Organization Systems
 
 #### 4.2.2. Labeling Systems
@@ -581,7 +602,7 @@ Este lenguaje facilita la comprensión y el consenso en torno a los conceptos y 
 #### 4.4.1. Mobile Applications Wireframes
 #### 4.4.2. Mobile Applications Wireflow Diagrams
 #### 4.4.3. Mobile Applications Mock-ups
-#### 4.4.3. Mobile Applications User Flow Diagrams
+#### 4.4.4. Mobile Applications User Flow Diagrams
 ### 4.5. Mobile Applications Prototyping
 #### 4.5.1. Android Mobile Applications Prototyping
 #### 4.5.2. iOS Mobile Applications Prototyping
