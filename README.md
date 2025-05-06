@@ -526,10 +526,40 @@ b. Secundaria: "Roboto" para citas y notas.
 ### 4.2. Information Architecture
 En este apartado se presentan las determinaciones clave tomadas durante el diseño de la plataforma, abarcando desde la arquitectura de información hasta la experiencia de navegación y funcionalidades de búsqueda, que constituyen el marco de referencia para su desarrollo.
 #### 4.2.1. Organization Systems
+En nuesta aplicación nutricional, hemos diseñado los sistemas de organización de la información pertinentes para garantizar una experiencia de usuario intuitiva y eficiente. 
+
+#### Para los clientes:
+- Usuarios: Planes, recetas, progreso.
+- Nutricionistas: Dashboard, pacientes, plantillas.
+
+#### Por funcionalidad:
+- Nutrición: Generador de planes, recetas, lista de compras.
+- Comunidad: Chat, reseñas, foros (futuro).
+
+#### Jerarquía global del sistema:
+<p align="center">
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1746558171/org-jerarquia.png" alt="org-jerarquia" width="850">
+</p>
+
+- En la página principal (Home) se mostrará como un dashboard en el que se mostrará el resumen del progreso del usuario, junto con recordatorios sobre su plan alimenticio.
+- Para nuestros usuarios premium tenemos la opción de recibir recomendaciones directamente de un nutricionista debidamente calificado.
 
 #### 4.2.2. Labeling Systems
+En este apartado presentamos los labels de nuestra aplicación para facilitar el uso y navegación del sistema.
+
+| Componente UI           | Label          | Descripción                       |
+| ----------------------- | -------------- | --------------------------------- |
+| Pantalla Principal      | "Bienvenido"   | Dashboard con el plan elegido y principales recordatorios |
+| Selección de Objetivo   | "Mis Metas"    | Segmento para definir objetivos |
+| Planes alimenticios     | "Mi Menú"      | Plan alimentario organizado por días |
+| Acción Principal        | "Generar Plan" | Botón para crear nuevo plan nutricional |
+| Búsqueda Nutricionista* | "Encuentra tu especialista" | Campo para buscar profesionales |
 
 #### 4.2.3. SEO Tags and Meta Tags
+#### Para Usuarios (Personas que buscan planes nutricionales):
+
+#### Para Nutricionistas (Profesionales de la salud):
+
 
 #### 4.2.4. Searching Systems
 
