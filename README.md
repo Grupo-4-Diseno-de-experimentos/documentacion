@@ -562,14 +562,38 @@ En este apartado presentamos los labels de nuestra aplicación para facilitar el
 | Home   | NutriSmart | Planes nutricionales Personalizados por y para ti | plan nutricional, dieta personalizada, recetas saludables, nutrición online |
 | Registro | Crea Tu Perfil | Únete a NutriSmart y cumple tus metas de salud con un plan 100% adaptado a ti | registro nutrición, perfil alimenticio, metas saludables |
 | Mi Plan | Tu Plan Semanal | Menú diario con recetas balanceadas según tus preferencias | plan semanal, menú saludable, lista de compras nutricional |
-
+| Recetas | Recetas Personalizadas | Encuentra recetas para tus objetivos: bajar de peso, ganar masa muscular o mantener tu salud | recetas fitness, comida saludable, preparaciones nutritivas |
+| Nutricionistas | Consulta con Nutricionistas | Resuelve tus dudas con expertos en nutrición. Disponible 24/7 en la versión Premium | nutricionista online, consulta nutricional, asesoría alimentaria |
 
 #### Para Nutricionistas (Profesionales de la salud):
-
+| Página | Title Tag | Meta Description | Keywords |
+| ------ | --------- | ---------------- | -------- |
+| Registro Nutricionistas | Únete a NutriSmart | Ofrece tus servicios a miles de usuarios y gestiona pacientes desde una sola plataforma | app para nutricionistas, pacientes online, plataforma nutrición | 
+| Dashboard Profesional | Panel de Nutricionista | Monitoriza el progreso de tus pacientes, crea planes personalizados y gestiona consultas virtuales | seguimiento nutricional, planes alimenticios, consultas online |
+| Tarifas Premium | Monetiza tu Consulta Nutricional | Gana ingresos adicionales atendiendo pacientes digitales con herramientas diseñadas para profesionales | nutricionista freelance, trabajo remoto nutrición | 
 
 #### 4.2.4. Searching Systems
+En NutriSmart, nuestro sistema de búsqueda está diseñado para que encuentres lo que necesitas de forma rápida y sencilla. Ya sea recetas que se ajusten a tus gustos y metas, o nutricionistas especializados, la plataforma te mostrará opciones personalizadas con filtros fáciles de usar.
+
+| Nombre del Filtro | Descripción |
+| ----------------- | ----------- |
+| Tipo de Dieta | Distintas opciones de dieta como: vegana, keto, sin gluten, etc. |
+| Objetivo | "Bajar de Peso", "Ganar Masa Muscular", "Control Glucémico", etc. |
+| Tiempo/Disponibilidad | Menos de 30 minutos (para recetas), En las mañanas (Consultas con nutricionista[PREMIUM]) | 
+| Alergias/Restricciones | Excluir ingredientes o condiciones específicas (ej. lácteos, diabetes) |
+| Valoración/reputación | Filtrar por cantidad de estrellas en reviews | 
+| Fecha/Reciente | "Última semana" (recetas nuevas) o "última consulta" (pacientes) |
+| Ingredientes/Herramientas | Filtrar por alimentos disponibles o recursos (ej. licuadora) |
 
 #### 4.2.5. Navigation Systems
+Hemos diseñado un sistema de navegación claro para que usuarios y nutricionistas encuentren lo que necesitan sin complicaciones. Desde acceder a planes personalizados hasta gestionar consultas, cada ruta está optimizada para una experiencia fluida.
+
+| Nombre | Descripción |
+| ------ | ----------- |
+| Inicio | Lleva al dashboard principal con el plan semanal y resumen de progreso |
+| Mi Progreso | Acceso rápido al plan nutricional generado, mostrando los avances en % | 
+| Recomendaciones | Muestra Recomendaciones alimenticias como también hábitos saludables |
+| Recomendaciones de Nutricionista (PREMIUM) | Acceso por medio de suscripción premium. Muestra recomendaciones del Nutricionista asignado. |
 ### 4.3. Landing Page UI Design
 #### 4.3.1. Landing Page Wireframe
 **Hero Section**
