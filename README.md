@@ -594,6 +594,8 @@ Hemos diseñado un sistema de navegación claro para que usuarios y nutricionist
 | Mi Progreso | Acceso rápido al plan nutricional generado, mostrando los avances en % | 
 | Recomendaciones | Muestra Recomendaciones alimenticias como también hábitos saludables |
 | Recomendaciones de Nutricionista (PREMIUM) | Acceso por medio de suscripción premium. Muestra recomendaciones del Nutricionista asignado. |
+| Nutricionista (PREMIUM) | Opción para poder contactarte con uno de nuestros Nutricionistas registrados. |
+
 ### 4.3. Landing Page UI Design
 #### 4.3.1. Landing Page Wireframe
 **Hero Section**
@@ -659,10 +661,19 @@ Hemos diseñado un sistema de navegación claro para que usuarios y nutricionist
 </p>
 
 ### 4.4. Mobile Applications UX/UI Design
+
 #### 4.4.1. Mobile Applications Wireframes
+
+
 #### 4.4.2. Mobile Applications Wireflow Diagrams
+
+
 #### 4.4.3. Mobile Applications Mock-ups
+
+
 #### 4.4.4. Mobile Applications User Flow Diagrams
+
+
 ### 4.5. Mobile Applications Prototyping
 #### 4.5.1. Android Mobile Applications Prototyping
 #### 4.5.2. iOS Mobile Applications Prototyping
