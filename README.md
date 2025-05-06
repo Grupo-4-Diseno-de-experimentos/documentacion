@@ -557,6 +557,12 @@ En este apartado presentamos los labels de nuestra aplicación para facilitar el
 
 #### 4.2.3. SEO Tags and Meta Tags
 #### Para Usuarios (Personas que buscan planes nutricionales):
+| Página | Title Tag | Meta Description | Keywords |
+|------- | --------- | ---------------- | -------- |
+| Home   | NutriSmart | Planes nutricionales Personalizados por y para ti | plan nutricional, dieta personalizada, recetas saludables, nutrición online |
+| Registro | Crea Tu Perfil | Únete a NutriSmart y cumple tus metas de salud con un plan 100% adaptado a ti | registro nutrición, perfil alimenticio, metas saludables |
+| Mi Plan | Tu Plan Semanal | Menú diario con recetas balanceadas según tus preferencias | plan semanal, menú saludable, lista de compras nutricional |
+
 
 #### Para Nutricionistas (Profesionales de la salud):
 
