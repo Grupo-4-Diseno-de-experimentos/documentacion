@@ -1090,9 +1090,43 @@ Evidencia de codigo de un unit test para usuario nutricionista.
 ## Capítulo VII: DevOps Practices
 ### 7.1. Continuous Integration
 ### 7.1.1. Tools and Practices
+El objetivo es integrar cambios de codigo en un repositorio compartido, lo que permite detectar errores de manera temprana y reducir el riesgo al momento de integrar nuevas funcionalidades. Para lograrlo de forma eficiente, se aplicaron una serie de herramientas y practicas especificas en el desarrollo del sistema.
+
+### Herramientas utilizadas:
+
+- GitHub: Utilizado como sistema de control de versiones distribuido. GitHub permite a los desarrolladores colaborar en el código fuente de manera estructurada mediante ramas, pull requests y revisiones de código.
+- JUnit: Framework de pruebas unitarias para Java. Se utiliza para verificar el correcto funcionamiento de los componentes del backend desarrollado con Spring Boot. Las pruebas unitarias son ejecutadas automáticamente dentro del pipeline de CI para garantizar la estabilidad del sistema.
+- Angular CLI (Command Line Interface): Utilizada para construir y ejecutar pruebas en el frontend. Angular proporciona herramientas integradas para validar el código TypeScript, realizar pruebas unitarias (con Karma y Jasmine) y detectar errores antes del despliegue.
+
+### Practicas que se realizaron durante el proyecto:
+
+- Commits frecuentes y pequeños: Se promueve que los desarrolladores realicen commits pequeños y frecuentes, lo cual facilita la detección rápida de errores y mejora la trazabilidad del código.
+
+- Revisión de código mediante Pull Requests: Antes de fusionar cualquier cambio a la rama principal, se realiza una revisión de código (code review) entre pares para asegurar calidad y consistencia en el desarrollo.
+
 ### 7.1.2. Build & Test Suite Pipeline Components
+
 ### 7.2. Continuous Delivery
 ### 7.2.1. Tools and Practices
+
+## Herramientas utilizadas:
+
+<b>Github Actions</b>: Se utilizó GitHub Actions como motor de automatización para orquestar las distintas etapas del pipeline. Dentro del flujo definido en .github/workflows, tras pasar la etapa de pruebas (CI), se ejecuta la fase de entrega continua:
+
+- Construcción del artefacto backend (archivo .jar generado por Spring Boot).
+
+- Construcción del artefacto frontend (directorio /dist generado por Angular).
+
+- Subida automática de artefactos a entornos de staging o producción.
+
+<b>Firebase Hosting</b>: 
+
+- Se utiliza Firebase como plataforma de despliegue para el frontend desarrollado en Angular.
+
+- Luego de construir el proyecto con ng build, el directorio resultante se sube automáticamente con firebase deploy.
+
+- La configuración se maneja a través del archivo firebase.json y los comandos definidos en firebase-tools.
+
 ### 7.2.2. Stages Deployment Pipeline Components
 ### 7.3. Continuous deployment
 ### 7.3.1. Tools and Practices
