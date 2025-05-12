@@ -663,7 +663,35 @@ Hemos diseñado un sistema de navegación claro para que usuarios y nutricionist
 ### 4.4. Mobile Applications UX/UI Design
 
 #### 4.4.1. Mobile Applications Wireframes
+##### Startup
+<p align="center">
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747012223/mobile-wireframe-start.png" alt="mobile-wireframe-start" width="400" height="800">
+</p>
 
+##### Registro
+<p align="center">
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747012836/mobile-wireframe-signup.png" alt="mobile-wireframe-signup" width="400" height="800">
+</p>
+
+##### Ingresar
+<p align="center">
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747014185/mobile-wireframe-login.png" alt="mobile-wireframe-login" width="400" height="800">
+</p>
+
+##### Home
+<p align="center">
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747014240/mobile-wireframe-home.png" alt="mobile-wireframe-home" width="400" height="800">
+</p>
+
+##### Plantillas de Dietas
+<p align="center">
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747018514/mobile-wireframe-plantilla.png" alt="mobile-wireframe-plantilla" width="400" height="800">
+</p>
+
+##### Home Nutricionista
+<p align="center">
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747018613/mobile-wireframe-nutricionista.png" alt="mobile-wireframe-nutricionista" width="400" height="800">
+</p>
 
 #### 4.4.2. Mobile Applications Wireflow Diagrams
 
