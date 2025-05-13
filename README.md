@@ -1223,6 +1223,42 @@ Se eligió GitHub Pages para el despliegue del frontend debido a su simplicidad,
 
 #### 5.2.3. Implemented Frontend-Web Application Evidence
 
+<p align="center">
+  <img src="./imagenes/webevidence9.png" alt="FAQ Section" width="750">
+</p>
+<p align="center">
+  <img src="./imagenes/webevidence10.png" alt="FAQ Section" width="750">
+</p>
+<p align="center">
+  <img src="./imagenes/webevidence.png" alt="FAQ Section" width="750">
+</p>
+<p align="center">
+  <img src="./imagenes/webevidence2.png" alt="FAQ Section" width="750">
+</p>
+<p align="center">
+  <img src="./imagenes/webevidence3.png" alt="FAQ Section" width="750">
+</p>
+
+<p align="center">
+  <img src="./imagenes/webevidence4.png" alt="FAQ Section" width="750">
+</p>
+
+<p align="center">
+  <img src="./imagenes/webevidence5.png" alt="FAQ Section" width="750">
+</p>
+
+<p align="center">
+  <img src="./imagenes/webevidence6.png" alt="FAQ Section" width="750">
+</p>
+
+<p align="center">
+  <img src="./imagenes/webevidence7.png" alt="FAQ Section" width="750">
+</p>
+
+<p align="center">
+  <img src="./imagenes/webevidence8.png" alt="FAQ Section" width="750">
+</p>
+
 #### 5.2.4. Acuerdo de Servicio - SaaS
 ## 8. Acuerdo de Servicio - SaaS
 
@@ -1296,26 +1332,31 @@ La aplicación no almacena datos personales sensibles más allá de los necesari
 
 **Fecha del Acuerdo:** [13/05/2025]
 
-
-#### 5.2.5. Implemented Native-Mobile Application Evidence
-#### 5.2.6. Implemented RESTful API and/or Serverless Backend Evidence
-#### 5.2.7. RESTful API documentation
-#### 5.2.8. Team Collaboration Insights
-=======
-
-Para esta entrega, se decidió no presentar la frontend.
-
 #### 5.2.4. Implemented Native-Mobile Application Evidence
 
 Para esta entrega, se decidió no presentar la native mobile.
 
 #### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
 
-Evidencia de codigo de un unit test para usuario nutricionista.
+<p align="center">
+  <img src="./imagenes/backevidence.png" alt="FAQ Section" width="750">
+</p>
+<p align="center">
+  <img src="./imagenes/backevidence2.png" alt="FAQ Section" width="750">
+</p>
 
 <p align="center">
-  <img src="./imagenes/backendtest.png" alt="FAQ Section" width="750">
+  <img src="./imagenes/backevidence3.png" alt="FAQ Section" width="750">
 </p>
+
+<p align="center">
+  <img src="./imagenes/backevidence4.png" alt="FAQ Section" width="750">
+</p>
+
+<p align="center">
+  <img src="./imagenes/backevidence5.png" alt="FAQ Section" width="750">
+</p>
+
 
 #### 5.2.6. RESTful API documentation
 
