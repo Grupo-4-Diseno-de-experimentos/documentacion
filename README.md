@@ -743,7 +743,7 @@ Este lenguaje facilita la comprensión y el consenso en torno a los conceptos y 
 #### 4.9.1. Class Diagrams
 
 <p align="center">
-  <img src="./imagenes/Diagrama de Flujo.png" alt="faq-mockup" width="850">
+  <img src="./imagenes/diagramaDB.png" alt="faq-mockup" width="850">
 </p>
 
 #### 4.9.2. Class Dictionary
