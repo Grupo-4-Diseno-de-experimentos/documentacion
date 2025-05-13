@@ -694,7 +694,21 @@ Hemos diseñado un sistema de navegación claro para que usuarios y nutricionist
 </p>
 
 #### 4.4.2. Mobile Applications Wireflow Diagrams
+<p align="center">
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747147254/mobile-wireflow-us04.png" alt="mobile-wireflow-us04" width="400" height="800">
+</p>
 
+<p align="center">
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747147378/mobile-wireflow-us01.png" alt="mobile-wireflow-us01" width="400" height="800">
+</p>
+
+<p align="center">
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747147446/mobile-wireflow-us11.png" alt="mobile-wireflow-us11" width="400" height="800">
+</p>
+
+<p align="center">
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747147512/mobile-wireflow-us06.png" alt="mobile-wireflow-us06" width="400" height="800">
+</p>
 
 #### 4.4.3. Mobile Applications Mock-ups
 
