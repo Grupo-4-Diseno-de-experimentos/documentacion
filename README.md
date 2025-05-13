@@ -1,7 +1,7 @@
 <h3 align="center"> Universidad Peruana de Ciencias Aplicadas </h3>
 
 <h3 align="center"> Ingeniería de Software </h3>
-<h3 align="center"> Ciclo 2025 - 1 </h3>
+<h3 align="center"> Ciclo 2025 - 10 </h3>
 
 <br>
 
@@ -19,12 +19,12 @@
 
 <h3 align="center"> Julio Manuel Noriega Melendez </h3>
 
-<h3> Startup: </h3>
+<h3 align="center"> Startup: </h3>
 <h3 align="center"> HealthySoft </h3>
-<h3> Product: </h3>
+<h3 align="center"> Product: </h3>
 <h3 align="center"> NutriSmart </h3>
 
-<h3> Team Members: </h3>
+<h3 align="center"> Team Members: </h3>
 
 <div align="center">
 
@@ -32,8 +32,8 @@
 | :------------------------------- | :--------: |
 | Aliaga Pimentel, George Arturo   | U20211c273 |
 | Chirinos Arevalo, Daniel Rodrigo | U202019577 |
-| Carlos Daniel Pingus Rodriguez     | u202113280 |
-| Jorge Alexandro Linares Arroyo | u202318624 |
+| Pingus Rodriguez, Carlos Daniel  | u202113280 |
+| Linares Arroyo, Jorge Alexandro  | u202318624 |
 
 </div>
 
@@ -47,7 +47,8 @@
 
 | Versión |   Fecha    |              Autor               | Descripción de modificación |
 | :-----: | :--------: | :------------------------------: | :--------------------------: |
-|   TB1   |    24/04   | Todos los integrantes            | Se estableció la solución propuesta, se realizó un análisis Lean UX, se definió el segmento objetivo y se recopilaron los requisitos necesarios para desarrollar las herramientas necesarias. A su vez, se implementó el landing page y un avance del backend.
+|   TB1   |    24/04   | George Aliaga, Daniel Chirinos, Carlos Pingus y Jorge Linares | Se estableció la solución propuesta, se realizó un análisis Lean UX, se definió el segmento objetivo y se recopilaron los requisitos necesarios para desarrollar las herramientas necesarias. A su vez, se implementó el landing page y un avance del backend. | 
+| TP     | 12/05 | George Aliaga, Daniel Chirinos, Carlos Pingus y Jorge Linares | Se realizaron los avances de la aplicación en base a la retroalimentación de la primera entrega |
 
 </div>
 
