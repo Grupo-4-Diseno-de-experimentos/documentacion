@@ -934,9 +934,6 @@ Hemos diseñado un sistema de navegación claro para que usuarios y nutricionist
   <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747170602/goal-signup.png" alt="goal-signup" width="500" height="600">
 </p>
 
-### 4.5. Mobile Applications Prototyping
-#### 4.5.1. Android Mobile Applications Prototyping
-#### 4.5.2. iOS Mobile Applications Prototyping
 ### 4.6. Web Applications UX/UI Design
 #### 4.6.1. Web Applications Wireframes
 **Inicio Sesión**
