@@ -1338,14 +1338,134 @@ Evidencia de codigo de un unit test para usuario nutricionista.
 ### 6.1.3. Core Behavior-Driven Development
 ### 6.1.4. Core System Tests
 
-## Capítulo VII: DevOps Practices
-### 7.1. Continuous Integration
+# Capítulo VII: DevOps Practices
+## 7.1. Continuous Integration
+La Integración Continua (CI) tiene como objetivo principal detectar errores rápidamente, automatizando la compilación y ejecución de pruebas cada vez que se realiza un cambio en el código. Esta práctica asegura que las nuevas funcionalidades no rompan lo existente, promoviendo un desarrollo estable y confiable.
 ### 7.1.1. Tools and Practices
+El objetivo es integrar cambios de codigo en un repositorio compartido, lo que permite detectar errores de manera temprana y reducir el riesgo al momento de integrar nuevas funcionalidades. Para lograrlo de forma eficiente, se aplicaron una serie de herramientas y practicas especificas en el desarrollo del sistema.
+Para mantener una alta calidad en el desarrollo de nuestra aplicación de comidas, integramos herramientas de testing y automatización tanto en el backend (Java con Spring Boot) como en el frontend (Angular). Utilizamos enfoques como TDD (Test-Driven Development) y BDD (Behavior-Driven Development) para garantizar que el software cumpla con los requisitos funcionales y no funcionales desde su concepción.
+
+| Herramienta | Tipo                          | Tecnología        | Descripción                                                                 | Propósito                                                                 |
+|-------------|-------------------------------|-------------------|-----------------------------------------------------------------------------|---------------------------------------------------------------------------|
+| **JUnit**   | Pruebas unitarias (TDD)       | Java (Backend)    | Framework de pruebas unitarias ampliamente utilizado en el ecosistema Java. | Validar el comportamiento de métodos y clases individuales del backend.  |
+| **Karma**   | Test Runner                   | Angular (Frontend)| Ejecuta pruebas unitarias en navegadores reales. Se integra con Jasmine.    | Automatizar la ejecución de pruebas al desarrollar componentes Angular.  |
+| **Jasmine** | Framework de pruebas unitarias| Angular (Frontend)| Permite escribir pruebas unitarias de funciones, servicios y componentes.   | Asegurar que los componentes funcionen como se espera de forma aislada.  |
+| **Selenium**| Pruebas End-to-End (E2E)      | Multiplataforma   | Automatiza pruebas de interfaz simulando interacciones reales de usuario.   | Validar flujos completos de la aplicación desde la perspectiva del usuario.|
+
+
+### Herramientas utilizadas:
+
+- GitHub: Utilizado como sistema de control de versiones distribuido. GitHub permite a los desarrolladores colaborar en el código fuente de manera estructurada mediante ramas, pull requests y revisiones de código.
+- JUnit: Framework de pruebas unitarias para Java. Se utiliza para verificar el correcto funcionamiento de los componentes del backend desarrollado con Spring Boot. Las pruebas unitarias son ejecutadas automáticamente dentro del pipeline de CI para garantizar la estabilidad del sistema.
+- Angular CLI (Command Line Interface): Utilizada para construir y ejecutar pruebas en el frontend. Angular proporciona herramientas integradas para validar el código TypeScript, realizar pruebas unitarias (con Karma y Jasmine) y detectar errores antes del despliegue.
+
+### Practicas que se realizaron durante el proyecto:
+
+- Commits frecuentes y pequeños: Se promueve que los desarrolladores realicen commits pequeños y frecuentes, lo cual facilita la detección rápida de errores y mejora la trazabilidad del código.
+
+- Revisión de código mediante Pull Requests: Antes de fusionar cualquier cambio a la rama principal, se realiza una revisión de código (code review) entre pares para asegurar calidad y consistencia en el desarrollo.
+
 ### 7.1.2. Build & Test Suite Pipeline Components
+
 ### 7.2. Continuous Delivery
+El objetivo principal de Continuous Delivery (CD) es automatizar el proceso de integración, pruebas y preparación del despliegue, asegurando que el software esté listo para ser entregado en producción en cualquier momento, aunque el despliegue final requiere una aprobación manual.
 ### 7.2.1. Tools and Practices
+
+#### Prácticas adoptadas:
+
+- Feature Branching y Pull Requests: Cada funcionalidad se desarrolla en una rama independiente. Tras pasar pruebas, se hace merge a la rama develop, lista para despliegue.
+
+- Entorno de Staging: Antes de producción, se realiza un despliegue en staging donde se prueban los cambios con usuarios clave y se detectan errores.
+
+- Aprobación manual: Luego de pasar el pipeline de validación, un desarrollador o responsable debe aprobar el despliegue a producción.
+
+- Rollback manual: Si se detectan errores en producción, se puede revertir manualmente a una versión anterior utilizando backups automáticos de Firebase y Render.
+
+#### Herramientas utilizadas:
+
+<b>Github Actions</b>: Se utilizó GitHub Actions como motor de automatización para orquestar las distintas etapas del pipeline. Dentro del flujo definido en .github/workflows, tras pasar la etapa de pruebas (CI), se ejecuta la fase de entrega continua:
+
+- Construcción del artefacto backend (archivo .jar generado por Spring Boot).
+
+- Construcción del artefacto frontend (directorio /dist generado por Angular).
+
+- Subida automática de artefactos a entornos de staging o producción.
+
+<b>Firebase Hosting</b>: 
+
+- Se utiliza Firebase como plataforma de despliegue para el frontend desarrollado en Angular.
+
+- Luego de construir el proyecto con ng build, el directorio resultante se sube automáticamente con firebase deploy.
+
+- La configuración se maneja a través del archivo firebase.json y los comandos definidos en firebase-tools.
+
 ### 7.2.2. Stages Deployment Pipeline Components
+
+1. Integración Continua: Cada commit en develop activa el pipeline de pruebas unitarias, validación de código y build del proyecto.
+
+2. Validación en Staging: Se despliega una versión en staging con datos reales simulados para pruebas de interfaz y experiencia de usuario.
+
+3. Aprobación Manual: El equipo debe revisar que todo funcione correctamente antes del paso final.
+
+4. Despliegue Manual a Producción: Si se aprueba el cambio, se ejecuta el script de despliegue o el workflow correspondiente.
+
+5. Monitoreo Post-Despliegue: Se monitorean métricas de rendimiento y se revisa el comportamiento del sistema.
+
 ### 7.3. Continuous deployment
+El objetivo del Continuous Deployment (CD) es lograr que cada cambio aprobado en el repositorio se despliegue de manera automática y segura en el entorno de producción, sin intervención manual. Esto permite ofrecer mejoras, correcciones y nuevas funcionalidades a los usuarios finales de forma inmediata, siempre y cuando se validen todas las pruebas definidas.
 ### 7.3.1. Tools and Practices
+ #### Herramientas utilizadas:
+
+- GitHub Actions: Utilizado como motor principal de automatización. Se configuraron workflows que ejecutan la secuencia de pasos desde que se hace un push en la rama main hasta el despliegue en producción. Incluye validaciones, builds, pruebas y despliegue continuo tanto para backend como frontend.
+
+- Docker: Todas las partes del backend están contenerizadas. Esto permite asegurar que el entorno de producción es exactamente igual al de desarrollo y pruebas. Cada build genera una imagen Docker que se utiliza tanto en staging como en producción.
+
+- Render (Backend): Plataforma que se encarga de ejecutar los contenedores Docker del backend (por ejemplo, Node.js o Spring Boot). Tiene integración directa con GitHub, permitiendo desplegar automáticamente cada vez que se detecta un nuevo cambio en la rama main.
+
+- Firebase Hosting (Frontend Angular): Se emplea para el despliegue automático del frontend. Permite compilar, validar y distribuir las nuevas versiones de la aplicación web en una red CDN segura, mejorando el tiempo de carga y la experiencia de usuario.
+
+- Railway (Base de datos MySQL): Se utiliza para el manejo automatizado de la base de datos. Railway gestiona la infraestructura y aplica migraciones cuando se actualiza el modelo de datos. También realiza backups automáticos y monitoreo de rendimiento.
+
+ #### Prácticas implementadas:
+
+- Feature Branching: Todo nuevo desarrollo o corrección se realiza en una rama separada (feature/x). Al completar la tarea, se hace un pull request hacia la rama develop, que es usada para testing. Posteriormente, los cambios se integran en main para producción.
+
+- Despliegue basado en commits (Commit-based deployment): Cada vez que se hace un push a la rama main, se activa automáticamente el pipeline completo. Esto incluye la construcción, ejecución de pruebas, validación de seguridad y el despliegue automático tanto del backend como del frontend.
+
+- Validación previa automatizada: Antes de desplegar, se ejecutan pruebas unitarias y de integración, además de validaciones de estructura en la base de datos. Esto asegura que los errores se detecten antes de afectar al usuario final.
+
+- Rollback automático: En caso de que el despliegue cause un error grave (por ejemplo, fallo en tiempo de respuesta, error en los endpoints, etc.), el sistema revierte automáticamente a la versión anterior y genera una alerta al equipo. Esto asegura una alta disponibilidad y recuperación rápida.
+
+- Monitoreo post-despliegue: Luego del despliegue, herramientas como Render y Firebase monitorean el estado del servidor, errores de cliente y rendimiento en tiempo real. Se detectan caídas, errores HTTP o anomalías en los datos.
+
 ### 7.3.2. Production Deployment Pipeline Components
 
+Backend – Render (Spring Boot):
+
+- Compilación automática: Render detecta cada nuevo commit en `main`, clona el repositorio y ejecuta `mvn package` (Spring Boot) para generar el artefacto listo para producción.
+
+- Construcción de imagen Docker: El backend se empaqueta en una imagen Docker que contiene todas las dependencias necesarias. Esto evita errores por diferencias entre entornos.
+
+- Despliegue continuo: La nueva imagen se publica automáticamente en el entorno de producción, reiniciando el contenedor sin causar downtime (deploy rolling).
+
+- Monitoreo y alertas: Render proporciona logs de ejecución, métricas de uso de recursos, tiempos de respuesta de los endpoints y errores. Las alertas notifican al equipo ante cualquier comportamiento anómalo.
+
+Frontend – Firebase Hosting (Angular):
+
+- Compilación en modo producción: Cada commit en `main` activa `ng build --prod` para generar una versión optimizada del frontend.
+
+- Pruebas automatizadas: Se ejecutan pruebas unitarias (Karma) y pruebas E2E (Cypress/Protractor) para validar la funcionalidad antes del despliegue.
+
+- Despliegue automático: Si todas las pruebas pasan, Firebase sube los nuevos archivos al CDN, invalidando automáticamente la caché para garantizar que los usuarios vean la versión más reciente.
+
+- Seguridad y disponibilidad: Firebase aplica reglas de seguridad para el hosting, forzando HTTPS y permitiendo fallback automático en caso de fallos.
+
+Base de Datos – Railway (MySQL):
+
+- Gestión automática de migraciones: Railway sincroniza los cambios de las entidades del backend con la base de datos, aplicando automáticamente migraciones generadas por frameworks como JPA/Hibernate o TypeORM.
+
+- Backups antes de cambios críticos: Railway genera copias de seguridad automáticas antes de aplicar cambios en producción, permitiendo recuperación en caso de error.
+
+- Pruebas de validación del esquema: Tras aplicar migraciones, se ejecutan scripts que validan la estructura de tablas, relaciones y restricciones.
+
+- Integración con logs del backend: Cualquier error en consultas o accesos a datos se registra en Railway y en el backend para análisis detallado.
