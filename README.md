@@ -17,9 +17,12 @@
 
 <h3 align="center"> Docente: </h3>
 
-<h3> Startup: </h3>
+<h3 align="center"> Julio Manuel Noriega Melendez </h3>
 
+<h3> Startup: </h3>
+<h3 align="center"> HealthySoft </h3>
 <h3> Product: </h3>
+<h3 align="center"> NutriSmart </h3>
 
 <h3> Team Members: </h3>
 
@@ -42,8 +45,9 @@
 
 <div align="center">
 
-| Versión |   Fecha    |              Autor               | Descripción de modificación                                                                                                                                                                                                                                                                                                                                                             |
-| :-----: | :--------: | :------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Versión |   Fecha    |              Autor               | Descripción de modificación |
+| :-----: | :--------: | :------------------------------: | :--------------------------: |
+|   TB1   |    24/04   | Todos los integrantes            | Se estableció la solución propuesta, se realizó un análisis Lean UX, se definió el segmento objetivo y se recopilaron los requisitos necesarios para desarrollar las herramientas necesarias. A su vez, se implementó el landing page y un avance del backend.
 
 </div>
 
@@ -159,6 +163,24 @@
     - [5.2.6. RESTful API documentation](#521-sprint)
     - [5.2.7. Team Collaboration Insights](#521-sprint)
 
+### [Capítulo VI: Product Verification & Validation](#capc3adtulo-v-product-implementation-validation--deployment-1)
+  - [6.1. Testing Suites & Validation](#51-software-configuration-management)
+    - [6.1.1. Core Entities Unit Tests](#511-software-development-environment-configuration)
+    - [6.1.2. Core Integration Tests](#512-source-code-management)
+    - [6.1.3. Core Behavior-Driven Development](#513-source-code-style-guide--conventions)
+    - [6.1.4. Core System Tests](#514-software-deployment-configuration)
+
+### [Capítulo VII: DevOps Practices](#capc3adtulo-v-product-implementation-validation--deployment-1)
+  - [7.1. Continuous Integration](#51-software-configuration-management) 
+    - [7.1.1. Tools and Practices](#511-software-development-environment-configuration)
+    - [7.1.2. Build & Test Suite Pipeline Components](#511-software-development-environment-configuration)
+  - [7.2. Continuous Delivery](#51-software-configuration-management) 
+    - [7.2.1. Tools and Practices](#511-software-development-environment-configuration)
+    - [7.2.2. Stages Deployment Pipeline Components](#511-software-development-environment-configuration)
+  - [7.3. Continuous deployment](#51-software-configuration-management) 
+    - [7.3.1. Tools and Practices](#511-software-development-environment-configuration)
+    - [7.3.2. Production Deployment Pipeline Components](#511-software-development-environment-configuration)
+
 ### [Conclusiones](#conclusiones-1)
 
 - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
@@ -185,6 +207,28 @@ Conoce al menos un sector empresarial o dominio de aplicación de soluciones de 
 <tr>
     <td><b>Participa en equipos multidisciplinarios con eficacia, eficiencia y objetividad, en el marco de un proyecto en soluciones de ingeniería de software.</b></td>
     <td>
+    <td>TB1<br>
+    <b>Chirinos Arevalo, Daniel Rodrigo</b>
+        <br>
+        - Realicé mis tareas asignadas en el horario correspondiente<br/>
+        - Realicé las partes del trabajo como el diagrama de clases, c4 y el diseño temprano de la aplicación web y avance con el avance de la backend .<br/>
+        <br>
+    <b>Aliaga Pimentel, George Arturo</b>
+        <br>
+        - Realicé mis tareas asignadas en el horario correspondiente<br/>
+        - Realicé las partes del trabajo como todo el capitulo 1 y el capitulo 2, identificando la problematica de nuestro tema.<br/>
+        <br>
+    <b>Carlos Daniel Pingus Rodriguez</b>
+        <br>
+        - Realicé mis tareas asignadas<br/>
+        - Realicé las partes del trabajo como los escenarios as-is y to-be, y los user personas .<br/>
+        <br>
+    <b>Jorge Alexandro Linares Arroyo</b>
+        <br>
+        - Realicé mis tareas asignadas en el horario correspondiente<br/>
+        - Realicé la landing page y el capitulo 5 .<br/>
+        <br>
+    </td>
     </td>
     <td>
     </td>
@@ -193,7 +237,28 @@ Conoce al menos un sector empresarial o dominio de aplicación de soluciones de 
 <tr>
 <td><b>
 Conoce al menos un sector empresarial o dominio de aplicación de soluciones de software.</b></td>
-    <td> 
+    <td>
+    <td>TB1<br>
+    <b>Chirinos Arevalo, Daniel Rodrigo</b>
+        <br>
+        - Realicé mis tareas asignadas en el horario correspondiente<br/>
+        - Realicé las partes del trabajo como el diagrama de clases, c4 y el diseño temprano de la aplicación web y avance con el avance de la backend .<br/>
+        <br>
+    <b>Aliaga Pimentel, George Arturo</b>
+        <br>
+        - Realicé mis tareas asignadas en el horario correspondiente<br/>
+        - Realicé las partes del trabajo como todo el capitulo 1 y el capitulo 2, identificando la problematica de nuestro tema.<br/>
+        <br>
+    <b>Carlos Daniel Pingus Rodriguez</b>
+        <br>
+        - Realicé mis tareas asignadas<br/>
+        - Realicé las partes del trabajo como los escenarios as-is y to-be, y los user personas .<br/>
+        <br>
+    <b>Jorge Alexandro Linares Arroyo</b>
+        <br>
+        - Realicé mis tareas asignadas en el horario correspondiente<br/>
+        - Realicé la landing page y el capitulo 5 .<br/>
+        <br> 
 </td>
     <td>
     </td>
@@ -217,6 +282,9 @@ HealthySoft es una startup innovadora especializada en el desarrollo de solucion
 
 ### Aliaga Pimentel George Arturo
 Soy estudiante en la Universidad Peruana de Ciencias Aplicadas y soy de la carrera de Ingeniería de Software. Me considero una persona cooperativa y responsable, lo cual es requerido para un proyecto grupal. Junto a mis compañeros de grupo espero desarrollar un buen proyecto con las tecnologías que se aprenderán dentro del curso
+
+### Daniel Rodrigo Chirinos Arevalo
+Me llamo Daniel Chirinos Arevalo y soy de la carrera de Ingeniería de Software. Mi experiencia en la universidad es bastante normal y me encuentro cursando el sexto ciclo. A lo largo del tiempo, sí que tuve algunas dificultades con algunos cursos, pero logré enfrentarlos. Mi habilidad es ser líder en algunas ocasiones, trabajar con tiempo y lo más importante, ser siempre amistoso con el equipo.
 
 
 ## 1.2. Solution Profile
@@ -557,22 +625,164 @@ Este lenguaje facilita la comprensión y el consenso en torno a los conceptos y 
 
 
 ## Capítulo III: Requirements Specification
+### 3.1.- To-Be Scenario Mapping:
+**TO-BE Usuario**
+<p align="center">
+  <img src="./imagenes/tobeusuario.jpeg" alt="tobe-usuario" width="850">
+</p>
+
+**TO-BE Nutricionista**
+
+<p align="center">
+  <img src="./imagenes/tobenutricionista.jpeg" alt="tobe-nutricionista" width="850">
+</p>
+
+### 3.2.- User Stories:
+**Epics:**
+EC-01: Gestión del perfil e información nutricional del usuario
+EC-02: Interacción con Nutricionistas
+EC-03: Visualizacion de y personalizacion de Recetas y Planes Nutricionales
+
+**User Stories:**
+1.	US-01: Como usuario, quiero registrarme con mi correo y contraseña para acceder a la plataforma.
+2.	US-02: Como usuario, quiero completar mi perfil con mis objetivos (bajar de peso, ganar masa muscular, etc.).
+3.	US-03: Como usuario, quiero indicar mis restricciones alimentarias (vegano, sin gluten, etc.).
+4.	US-04: Como usuario, quiero completar y editar mi perfil nutricional.
+5.	US-05: Como usuario, quiero visualizar la lista de planes de comida disponibles, para seleccionar uno que se adecúe a mis metas y preferencias.
+6.	US-06: Como usuario, quiero acceder al detalle de cada receta, incluyendo ingredientes, instrucciones, calorías y macronutrientes, para evaluar si se ajusta a lo que busco.
+7.	US-07: Como usuario, quiero poder marcar recetas como favoritas, para guardarlas y acceder fácilmente a las que más me gustan o son útiles.
+8.	US-08: Como nutricionista, quiero acceder a la lista de todos los planes de comida, para revisar y gestionar mis planes creados.
+9.	US-09: Como nutricionista, quiero poder crear nuevos planes de comida, asignando recetas por día y tipo de comida, para ofrecer opciones personalizadas a los clientes.
+10.	US-10: Como nutricionista, quiero editar o actualizar los planes de comida existentes, para mantener la información actualizada y adaptarla a nuevas necesidades o descubrimientos.
+11.	US-11: Como nutricionista, quiero acceder a una lista de recetas y gestionarlas, pudiendo crear nuevas recetas o editar las existentes según los ingredientes y valores nutricionales.
+12.	US-12: Como nutricionista, quiero marcar recetas como favoritas, para tener a mano aquellas que suelo usar o recomendar frecuentemente.
+13.	US-13: Como nutricionista, quiero editar mi perfil profesional, para mantener actualizada mi información personal o profesional dentro de la plataforma.
+
+
+
+### 3.3.- Product Backlog:
+
+| User Story ID     | Título                                                                 | Prioridad | Story Points(1,2,3,5,8) |
+|--------|------------------------------------------------------------------------|-----------|---------------|
+| US-01 | Registro de usuario                                                     | Alta      | 3             |
+| US-02 | Completar objetivos del perfil                                          | Alta      | 5             |
+| US-03 | Ingresar restricciones alimentarias                                     | Media     | 3             |
+| US-04 | Editar perfil nutricional                                               | Alta      | 5             |
+| US-05 | Visualizar lista de planes disponibles                                         | Alta      | 3             |
+| US-06 | Visualizar detalle de recetas (ingredientes, macros, instrucciones)           | Alta      | 5             |
+| US-07 | Marcar recetas como favoritas                                           | Media     | 3             |
+| US-08 | Visualizar lista de planes como nutricionista                                  | Alta      | 3             |
+| US-09 | Crear nuevos planes de comida                                           | Alta      | 8             |
+| US-10 | Editar planes de comida                                                 | Alta      | 8             |
+| US-11 | Gestionar recetas (crear y editar)                                      | Alta      | 8             |
+| US-12 | Marcar recetas favoritas como nutricionista                             | Media     | 3             |
+| US-13 | Editar perfil profesional del nutricionista                             | Media     | 3             |
+
+### 3.4.- Impact Mapping:
+<p align="center">
+  <img src="./imagenes/impact-map.png" alt="impact-map" width="850">
+</p>
+
+
 ## Capítulo IV: Product Design
 ### 4.1. Style Guidelines
-
 #### 4.1.1. General Style Guidelines
+#### Pincipios de Diseño
+- Claridad: Interfaz minimalista con jerarquía visual definida (ej: títulos H1 32px, texto cuerpo 16px).
 
+- Accesibilidad: Cumple WCAG 2.1 AA (contraste 4.5:1, tamaños de texto escalables).
+
+- Consistencia: Mismos componentes reutilizables en todas las pantallas (botones, cards, forms).
+  
+#### Paleta de Colores
+| Rol                | Hex     | Uso                       |
+| ------------------ | ------- | ------------------------- |
+| Primario (Verde)   | #245E4F | Botones y elementos clave |
+| Secundario (Arena) | #F5E6C8 | Fondos y resaltes         |
+| Error              | #D32F2F | Mensajes de alerta        |
+| Éxito              | #388E3C | Confirmaciones            |
+
+#### Tipografía:
+a. **Principal**: "Inter" (Sans-serif)
+
+- Headers: Semibold 600
+
+- Body: Regular 400
+
+b. Secundaria: "Roboto" para citas y notas.
 ### 4.2. Information Architecture
-
+En este apartado se presentan las determinaciones clave tomadas durante el diseño de la plataforma, abarcando desde la arquitectura de información hasta la experiencia de navegación y funcionalidades de búsqueda, que constituyen el marco de referencia para su desarrollo.
 #### 4.2.1. Organization Systems
+En nuesta aplicación nutricional, hemos diseñado los sistemas de organización de la información pertinentes para garantizar una experiencia de usuario intuitiva y eficiente. 
+
+#### Para los clientes:
+- Usuarios: Planes, recetas, progreso.
+- Nutricionistas: Dashboard, pacientes, plantillas.
+
+#### Por funcionalidad:
+- Nutrición: Generador de planes, recetas, lista de compras.
+- Comunidad: Chat, reseñas, foros (futuro).
+
+#### Jerarquía global del sistema:
+<p align="center">
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1746558171/org-jerarquia.png" alt="org-jerarquia" width="850">
+</p>
+
+- En la página principal (Home) se mostrará como un dashboard en el que se mostrará el resumen del progreso del usuario, junto con recordatorios sobre su plan alimenticio.
+- Para nuestros usuarios premium tenemos la opción de recibir recomendaciones directamente de un nutricionista debidamente calificado.
 
 #### 4.2.2. Labeling Systems
+En este apartado presentamos los labels de nuestra aplicación para facilitar el uso y navegación del sistema.
+
+| Componente UI           | Label          | Descripción                       |
+| ----------------------- | -------------- | --------------------------------- |
+| Pantalla Principal      | "Bienvenido"   | Dashboard con el plan elegido y principales recordatorios |
+| Selección de Objetivo   | "Mis Metas"    | Segmento para definir objetivos |
+| Planes alimenticios     | "Mi Menú"      | Plan alimentario organizado por días |
+| Acción Principal        | "Generar Plan" | Botón para crear nuevo plan nutricional |
+| Búsqueda Nutricionista* | "Encuentra tu especialista" | Campo para buscar profesionales |
 
 #### 4.2.3. SEO Tags and Meta Tags
+#### Para Usuarios (Personas que buscan planes nutricionales):
+| Página | Title Tag | Meta Description | Keywords |
+|------- | --------- | ---------------- | -------- |
+| Home   | NutriSmart | Planes nutricionales Personalizados por y para ti | plan nutricional, dieta personalizada, recetas saludables, nutrición online |
+| Registro | Crea Tu Perfil | Únete a NutriSmart y cumple tus metas de salud con un plan 100% adaptado a ti | registro nutrición, perfil alimenticio, metas saludables |
+| Mi Plan | Tu Plan Semanal | Menú diario con recetas balanceadas según tus preferencias | plan semanal, menú saludable, lista de compras nutricional |
+| Recetas | Recetas Personalizadas | Encuentra recetas para tus objetivos: bajar de peso, ganar masa muscular o mantener tu salud | recetas fitness, comida saludable, preparaciones nutritivas |
+| Nutricionistas | Consulta con Nutricionistas | Resuelve tus dudas con expertos en nutrición. Disponible 24/7 en la versión Premium | nutricionista online, consulta nutricional, asesoría alimentaria |
+
+#### Para Nutricionistas (Profesionales de la salud):
+| Página | Title Tag | Meta Description | Keywords |
+| ------ | --------- | ---------------- | -------- |
+| Registro Nutricionistas | Únete a NutriSmart | Ofrece tus servicios a miles de usuarios y gestiona pacientes desde una sola plataforma | app para nutricionistas, pacientes online, plataforma nutrición | 
+| Dashboard Profesional | Panel de Nutricionista | Monitoriza el progreso de tus pacientes, crea planes personalizados y gestiona consultas virtuales | seguimiento nutricional, planes alimenticios, consultas online |
+| Tarifas Premium | Monetiza tu Consulta Nutricional | Gana ingresos adicionales atendiendo pacientes digitales con herramientas diseñadas para profesionales | nutricionista freelance, trabajo remoto nutrición | 
 
 #### 4.2.4. Searching Systems
+En NutriSmart, nuestro sistema de búsqueda está diseñado para que encuentres lo que necesitas de forma rápida y sencilla. Ya sea recetas que se ajusten a tus gustos y metas, o nutricionistas especializados, la plataforma te mostrará opciones personalizadas con filtros fáciles de usar.
+
+| Nombre del Filtro | Descripción |
+| ----------------- | ----------- |
+| Tipo de Dieta | Distintas opciones de dieta como: vegana, keto, sin gluten, etc. |
+| Objetivo | "Bajar de Peso", "Ganar Masa Muscular", "Control Glucémico", etc. |
+| Tiempo/Disponibilidad | Menos de 30 minutos (para recetas), En las mañanas (Consultas con nutricionista[PREMIUM]) | 
+| Alergias/Restricciones | Excluir ingredientes o condiciones específicas (ej. lácteos, diabetes) |
+| Valoración/reputación | Filtrar por cantidad de estrellas en reviews | 
+| Fecha/Reciente | "Última semana" (recetas nuevas) o "última consulta" (pacientes) |
+| Ingredientes/Herramientas | Filtrar por alimentos disponibles o recursos (ej. licuadora) |
 
 #### 4.2.5. Navigation Systems
+Hemos diseñado un sistema de navegación claro para que usuarios y nutricionistas encuentren lo que necesitan sin complicaciones. Desde acceder a planes personalizados hasta gestionar consultas, cada ruta está optimizada para una experiencia fluida.
+
+| Nombre | Descripción |
+| ------ | ----------- |
+| Inicio | Lleva al dashboard principal con el plan semanal y resumen de progreso |
+| Mi Progreso | Acceso rápido al plan nutricional generado, mostrando los avances en % | 
+| Recomendaciones | Muestra Recomendaciones alimenticias como también hábitos saludables |
+| Recomendaciones de Nutricionista (PREMIUM) | Acceso por medio de suscripción premium. Muestra recomendaciones del Nutricionista asignado. |
+| Nutricionista (PREMIUM) | Opción para poder contactarte con uno de nuestros Nutricionistas registrados. |
+
 ### 4.3. Landing Page UI Design
 #### 4.3.1. Landing Page Wireframe
 **Hero Section**
@@ -638,10 +848,89 @@ Este lenguaje facilita la comprensión y el consenso en torno a los conceptos y 
 </p>
 
 ### 4.4. Mobile Applications UX/UI Design
+
 #### 4.4.1. Mobile Applications Wireframes
+##### Startup
+<p align="center">
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747012223/mobile-wireframe-start.png" alt="mobile-wireframe-start" width="400" height="800">
+</p>
+
+##### Registro
+<p align="center">
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747012836/mobile-wireframe-signup.png" alt="mobile-wireframe-signup" width="400" height="800">
+</p>
+
+##### Ingresar
+<p align="center">
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747014185/mobile-wireframe-login.png" alt="mobile-wireframe-login" width="400" height="800">
+</p>
+
+##### Home
+<p align="center">
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747014240/mobile-wireframe-home.png" alt="mobile-wireframe-home" width="400" height="800">
+</p>
+
+##### Plantillas de Dietas
+<p align="center">
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747018514/mobile-wireframe-plantilla.png" alt="mobile-wireframe-plantilla" width="400" height="800">
+</p>
+
+##### Home Nutricionista
+<p align="center">
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747018613/mobile-wireframe-nutricionista.png" alt="mobile-wireframe-nutricionista" width="400" height="800">
+</p>
+
 #### 4.4.2. Mobile Applications Wireflow Diagrams
+<p align="center">
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747147254/mobile-wireflow-us04.png" alt="mobile-wireflow-us04" width="400" height="800">
+</p>
+
+<p align="center">
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747147378/mobile-wireflow-us01.png" alt="mobile-wireflow-us01" width="400" height="800">
+</p>
+
+<p align="center">
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747147446/mobile-wireflow-us11.png" alt="mobile-wireflow-us11" width="400" height="800">
+</p>
+
+<p align="center">
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747147512/mobile-wireflow-us06.png" alt="mobile-wireflow-us06" width="400" height="800">
+</p>
+
 #### 4.4.3. Mobile Applications Mock-ups
-#### 4.4.3. Mobile Applications User Flow Diagrams
+##### Startup
+<p align="center">
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747151530/mobile-mockup-start.png" alt="mobile-mockup-start" width="400" height="800">
+</p>
+
+##### Registro
+<p align="center">
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747151673/mobile-mockup-signup.png" alt="mobile-mockup-signup" width="400" height="800">
+</p>
+
+##### Ingresar
+<p align="center">
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747151734/mobile-mockup-login.png" alt="mobile-mockup-login" width="400" height="800">
+</p>
+
+##### Home
+<p align="center">
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747151806/mobile-mockup-home.png" alt="mobile-mockup-home" width="400" height="800">
+</p>
+
+##### Plantillas de Dietas
+<p align="center">
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747151865/mobile-mockup-template.png" alt="mobile-mockup-template" width="400" height="800">
+</p>
+
+##### Home Nutricionista
+<p align="center">
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747151936/mobile-mockup-nutricionist.png" alt="mobile-mockup-nutricionist" width="400" height="800">
+</p>
+
+#### 4.4.4. Mobile Applications User Flow Diagrams
+
+
 ### 4.5. Mobile Applications Prototyping
 #### 4.5.1. Android Mobile Applications Prototyping
 #### 4.5.2. iOS Mobile Applications Prototyping
@@ -678,6 +967,28 @@ Este lenguaje facilita la comprensión y el consenso en torno a los conceptos y 
 </p>
 
 #### 4.6.2. Web Applications Wireflow Diagrams
+
+<p align="center">
+  <img src="./imagenes/usergoalwire1.png" alt="faq-mockup" width="850">
+</p>
+
+<p align="center">
+  <img src="./imagenes/usergoalwire2.png" alt="faq-mockup" width="850">
+</p>
+
+<p align="center">
+  <img src="./imagenes/usergoalwire3.png" alt="faq-mockup" width="850">
+</p>
+
+<p align="center">
+  <img src="./imagenes/usergoalwire4.png" alt="faq-mockup" width="850">
+</p>
+
+<p align="center">
+  <img src="./imagenes/usergoalwire5.png" alt="faq-mockup" width="850">
+</p>
+
+
 #### 4.6.3. Web Applications Mock-ups
 
 **Inicio Sesión**
@@ -711,6 +1022,27 @@ Este lenguaje facilita la comprensión y el consenso en torno a los conceptos y 
 </p>
 
 #### 4.6.4. Web Applications User Flow Diagrams
+
+<p align="center">
+  <img src="./imagenes/usergoal1.png" alt="faq-mockup" width="850">
+</p>
+
+<p align="center">
+  <img src="./imagenes/usergoal2.png" alt="faq-mockup" width="850">
+</p>
+
+<p align="center">
+  <img src="./imagenes/usergoal3.png" alt="faq-mockup" width="850">
+</p>
+
+<p align="center">
+  <img src="./imagenes/usergoal4.png" alt="faq-mockup" width="850">
+</p>
+
+<p align="center">
+  <img src="./imagenes/usergoal5.png" alt="faq-mockup" width="850">
+</p>
+
 ### 4.7. Web Applications Prototyping
 ### 4.8. Domain-Driven Software Architecture
 #### 4.8.1. Software Architecture Context Diagram
@@ -754,8 +1086,6 @@ Este lenguaje facilita la comprensión y el consenso en torno a los conceptos y 
   <img src="./imagenes/basededatosexp.png" alt="faq-mockup" width="850">
 </p>
 
-## Capítulo V: Product Implementation, Validation & Deployment
-=======
 ## Capítulo V: Product Implementation, Validation & Deployment
 ### 5.1. Software Configuration Management.
 #### 5.1.1. Software Development Environment Configuration.
@@ -971,3 +1301,51 @@ La aplicación no almacena datos personales sensibles más allá de los necesari
 #### 5.2.6. Implemented RESTful API and/or Serverless Backend Evidence
 #### 5.2.7. RESTful API documentation
 #### 5.2.8. Team Collaboration Insights
+=======
+
+Para esta entrega, se decidió no presentar la frontend.
+
+#### 5.2.4. Implemented Native-Mobile Application Evidence
+
+Para esta entrega, se decidió no presentar la native mobile.
+
+#### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
+
+Evidencia de codigo de un unit test para usuario nutricionista.
+
+<p align="center">
+  <img src="./imagenes/backendtest.png" alt="FAQ Section" width="750">
+</p>
+
+#### 5.2.6. RESTful API documentation
+
+<p align="center">
+  <img src="./imagenes/restfulapi.png" alt="FAQ Section" width="750">
+</p>
+
+#### 5.2.7. Team Collaboration Insights
+
+### Backend collaboration
+
+<p align="center">
+  <img src="./imagenes/Teamcollab.png" alt="FAQ Section" width="750">
+</p>
+
+## Capítulo VI: Product Verification & Validation
+### 6.1. Testing Suites & Validation
+### 6.1.1. Core Entities Unit Tests
+### 6.1.2. Core Integration Tests
+### 6.1.3. Core Behavior-Driven Development
+### 6.1.4. Core System Tests
+
+## Capítulo VII: DevOps Practices
+### 7.1. Continuous Integration
+### 7.1.1. Tools and Practices
+### 7.1.2. Build & Test Suite Pipeline Components
+### 7.2. Continuous Delivery
+### 7.2.1. Tools and Practices
+### 7.2.2. Stages Deployment Pipeline Components
+### 7.3. Continuous deployment
+### 7.3.1. Tools and Practices
+### 7.3.2. Production Deployment Pipeline Components
+
