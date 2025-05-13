@@ -1075,7 +1075,7 @@ Hemos diseñado un sistema de navegación claro para que usuarios y nutricionist
 #### 4.9.1. Class Diagrams
 
 <p align="center">
-  <img src="./imagenes/diagramaDB.png" alt="faq-mockup" width="850">
+  <img src="./imagenes/Diagrama de Flujo.png" alt="faq-mockup" width="850">
 </p>
 
 #### 4.9.2. Class Dictionary
@@ -1083,7 +1083,7 @@ Hemos diseñado un sistema de navegación claro para que usuarios y nutricionist
 #### 4.10.1. Relational/Non-Relational Database Diagram
 
 <p align="center">
-  <img src="./imagenes/basededatosexp.png" alt="faq-mockup" width="850">
+  <img src="./imagenes/diagramaDB.png" alt="faq-mockup" width="850">
 </p>
 
 ## Capítulo V: Product Implementation, Validation & Deployment
