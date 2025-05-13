@@ -380,7 +380,67 @@ Tras analizar a cada uno de nuestros competidores, las estrategias y tácticas q
 
 ### **2.2.2. Registro de entrevistas**
 
+**Nutricionistas**
+
+**Entrevista 1 - Nutricionista**
+
+- Nombre: Adrian
+- Apellidos: Zapata
+- Edad: 22 años
+- Distrito: Carabayllo - Lima
+- Minuto donde Empieza: 0:00
+- Duración: 13:32 minutos
+
+Evidencia de la reunión:
+
+![ImagenZapata](https://i.ibb.co/6cVC23zv/image.png)
+
+**Resumen de la entrevista:**
+
+Adrián Zapata es un joven nutricionista de 22 años que actualmente reside en Carabayllo. Con aproximadamente 4 años de experiencia, ofrece servicios tanto de forma presencial desde su consultorio en casa, como en línea, principalmente utilizando WhatsApp como medio de atención y coordinación con sus pacientes. Su enfoque profesional se basa en brindar consultas personalizadas y planes de alimentación ajustados a rutinas específicas, incluyendo aspectos de actividad física y necesidades calóricas.
+Adrián no ha utilizado plataformas específicas para nutricionistas, pero considera muy útil una que esté diseñada exclusivamente para el rubro nutricional, que permita agilizar el proceso de atención, crear y modificar plantillas de planes, organizar información de pacientes, y generar métricas automáticas de progreso como peso, adherencia y consumo calórico.
+Uno de los principales desafíos que enfrenta es la disponibilidad de los pacientes, ya que muchos no tienen tiempo para seguir estrictamente sus planes, lo que dificulta la planificación y seguimiento. También señala que coordinar múltiples clientes en canales como WhatsApp puede ser desordenado y poco profesional.
+Adrián expresó que una plataforma que centralice funciones como comunicación, gestión de archivos, formularios, historial de pacientes y seguimiento no solo facilitaría su labor, sino que permitiría una atención más profesional, formal y eficiente. Además, mostró disposición para responder consultas rápidas dentro de la app, siempre que el sistema permita establecer horarios de atención.
+Le otorga gran importancia a la posibilidad de que los pacientes registren su ingesta fuera del plan, y que la plataforma pueda convertir alimentos a calorías o nutrientes, lo cual considera un diferencial valioso para educar al usuario y mejorar su adherencia al tratamiento.
+
+**Entrevista 2 - Nutricionista**
+
+**Entrevista 3 - Nutricionista**
+
+**Usuarios que desean mejorar sus hábitos alimentarios**
+
+**Entrevista 4 - Usuario**
+
+**Entrevista 5- Usuario**
+
+**Entrevista 6- Usuario**
+
+
 ### **2.2.3. Análisis de entrevistas**
+
+**Nutricionistas**
+
+#### **Primer Entrevistado: Adrián Zapata**
+
+**Desafíos en la Atención Nutricional Digital:** Adrián destacó que su mayor dificultad es la falta de tiempo de los pacientes para cumplir con los planes nutricionales. Esto no solo complica el seguimiento, sino también la organización de sus horarios como profesional. 
+
+**Uso Actual de Plataformas:** Actualmente ofrece sus servicios de forma presencial y digital, usando principalmente **WhatsApp** como medio de consulta y entrega de planes. Aunque también utiliza **Facebook** para promocionarse, reconoce que estas herramientas no están diseñadas para profesionales de la nutrición. **Nos comenta que carece de una plataforma especializada que integre todas sus necesidades de atención y gestión.**
+
+**Interés en una Plataforma Profesional:** Adrián considera muy valioso contar con una plataforma que le permita centralizar funciones como la creación de planes, organización de pacientes, plantillas editables y agendamiento eficiente. **Lo que nos cuenta es preferiría atender en un entorno más formal y profesional si existiera una herramienta completa para ello.**
+
+**Disposición a Utilizar Funciones de Comunicación:** Está dispuesto a responder dudas dentro de la plataforma, siempre que pueda establecer un horario de atención claro. Resalta que este canal debe estar bien delimitado para mantener profesionalismo sin saturación. **Se considera de suma importancia tener canales de atención integrados con control de disponibilidad.**
+
+**Importancia de Herramientas para Crear y Enviar Planes:** Adrián menciona que es fundamental contar con recursos digitales que faciliten la creación y envío de planes alimentarios. Le interesa una herramienta que le permita generar documentos completos y enviarlos directamente desde la app. **En otras palabras, se afirma que automatizar este proceso mejoraría su eficiencia y reduciría errores.**
+
+**Necesidad de Seguimiento Automatizado:** Considera útil que la plataforma pueda recolectar métricas como peso, progreso semanal y adherencia al plan. Además, sugiere que el usuario pueda registrar alimentos consumidos fuera del plan y recibir conversión calórica en tiempo real. **Un seguimiento automatizado mejora la calidad del servicio y permite mayor personalización.**
+
+**Interés en Funciones Educativas para el Usuario:** Destaca que la app también debería facilitar la comprensión del cliente sobre qué consume y cómo se traduce en términos nutricionales. Esta función educativa puede mejorar la adherencia y los resultados. **Basicamente esta considerando que el usuario debe tener mayor protagonismo en su propio proceso nutricional.**
+
+**Basándonos en el análisis de la entrevista**, Adrián representa un perfil profesional alineado con la propuesta de **NutriSmart**: busca eficiencia, organización y profesionalismo en sus servicios digitales. **Señala que una plataforma especializada y fácil de usar es clave para escalar su atención sin comprometer la calidad.** Su interés en ofrecer mejor experiencia al paciente, junto con la automatización del trabajo administrativo, confirma la viabilidad de una herramienta como la que propone el proyecto.
+
+
+**Usuarios que desean mejorar sus hábitos alimentarios**
+
 
 ## **2.3. Needfinding**
 
@@ -498,6 +558,204 @@ Este lenguaje facilita la comprensión y el consenso en torno a los conceptos y 
 
 ## Capítulo III: Requirements Specification
 ## Capítulo IV: Product Design
+### 4.1. Style Guidelines
+
+#### 4.1.1. General Style Guidelines
+
+### 4.2. Information Architecture
+
+#### 4.2.1. Organization Systems
+
+#### 4.2.2. Labeling Systems
+
+#### 4.2.3. SEO Tags and Meta Tags
+
+#### 4.2.4. Searching Systems
+
+#### 4.2.5. Navigation Systems
+### 4.3. Landing Page UI Design
+#### 4.3.1. Landing Page Wireframe
+**Hero Section**
+<p align="center">
+  <img src="./imagenes/hero-wireframe.png" alt="hero-wireframe" width="850">
+</p>
+
+**Features Section**
+<p align="center">
+  <img src="./imagenes/features-wireframe.png" alt="features-wireframe" width="850">
+</p>
+
+**Benefits Section**
+<p align="center">
+  <img src="./imagenes/benefits-wireframe.png" alt="benefits-wireframe" width="850">
+</p>
+
+**Steps Section**
+<p align="center">
+  <img src="./imagenes/steps-wireframe.png" alt="steps-wireframe" width="850">
+</p>
+
+**Pricing Section**
+<p align="center">
+  <img src="./imagenes/pricing-wireframe.png" alt="pricing-wireframe" width="850">
+</p>
+
+**FAQ Section**
+<p align="center">
+  <img src="./imagenes/faq-wireframe.png" alt="faq-wireframe" width="850">
+</p>
+
+
+#### 4.3.2. Landing Page Mock-up
+**Hero Section**
+<p align="center">
+  <img src="./imagenes/hero-mockup.png" alt="hero-mockups" width="850">
+</p>
+
+**Features Section**
+<p align="center">
+  <img src="./imagenes/features-mockup.png" alt="features-mockup" width="850">
+</p>
+
+**Benefits Section**
+<p align="center">
+  <img src="./imagenes/benefits-mockup.png" alt="benefits-mockup" width="850">
+</p>
+
+**Steps Section**
+<p align="center">
+  <img src="./imagenes/steps-mockup.png" alt="steps-mockup" width="850">
+</p>
+
+**Pricing Section**
+<p align="center">
+  <img src="./imagenes/pricing-mockup.png" alt="pricing-mockup" width="850">
+</p>
+
+**FAQ Section**
+<p align="center">
+  <img src="./imagenes/faq-mockup.png" alt="faq-mockup" width="850">
+</p>
+
+### 4.4. Mobile Applications UX/UI Design
+#### 4.4.1. Mobile Applications Wireframes
+#### 4.4.2. Mobile Applications Wireflow Diagrams
+#### 4.4.3. Mobile Applications Mock-ups
+#### 4.4.3. Mobile Applications User Flow Diagrams
+### 4.5. Mobile Applications Prototyping
+#### 4.5.1. Android Mobile Applications Prototyping
+#### 4.5.2. iOS Mobile Applications Prototyping
+### 4.6. Web Applications UX/UI Design
+#### 4.6.1. Web Applications Wireframes
+**Inicio Sesión**
+
+<p align="center">
+  <img src="./imagenes/iniciosesionwire.png" alt="faq-mockup" width="850">
+</p>
+
+**Registro**
+
+<p align="center">
+  <img src="./imagenes/registrowire.png" alt="faq-mockup" width="850">
+</p>
+
+**Home**
+
+<p align="center">
+  <img src="./imagenes/homewire.png" alt="faq-mockup" width="850">
+</p>
+
+**Plantillas de alimentos saludables**
+
+<p align="center">
+  <img src="./imagenes/plantillawire.png" alt="faq-mockup" width="850">
+</p>
+
+**Nutricionista Pantalla**
+
+<p align="center">
+  <img src="./imagenes/nutricionistawire.png" alt="faq-mockup" width="850">
+</p>
+
+#### 4.6.2. Web Applications Wireflow Diagrams
+#### 4.6.3. Web Applications Mock-ups
+
+**Inicio Sesión**
+
+<p align="center">
+  <img src="./imagenes/Iniciosesion.png" alt="faq-mockup" width="850">
+</p>
+
+**Registro**
+
+<p align="center">
+  <img src="./imagenes/registro.png" alt="faq-mockup" width="850">
+</p>
+
+**Home**
+
+<p align="center">
+  <img src="./imagenes/Home.png" alt="faq-mockup" width="850">
+</p>
+
+**Plantillas de alimentos saludables**
+
+<p align="center">
+  <img src="./imagenes/plantilla.png" alt="faq-mockup" width="850">
+</p>
+
+**Nutricionista Pantalla**
+
+<p align="center">
+  <img src="./imagenes/nutricionista.png" alt="faq-mockup" width="850">
+</p>
+
+#### 4.6.4. Web Applications User Flow Diagrams
+### 4.7. Web Applications Prototyping
+### 4.8. Domain-Driven Software Architecture
+#### 4.8.1. Software Architecture Context Diagram
+
+<p align="center">
+  <img src="./imagenes/structurizr-95175-SystemContext-001.png" alt="faq-mockup" width="850">
+</p>
+
+#### 4.8.2. Software Architecture Container Diagrams
+
+<p align="center">
+  <img src="./imagenes/structurizr-95175-Container-001.png" alt="faq-mockup" width="850">
+</p>
+
+#### 4.8.3. Software Architecture Components Diagrams
+
+<p align="center">
+  <img src="./imagenes/structurizr-95175-Component-001.png" alt="faq-mockup" width="850">
+</p>
+
+<p align="center">
+  <img src="./imagenes/structurizr-95175-Component-002.png" alt="faq-mockup" width="850">
+</p>
+
+<p align="center">
+  <img src="./imagenes/structurizr-95175-Component-003.png" alt="faq-mockup" width="850">
+</p>
+
+### 4.9. Software Object-Oriented Design
+#### 4.9.1. Class Diagrams
+
+<p align="center">
+  <img src="./imagenes/Diagrama de Flujo.png" alt="faq-mockup" width="850">
+</p>
+
+#### 4.9.2. Class Dictionary
+### 4.10. Database Design
+#### 4.10.1. Relational/Non-Relational Database Diagram
+
+<p align="center">
+  <img src="./imagenes/basededatosexp.png" alt="faq-mockup" width="850">
+</p>
+
+## Capítulo V: Product Implementation, Validation & Deployment
+=======
 ## Capítulo V: Product Implementation, Validation & Deployment
 ### 5.1. Software Configuration Management.
 #### 5.1.1. Software Development Environment Configuration.
@@ -546,9 +804,6 @@ Para asegurar un desarrollo coherente, mantenible y limpio en la aplicación Nut
 - **Separación de responsabilidades**: los componentes solo gestionan la vista; toda lógica de negocio va a servicios (`services/`).
 - **Uso de interfaces** para tipar respuestas, formularios y entidades (`interfaces/`).
 - **Uso de pipes y guards personalizados** cuando es necesario transformar datos o proteger rutas.
-
-
-
 
 #### Tailwind CSS
 
@@ -637,6 +892,7 @@ Se eligió GitHub Pages para el despliegue del frontend debido a su simplicidad,
 </p>
 
 #### 5.2.3. Implemented Frontend-Web Application Evidence
+
 #### 5.2.4. Acuerdo de Servicio - SaaS
 ## 8. Acuerdo de Servicio - SaaS
 
