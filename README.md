@@ -1259,6 +1259,9 @@ Se eligió GitHub Pages para el despliegue del frontend debido a su simplicidad,
   <img src="./imagenes/webevidence8.png" alt="FAQ Section" width="750">
 </p>
 
+
+**Link del repositorio: https://github.com/Grupo-4-Diseno-de-experimentos/frontend**
+
 #### 5.2.4. Acuerdo de Servicio - SaaS
 ## 8. Acuerdo de Servicio - SaaS
 
@@ -1356,6 +1359,9 @@ Para esta entrega, se decidió no presentar la native mobile.
 <p align="center">
   <img src="./imagenes/backevidence5.png" alt="FAQ Section" width="750">
 </p>
+
+
+**Link del repositorio: https://github.com/Grupo-4-Diseno-de-experimentos/backend**
 
 
 #### 5.2.6. RESTful API documentation
