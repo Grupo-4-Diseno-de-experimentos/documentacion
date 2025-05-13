@@ -641,39 +641,48 @@ Este lenguaje facilita la comprensión y el consenso en torno a los conceptos y 
 **Epics:**
 EC-01: Gestión del perfil e información nutricional del usuario
 EC-02: Interacción con Nutricionistas
-EC-03: Seguimiento y Analytics de data nutricional y estado físico
+EC-03: Visualizacion de y personalizacion de Recetas y Planes Nutricionales
 
 **User Stories:**
 1.	US-01: Como usuario, quiero registrarme con mi correo y contraseña para acceder a la plataforma.
 2.	US-02: Como usuario, quiero completar mi perfil con mis objetivos (bajar de peso, ganar masa muscular, etc.).
 3.	US-03: Como usuario, quiero indicar mis restricciones alimentarias (vegano, sin gluten, etc.).
-4.	US-04: Como usuario, quiero que la plataforma genere un plan semanal automático basado en mi perfil.
-5.	US-05: Como usuario, quiero ajustar las recetas sugeridas según mis preferencias.
-6.	US-06: Como usuario Premium, quiero contactar a un nutricionista via chat para resolver dudas.
-7.	US-07: Como usuario Premium, quiero agendar una consulta virtual con un nutricionista.
-8.	US-08: Como nutricionista, quiero crear y enviar planes personalizados a mis pacientes.
-9.	US-09: Como nutricionista, quiero recibir notificaciones de nuevas consultas.
-10.	US-10: Como usuario, quiero registrar mi peso semanal para ver mi progreso.
-11.	US-11: Como usuario, quiero recibir notificaciones diarias de mis comidas.
-12.	US-12: Como nutricionista, quiero visualizar gráficos de progreso de mis pacientes.
+4.	US-04: Como usuario, quiero completar y editar mi perfil nutricional.
+5.	US-05: Como usuario, quiero visualizar la lista de planes de comida disponibles, para seleccionar uno que se adecúe a mis metas y preferencias.
+6.	US-06: Como usuario, quiero acceder al detalle de cada receta, incluyendo ingredientes, instrucciones, calorías y macronutrientes, para evaluar si se ajusta a lo que busco.
+7.	US-07: Como usuario, quiero poder marcar recetas como favoritas, para guardarlas y acceder fácilmente a las que más me gustan o son útiles.
+8.	US-08: Como nutricionista, quiero acceder a la lista de todos los planes de comida, para revisar y gestionar mis planes creados.
+9.	US-09: Como nutricionista, quiero poder crear nuevos planes de comida, asignando recetas por día y tipo de comida, para ofrecer opciones personalizadas a los clientes.
+10.	US-10: Como nutricionista, quiero editar o actualizar los planes de comida existentes, para mantener la información actualizada y adaptarla a nuevas necesidades o descubrimientos.
+11.	US-11: Como nutricionista, quiero acceder a una lista de recetas y gestionarlas, pudiendo crear nuevas recetas o editar las existentes según los ingredientes y valores nutricionales.
+12.	US-12: Como nutricionista, quiero marcar recetas como favoritas, para tener a mano aquellas que suelo usar o recomendar frecuentemente.
+13.	US-13: Como nutricionista, quiero editar mi perfil profesional, para mantener actualizada mi información personal o profesional dentro de la plataforma.
 
-**Technical Stories**
-1.	TS-01: Implementar autenticación segura con JWT.
-2.	TS-02: Diseñar base de datos para almacenar perfiles de usuarios y nutricionistas.
-3.	TS-03: Crear algoritmo de generación de planes basado en objetivos y restricciones.
-4.	TS-04: Integrar sistema de chat en tiempo real.
-5.	TS-05: Desarrollar dashboard de seguimiento con gráficos (Chart.js).
+
 
 ### 3.3.- Product Backlog:
 
-| ID | User Story	| Story Points(1,2,3,5,8)|
-| --- | ---------- | --------------------| 
-| US-01	| Registro de usuario |	3   |
-| US-04	| Generar plan semanal automático	| 	3  |
-| US-10	| Registro de peso del usuario | 	2  |
-| TS-03 |	Algoritmo de generación de planes	| 	5  |
+| User Story ID     | Título                                                                 | Prioridad | Story Points(1,2,3,5,8) |
+|--------|------------------------------------------------------------------------|-----------|---------------|
+| US-01 | Registro de usuario                                                     | Alta      | 3             |
+| US-02 | Completar objetivos del perfil                                          | Alta      | 5             |
+| US-03 | Ingresar restricciones alimentarias                                     | Media     | 3             |
+| US-04 | Editar perfil nutricional                                               | Alta      | 5             |
+| US-05 | Visualizar lista de planes disponibles                                         | Alta      | 3             |
+| US-06 | Visualizar detalle de recetas (ingredientes, macros, instrucciones)           | Alta      | 5             |
+| US-07 | Marcar recetas como favoritas                                           | Media     | 3             |
+| US-08 | Visualizar lista de planes como nutricionista                                  | Alta      | 3             |
+| US-09 | Crear nuevos planes de comida                                           | Alta      | 8             |
+| US-10 | Editar planes de comida                                                 | Alta      | 8             |
+| US-11 | Gestionar recetas (crear y editar)                                      | Alta      | 8             |
+| US-12 | Marcar recetas favoritas como nutricionista                             | Media     | 3             |
+| US-13 | Editar perfil profesional del nutricionista                             | Media     | 3             |
 
 ### 3.4.- Impact Mapping:
+<p align="center">
+  <img src="./imagenes/impact-map.png" alt="impact-map" width="850">
+</p>
+
 
 ## Capítulo IV: Product Design
 ### 4.1. Style Guidelines
