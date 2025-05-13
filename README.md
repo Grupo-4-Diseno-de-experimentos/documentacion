@@ -48,6 +48,7 @@
 | Versión |   Fecha    |              Autor               | Descripción de modificación |
 | :-----: | :--------: | :------------------------------: | :--------------------------: |
 |   TB1   |    24/04   | Todos los integrantes            | Se estableció la solución propuesta, se realizó un análisis Lean UX, se definió el segmento objetivo y se recopilaron los requisitos necesarios para desarrollar las herramientas necesarias. A su vez, se implementó el landing page y un avance del backend.
+|   TP   |    13/05   | Todos los integrantes            | Se realizó el avance de la app web.
 
 </div>
 
@@ -207,28 +208,31 @@ Conoce al menos un sector empresarial o dominio de aplicación de soluciones de 
 <tr>
     <td><b>Participa en equipos multidisciplinarios con eficacia, eficiencia y objetividad, en el marco de un proyecto en soluciones de ingeniería de software.</b></td>
     <td>
-    <td>TB1<br>
+    <td>TP<br>
     <b>Chirinos Arevalo, Daniel Rodrigo</b>
         <br>
         - Realicé mis tareas asignadas en el horario correspondiente<br/>
         - Realicé las partes del trabajo como el diagrama de clases, c4 y el diseño temprano de la aplicación web y avance con el avance de la backend .<br/>
+        - Realicé el backend
         <br>
     <b>Aliaga Pimentel, George Arturo</b>
         <br>
         - Realicé mis tareas asignadas en el horario correspondiente<br/>
-        - Realicé las partes del trabajo como todo el capitulo 1 y el capitulo 2, identificando la problematica de nuestro tema.<br/>
+        - Realicé las partes del trabajo como todo el capitulo 1 y el capitulo 2, identificando la problematica de nuestro tema.
+        - Realicé el frontend<br/>
         <br>
     <b>Carlos Daniel Pingus Rodriguez</b>
         <br>
         - Realicé mis tareas asignadas<br/>
-        - Realicé las partes del trabajo como los escenarios as-is y to-be, y los user personas .<br/>
+        - Realicé las partes del trabajo como los escenarios as-is y to-be, y los user personas .
+        - Realicé las correciones del informe<br/>
         <br>
     <b>Jorge Alexandro Linares Arroyo</b>
         <br>
         - Realicé mis tareas asignadas en el horario correspondiente<br/>
         - Realicé la landing page y el capitulo 5 .<br/>
+        - Realicé el frontend
         <br>
-    </td>
     </td>
     <td>
     </td>
@@ -238,26 +242,30 @@ Conoce al menos un sector empresarial o dominio de aplicación de soluciones de 
 <td><b>
 Conoce al menos un sector empresarial o dominio de aplicación de soluciones de software.</b></td>
     <td>
-    <td>TB1<br>
+    <td>TP<br>
     <b>Chirinos Arevalo, Daniel Rodrigo</b>
         <br>
         - Realicé mis tareas asignadas en el horario correspondiente<br/>
-        - Realicé las partes del trabajo como el diagrama de clases, c4 y el diseño temprano de la aplicación web y avance con el avance de la backend .<br/>
+        - Realicé las partes del trabajo como el diagrama de clases, c4 y el diseño temprano de la aplicación web y avance con el avance de la backend .
+        - Realicé el backend<br/>
         <br>
     <b>Aliaga Pimentel, George Arturo</b>
         <br>
         - Realicé mis tareas asignadas en el horario correspondiente<br/>
-        - Realicé las partes del trabajo como todo el capitulo 1 y el capitulo 2, identificando la problematica de nuestro tema.<br/>
+        - Realicé las partes del trabajo como todo el capitulo 1 y el capitulo 2, identificando la problematica de nuestro tema.
+        - Realicé el frontend<br/>
         <br>
     <b>Carlos Daniel Pingus Rodriguez</b>
         <br>
         - Realicé mis tareas asignadas<br/>
-        - Realicé las partes del trabajo como los escenarios as-is y to-be, y los user personas .<br/>
+        - Realicé las partes del trabajo como los escenarios as-is y to-be, y los user personas .
+        - Realicé las correciones<br/>
         <br>
     <b>Jorge Alexandro Linares Arroyo</b>
         <br>
         - Realicé mis tareas asignadas en el horario correspondiente<br/>
-        - Realicé la landing page y el capitulo 5 .<br/>
+        - Realicé la landing page y el capitulo 5 .
+        - Realicé el frontend<br/>
         <br> 
 </td>
     <td>
@@ -470,18 +478,6 @@ Adrián no ha utilizado plataformas específicas para nutricionistas, pero consi
 Uno de los principales desafíos que enfrenta es la disponibilidad de los pacientes, ya que muchos no tienen tiempo para seguir estrictamente sus planes, lo que dificulta la planificación y seguimiento. También señala que coordinar múltiples clientes en canales como WhatsApp puede ser desordenado y poco profesional.
 Adrián expresó que una plataforma que centralice funciones como comunicación, gestión de archivos, formularios, historial de pacientes y seguimiento no solo facilitaría su labor, sino que permitiría una atención más profesional, formal y eficiente. Además, mostró disposición para responder consultas rápidas dentro de la app, siempre que el sistema permita establecer horarios de atención.
 Le otorga gran importancia a la posibilidad de que los pacientes registren su ingesta fuera del plan, y que la plataforma pueda convertir alimentos a calorías o nutrientes, lo cual considera un diferencial valioso para educar al usuario y mejorar su adherencia al tratamiento.
-
-**Entrevista 2 - Nutricionista**
-
-**Entrevista 3 - Nutricionista**
-
-**Usuarios que desean mejorar sus hábitos alimentarios**
-
-**Entrevista 4 - Usuario**
-
-**Entrevista 5- Usuario**
-
-**Entrevista 6- Usuario**
 
 
 ### **2.2.3. Análisis de entrevistas**
@@ -928,8 +924,6 @@ Hemos diseñado un sistema de navegación claro para que usuarios y nutricionist
 </p>
 
 #### 4.4.4. Mobile Applications User Flow Diagrams
-
-
 ### 4.5. Mobile Applications Prototyping
 #### 4.5.1. Android Mobile Applications Prototyping
 #### 4.5.2. iOS Mobile Applications Prototyping
@@ -1262,11 +1256,11 @@ Se eligió GitHub Pages para el despliegue del frontend debido a su simplicidad,
 **Link del repositorio: https://github.com/Grupo-4-Diseno-de-experimentos/frontend**
 
 #### 5.2.4. Acuerdo de Servicio - SaaS
-## 8. Acuerdo de Servicio - SaaS
+## 5.3. Acuerdo de Servicio - SaaS
 
 Este acuerdo establece los términos y condiciones bajo los cuales el equipo de desarrollo del proyecto **NutriSmart** se compromete a entregar, mantener y garantizar el funcionamiento de la aplicación, desarrollada bajo el modelo **Software como Servicio (SaaS)**.
 
-### 8.1 Alcance del Servicio
+### 5.3.1 Alcance del Servicio
 
 La aplicación **NutriSmart** permite a los usuarios gestionar planes de alimentación personalizados, recetas y preferencias de dieta, diferenciando funcionalidades según su rol (cliente o nutricionista).
 
@@ -1284,7 +1278,7 @@ El sistema está diseñado para ser accedido mediante navegadores modernos y act
 - Mozilla Firefox (v88+)
 - Microsoft Edge (v90+)
 
-### 8.2 Compromisos del Equipo de Desarrollo
+### 5.3.2 Compromisos del Equipo de Desarrollo
 
 - Desplegar una versión estable y funcional de la aplicación.
 - Garantizar compatibilidad con los entornos definidos.
@@ -1292,13 +1286,13 @@ El sistema está diseñado para ser accedido mediante navegadores modernos y act
 - Entregar documentación técnica mínima para despliegue, uso y mantenimiento.
 - Realizar pruebas funcionales antes de cada despliegue de versión.
 
-### 8.3 Exclusiones
+### 5.3.4 Exclusiones
 
 - No se cubren problemas derivados de un uso fuera del entorno recomendado.
 - No se ofrece servicio offline.
 - No se garantiza compatibilidad con navegadores obsoletos o sistemas sin soporte.
 
-### 8.4 Limitaciones Técnicas
+### 5.3.5 Limitaciones Técnicas
 
 - La plataforme esta capacitada para atender a Máx. 1000 solicitudes/minuto y un almacenamiento de 500MB/usuario
 - La disponibilidad del sistema depende de los servicios externos utilizados: Firebase, Render y Railway.
@@ -1306,13 +1300,13 @@ El sistema está diseñado para ser accedido mediante navegadores modernos y act
 - Algunas funcionalidades avanzadas, como el análisis de datos nutricionales, pueden no estar completamente optimizadas.
 - La aplicacion web se prevee que estará abierto al publico desde las 6 hasta las 22 horas, 6 dias a la semana. 
 
-### 8.5 Vigencia del Acuerdo
+### 5.3.6 Vigencia del Acuerdo
 
 Este acuerdo es válido durante el periodo de desarrollo y evaluación del proyecto académico correspondiente al ciclo [Nombre del ciclo académico], con fecha de inicio el **[fecha de inicio]** y fecha de finalización el **[fecha de entrega]**.  
 Para cualquier uso extendido o comercial del sistema, será necesario establecer un nuevo acuerdo con el equipo de desarrollo.
 
 ---
-### 8.6 Derechos y Obligaciones del Usuario
+### 5.3.7 Derechos y Obligaciones del Usuario
 
 - Los usuarios tienen derecho a acceder a la plataforma durante los horarios definidos, según su rol (cliente o nutricionista).
 - Los usuarios deben proporcionar información veraz durante el registro y actualizar sus datos cuando sea necesario.
@@ -1320,7 +1314,7 @@ Para cualquier uso extendido o comercial del sistema, será necesario establecer
 - Está prohibido manipular, extraer o distribuir datos sin consentimiento expreso del equipo de desarrollo.
 - Los usuarios aceptan que el servicio puede estar sujeto a interrupciones durante mantenimientos o fallas de los proveedores externos.
 
-### 8.7 Protección de Datos
+### 5.3.8 Protección de Datos
 
 La aplicación no almacena datos personales sensibles más allá de los necesarios para el funcionamiento del servicio. Toda la información es tratada con confidencialidad y no es compartida con terceros.
 
@@ -1333,10 +1327,6 @@ La aplicación no almacena datos personales sensibles más allá de los necesari
 - [Linares Arroyo, Jorge Alexandro ] - Desarrollador Frontend y Documentación  
 
 **Fecha del Acuerdo:** [13/05/2025]
-
-#### 5.2.4. Implemented Native-Mobile Application Evidence
-
-Para esta entrega, se decidió no presentar la native mobile.
 
 #### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
 
@@ -1371,18 +1361,56 @@ Para esta entrega, se decidió no presentar la native mobile.
 
 #### 5.2.7. Team Collaboration Insights
 
-### Backend collaboration
+### Backend Collaboration
 
 <p align="center">
   <img src="./imagenes/Teamcollab.png" alt="FAQ Section" width="750">
 </p>
 
+### FrontEnd Collaboration
+
+<p align="center">
+  <img src="./imagenes/collabfront.png" alt="FAQ Section" width="750">
+</p>
+
 ## Capítulo VI: Product Verification & Validation
 ### 6.1. Testing Suites & Validation
 ### 6.1.1. Core Entities Unit Tests
+
+Evidencia de codigo de un unit test para usuario nutricionista.
+
+<p align="center">
+  <img src="./imagenes/backendtest.png" alt="FAQ Section" width="750">
+</p>
+
 ### 6.1.2. Core Integration Tests
 ### 6.1.3. Core Behavior-Driven Development
 ### 6.1.4. Core System Tests
+
+Lista de planes disponibles
+<p align="center">
+  <img src="./imagenes/test-front1.png" alt="test-front1" width="750">
+</p>
+
+Marcar recetas como favoritas
+<p align="center">
+  <img src="./imagenes/test-front2.png" alt="test-front2" width="750">
+</p>
+
+Gestionar recetas
+<p align="center">
+  <img src="./imagenes/test-front3.png" alt="test-front3" width="750">
+</p>
+
+Visualizar detalle de receta
+<p align="center">
+  <img src="./imagenes/test-front-4.png" alt="test-front4" width="750">
+</p>
+
+Test App Web
+<p align="center">
+  <img src="./imagenes/test-app-web-front.png" alt="test-front" width="750">
+</p>
 
 # Capítulo VII: DevOps Practices
 ## 7.1. Continuous Integration
