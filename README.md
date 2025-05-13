@@ -711,7 +711,35 @@ Hemos diseñado un sistema de navegación claro para que usuarios y nutricionist
 </p>
 
 #### 4.4.3. Mobile Applications Mock-ups
+##### Startup
+<p align="center">
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747151530/mobile-mockup-start.png" alt="mobile-mockup-start" width="400" height="800">
+</p>
 
+##### Registro
+<p align="center">
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747151673/mobile-mockup-signup.png" alt="mobile-mockup-signup" width="400" height="800">
+</p>
+
+##### Ingresar
+<p align="center">
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747151734/mobile-mockup-login.png" alt="mobile-mockup-login" width="400" height="800">
+</p>
+
+##### Home
+<p align="center">
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747151806/mobile-mockup-home.png" alt="mobile-mockup-home" width="400" height="800">
+</p>
+
+##### Plantillas de Dietas
+<p align="center">
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747151865/mobile-mockup-template.png" alt="mobile-mockup-template" width="400" height="800">
+</p>
+
+##### Home Nutricionista
+<p align="center">
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747151936/mobile-mockup-nutricionist.png" alt="mobile-mockup-nutricionist" width="400" height="800">
+</p>
 
 #### 4.4.4. Mobile Applications User Flow Diagrams
 
