@@ -929,7 +929,10 @@ Hemos diseñado un sistema de navegación claro para que usuarios y nutricionist
 </p>
 
 #### 4.4.4. Mobile Applications User Flow Diagrams
-
+##### Goal: Registrarse en NutriSmart como usuario
+<p align="center">
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747170602/goal-signup.png" alt="goal-signup" width="500" height="600">
+</p>
 
 ### 4.5. Mobile Applications Prototyping
 #### 4.5.1. Android Mobile Applications Prototyping
