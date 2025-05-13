@@ -1172,13 +1172,35 @@ Para esta entrega, se decidió no presentar la native mobile.
 
 Evidencia de codigo de un unit test para usuario nutricionista.
 
-<p align="center">
-  <img src="./imagenes/backendtest.png" alt="FAQ Section" width="750">
-</p>
 
 ### 6.1.2. Core Integration Tests
 ### 6.1.3. Core Behavior-Driven Development
 ### 6.1.4. Core System Tests
+
+Lista de planes disponibles
+<p align="center">
+  <img src="./imagenes/test-front1.png" alt="test-front1" width="750">
+</p>
+
+Marcar recetas como favoritas
+<p align="center">
+  <img src="./imagenes/test-front2.png" alt="test-front2" width="750">
+</p>
+
+Gestionar recetas
+<p align="center">
+  <img src="./imagenes/test-front3.png" alt="test-front3" width="750">
+</p>
+
+Visualizar detalle de receta
+<p align="center">
+  <img src="./imagenes/test-front-4.png" alt="test-front4" width="750">
+</p>
+
+Test App Web
+<p align="center">
+  <img src="./imagenes/test-app-web-front.png" alt="test-front" width="750">
+</p>
 
 ## Capítulo VII: DevOps Practices
 ### 7.1. Continuous Integration
