@@ -670,19 +670,18 @@ EC-03: Visualizacion de y personalizacion de Recetas y Planes Nutricionales
 | US-04 | Editar perfil nutricional                                               | Alta      | 5             |
 | US-05 | Visualizar lista de planes disponibles                                         | Alta      | 3             |
 | US-06 | Visualizar detalle de recetas (ingredientes, macros, instrucciones)           | Alta      | 5             |
-| US-07 | Marcar recetas como favoritas                                           | Media     | 3             |
-| US-08 | Visualizar lista de planes como nutricionista                                  | Alta      | 3             |
-| US-09 | Crear nuevos planes de comida                                           | Alta      | 8             |
-| US-10 | Editar planes de comida                                                 | Alta      | 8             |
-| US-11 | Gestionar recetas (crear y editar)                                      | Alta      | 8             |
-| US-12 | Marcar recetas favoritas como nutricionista                             | Media     | 3             |
+| US-07 | Marcar recetas como favoritas                                           | Baja     | 2             |
+| US-08 | Visualizar lista de planes como nutricionista                                  | Media      | 3             |
+| US-09 | Crear nuevos planes de comida                                           | Alta      | 5             |
+| US-10 | Editar planes de comida                                                 | Alta      | 5             |
+| US-11 | Gestionar recetas (crear y editar)                                      | Alta      | 5             |
+| US-12 | Marcar recetas favoritas como nutricionista                             | Baja     | 2             |
 | US-13 | Editar perfil profesional del nutricionista                             | Media     | 3             |
 
 ### 3.4.- Impact Mapping:
 <p align="center">
   <img src="./imagenes/impact-map.png" alt="impact-map" width="850">
 </p>
-
 
 ## Capítulo IV: Product Design
 ### 4.1. Style Guidelines
