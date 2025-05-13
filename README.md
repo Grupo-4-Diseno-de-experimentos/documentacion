@@ -1075,7 +1075,7 @@ Hemos diseñado un sistema de navegación claro para que usuarios y nutricionist
 #### 4.9.1. Class Diagrams
 
 <p align="center">
-  <img src="./imagenes/Diagrama de Flujo.png" alt="faq-mockup" width="850">
+  <img src="./imagenes/diagramaDB.png" alt="faq-mockup" width="850">
 </p>
 
 #### 4.9.2. Class Dictionary
@@ -1222,6 +1222,86 @@ Se eligió GitHub Pages para el despliegue del frontend debido a su simplicidad,
 </p>
 
 #### 5.2.3. Implemented Frontend-Web Application Evidence
+
+#### 5.2.4. Acuerdo de Servicio - SaaS
+## 8. Acuerdo de Servicio - SaaS
+
+Este acuerdo establece los términos y condiciones bajo los cuales el equipo de desarrollo del proyecto **NutriSmart** se compromete a entregar, mantener y garantizar el funcionamiento de la aplicación, desarrollada bajo el modelo **Software como Servicio (SaaS)**.
+
+### 8.1 Alcance del Servicio
+
+La aplicación **NutriSmart** permite a los usuarios gestionar planes de alimentación personalizados, recetas y preferencias de dieta, diferenciando funcionalidades según su rol (cliente o nutricionista).
+
+**Tecnologías involucradas:**
+
+| Componente       | Tecnología          | Proveedor        |
+|------------------|---------------------|------------------|
+| Frontend         | Angular             | Firebase Hosting |
+| Backend          | Spring Boot         | Render           |
+| Base de datos    | MySQL               | Railway          |
+
+El sistema está diseñado para ser accedido mediante navegadores modernos y actualizados como:
+
+- Google Chrome (v90+)
+- Mozilla Firefox (v88+)
+- Microsoft Edge (v90+)
+
+### 8.2 Compromisos del Equipo de Desarrollo
+
+- Desplegar una versión estable y funcional de la aplicación.
+- Garantizar compatibilidad con los entornos definidos.
+- Mantenimiento preventivo programado
+- Entregar documentación técnica mínima para despliegue, uso y mantenimiento.
+- Realizar pruebas funcionales antes de cada despliegue de versión.
+
+### 8.3 Exclusiones
+
+- No se cubren problemas derivados de un uso fuera del entorno recomendado.
+- No se ofrece servicio offline.
+- No se garantiza compatibilidad con navegadores obsoletos o sistemas sin soporte.
+
+### 8.4 Limitaciones Técnicas
+
+- La plataforme esta capacitada para atender a Máx. 1000 solicitudes/minuto y un almacenamiento de 500MB/usuario
+- La disponibilidad del sistema depende de los servicios externos utilizados: Firebase, Render y Railway.
+- La aplicación puede presentar variaciones en tiempo de respuesta según la carga del servidor.
+- Algunas funcionalidades avanzadas, como el análisis de datos nutricionales, pueden no estar completamente optimizadas.
+- La aplicacion web se prevee que estará abierto al publico desde las 6 hasta las 22 horas, 6 dias a la semana. 
+
+### 8.5 Vigencia del Acuerdo
+
+Este acuerdo es válido durante el periodo de desarrollo y evaluación del proyecto académico correspondiente al ciclo [Nombre del ciclo académico], con fecha de inicio el **[fecha de inicio]** y fecha de finalización el **[fecha de entrega]**.  
+Para cualquier uso extendido o comercial del sistema, será necesario establecer un nuevo acuerdo con el equipo de desarrollo.
+
+---
+### 8.6 Derechos y Obligaciones del Usuario
+
+- Los usuarios tienen derecho a acceder a la plataforma durante los horarios definidos, según su rol (cliente o nutricionista).
+- Los usuarios deben proporcionar información veraz durante el registro y actualizar sus datos cuando sea necesario.
+- Los usuarios se comprometen a utilizar la plataforma únicamente con fines personales o educativos durante el periodo de evaluación.
+- Está prohibido manipular, extraer o distribuir datos sin consentimiento expreso del equipo de desarrollo.
+- Los usuarios aceptan que el servicio puede estar sujeto a interrupciones durante mantenimientos o fallas de los proveedores externos.
+
+### 8.7 Protección de Datos
+
+La aplicación no almacena datos personales sensibles más allá de los necesarios para el funcionamiento del servicio. Toda la información es tratada con confidencialidad y no es compartida con terceros.
+
+
+**Equipo de Desarrollo - Proyecto NutriSmart**
+ 
+- [Aliaga Pimentel, George Arturo] - Desarrollador Frontend  y Documentacion
+- [Chirinos Arevalo, Daniel Rodrigo] - Desarrollador Backend y Documentacion
+- [Carlos Daniel Pingus Rodriguez] - Desarrollador Backend y Documentación  
+- [Linares Arroyo, Jorge Alexandro ] - Desarrollador Frontend y Documentación  
+
+**Fecha del Acuerdo:** [13/05/2025]
+
+
+#### 5.2.5. Implemented Native-Mobile Application Evidence
+#### 5.2.6. Implemented RESTful API and/or Serverless Backend Evidence
+#### 5.2.7. RESTful API documentation
+#### 5.2.8. Team Collaboration Insights
+=======
 
 Para esta entrega, se decidió no presentar la frontend.
 
