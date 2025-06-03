@@ -1,7 +1,7 @@
 <h3 align="center"> Universidad Peruana de Ciencias Aplicadas </h3>
 
 <h3 align="center"> Ingeniería de Software </h3>
-<h3 align="center"> Ciclo 2025 - 1 </h3>
+<h3 align="center"> Ciclo 2025 - 10 </h3>
 
 <br>
 
@@ -19,12 +19,12 @@
 
 <h3 align="center"> Julio Manuel Noriega Melendez </h3>
 
-<h3> Startup: </h3>
+<h3 align="center"> Startup: </h3>
 <h3 align="center"> HealthySoft </h3>
-<h3> Product: </h3>
+<h3 align="center"> Product: </h3>
 <h3 align="center"> NutriSmart </h3>
 
-<h3> Team Members: </h3>
+<h3 align="center"> Team Members: </h3>
 
 <div align="center">
 
@@ -32,8 +32,8 @@
 | :------------------------------- | :--------: |
 | Aliaga Pimentel, George Arturo   | U20211c273 |
 | Chirinos Arevalo, Daniel Rodrigo | U202019577 |
-| Carlos Daniel Pingus Rodriguez     | u202113280 |
-| Jorge Alexandro Linares Arroyo | u202318624 |
+| Pingus Rodriguez, Carlos Daniel  | u202113280 |
+| Linares Arroyo, Jorge Alexandro  | u202318624 |
 
 </div>
 
@@ -47,7 +47,8 @@
 
 | Versión |   Fecha    |              Autor               | Descripción de modificación |
 | :-----: | :--------: | :------------------------------: | :--------------------------: |
-|   TB1   |    24/04   | Todos los integrantes            | Se estableció la solución propuesta, se realizó un análisis Lean UX, se definió el segmento objetivo y se recopilaron los requisitos necesarios para desarrollar las herramientas necesarias. A su vez, se implementó el landing page y un avance del backend.
+|   TB1   |    24/04   | George Aliaga, Daniel Chirinos, Carlos Pingus y Jorge Linares | Se estableció la solución propuesta, se realizó un análisis Lean UX, se definió el segmento objetivo y se recopilaron los requisitos necesarios para desarrollar las herramientas necesarias. A su vez, se implementó el landing page y un avance del backend. | 
+| TP     | 12/05 | George Aliaga, Daniel Chirinos, Carlos Pingus y Jorge Linares | Se realizaron los avances de la aplicación en base a la retroalimentación de la primera entrega |
 
 </div>
 
@@ -207,28 +208,31 @@ Conoce al menos un sector empresarial o dominio de aplicación de soluciones de 
 <tr>
     <td><b>Participa en equipos multidisciplinarios con eficacia, eficiencia y objetividad, en el marco de un proyecto en soluciones de ingeniería de software.</b></td>
     <td>
-    <td>TB1<br>
+    <td>TP<br>
     <b>Chirinos Arevalo, Daniel Rodrigo</b>
         <br>
         - Realicé mis tareas asignadas en el horario correspondiente<br/>
         - Realicé las partes del trabajo como el diagrama de clases, c4 y el diseño temprano de la aplicación web y avance con el avance de la backend .<br/>
+        - Realicé el backend
         <br>
     <b>Aliaga Pimentel, George Arturo</b>
         <br>
         - Realicé mis tareas asignadas en el horario correspondiente<br/>
-        - Realicé las partes del trabajo como todo el capitulo 1 y el capitulo 2, identificando la problematica de nuestro tema.<br/>
+        - Realicé las partes del trabajo como todo el capitulo 1 y el capitulo 2, identificando la problematica de nuestro tema.
+        - Realicé el frontend<br/>
         <br>
     <b>Carlos Daniel Pingus Rodriguez</b>
         <br>
         - Realicé mis tareas asignadas<br/>
-        - Realicé las partes del trabajo como los escenarios as-is y to-be, y los user personas .<br/>
+        - Realicé las partes del trabajo como los escenarios as-is y to-be, y los user personas .
+        - Realicé las correciones del informe<br/>
         <br>
     <b>Jorge Alexandro Linares Arroyo</b>
         <br>
         - Realicé mis tareas asignadas en el horario correspondiente<br/>
         - Realicé la landing page y el capitulo 5 .<br/>
+        - Realicé el frontend
         <br>
-    </td>
     </td>
     <td>
     </td>
@@ -238,26 +242,30 @@ Conoce al menos un sector empresarial o dominio de aplicación de soluciones de 
 <td><b>
 Conoce al menos un sector empresarial o dominio de aplicación de soluciones de software.</b></td>
     <td>
-    <td>TB1<br>
+    <td>TP<br>
     <b>Chirinos Arevalo, Daniel Rodrigo</b>
         <br>
         - Realicé mis tareas asignadas en el horario correspondiente<br/>
-        - Realicé las partes del trabajo como el diagrama de clases, c4 y el diseño temprano de la aplicación web y avance con el avance de la backend .<br/>
+        - Realicé las partes del trabajo como el diagrama de clases, c4 y el diseño temprano de la aplicación web y avance con el avance de la backend .
+        - Realicé el backend<br/>
         <br>
     <b>Aliaga Pimentel, George Arturo</b>
         <br>
         - Realicé mis tareas asignadas en el horario correspondiente<br/>
-        - Realicé las partes del trabajo como todo el capitulo 1 y el capitulo 2, identificando la problematica de nuestro tema.<br/>
+        - Realicé las partes del trabajo como todo el capitulo 1 y el capitulo 2, identificando la problematica de nuestro tema.
+        - Realicé el frontend<br/>
         <br>
     <b>Carlos Daniel Pingus Rodriguez</b>
         <br>
         - Realicé mis tareas asignadas<br/>
-        - Realicé las partes del trabajo como los escenarios as-is y to-be, y los user personas .<br/>
+        - Realicé las partes del trabajo como los escenarios as-is y to-be, y los user personas .
+        - Realicé las correciones<br/>
         <br>
     <b>Jorge Alexandro Linares Arroyo</b>
         <br>
         - Realicé mis tareas asignadas en el horario correspondiente<br/>
-        - Realicé la landing page y el capitulo 5 .<br/>
+        - Realicé la landing page y el capitulo 5 .
+        - Realicé el frontend<br/>
         <br> 
 </td>
     <td>
@@ -471,18 +479,6 @@ Uno de los principales desafíos que enfrenta es la disponibilidad de los pacien
 Adrián expresó que una plataforma que centralice funciones como comunicación, gestión de archivos, formularios, historial de pacientes y seguimiento no solo facilitaría su labor, sino que permitiría una atención más profesional, formal y eficiente. Además, mostró disposición para responder consultas rápidas dentro de la app, siempre que el sistema permita establecer horarios de atención.
 Le otorga gran importancia a la posibilidad de que los pacientes registren su ingesta fuera del plan, y que la plataforma pueda convertir alimentos a calorías o nutrientes, lo cual considera un diferencial valioso para educar al usuario y mejorar su adherencia al tratamiento.
 
-**Entrevista 2 - Nutricionista**
-
-**Entrevista 3 - Nutricionista**
-
-**Usuarios que desean mejorar sus hábitos alimentarios**
-
-**Entrevista 4 - Usuario**
-
-**Entrevista 5- Usuario**
-
-**Entrevista 6- Usuario**
-
 
 ### **2.2.3. Análisis de entrevistas**
 
@@ -641,56 +637,147 @@ Este lenguaje facilita la comprensión y el consenso en torno a los conceptos y 
 **Epics:**
 EC-01: Gestión del perfil e información nutricional del usuario
 EC-02: Interacción con Nutricionistas
-EC-03: Seguimiento y Analytics de data nutricional y estado físico
+EC-03: Visualizacion de y personalizacion de Recetas y Planes Nutricionales
 
 **User Stories:**
 1.	US-01: Como usuario, quiero registrarme con mi correo y contraseña para acceder a la plataforma.
 2.	US-02: Como usuario, quiero completar mi perfil con mis objetivos (bajar de peso, ganar masa muscular, etc.).
 3.	US-03: Como usuario, quiero indicar mis restricciones alimentarias (vegano, sin gluten, etc.).
-4.	US-04: Como usuario, quiero que la plataforma genere un plan semanal automático basado en mi perfil.
-5.	US-05: Como usuario, quiero ajustar las recetas sugeridas según mis preferencias.
-6.	US-06: Como usuario Premium, quiero contactar a un nutricionista via chat para resolver dudas.
-7.	US-07: Como usuario Premium, quiero agendar una consulta virtual con un nutricionista.
-8.	US-08: Como nutricionista, quiero crear y enviar planes personalizados a mis pacientes.
-9.	US-09: Como nutricionista, quiero recibir notificaciones de nuevas consultas.
-10.	US-10: Como usuario, quiero registrar mi peso semanal para ver mi progreso.
-11.	US-11: Como usuario, quiero recibir notificaciones diarias de mis comidas.
-12.	US-12: Como nutricionista, quiero visualizar gráficos de progreso de mis pacientes.
+4.	US-04: Como usuario, quiero completar y editar mi perfil nutricional.
+5.	US-05: Como usuario, quiero visualizar la lista de planes de comida disponibles, para seleccionar uno que se adecúe a mis metas y preferencias.
+6.	US-06: Como usuario, quiero acceder al detalle de cada receta, incluyendo ingredientes, instrucciones, calorías y macronutrientes, para evaluar si se ajusta a lo que busco.
+7.	US-07: Como usuario, quiero poder marcar recetas como favoritas, para guardarlas y acceder fácilmente a las que más me gustan o son útiles.
+8.	US-08: Como nutricionista, quiero acceder a la lista de todos los planes de comida, para revisar y gestionar mis planes creados.
+9.	US-09: Como nutricionista, quiero poder crear nuevos planes de comida, asignando recetas por día y tipo de comida, para ofrecer opciones personalizadas a los clientes.
+10.	US-10: Como nutricionista, quiero editar o actualizar los planes de comida existentes, para mantener la información actualizada y adaptarla a nuevas necesidades o descubrimientos.
+11.	US-11: Como nutricionista, quiero acceder a una lista de recetas y gestionarlas, pudiendo crear nuevas recetas o editar las existentes según los ingredientes y valores nutricionales.
+12.	US-12: Como nutricionista, quiero marcar recetas como favoritas, para tener a mano aquellas que suelo usar o recomendar frecuentemente.
+13.	US-13: Como nutricionista, quiero editar mi perfil profesional, para mantener actualizada mi información personal o profesional dentro de la plataforma.
 
-**Technical Stories**
-1.	TS-01: Implementar autenticación segura con JWT.
-2.	TS-02: Diseñar base de datos para almacenar perfiles de usuarios y nutricionistas.
-3.	TS-03: Crear algoritmo de generación de planes basado en objetivos y restricciones.
-4.	TS-04: Integrar sistema de chat en tiempo real.
-5.	TS-05: Desarrollar dashboard de seguimiento con gráficos (Chart.js).
+
 
 ### 3.3.- Product Backlog:
 
-| ID | User Story	| Story Points(1,2,3,5,8)|
-| --- | ---------- | --------------------| 
-| US-01	| Registro de usuario |	3   |
-| US-04	| Generar plan semanal automático	| 	3  |
-| US-10	| Registro de peso del usuario | 	2  |
-| TS-03 |	Algoritmo de generación de planes	| 	5  |
+| User Story ID     | Título                                                                 | Prioridad | Story Points(1,2,3,5,8) |
+|--------|------------------------------------------------------------------------|-----------|---------------|
+| US-01 | Registro de usuario                                                     | Alta      | 3             |
+| US-02 | Completar objetivos del perfil                                          | Alta      | 5             |
+| US-03 | Ingresar restricciones alimentarias                                     | Media     | 3             |
+| US-04 | Editar perfil nutricional                                               | Alta      | 5             |
+| US-05 | Visualizar lista de planes disponibles                                         | Alta      | 3             |
+| US-06 | Visualizar detalle de recetas (ingredientes, macros, instrucciones)           | Alta      | 5             |
+| US-07 | Marcar recetas como favoritas                                           | Baja     | 2             |
+| US-08 | Visualizar lista de planes como nutricionista                                  | Media      | 3             |
+| US-09 | Crear nuevos planes de comida                                           | Alta      | 5             |
+| US-10 | Editar planes de comida                                                 | Alta      | 5             |
+| US-11 | Gestionar recetas (crear y editar)                                      | Alta      | 5             |
+| US-12 | Marcar recetas favoritas como nutricionista                             | Baja     | 2             |
+| US-13 | Editar perfil profesional del nutricionista                             | Media     | 3             |
 
 ### 3.4.- Impact Mapping:
+<p align="center">
+  <img src="./imagenes/impact-map.png" alt="impact-map" width="850">
+</p>
 
 ## Capítulo IV: Product Design
 ### 4.1. Style Guidelines
-
 #### 4.1.1. General Style Guidelines
+#### Pincipios de Diseño
+- Claridad: Interfaz minimalista con jerarquía visual definida (ej: títulos H1 32px, texto cuerpo 16px).
 
+- Accesibilidad: Cumple WCAG 2.1 AA (contraste 4.5:1, tamaños de texto escalables).
+
+- Consistencia: Mismos componentes reutilizables en todas las pantallas (botones, cards, forms).
+  
+#### Paleta de Colores
+| Rol                | Hex     | Uso                       |
+| ------------------ | ------- | ------------------------- |
+| Primario (Verde)   | #245E4F | Botones y elementos clave |
+| Secundario (Arena) | #F5E6C8 | Fondos y resaltes         |
+| Error              | #D32F2F | Mensajes de alerta        |
+| Éxito              | #388E3C | Confirmaciones            |
+
+#### Tipografía:
+a. **Principal**: "Inter" (Sans-serif)
+
+- Headers: Semibold 600
+
+- Body: Regular 400
+
+b. Secundaria: "Roboto" para citas y notas.
 ### 4.2. Information Architecture
-
+En este apartado se presentan las determinaciones clave tomadas durante el diseño de la plataforma, abarcando desde la arquitectura de información hasta la experiencia de navegación y funcionalidades de búsqueda, que constituyen el marco de referencia para su desarrollo.
 #### 4.2.1. Organization Systems
+En nuesta aplicación nutricional, hemos diseñado los sistemas de organización de la información pertinentes para garantizar una experiencia de usuario intuitiva y eficiente. 
+
+#### Para los clientes:
+- Usuarios: Planes, recetas, progreso.
+- Nutricionistas: Dashboard, pacientes, plantillas.
+
+#### Por funcionalidad:
+- Nutrición: Generador de planes, recetas, lista de compras.
+- Comunidad: Chat, reseñas, foros (futuro).
+
+#### Jerarquía global del sistema:
+<p align="center">
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1746558171/org-jerarquia.png" alt="org-jerarquia" width="850">
+</p>
+
+- En la página principal (Home) se mostrará como un dashboard en el que se mostrará el resumen del progreso del usuario, junto con recordatorios sobre su plan alimenticio.
+- Para nuestros usuarios premium tenemos la opción de recibir recomendaciones directamente de un nutricionista debidamente calificado.
 
 #### 4.2.2. Labeling Systems
+En este apartado presentamos los labels de nuestra aplicación para facilitar el uso y navegación del sistema.
+
+| Componente UI           | Label          | Descripción                       |
+| ----------------------- | -------------- | --------------------------------- |
+| Pantalla Principal      | "Bienvenido"   | Dashboard con el plan elegido y principales recordatorios |
+| Selección de Objetivo   | "Mis Metas"    | Segmento para definir objetivos |
+| Planes alimenticios     | "Mi Menú"      | Plan alimentario organizado por días |
+| Acción Principal        | "Generar Plan" | Botón para crear nuevo plan nutricional |
+| Búsqueda Nutricionista* | "Encuentra tu especialista" | Campo para buscar profesionales |
 
 #### 4.2.3. SEO Tags and Meta Tags
+#### Para Usuarios (Personas que buscan planes nutricionales):
+| Página | Title Tag | Meta Description | Keywords |
+|------- | --------- | ---------------- | -------- |
+| Home   | NutriSmart | Planes nutricionales Personalizados por y para ti | plan nutricional, dieta personalizada, recetas saludables, nutrición online |
+| Registro | Crea Tu Perfil | Únete a NutriSmart y cumple tus metas de salud con un plan 100% adaptado a ti | registro nutrición, perfil alimenticio, metas saludables |
+| Mi Plan | Tu Plan Semanal | Menú diario con recetas balanceadas según tus preferencias | plan semanal, menú saludable, lista de compras nutricional |
+| Recetas | Recetas Personalizadas | Encuentra recetas para tus objetivos: bajar de peso, ganar masa muscular o mantener tu salud | recetas fitness, comida saludable, preparaciones nutritivas |
+| Nutricionistas | Consulta con Nutricionistas | Resuelve tus dudas con expertos en nutrición. Disponible 24/7 en la versión Premium | nutricionista online, consulta nutricional, asesoría alimentaria |
+
+#### Para Nutricionistas (Profesionales de la salud):
+| Página | Title Tag | Meta Description | Keywords |
+| ------ | --------- | ---------------- | -------- |
+| Registro Nutricionistas | Únete a NutriSmart | Ofrece tus servicios a miles de usuarios y gestiona pacientes desde una sola plataforma | app para nutricionistas, pacientes online, plataforma nutrición | 
+| Dashboard Profesional | Panel de Nutricionista | Monitoriza el progreso de tus pacientes, crea planes personalizados y gestiona consultas virtuales | seguimiento nutricional, planes alimenticios, consultas online |
+| Tarifas Premium | Monetiza tu Consulta Nutricional | Gana ingresos adicionales atendiendo pacientes digitales con herramientas diseñadas para profesionales | nutricionista freelance, trabajo remoto nutrición | 
 
 #### 4.2.4. Searching Systems
+En NutriSmart, nuestro sistema de búsqueda está diseñado para que encuentres lo que necesitas de forma rápida y sencilla. Ya sea recetas que se ajusten a tus gustos y metas, o nutricionistas especializados, la plataforma te mostrará opciones personalizadas con filtros fáciles de usar.
+
+| Nombre del Filtro | Descripción |
+| ----------------- | ----------- |
+| Tipo de Dieta | Distintas opciones de dieta como: vegana, keto, sin gluten, etc. |
+| Objetivo | "Bajar de Peso", "Ganar Masa Muscular", "Control Glucémico", etc. |
+| Tiempo/Disponibilidad | Menos de 30 minutos (para recetas), En las mañanas (Consultas con nutricionista[PREMIUM]) | 
+| Alergias/Restricciones | Excluir ingredientes o condiciones específicas (ej. lácteos, diabetes) |
+| Valoración/reputación | Filtrar por cantidad de estrellas en reviews | 
+| Fecha/Reciente | "Última semana" (recetas nuevas) o "última consulta" (pacientes) |
+| Ingredientes/Herramientas | Filtrar por alimentos disponibles o recursos (ej. licuadora) |
 
 #### 4.2.5. Navigation Systems
+Hemos diseñado un sistema de navegación claro para que usuarios y nutricionistas encuentren lo que necesitan sin complicaciones. Desde acceder a planes personalizados hasta gestionar consultas, cada ruta está optimizada para una experiencia fluida.
+
+| Nombre | Descripción |
+| ------ | ----------- |
+| Inicio | Lleva al dashboard principal con el plan semanal y resumen de progreso |
+| Mi Progreso | Acceso rápido al plan nutricional generado, mostrando los avances en % | 
+| Recomendaciones | Muestra Recomendaciones alimenticias como también hábitos saludables |
+| Recomendaciones de Nutricionista (PREMIUM) | Acceso por medio de suscripción premium. Muestra recomendaciones del Nutricionista asignado. |
+| Nutricionista (PREMIUM) | Opción para poder contactarte con uno de nuestros Nutricionistas registrados. |
+
 ### 4.3. Landing Page UI Design
 #### 4.3.1. Landing Page Wireframe
 **Hero Section**
@@ -756,13 +843,92 @@ EC-03: Seguimiento y Analytics de data nutricional y estado físico
 </p>
 
 ### 4.4. Mobile Applications UX/UI Design
+
 #### 4.4.1. Mobile Applications Wireframes
+##### Startup
+<p align="center">
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747012223/mobile-wireframe-start.png" alt="mobile-wireframe-start" width="400" height="800">
+</p>
+
+##### Registro
+<p align="center">
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747012836/mobile-wireframe-signup.png" alt="mobile-wireframe-signup" width="400" height="800">
+</p>
+
+##### Ingresar
+<p align="center">
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747014185/mobile-wireframe-login.png" alt="mobile-wireframe-login" width="400" height="800">
+</p>
+
+##### Home
+<p align="center">
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747014240/mobile-wireframe-home.png" alt="mobile-wireframe-home" width="400" height="800">
+</p>
+
+##### Plantillas de Dietas
+<p align="center">
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747018514/mobile-wireframe-plantilla.png" alt="mobile-wireframe-plantilla" width="400" height="800">
+</p>
+
+##### Home Nutricionista
+<p align="center">
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747018613/mobile-wireframe-nutricionista.png" alt="mobile-wireframe-nutricionista" width="400" height="800">
+</p>
+
 #### 4.4.2. Mobile Applications Wireflow Diagrams
+<p align="center">
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747147254/mobile-wireflow-us04.png" alt="mobile-wireflow-us04" width="400" height="800">
+</p>
+
+<p align="center">
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747147378/mobile-wireflow-us01.png" alt="mobile-wireflow-us01" width="400" height="800">
+</p>
+
+<p align="center">
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747147446/mobile-wireflow-us11.png" alt="mobile-wireflow-us11" width="400" height="800">
+</p>
+
+<p align="center">
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747147512/mobile-wireflow-us06.png" alt="mobile-wireflow-us06" width="400" height="800">
+</p>
+
 #### 4.4.3. Mobile Applications Mock-ups
-#### 4.4.3. Mobile Applications User Flow Diagrams
-### 4.5. Mobile Applications Prototyping
-#### 4.5.1. Android Mobile Applications Prototyping
-#### 4.5.2. iOS Mobile Applications Prototyping
+##### Startup
+<p align="center">
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747151530/mobile-mockup-start.png" alt="mobile-mockup-start" width="400" height="800">
+</p>
+
+##### Registro
+<p align="center">
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747151673/mobile-mockup-signup.png" alt="mobile-mockup-signup" width="400" height="800">
+</p>
+
+##### Ingresar
+<p align="center">
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747151734/mobile-mockup-login.png" alt="mobile-mockup-login" width="400" height="800">
+</p>
+
+##### Home
+<p align="center">
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747151806/mobile-mockup-home.png" alt="mobile-mockup-home" width="400" height="800">
+</p>
+
+##### Plantillas de Dietas
+<p align="center">
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747151865/mobile-mockup-template.png" alt="mobile-mockup-template" width="400" height="800">
+</p>
+
+##### Home Nutricionista
+<p align="center">
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747151936/mobile-mockup-nutricionist.png" alt="mobile-mockup-nutricionist" width="400" height="800">
+</p>
+
+#### 4.4.4. Mobile Applications User Flow Diagrams
+##### Goal: Registrarse en NutriSmart como usuario
+<p align="center">
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747170602/goal-signup.png" alt="goal-signup" width="500" height="600">
+</p>
+
 ### 4.6. Web Applications UX/UI Design
 #### 4.6.1. Web Applications Wireframes
 **Inicio Sesión**
@@ -908,11 +1074,12 @@ EC-03: Seguimiento y Analytics de data nutricional y estado físico
 </p>
 
 #### 4.9.2. Class Dictionary
+c
 ### 4.10. Database Design
 #### 4.10.1. Relational/Non-Relational Database Diagram
 
 <p align="center">
-  <img src="./imagenes/basededatosexp.png" alt="faq-mockup" width="850">
+  <img src="./imagenes/diagramaDB.png" alt="faq-mockup" width="850">
 </p>
 
 ## Capítulo V: Product Implementation, Validation & Deployment
@@ -1052,19 +1219,142 @@ Se eligió GitHub Pages para el despliegue del frontend debido a su simplicidad,
 
 #### 5.2.3. Implemented Frontend-Web Application Evidence
 
-Para esta entrega, se decidió no presentar la frontend.
+<p align="center">
+  <img src="./imagenes/webevidence9.png" alt="FAQ Section" width="750">
+</p>
+<p align="center">
+  <img src="./imagenes/webevidence10.png" alt="FAQ Section" width="750">
+</p>
+<p align="center">
+  <img src="./imagenes/webevidence.png" alt="FAQ Section" width="750">
+</p>
+<p align="center">
+  <img src="./imagenes/webevidence2.png" alt="FAQ Section" width="750">
+</p>
+<p align="center">
+  <img src="./imagenes/webevidence3.png" alt="FAQ Section" width="750">
+</p>
 
-#### 5.2.4. Implemented Native-Mobile Application Evidence
+<p align="center">
+  <img src="./imagenes/webevidence4.png" alt="FAQ Section" width="750">
+</p>
 
-Para esta entrega, se decidió no presentar la native mobile.
+<p align="center">
+  <img src="./imagenes/webevidence5.png" alt="FAQ Section" width="750">
+</p>
+
+<p align="center">
+  <img src="./imagenes/webevidence6.png" alt="FAQ Section" width="750">
+</p>
+
+<p align="center">
+  <img src="./imagenes/webevidence7.png" alt="FAQ Section" width="750">
+</p>
+
+<p align="center">
+  <img src="./imagenes/webevidence8.png" alt="FAQ Section" width="750">
+</p>
+
+
+**Link del repositorio: https://github.com/Grupo-4-Diseno-de-experimentos/frontend**
+
+#### 5.2.4. Acuerdo de Servicio - SaaS
+## 5.3. Acuerdo de Servicio - SaaS
+
+Este acuerdo establece los términos y condiciones bajo los cuales el equipo de desarrollo del proyecto **NutriSmart** se compromete a entregar, mantener y garantizar el funcionamiento de la aplicación, desarrollada bajo el modelo **Software como Servicio (SaaS)**.
+
+### 5.3.1 Alcance del Servicio
+
+La aplicación **NutriSmart** permite a los usuarios gestionar planes de alimentación personalizados, recetas y preferencias de dieta, diferenciando funcionalidades según su rol (cliente o nutricionista).
+
+**Tecnologías involucradas:**
+
+| Componente       | Tecnología          | Proveedor        |
+|------------------|---------------------|------------------|
+| Frontend         | Angular             | Firebase Hosting |
+| Backend          | Spring Boot         | Render           |
+| Base de datos    | MySQL               | Railway          |
+
+El sistema está diseñado para ser accedido mediante navegadores modernos y actualizados como:
+
+- Google Chrome (v90+)
+- Mozilla Firefox (v88+)
+- Microsoft Edge (v90+)
+
+### 5.3.2 Compromisos del Equipo de Desarrollo
+
+- Desplegar una versión estable y funcional de la aplicación.
+- Garantizar compatibilidad con los entornos definidos.
+- Mantenimiento preventivo programado
+- Entregar documentación técnica mínima para despliegue, uso y mantenimiento.
+- Realizar pruebas funcionales antes de cada despliegue de versión.
+
+### 5.3.4 Exclusiones
+
+- No se cubren problemas derivados de un uso fuera del entorno recomendado.
+- No se ofrece servicio offline.
+- No se garantiza compatibilidad con navegadores obsoletos o sistemas sin soporte.
+
+### 5.3.5 Limitaciones Técnicas
+
+- La plataforme esta capacitada para atender a Máx. 1000 solicitudes/minuto y un almacenamiento de 500MB/usuario
+- La disponibilidad del sistema depende de los servicios externos utilizados: Firebase, Render y Railway.
+- La aplicación puede presentar variaciones en tiempo de respuesta según la carga del servidor.
+- Algunas funcionalidades avanzadas, como el análisis de datos nutricionales, pueden no estar completamente optimizadas.
+- La aplicacion web se prevee que estará abierto al publico desde las 6 hasta las 22 horas, 6 dias a la semana. 
+
+### 5.3.6 Vigencia del Acuerdo
+
+Este acuerdo es válido durante el periodo de desarrollo y evaluación del proyecto académico correspondiente al ciclo [Nombre del ciclo académico], con fecha de inicio el **[fecha de inicio]** y fecha de finalización el **[fecha de entrega]**.  
+Para cualquier uso extendido o comercial del sistema, será necesario establecer un nuevo acuerdo con el equipo de desarrollo.
+
+---
+### 5.3.7 Derechos y Obligaciones del Usuario
+
+- Los usuarios tienen derecho a acceder a la plataforma durante los horarios definidos, según su rol (cliente o nutricionista).
+- Los usuarios deben proporcionar información veraz durante el registro y actualizar sus datos cuando sea necesario.
+- Los usuarios se comprometen a utilizar la plataforma únicamente con fines personales o educativos durante el periodo de evaluación.
+- Está prohibido manipular, extraer o distribuir datos sin consentimiento expreso del equipo de desarrollo.
+- Los usuarios aceptan que el servicio puede estar sujeto a interrupciones durante mantenimientos o fallas de los proveedores externos.
+
+### 5.3.8 Protección de Datos
+
+La aplicación no almacena datos personales sensibles más allá de los necesarios para el funcionamiento del servicio. Toda la información es tratada con confidencialidad y no es compartida con terceros.
+
+
+**Equipo de Desarrollo - Proyecto NutriSmart**
+ 
+- [Aliaga Pimentel, George Arturo] - Desarrollador Frontend  y Documentacion
+- [Chirinos Arevalo, Daniel Rodrigo] - Desarrollador Backend y Documentacion
+- [Carlos Daniel Pingus Rodriguez] - Desarrollador Backend y Documentación  
+- [Linares Arroyo, Jorge Alexandro ] - Desarrollador Frontend y Documentación  
+
+**Fecha del Acuerdo:** [13/05/2025]
 
 #### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
 
-Evidencia de codigo de un unit test para usuario nutricionista.
+<p align="center">
+  <img src="./imagenes/backevidence.png" alt="FAQ Section" width="750">
+</p>
+<p align="center">
+  <img src="./imagenes/backevidence2.png" alt="FAQ Section" width="750">
+</p>
 
 <p align="center">
-  <img src="./imagenes/backendtest.png" alt="FAQ Section" width="750">
+  <img src="./imagenes/backevidence3.png" alt="FAQ Section" width="750">
 </p>
+
+<p align="center">
+  <img src="./imagenes/backevidence4.png" alt="FAQ Section" width="750">
+</p>
+
+<p align="center">
+  <img src="./imagenes/backevidence5.png" alt="FAQ Section" width="750">
+</p>
+
+
+**Link del repositorio: https://github.com/Grupo-4-Diseno-de-experimentos/backend**
+
 
 #### 5.2.6. RESTful API documentation
 
@@ -1074,23 +1364,71 @@ Evidencia de codigo de un unit test para usuario nutricionista.
 
 #### 5.2.7. Team Collaboration Insights
 
-### Backend collaboration
+### Backend Collaboration
 
 <p align="center">
   <img src="./imagenes/Teamcollab.png" alt="FAQ Section" width="750">
 </p>
 
+### FrontEnd Collaboration
+
+<p align="center">
+  <img src="./imagenes/collabfront.png" alt="FAQ Section" width="750">
+</p>
+
 ## Capítulo VI: Product Verification & Validation
 ### 6.1. Testing Suites & Validation
 ### 6.1.1. Core Entities Unit Tests
+
+Evidencia de codigo de un unit test para usuario nutricionista.
+
+<p align="center">
+  <img src="./imagenes/backendtest.png" alt="FAQ Section" width="750">
+</p>
+
 ### 6.1.2. Core Integration Tests
 ### 6.1.3. Core Behavior-Driven Development
 ### 6.1.4. Core System Tests
 
-## Capítulo VII: DevOps Practices
-### 7.1. Continuous Integration
+Lista de planes disponibles
+<p align="center">
+  <img src="./imagenes/test-front1.png" alt="test-front1" width="750">
+</p>
+
+Marcar recetas como favoritas
+<p align="center">
+  <img src="./imagenes/test-front2.png" alt="test-front2" width="750">
+</p>
+
+Gestionar recetas
+<p align="center">
+  <img src="./imagenes/test-front3.png" alt="test-front3" width="750">
+</p>
+
+Visualizar detalle de receta
+<p align="center">
+  <img src="./imagenes/test-front-4.png" alt="test-front4" width="750">
+</p>
+
+Test App Web
+<p align="center">
+  <img src="./imagenes/test-app-web-front.png" alt="test-front" width="750">
+</p>
+
+# Capítulo VII: DevOps Practices
+## 7.1. Continuous Integration
+La Integración Continua (CI) tiene como objetivo principal detectar errores rápidamente, automatizando la compilación y ejecución de pruebas cada vez que se realiza un cambio en el código. Esta práctica asegura que las nuevas funcionalidades no rompan lo existente, promoviendo un desarrollo estable y confiable.
 ### 7.1.1. Tools and Practices
 El objetivo es integrar cambios de codigo en un repositorio compartido, lo que permite detectar errores de manera temprana y reducir el riesgo al momento de integrar nuevas funcionalidades. Para lograrlo de forma eficiente, se aplicaron una serie de herramientas y practicas especificas en el desarrollo del sistema.
+Para mantener una alta calidad en el desarrollo de nuestra aplicación de comidas, integramos herramientas de testing y automatización tanto en el backend (Java con Spring Boot) como en el frontend (Angular). Utilizamos enfoques como TDD (Test-Driven Development) y BDD (Behavior-Driven Development) para garantizar que el software cumpla con los requisitos funcionales y no funcionales desde su concepción.
+
+| Herramienta | Tipo                          | Tecnología        | Descripción                                                                 | Propósito                                                                 |
+|-------------|-------------------------------|-------------------|-----------------------------------------------------------------------------|---------------------------------------------------------------------------|
+| **JUnit**   | Pruebas unitarias (TDD)       | Java (Backend)    | Framework de pruebas unitarias ampliamente utilizado en el ecosistema Java. | Validar el comportamiento de métodos y clases individuales del backend.  |
+| **Karma**   | Test Runner                   | Angular (Frontend)| Ejecuta pruebas unitarias en navegadores reales. Se integra con Jasmine.    | Automatizar la ejecución de pruebas al desarrollar componentes Angular.  |
+| **Jasmine** | Framework de pruebas unitarias| Angular (Frontend)| Permite escribir pruebas unitarias de funciones, servicios y componentes.   | Asegurar que los componentes funcionen como se espera de forma aislada.  |
+| **Selenium**| Pruebas End-to-End (E2E)      | Multiplataforma   | Automatiza pruebas de interfaz simulando interacciones reales de usuario.   | Validar flujos completos de la aplicación desde la perspectiva del usuario.|
+
 
 ### Herramientas utilizadas:
 
@@ -1107,9 +1445,20 @@ El objetivo es integrar cambios de codigo en un repositorio compartido, lo que p
 ### 7.1.2. Build & Test Suite Pipeline Components
 
 ### 7.2. Continuous Delivery
+El objetivo principal de Continuous Delivery (CD) es automatizar el proceso de integración, pruebas y preparación del despliegue, asegurando que el software esté listo para ser entregado en producción en cualquier momento, aunque el despliegue final requiere una aprobación manual.
 ### 7.2.1. Tools and Practices
 
-## Herramientas utilizadas:
+#### Prácticas adoptadas:
+
+- Feature Branching y Pull Requests: Cada funcionalidad se desarrolla en una rama independiente. Tras pasar pruebas, se hace merge a la rama develop, lista para despliegue.
+
+- Entorno de Staging: Antes de producción, se realiza un despliegue en staging donde se prueban los cambios con usuarios clave y se detectan errores.
+
+- Aprobación manual: Luego de pasar el pipeline de validación, un desarrollador o responsable debe aprobar el despliegue a producción.
+
+- Rollback manual: Si se detectan errores en producción, se puede revertir manualmente a una versión anterior utilizando backups automáticos de Firebase y Render.
+
+#### Herramientas utilizadas:
 
 <b>Github Actions</b>: Se utilizó GitHub Actions como motor de automatización para orquestar las distintas etapas del pipeline. Dentro del flujo definido en .github/workflows, tras pasar la etapa de pruebas (CI), se ejecuta la fase de entrega continua:
 
@@ -1128,7 +1477,78 @@ El objetivo es integrar cambios de codigo en un repositorio compartido, lo que p
 - La configuración se maneja a través del archivo firebase.json y los comandos definidos en firebase-tools.
 
 ### 7.2.2. Stages Deployment Pipeline Components
+
+1. Integración Continua: Cada commit en develop activa el pipeline de pruebas unitarias, validación de código y build del proyecto.
+
+2. Validación en Staging: Se despliega una versión en staging con datos reales simulados para pruebas de interfaz y experiencia de usuario.
+
+3. Aprobación Manual: El equipo debe revisar que todo funcione correctamente antes del paso final.
+
+4. Despliegue Manual a Producción: Si se aprueba el cambio, se ejecuta el script de despliegue o el workflow correspondiente.
+
+5. Monitoreo Post-Despliegue: Se monitorean métricas de rendimiento y se revisa el comportamiento del sistema.
+
 ### 7.3. Continuous deployment
+El objetivo del Continuous Deployment (CD) es lograr que cada cambio aprobado en el repositorio se despliegue de manera automática y segura en el entorno de producción, sin intervención manual. Esto permite ofrecer mejoras, correcciones y nuevas funcionalidades a los usuarios finales de forma inmediata, siempre y cuando se validen todas las pruebas definidas.
 ### 7.3.1. Tools and Practices
+ #### Herramientas utilizadas:
+
+- GitHub Actions: Utilizado como motor principal de automatización. Se configuraron workflows que ejecutan la secuencia de pasos desde que se hace un push en la rama main hasta el despliegue en producción. Incluye validaciones, builds, pruebas y despliegue continuo tanto para backend como frontend.
+
+- Docker: Todas las partes del backend están contenerizadas. Esto permite asegurar que el entorno de producción es exactamente igual al de desarrollo y pruebas. Cada build genera una imagen Docker que se utiliza tanto en staging como en producción.
+
+- Render (Backend): Plataforma que se encarga de ejecutar los contenedores Docker del backend (por ejemplo, Node.js o Spring Boot). Tiene integración directa con GitHub, permitiendo desplegar automáticamente cada vez que se detecta un nuevo cambio en la rama main.
+
+- Firebase Hosting (Frontend Angular): Se emplea para el despliegue automático del frontend. Permite compilar, validar y distribuir las nuevas versiones de la aplicación web en una red CDN segura, mejorando el tiempo de carga y la experiencia de usuario.
+
+- Railway (Base de datos MySQL): Se utiliza para el manejo automatizado de la base de datos. Railway gestiona la infraestructura y aplica migraciones cuando se actualiza el modelo de datos. También realiza backups automáticos y monitoreo de rendimiento.
+
+ #### Prácticas implementadas:
+
+- Feature Branching: Todo nuevo desarrollo o corrección se realiza en una rama separada (feature/x). Al completar la tarea, se hace un pull request hacia la rama develop, que es usada para testing. Posteriormente, los cambios se integran en main para producción.
+
+- Despliegue basado en commits (Commit-based deployment): Cada vez que se hace un push a la rama main, se activa automáticamente el pipeline completo. Esto incluye la construcción, ejecución de pruebas, validación de seguridad y el despliegue automático tanto del backend como del frontend.
+
+- Validación previa automatizada: Antes de desplegar, se ejecutan pruebas unitarias y de integración, además de validaciones de estructura en la base de datos. Esto asegura que los errores se detecten antes de afectar al usuario final.
+
+- Rollback automático: En caso de que el despliegue cause un error grave (por ejemplo, fallo en tiempo de respuesta, error en los endpoints, etc.), el sistema revierte automáticamente a la versión anterior y genera una alerta al equipo. Esto asegura una alta disponibilidad y recuperación rápida.
+
+- Monitoreo post-despliegue: Luego del despliegue, herramientas como Render y Firebase monitorean el estado del servidor, errores de cliente y rendimiento en tiempo real. Se detectan caídas, errores HTTP o anomalías en los datos.
+
 ### 7.3.2. Production Deployment Pipeline Components
 
+Backend – Render (Spring Boot):
+
+- Compilación automática: Render detecta cada nuevo commit en `main`, clona el repositorio y ejecuta `mvn package` (Spring Boot) para generar el artefacto listo para producción.
+
+- Construcción de imagen Docker: El backend se empaqueta en una imagen Docker que contiene todas las dependencias necesarias. Esto evita errores por diferencias entre entornos.
+
+- Despliegue continuo: La nueva imagen se publica automáticamente en el entorno de producción, reiniciando el contenedor sin causar downtime (deploy rolling).
+
+- Monitoreo y alertas: Render proporciona logs de ejecución, métricas de uso de recursos, tiempos de respuesta de los endpoints y errores. Las alertas notifican al equipo ante cualquier comportamiento anómalo.
+
+Frontend – Firebase Hosting (Angular):
+
+- Compilación en modo producción: Cada commit en `main` activa `ng build --prod` para generar una versión optimizada del frontend.
+
+- Pruebas automatizadas: Se ejecutan pruebas unitarias (Karma) y pruebas E2E (Cypress/Protractor) para validar la funcionalidad antes del despliegue.
+
+- Despliegue automático: Si todas las pruebas pasan, Firebase sube los nuevos archivos al CDN, invalidando automáticamente la caché para garantizar que los usuarios vean la versión más reciente.
+
+- Seguridad y disponibilidad: Firebase aplica reglas de seguridad para el hosting, forzando HTTPS y permitiendo fallback automático en caso de fallos.
+
+Base de Datos – Railway (MySQL):
+
+- Gestión automática de migraciones: Railway sincroniza los cambios de las entidades del backend con la base de datos, aplicando automáticamente migraciones generadas por frameworks como JPA/Hibernate o TypeORM.
+
+- Backups antes de cambios críticos: Railway genera copias de seguridad automáticas antes de aplicar cambios en producción, permitiendo recuperación en caso de error.
+
+- Pruebas de validación del esquema: Tras aplicar migraciones, se ejecutan scripts que validan la estructura de tablas, relaciones y restricciones.
+
+- Integración con logs del backend: Cualquier error en consultas o accesos a datos se registra en Railway y en el backend para análisis detallado.
+
+## 7.4 Continuous Monitoring
+### 7.4.1. Tools and Practices
+### 7.4.2. Monitoring Pipeline Components
+### 7.4.3. Alerting Pipeline Components
+### 7.4.4. Notification Pipeline Components
