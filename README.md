@@ -1390,34 +1390,8 @@ Evidencia de codigo de un unit test para usuario nutricionista.
 ### 6.1.3. Core Behavior-Driven Development
 ### 6.1.4. Core System Tests
 
-Lista de planes disponibles
-<p align="center">
-  <img src="./imagenes/test-front1.png" alt="test-front1" width="750">
-</p>
-
-Marcar recetas como favoritas
-<p align="center">
-  <img src="./imagenes/test-front2.png" alt="test-front2" width="750">
-</p>
-
-Gestionar recetas
-<p align="center">
-  <img src="./imagenes/test-front3.png" alt="test-front3" width="750">
-</p>
-
-Visualizar detalle de receta
-<p align="center">
-  <img src="./imagenes/test-front-4.png" alt="test-front4" width="750">
-</p>
-
-Test App Web
-<p align="center">
-  <img src="./imagenes/test-app-web-front.png" alt="test-front" width="750">
-</p>
-
-# Capítulo VII: DevOps Practices
-## 7.1. Continuous Integration
-La Integración Continua (CI) tiene como objetivo principal detectar errores rápidamente, automatizando la compilación y ejecución de pruebas cada vez que se realiza un cambio en el código. Esta práctica asegura que las nuevas funcionalidades no rompan lo existente, promoviendo un desarrollo estable y confiable.
+## Capítulo VII: DevOps Practices
+### 7.1. Continuous Integration
 ### 7.1.1. Tools and Practices
 El objetivo es integrar cambios de codigo en un repositorio compartido, lo que permite detectar errores de manera temprana y reducir el riesgo al momento de integrar nuevas funcionalidades. Para lograrlo de forma eficiente, se aplicaron una serie de herramientas y practicas especificas en el desarrollo del sistema.
 Para mantener una alta calidad en el desarrollo de nuestra aplicación de comidas, integramos herramientas de testing y automatización tanto en el backend (Java con Spring Boot) como en el frontend (Angular). Utilizamos enfoques como TDD (Test-Driven Development) y BDD (Behavior-Driven Development) para garantizar que el software cumpla con los requisitos funcionales y no funcionales desde su concepción.
@@ -1517,38 +1491,3 @@ El objetivo del Continuous Deployment (CD) es lograr que cada cambio aprobado en
 
 ### 7.3.2. Production Deployment Pipeline Components
 
-Backend – Render (Spring Boot):
-
-- Compilación automática: Render detecta cada nuevo commit en `main`, clona el repositorio y ejecuta `mvn package` (Spring Boot) para generar el artefacto listo para producción.
-
-- Construcción de imagen Docker: El backend se empaqueta en una imagen Docker que contiene todas las dependencias necesarias. Esto evita errores por diferencias entre entornos.
-
-- Despliegue continuo: La nueva imagen se publica automáticamente en el entorno de producción, reiniciando el contenedor sin causar downtime (deploy rolling).
-
-- Monitoreo y alertas: Render proporciona logs de ejecución, métricas de uso de recursos, tiempos de respuesta de los endpoints y errores. Las alertas notifican al equipo ante cualquier comportamiento anómalo.
-
-Frontend – Firebase Hosting (Angular):
-
-- Compilación en modo producción: Cada commit en `main` activa `ng build --prod` para generar una versión optimizada del frontend.
-
-- Pruebas automatizadas: Se ejecutan pruebas unitarias (Karma) y pruebas E2E (Cypress/Protractor) para validar la funcionalidad antes del despliegue.
-
-- Despliegue automático: Si todas las pruebas pasan, Firebase sube los nuevos archivos al CDN, invalidando automáticamente la caché para garantizar que los usuarios vean la versión más reciente.
-
-- Seguridad y disponibilidad: Firebase aplica reglas de seguridad para el hosting, forzando HTTPS y permitiendo fallback automático en caso de fallos.
-
-Base de Datos – Railway (MySQL):
-
-- Gestión automática de migraciones: Railway sincroniza los cambios de las entidades del backend con la base de datos, aplicando automáticamente migraciones generadas por frameworks como JPA/Hibernate o TypeORM.
-
-- Backups antes de cambios críticos: Railway genera copias de seguridad automáticas antes de aplicar cambios en producción, permitiendo recuperación en caso de error.
-
-- Pruebas de validación del esquema: Tras aplicar migraciones, se ejecutan scripts que validan la estructura de tablas, relaciones y restricciones.
-
-- Integración con logs del backend: Cualquier error en consultas o accesos a datos se registra en Railway y en el backend para análisis detallado.
-
-## 7.4 Continuous Monitoring
-### 7.4.1. Tools and Practices
-### 7.4.2. Monitoring Pipeline Components
-### 7.4.3. Alerting Pipeline Components
-### 7.4.4. Notification Pipeline Components
