@@ -1223,4 +1223,18 @@ Base de Datos – Railway (MySQL):
 ### 7.4.1. Tools and Practices
 ### 7.4.2. Monitoring Pipeline Components
 ### 7.4.3. Alerting Pipeline Components
+
+El pipeline de alertas es responable de detectar automáticamente condiciones anómalas que puedan afectar la disponibilidad o rendimiento de la aplicación, y generar advertencias inmediatas que permitan una intervención oportuna.
+
+- Prometheus y Alertmanager: Prometheus recopila métricas en tiempo real y permite definir reglas para generar alertas cuando superan ciertos umbrales. Estas alertas son gestionadas por Alertmanager, que permite su agrupación, filtrado, escalamiento, silenciamiento y distribución por diferentes canales (correo, Slack, Microsoft Teams, etc).
+- Grafana: Se utiliza para la creación de dashboards personalizados y configuración de alertas visuales. Grafana puede integrarse con Prometheus para activar notificaciones automáticas en función de patrones críticos detectados en las métricas.
+
+Estas herramientas permiten crear un sistema de alertas robusto, proactivo y altamente configurable, que ayuda a los equipos a reaccionar rápidamente frente a cualquier incidente antes de que afecte al usuario final.
+
 ### 7.4.4. Notification Pipeline Components
+
+El pipeline de notificaciones complementa al de alerats, encargándose de comunicar de forma automática el estado del sistema y los resultados de cada fase del pipeline a los equipos responsables. Jenkins, en nuestra aplicación, se encarga de orquestar los pipelines de integración y despliegue continuo. Se configura para enviar notificaciones automáticas al finalizar cada etapa del pipeline, informando sobre el resultado de las pruebas unitarias, los análisis de calidad de código (por ejemplo, con SonarQube), el éxito o fallo del build y el despliegue de nuevas versiones. Las notificaciones se pueden integrar con herramientas de colaboración como Slack, Microsoft Teams o correo electrónico, permitiendo que todo el equipo esté al tanto de posibles errores en los builds, nuevas versiones desplegadas o regresiones detectadas.
+
+(Image)
+
+Este sistema de notificación automatizada asegura que cualquier problema en el pipeline sea comunicado de inmediato, promoviendo una cultura de mejora continua y permitiendo una reacción oportuna ante cualquier incidente. De esta forma, el pipeline de notificaciones garantiza una comunicación efectiva y en tiempo real, mejorando la coordinación del equipo y reduciendo el tiempo de respuesta ante cualquier eventualidad.
