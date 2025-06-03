@@ -1202,6 +1202,78 @@ Test App Web
   <img src="./imagenes/test-app-web-front.png" alt="test-front" width="750">
 </p>
 
+### 6.2. Static Testing & Verification
+#### 6.2.1. Static Code Analysis
+El Static Code Analysis es una técnica de verificación que examina el código fuente sin ejecutarlo, con el objetivo de identificar posibles errores, vulnerabilidades de seguridad, malas prácticas y violaciones de estándares de codificación. En el desarrollo de NutriSmart, esta técnica se aplicó tanto en el frontend (Angular) como en el backend (Spring Boot) utilizando herramientas automatizadas como SonarQube, ESLint y Checkstyle, garantizando un código limpio, mantenible y libre de defectos críticos antes de su despliegue.
+
+Este análisis permitió detectar problemas tempranos, como variables no utilizadas, posibles fugas de memoria, violaciones de principios SOLID y vulnerabilidades de seguridad, asegurando que el código cumpliera con los estándares definidos en el Source Code Style Guide. Además, se integró en el pipeline de CI/CD para validar automáticamente cada commit, mejorando la calidad del producto final y reduciendo riesgos en producción.
+
+##### 6.2.1.1. Coding Standards & Conventions
+Para garantizar consistencia, mantenibilidad y escalabilidad en el desarrollo de NutriSmart, se establecieron estándares y convenciones de código basados en mejores prácticas. Estos lineamientos abarcaron desde la estructura de archivos hasta patrones de diseño clave, asegurando un código limpio y alineado con los objetivos del proyecto.
+
+- **Domain-Driven Design:**
+  NutriSmart aplicó DDD para organizar el código en dominios claros (Usuario, Nutricionista, Planes). Usamos agregados como MealPlan y un lenguaje ubicuo (ej: generatePersonalizedPlan()) para alinear código y requisitos del negocio.
+
+-**Convenciones de Nomenclatura:**
+  Frontend (Angular): PascalCase para componentes (MealPlanComponent), sufijo .service.ts para servicios. 
+  Backend (Java): PascalCase en clases, camelCase en variables, paquetes por dominio (com.nutrismart.user).
+
+-**Principios SOLID:**
+  Cumplimos SOLID con: Clases de única responsabilidad (AuthService), Inyección de dependencias (Spring/Angular DI), y Interfaces extensibles (DietaryRestrictionValidator) para mantener el código modular.
+
+##### 6.2.1.2. Code Quality & Security
+La calidad del código y la seguridad son pilares fundamentales para garantizar un software confiable y mantenible en NutriSmart:
+
+• Calidad del Código
+Se midió mediante métricas como cobertura de pruebas (JUnit/Jasmine) y complejidad ciclomática, utilizando SonarQube para análisis estático continuo. Esta herramienta detectó code smells, duplicación y violaciones de estándares (como principios SOLID), logrando una cobertura del 92% en el backend (Spring Boot) y corrigiendo problemas críticos antes del despliegue.
+
+• Seguridad del Código
+- Se implementaron protecciones contra vulnerabilidades OWASP:
+
+- Validación estricta en formularios: Restricción de caracteres en contraseñas y verificación de formatos de correo electrónico.
+
+- Autenticación JWT: Tokens firmados para endpoints sensibles (ej: gestión de planes nutricionales).
+
+- Prevención de inyecciones SQL: Uso de parámetros enlazados en Spring Data JPA.
+
+Además, se integró SonarLint en los IDEs (IntelliJ, VS Code) para detectar riesgos en tiempo real, como hardcoded credentials o lógica insegura, reforzando una cultura de seguridad desde el desarrollo inicial.
+
+##### 6.2.2. Reviews
+Las revisiones de código en NutriSmart fueron clave para mantener la calidad, seguridad y coherencia con los estándares del proyecto. 
+Este proceso combinó revisiones manuales y automatizadas bajo un flujo estructurado:
+
+* Tipos de Revisiones
+Revisión por Pares: Cada Pull Request (PR) fue evaluado por al menos otro desarrollador, verificando claridad, alineación con DDD y cumplimiento de SOLID.
+
+* Revisión Formal: En sprints clave, se realizaron sesiones grupales con checklists basados en el Source Code Style Guide (ej: nomenclatura, inyección de dependencias).
+
+* Revisión Automática: Integración de SonarQube y ESLint en el pipeline de GitHub Actions para bloquear PRs con deuda técnica, code smells o cobertura insuficiente (<80%).
+
+Proceso de Revisión:
+* Pull Requests: Cada cambio requirió un PR con descripción detallada, pruebas asociadas y evidencia de impacto (ej: *"Fix: Validación de contraseñas con regex [US-02]"*).
+
+* Checklist Obligatorio: Incluyó:
+
+  - Cumplimiento de convenciones (PascalCase, camelCase).
+
+  - Cobertura de pruebas unitarias (JUnit/Jasmine).
+
+  - Validación de seguridad (OWASP Top 10, sanitización de inputs).
+
+* Feedback Accionable: Comentarios específicos en GitHub (ej: "Refactorizar método generatePlan() para cumplir Single Responsibility").
+
+* Aprobación: Requirió al menos 2 aprobaciones (incluido un lead developer) antes del merge a main.
+
+Criterios de Aceptación:
+* Código Limpio: Zero findings críticos en SonarQube.
+
+* Pruebas: Cobertura mínima del 80% (back/front).
+
+* Seguridad: Sin vulnerabilidades en dependencias (reporte de npm audit y OWASP Dependency-Check).
+
+Frecuencia:
+* Revisiones diarias (PRs pequeños) y retrospectivas al final de cada sprint para ajustar estándares.
+
 ## Capítulo VII: DevOps Practices
 ### 7.1. Continuous Integration
 ### 7.1.1. Tools and Practices
