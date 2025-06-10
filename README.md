@@ -1274,6 +1274,107 @@ Criterios de Aceptación:
 Frecuencia:
 * Revisiones diarias (PRs pequeños) y retrospectivas al final de cada sprint para ajustar estándares.
 
+### 6.3. Validation Interviews
+##### 6.3.1. Diseño de Entrevistas
+##### 6.3.2. Registro de Entrevistas
+##### 6.3.3. Evaluaciones según heurísticas 
+
+### Aplicación para evaluar: NutriSmart
+#### Tareas que evaluar:
+- Funcionalidad no operativa en el icono de perfil de usuario (todas las imágenes): El icono de perfil de usuario al lado de "¡Hola, Usuario!" en la esquina superior derecha es clickeable pero no desencadena ninguna acción o navegación.
+- Mensaje de bienvenida genérico: El mensaje "¡Hola, Usuario!" es poco personal y no aprovecha la oportunidad de dirigirse al usuario por su nombre una vez que ha iniciado sesión.
+- Ilegibilidad de los campos "Título del Plan" y "Descripción" : El texto dentro de los campos de entrada "Título del Plan" y "Descripción" es difícil de leer debido al contraste o tamaño de fuente, lo que dificulta la comprensión del contenido por parte del usuario.
+- Elemento de interfaz de "recuadro" confuso: Se presenta un "recuadro" visual en la interfaz que no tiene un propósito claro o una interacción evidente, lo que puede generar confusión y distraer al usuario de la tarea principal.
+- Ilegibilidad del contenido en tarjetas de "Recetas Favoritas": A excepción de las calorías, el texto dentro de las tarjetas de recetas favoritas es ilegible debido al bajo contraste entre el color de la fuente y el fondo oscuro, afectando la visibilidad de información clave como nombre, descripción y macronutrientes.
+- Ilegibilidad del texto de descripción de receta en sección de favoritos: El texto de la descripción de la receta y las "Instrucciones" son difíciles de leer debido al contraste insuficiente del color de la fuente sobre el fondo verde claro o blanco, lo que afecta la legibilidad general de la información vital de la receta.
+
+<br>
+
+<table border="1" style="border-collapse: collapse; text-align: center;">
+  <tr>
+    <th colspan="6">Escala de Severidad</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+    <td>4</td>
+    <td>5</td>
+  </tr>
+  <tr>
+    <td>No tan grave</td>
+    <td>Leve</td>
+    <td>Moderado</td>
+    <td>Grave</td>
+    <td>Muy grave</td>
+  </tr>
+</table>
+
+<br>
+
+| #Orden | Problema | Escala de Severidad | Heurística / Principio |
+| --- | --- | --- | --- |
+| #1  | El icono de perfil de usuario al lado de "¡Hola, Usuario!" en la esquina superior derecha es clickeable pero no desencadena ninguna acción o navegación. | 4   | Visibilidad del estado del sistema, Consistencia y estándares |
+| #2  | El mensaje "¡Hola, Usuario!" es poco personal y no aprovecha la oportunidad de dirigirse al usuario por su nombre una vez que ha iniciado sesión. | 2   | Coincidencia entre el sistema y el mundo real |
+| #3  | El texto dentro de los campos de entrada "Título del Plan" y "Descripción" es difícil de leer debido al contraste o tamaño de fuente, lo que dificulta la comprensión del contenido por parte del usuario. | 4   | Estética y diseño minimalista |
+| #4  | Se presenta un "recuadro" visual en la interfaz que no tiene un propósito claro o una interacción evidente, lo que puede generar confusión y distraer al usuario de la tarea principal. | 3   | Estética y diseño minimalista |
+| #5  | A excepción de las calorías, el texto dentro de las tarjetas de recetas favoritas es ilegible debido al bajo contraste entre el color de la fuente y el fondo oscuro, afectando la visibilidad de información clave. | 5   | Estética y diseño minimalista |
+| #6  | El texto de la descripción de la receta y las "Instrucciones" son difíciles de leer debido al contraste insuficiente del color de la fuente sobre el fondo verde claro o blanco | 5   | Estética y diseño minimalista |
+
+<br>
+
+**Problema #1: Funcionalidad no operativa en el icono de perfil de usuario.** 
+* **Heurística violada:** Visibilidad del estado del sistema, Consistencia y estándares. 
+* **Descripción del problema:** El icono de perfil de usuario, ubicado junto al mensaje "¡Hola, Usuario!"  en la esquina superior derecha de la interfaz, es clickeable pero no desencadena ninguna acción o navegación.  Esto impide que el usuario acceda a su perfil, configuraciones o información personal, lo cual es una expectativa estándar en aplicaciones web. 
+* **Recomendación:** Implementar la funcionalidad para que al hacer clic en el icono de perfil, el usuario sea redirigido a la sección de edición de su perfil o a un menú desplegable con opciones relacionadas con la cuenta (ej. "Mi Perfil", "Configuración", "Cerrar Sesión"). 
+
+[![cap-1.png](https://i.postimg.cc/7YdsCrrd/image-1.png)](https://postimg.cc/LnkB77X3)
+<br>
+
+**Problema #2: Mensaje de bienvenida genérico.** 
+* **Heurística violada:** Coincidencia entre el sistema y el mundo real. 
+* **Descripción del problema:** El mensaje de bienvenida "¡Hola, Usuario!" es impersonal.  No utiliza el nombre del usuario una vez que ha iniciado sesión, perdiendo la oportunidad de crear una experiencia más personalizada y amigable. 
+* **Recomendación:** Modificar el mensaje de bienvenida para que se dirija al usuario por su nombre registrado (ej. "¡Hola, (Nombre de Usuario)!"), lo que contribuirá a una experiencia más personal y cercana con la plataforma. 
+
+[![cap-2.png](https://i.postimg.cc/3wCnby0Q/image-2.png)](https://postimg.cc/p9rfmLBs)
+<br>
+
+**Problema #3: Ilegibilidad de los campos "Título del Plan" y "Descripción".** 
+* **Heurística violada:** Estética y diseño minimalista. 
+* **Descripción del problema:** El texto de marcador de posición (placeholder) o el texto ya ingresado dentro de los campos de entrada "Título del Plan" y "Descripción" presenta un bajo contraste o un tamaño de fuente inadecuado, lo que dificulta significativamente su lectura y comprensión por parte del usuario. 
+* **Recomendación:** Ajustar el color de la fuente y/o el tamaño del texto dentro de estos campos para asegurar un contraste suficiente con el fondo, mejorando así la legibilidad y la usabilidad al completar o revisar la información del plan. 
+
+[![cap-3.png](https://i.postimg.cc/PrpKnVv4/image-3.png)](https://postimg.cc/qzr28LLh)
+<br>
+
+**Problema #4: Elemento de interfaz de "recuadro" confuso.** 
+* **Heurística violada:** Estética y diseño minimalista. 
+* **Descripción del problema:** Se observa un "recuadro" visual en la interfaz que carece de un propósito claro, una etiqueta explicativa o una interacción definida.  Este elemento confuso puede distraer al usuario, generar preguntas sobre su función y desviar la atención de las funcionalidades principales de la página. 
+* **Recomendación:** Eliminar el "recuadro" si no tiene una función específica, o bien, si es un elemento previsto, definir claramente su propósito, añadir una etiqueta descriptiva y habilitar su interacción para que el usuario entienda cómo usarlo o qué información contiene. 
+
+[![cap-3.png](https://i.postimg.cc/PrpKnVv4/image-3.png)](https://postimg.cc/qzr28LLh)
+<br>
+
+**Problema #5: Ilegibilidad del contenido en tarjetas de "Recetas Favoritas".** 
+* **Heurística violada:** Estética y diseño minimalista. 
+* **Descripción del problema:** El texto de la mayoría del contenido dentro de las tarjetas de "Recetas Favoritas" es ilegible, con la excepción de las calorías.  Esto se debe a un contraste insuficiente entre el color de la fuente (probablemente oscuro) y el fondo también oscuro de las tarjetas, lo que impide al usuario leer el nombre de la receta, descripción y macronutrientes. 
+* **Recomendación:** Mejorar el contraste de la fuente sobre el fondo de las tarjetas, ya sea cambiando el color del texto a uno más claro (ej. blanco o gris claro) o ajustando el color del fondo de la tarjeta para garantizar una legibilidad óptima de toda la información. 
+
+[![cap-5.png](https://i.postimg.cc/cLfmrKmt/image-5.png)](https://postimg.cc/RWVfYZ2v)
+<br>
+
+**Problema #6: Ilegibilidad del texto de descripción de receta en sección de favoritos.** 
+* **Heurística violada:** Estética y diseño minimalista. 
+* **Descripción del problema:** Tanto el texto de la descripción de la receta como las instrucciones presentan problemas de legibilidad debido a un contraste insuficiente entre el color de la fuente y el fondo (verde claro o blanco).  Esto dificulta la lectura de pasos clave e información nutricional vital. 
+* **Recomendación:** Ajustar la combinación de colores de la fuente y el fondo en la sección de descripción e instrucciones de las recetas para garantizar un contraste adecuado.  Esto podría implicar oscurecer la fuente o aclarar ligeramente los fondos para mejorar la accesibilidad y la experiencia de lectura. 
+
+[![cap-6.png](https://i.postimg.cc/7LDN7xss/image-6.png)](https://postimg.cc/21cvNffh)
+<br>
+
+
+
+
+
 ## Capítulo VII: DevOps Practices
 ### 7.1. Continuous Integration
 ### 7.1.1. Tools and Practices
