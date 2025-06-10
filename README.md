@@ -1270,10 +1270,144 @@ Este sistema de notificación automatizada asegura que cualquier problema en el 
 # Capítulo VIII: Experiment-Driven Development
 ## 8.1. Experiment Planning
 ### 8.1.1. As-Is Summary
+
+La aplicación actual NutriSmart se centra en ofrecer una plataforma para la gestión de la alimentación y planes nutricionales, proporcionando funcionalidades básicas como la creación y seguimiento de planes, la exploración de recetas favoritas con información nutricional (calorías, macronutrientes) y la visualización de instrucciones. Sin embargo, se han identificado limitaciones significativas en su usabilidad y experiencia de usuario.
+
+
+Problemas identificados:
+
+Usabilidad:
+- Falta de personalización en la interfaz (ej. mensaje de bienvenida genérico).
+
+- Dificultades de legibilidad debido a bajo contraste en campos de entrada y en el contenido de las tarjetas de recetas y descripciones.
+
+- Elementos visuales confusos o no funcionales (ej. icono de perfil sin acción, "recuadro" confuso).
+
+Experiencia del Usuario (UX):
+
+- La interfaz carece de opciones de personalización visual que permitan al usuario adaptar la experiencia a sus preferencias o a diferentes condiciones de luz, lo que puede causar fatiga visual o incomodidad.
+
+- La experiencia puede sentirse impersonal debido a la falta de uso del nombre de usuario y una retroalimentación insuficiente sobre el progreso individual del usuario.
+
+- Existe una oportunidad para reforzar la adherencia a los planes a través de recordatorios más proactivos y personalizados.
+
+<br>
+
+Objetivos de mejora:
+
+Para abordar los problemas identificados y mejorar la aplicación NutriSmart, se establecen los siguientes objetivos:
+
+- <b> Mejora de la Usabilidad y Accesibilidad: <b> Implementar ajustes de contraste y tamaño de fuente, añadir funcionalidad a elementos interactivos y clarificar elementos visuales confusos.
+- <b> Optimización de la Experiencia del Usuario: <b> Ofrecer opciones de personalización de temas o esquemas de color para mejorar la comodidad visual y la experiencia de usuario en diversas condiciones ambientales.
+- <b> Fomento de la Adherencia y Seguimiento Proactivo: <b> Implementar recordatorios inteligentes y personalizados que ayuden al usuario a seguir su plan de alimentación y a registrar sus comidas de forma consistente.
+- <b> Expansión de la Funcionalidad Premium: <b> Introducir un modelo de suscripción Premium para desbloquear características avanzadas, como el acceso a nutricionistas personalizados.
+<br>
+
 ### 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims.
+<br>
+Assumptions:
+
+Personalización Visual: Se asume que los usuarios valoran la capacidad de adaptar la interfaz de usuario a sus preferencias visuales y a las condiciones de luz ambiental, lo que podría mejorar su comodidad, reducir la fatiga visual y aumentar el tiempo de uso.
+
+
+Comunicación con Nutricionista (Premium): Se asume que los usuarios están interesados en recibir orientación nutricional personalizada y que estarían dispuestos a pagar por un servicio Premium que les conecte directamente con un experto para alcanzar sus objetivos de salud.
+
+Motivación por Progreso Visual: Se asume que la visualización clara y atractiva del progreso en sus objetivos nutricionales (ej. ingesta calórica, macronutrientes, hábitos) motivará a los usuarios a mantener la adherencia y el compromiso con la aplicación.
+
+Efectividad de los Recordatorios Personalizados: Se asume que los recordatorios que se adaptan al horario y preferencias del usuario, y que se centran en las comidas y recetas específicas de su plan, son más efectivos para fomentar la adherencia.
+
+
+<br>
+Knowledge Gaps:
+
+Preferencias de Temas y Estilos Visuales: Falta información específica sobre los tipos de temas o esquemas de color que los usuarios de NutriSmart preferirían y cómo estos afectarían su percepción de la usabilidad y comodidad.
+
+Demanda de Servicio Premium: Necesitamos datos sobre la disposición de los usuarios a pagar por un servicio de consulta con nutricionistas y qué tipo de objetivos de salud buscan lograr con esta guía.
+
+Métricas de Motivación Visual: No hay suficiente información sobre qué tipo de representaciones visuales de progreso son más efectivas para mantener la motivación de los usuarios en el ámbito nutricional.
+
+Estrategias Óptimas de Recordatorios: Se requiere más investigación sobre la frecuencia, el tono y el momento ideal para enviar recordatorios que sean útiles y no intrusivos, y que realmente impulsen el seguimiento del plan.
+
+<br>
+Ideas:
+
+Implementar Encuestas: Realizar encuestas o entrevistas a los usuarios actuales para recoger opiniones sobre las características propuestas, especialmente sobre las opciones de personalización visual y el interés en un servicio Premium.
+
+Desarrollar un Panel de Progreso Interactivo: Crear una sección visualmente atractiva que muestre el progreso del usuario hacia sus objetivos (ej. ingesta de agua, macronutrientes, días de dieta exitosos) con gráficos dinámicos y medallas/logros virtuales.
+
+Integrar Recordatorios Inteligentes y Personalizados: Desarrollar un sistema de recordatorios que se adapte al horario del usuario y a su plan de alimentación, recordándole las comidas específicas, las recetas a seguir y la importancia de registrar sus ingestas.
+
+Diseñar y Prototipar Módulo Premium: Desarrollar maquetas y prototipos para la funcionalidad de comunicación con nutricionistas, incluyendo la interfaz de chat o videollamada.
+
+Análisis de Mercado para Servicios Premium: Llevar a cabo un estudio de mercado para comprender la demanda de servicios de nutrición personalizada y evaluar modelos de suscripción en aplicaciones similares.
+
+
+<br>
+Claims:
+
+Mejora de Usabilidad y Experiencia (Personalización Visual): Se afirma que ofrecer opciones de personalización visual (temas, esquemas de color) puede mejorar significativamente la experiencia del usuario y la usabilidad, al permitirles adaptar la interfaz a sus preferencias y condiciones de luz.
+
+Aumento de la Adherencia (Panel de Progreso): Se postula que un panel de progreso interactivo y visualmente atractivo mejorará la adherencia del usuario a sus planes nutricionales al proporcionar una retroalimentación clara y motivadora sobre sus logros.
+
+Seguimiento Consistente (Recordatorios Inteligentes): Se afirma que los recordatorios personalizados y adaptados al plan del usuario aumentarán significativamente la consistencia en el registro de comidas y el seguimiento de las recetas recomendadas.
+
+Generación de Ingresos y Valor (Premium): Se sostiene que la introducción de un modelo Premium con acceso a nutricionistas personalizados no solo generará ingresos adicionales, sino que también ofrecerá un valor significativo a los usuarios que buscan apoyo experto para sus objetivos de salud.
+
+
 ### 8.1.3. Experiment-Ready Questions.
+<br>
+
+| Question | Confidence | Risk | Impact | Interest | Total Score |
+|---|---|---|---|---|---|
+| ¿Mejorará la experiencia de usuario ofreciendo opciones de personalización visual (ej. temas, esquemas de color)? | 7 - Es una funcionalidad valorada por usuarios que buscan adaptar la interfaz a sus preferencias y condiciones de luz. | 2 - Bajo riesgo, ya que es una implementación técnica estándar y reversible. | 6 - Mejora la comodidad visual y la experiencia del usuario, permitiendo mayor adaptabilidad. | 5 - Interés moderado entre los usuarios que prefieren personalizar sus aplicaciones. | 20 |
+| ¿Aumentará la adherencia y motivación del usuario al implementar un panel de progreso interactivo y visualmente atractivo? | 8 - La visualización clara de logros es un potente motivador en aplicaciones de seguimiento de hábitos. | 3 - Riesgo bajo a medio, principalmente en la complejidad de la visualización de datos. | 8 - Puede impactar significativamente la retención y la consecución de objetivos al mantener al usuario comprometido con su progreso. | 7 - Alto interés para usuarios que buscan validación de su esfuerzo y desean ver sus avances de forma clara. | 26 |
+| ¿Aumentará la consistencia en el seguimiento del plan la implementación de recordatorios inteligentes y personalizados? | 8 - Los recordatorios adaptados al usuario y a su plan han demostrado ser efectivos para aumentar la adherencia. | 3 - Riesgo bajo a medio, principalmente en la complejidad de la personalización y la intrusividad. | 7 - Puede mejorar significativamente el seguimiento del plan y el registro de comidas. | 8 - Alto interés para usuarios que buscan ayuda para mantenerse enfocados en sus objetivos. | 26 |
+| ¿Aumentará el valor percibido de la aplicación y generará ingresos la inclusión de un modelo de suscripción Premium con acceso a un nutricionista? | 7 - Se basa en la idea de que los usuarios buscan guía experta personalizada en nutrición. | 4 - Riesgo medio debido a la competencia en servicios de nutrición y la disposición a pagar. | 10 - Potencial alto para generar ingresos recurrentes y ofrecer un diferenciador clave en el mercado. | 9 - Alto interés para los usuarios que buscan apoyo personalizado para sus metas de salud y nutrición. | 30 |
+
 ### 8.1.4. Question Backlog.
+<br>
+
+| Prioridad (1,2,3,5,8) | Pregunta |
+|---|---|
+| 1 | ¿Mejorará la experiencia de usuario ofreciendo opciones de personalización visual (ej. temas, esquemas de color)? |
+| 3 | ¿Aumentará la consistencia en el seguimiento del plan la implementación de recordatorios inteligentes y personalizados? |
+| 5 | ¿Aumentará la adherencia y motivación del usuario al implementar un panel de progreso interactivo y visualmente atractivo? |
+| 8 | ¿Aumentará el valor percibido de la aplicación y generará ingresos la inclusión de un modelo de suscripción Premium con acceso a un nutricionista? |
+
 ### 8.1.5. Experiment Cards.
+
+| Question | ¿Mejorará la experiencia de usuario ofreciendo opciones de personalización visual (ej. temas, esquemas de color)? |
+|---|---|
+| **Why** | Al ofrecer opciones de personalización visual, se mejora la usabilidad para los usuarios que desean adaptar la interfaz a sus preferencias estéticas o a diferentes condiciones de luz ambiental. Esto no solo reduce la fatiga visual y aumenta la comodidad, sino que también puede potenciar el sentido de propiedad y compromiso con la aplicación. |
+| **What** | Implementar un sistema de temas o esquemas de color personalizables que los usuarios puedan seleccionar fácilmente en la configuración de la aplicación. Esto incluiría ajustar colores de fondo, texto y elementos interactivos para ofrecer una experiencia de navegación más cómoda y atractiva. |
+| **Hypothesis** | Se espera que, al añadir opciones de personalización visual, un número significativo de usuarios reporten una mejora en la comodidad de uso y que el tiempo promedio de sesión en la aplicación se vea positivamente impactado para aquellos que activen estas opciones. |
+
+<br>
+
+| Question | ¿Aumentará la adherencia y motivación del usuario al implementar un panel de progreso interactivo y visualmente atractivo? |
+|---|---|
+| **Why** | La visualización clara y dinámica del progreso es un potente motivador. Al permitir a los usuarios ver su avance en tiempo real hacia sus objetivos nutricionales (ej. seguimiento de calorías, macronutrientes, ingesta de agua, días de adherencia), se refuerzan sus hábitos positivos y se mantiene su compromiso a largo plazo con la aplicación y sus metas de salud. Coincide con la heurística de "Visibilidad del estado del sistema". |
+| **What** | Desarrollar una sección en el perfil del usuario o en el panel principal que presente gráficos interactivos y resúmenes visuales de su progreso. Esto podría incluir barras de cumplimiento diario/semanal, tendencias de peso, o medallas/insignias por hitos alcanzados (ej. "5 días seguidos sin azúcares añadidos"). |
+| **Hypothesis** | Se espera que, con la implementación de un panel de progreso interactivo, los usuarios que lo utilicen demuestren una mayor consistencia en el registro de sus comidas y reporten sentirse más motivados hacia sus objetivos. |
+
+<br>
+
+| Question | ¿Aumentará la consistencia en el seguimiento del plan la implementación de recordatorios inteligentes y personalizados? |
+|---|---|
+| **Why** | Los recordatorios son una herramienta valiosa para impulsar la adherencia, pero su efectividad depende de su personalización. Al adaptar los recordatorios al horario, las preferencias y el plan específico de cada usuario, se maximiza su utilidad y se minimiza la intrusividad. |
+| **What** | Implementar un sistema de recordatorios que permita al usuario configurar sus horarios preferidos y el tipo de recordatorios que desea recibir (ej. para registrar comidas, para seguir una receta específica, para beber agua). La aplicación utilizará esta información, junto con los datos del plan del usuario, para enviar recordatorios relevantes y oportunos. |
+| **Hypothesis** | Se espera que, con la implementación de recordatorios inteligentes y personalizados, la frecuencia con la que los usuarios registran sus comidas y siguen las recetas recomendadas aumente significativamente. |
+
+<br>
+
+| Question | ¿Aumentará el valor percibido de la aplicación y generará ingresos la inclusión de un modelo de suscripción Premium con acceso a un nutricionista? |
+|---|---|
+| **Why** | Ofrecer un modelo de suscripción Premium con acceso directo a un nutricionista brinda un valor significativo a los usuarios que buscan orientación personalizada y apoyo experto para sus objetivos de salud. Esto puede diferenciarse de la competencia, atraer a un segmento de usuarios dispuesto a invertir en su salud y generar una fuente de ingresos recurrente. |
+| **What** | Implementar un sistema de suscripción Premium que, al activarse, dé acceso a los usuarios a un módulo de comunicación (chat/videollamada) con nutricionistas certificados. El servicio se adaptaría a los objetivos específicos del usuario (ej. pérdida de peso, ganancia muscular, dieta equilibrada). |
+| **Hypothesis** | Se espera que, tras la implementación del modelo Premium, un porcentaje significativo de usuarios activos se suscriba, y que la satisfacción de los usuarios Premium con el apoyo del nutricionista sea consistentemente alta. |
+
+<br>
+
 ## 8.2. Experiment Design
 ### 8.2.1. Hypotheses.
 ### 8.2.2. Measures.
