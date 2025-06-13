@@ -1413,7 +1413,34 @@ Generación de Ingresos y Valor (Premium): Se sostiene que la introducción de u
 ### 8.2.2. Measures.
 ### 8.2.3. Conditions.
 ### 8.2.4. Scale Calculations and Decisions.
+
+Este enfoque permite evaluar la efectividad de las hipótesis del proyecto a partir de métricas asociadas a cada funcionalidad clave. Cada hipótesis cuenta con una métrica de validación que puede ubicarse en uno de los siguientes rangos:
+
+- Desfavorable, si está por debajo del mínimo esperado,
+- Aceptable, si cumple el mínimo pero no alcanza el objetivo ideal,
+- Ideal, cuando cumple plenamente la hipótesis,
+- Excelente, si supera el objetivo al menos un 25%, indicando un éxisto sobresaliente.
+
+Estas evaluaciones permiten validar o ajustar funcionalidades estratégicas según su impacto real en los usuarios y en el cumplimiento de los objetivos del proyecto.
+
+
+| **Factor** | **Decisión** | **Desfavorable** | **Aceptable** | **Ideal** | **Excelente** |
+|-----------|----------------|------------------|---------------|-----------|----------------|
+| Creemos que al ofrecer un modo oscuro en la aplicación, se mejorará la experiencia del usuario en al menos un 30%, reduciendo la fatiga visual y aumentando el tiempo de uso promedio. Sabremos que esto es cierto cuando observemos un aumento del 30% en la satisfacción del usuario. | Implementar un modo oscuro que permita a los usuarios elegir entre un modo claro y uno oscuro, mejorando así la comodidad visual. |  | X |  |
+| Creemos que al incluir un panel de progreso interactivo y visualmente atractivo, se incrementará la motivación y adherencia del usuario en al menos un 35%. Sabremos que esto es cierto cuando observemos un aumento en la tasa de cumplimiento del plan alimenticio. | Implementar un panel que muestre el progreso diario y semanal del usuario en su plan, con indicadores visuales de logros. |  |  | X |
+| Creemos que al integrar recordatorios inteligentes y personalizados, se incrementará la constancia del usuario en al menos un 25%. Sabremos que esto es cierto cuando observemos un aumento en el uso diario de la aplicación. | Integrar un sistema de notificaciones personalizadas basadas en los horarios del usuario y su tipo de plan alimenticio. |  |  |  | X |
+| Creemos que al ofrecer un modelo de suscripción Premium con acceso a un nutricionista, se incrementará el valor percibido de la aplicación y se generarán ingresos recurrentes. Sabremos que esto es cierto cuando al menos el 15% de usuarios se suscriban al plan Premium. | Habilitar funciones exclusivas como chat en vivo con nutricionistas, revisión personalizada de planes y consultas. |  |  | X |  |
+| Creemos que al permitir la personalización de objetivos nutricionales, aumentará la percepción de utilidad de la aplicación en al menos un 20%. Sabremos que esto es cierto cuando observemos un aumento del 20% en la retención mensual de usuarios. | Ofrecer opciones para que los usuarios definan sus objetivos (bajar de peso, ganar masa muscular, etc.) y se les sugieran planes acordes. |  |  |  | X |
+
 ### 8.2.5. Methods Selection.
+
+| **Herramienta**     | **Precio**                                   | **Capacidad de Análisis**                                                                 | **Sencillez**                                                | **Ventajas**                                                                                   |
+|---------------------|-----------------------------------------------|--------------------------------------------------------------------------------------------|--------------------------------------------------------------|------------------------------------------------------------------------------------------------|
+| **Google Analytics** | Plan gratuito               | Análisis exhaustivo de métricas y datos de usuario                                         | Aprendizaje sencillo de las métricas                         | Excelente capacidad de generación de reportes y amplia integración con otros servicios         |
+| **Catchpoint**       | Basado en suscripción, con pruebas gratuitas | Monitoreo exhaustivo de rendimiento desde múltiples ubicaciones y dispositivos             | Interfaz avanzada pero detallada y completa                  | Análisis en tiempo real desde diversas ubicaciones, ideal para empresas con usuarios globales  |
+| **RedLine13**        | Gratuito con limitaciones                    | Análisis orientado a pruebas de carga y rendimiento de aplicaciones                        | Información detallada y resumida sobre rendimiento           | Simulación de tráfico y pruebas bajo condiciones de carga                                      |
+| **Lighthouse**       | Plan gratuito, disponible para ejecución local| Análisis de experiencia de usuario, rendimiento, accesibilidad y mejores prácticas         | Información resumida en valores clave                        | Evaluación clara con métricas clave para mejorar la experiencia del usuario                     |
+
 ### 8.2.6. Data Analytics: Goals, KPIs and Metrics Selection.
 ### 8.2.7. Web and Mobile Tracking Plan.
 ## 8.3. Experiment Design
