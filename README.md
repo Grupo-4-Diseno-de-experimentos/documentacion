@@ -1443,6 +1443,91 @@ Estas evaluaciones permiten validar o ajustar funcionalidades estratégicas seg�
 
 ### 8.2.6. Data Analytics: Goals, KPIs and Metrics Selection.
 ### 8.2.7. Web and Mobile Tracking Plan.
+
+En NutriSmart, nuestro objetivo es monitorear y optimizar continuamente el rendimiento de la plataforma web, garantizando una experiencia personalizada y efectiva tanto para los usuarios (clientes) como para los nutricionistas. Con este fin, se ha definido un plan de seguimiento estructurado que permitirá evaluar el impacto de nuevas funcionalidades y fomentar el uso sostenido de la plataforma.
+
+**1. Implementación Inicial**
+
+Durante esta primera fase se enfocará en el despliegue de nuevas funcionalidades clave (como la creación de planes nutricionales personalizados, edición de recetas y perfil de usuario) y la recopilación de datos que sirvan como línea base para futuras comparaciones.
+
+Recopilación de Datos:
+- Métricas de Uso: Número de usuarios activos por día, duración de las sesiones, tasa de rebote y número de recetas vistas por sesión.
+
+- Interacciones de Usuario: Registro de acciones clave como:
+
+  - Recetas marcadas como favoritas.
+
+  - Creación y edición de planes de comida.
+
+  - Registro de nuevas cuentas de clientes y nutricionistas.
+
+  - Edición de objetivos nutricionales en el perfil.
+
+- Feedback de Usuarios: Encuestas integradas en la plataforma (ej. al guardar un plan o receta) y recolección de comentarios a través de formularios de satisfacción o chat de soporte.
+
+
+Análisis Comparativo:
+
+Los datos recopilados se compararán con:
+
+- Métricas previas al lanzamiento de nuevas funcionalidades.
+
+- Comportamiento de usuarios según su rol (cliente o nutricionista).
+Esto permitirá evaluar el impacto directo en la experiencia y el uso de la plataforma.
+
+
+**2. Seguimiento Continuo**
+
+Una vez implementadas las funcionalidades principales, se establecerá una rutina de monitoreo y mejora continua para garantizar que NutriSmart se mantenga alineada a las expectativas y necesidades de sus usuarios.
+
+Recopilación de Datos:
+
+- Métricas en Tiempo Real: Mediante herramientas como Google Analytics o Firebase Analytics se visualizarán:
+
+  - Flujo de navegación por la aplicación.
+
+  - Comportamientos de abandono en formularios (por ejemplo, no completar el perfil).
+
+  - Botones más usados o ignorados (ej. “Guardar receta”, “Editar plan”).
+
+- Segmentación de Usuarios: Análisis por tipo de usuario (cliente o nutricionista) y por variables como:
+
+  - Objetivo nutricional declarado (bajar grasa, ganar músculo, mantener peso).
+
+  - Edad y nivel de actividad física (cruzados con tipos de recetas más consultadas).
+
+- Tasa de Retención: Se medirá la frecuencia con la que los usuarios regresan a la plataforma (diaria, semanal, mensual), con foco en:
+
+  - Clientes que han iniciado un plan.
+
+  - Nutricionistas que gestionan recetas y planes activamente.
+
+Evaluación y Ajustes:
+- Informes Periódicos: Se elaborarán reportes mensuales sobre el comportamiento del usuario, con insights clave para el equipo de desarrollo y diseño.
+
+- Iteración Basada en Datos: Cualquier funcionalidad que presente baja interacción o retroalimentación negativa será rediseñada o reemplazada, priorizando la mejora continua basada en datos reales y no suposiciones.
+
 ## 8.3. Experiment Design
 ### 8.3.1. To-Be User Stories.
+| ID     | Título                                     | Descripción                                                                                                                                                      | Criterios de Aceptación                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+|--------|--------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| TBU-01 | Método de Pago: Plan Gratuito y Premium     | Como usuario, quiero elegir entre un plan gratuito o premium, para acceder a funcionalidades avanzadas como contacto con nutricionista.                         | **Escenario 1: Visualización y selección de plan**<br>Given que el usuario accede a su perfil<br>When navega a la sección de planes<br>Then debe ver las opciones Gratuito y Premium disponibles.<br><br>**Escenario 2: Activación de funciones premium**<br>Given que el usuario paga el plan Premium<br>When se confirma el pago<br>Then se habilitan las funcionalidades exclusivas del plan Premium. |
+| TBU-02 | Contactar con Nutricionista Premium         | Como usuario premium, quiero poder contactar con un nutricionista según mis objetivos, para recibir una orientación más personalizada.                          | **Escenario 1: Usuario premium accede a la opción de contactar**<br>Given que el usuario tiene un plan Premium activo<br>When accede a su panel de usuario<br>Then debe visualizar un botón "Hablar con nutricionista".<br><br>**Escenario 2: Asignación automática de nutricionista**<br>Given que el usuario tiene un objetivo registrado<br>When inicia una conversación<br>Then se asigna automáticamente un nutricionista con experiencia en ese objetivo. |
+| TBU-03 | Historial de progreso y planes usados       | Como usuario, quiero ver un historial de mis planes anteriores, para hacer seguimiento a mi progreso nutricional.                                               | **Escenario 1: Visualización de historial**<br>Given que el usuario accede a su perfil<br>When entra a la sección "Historial de planes"<br>Then el sistema debe listar los planes de comida usados anteriormente.<br><br>**Escenario 2: Visualización detallada**<br>Given que selecciona un plan anterior<br>When lo abre<br>Then debe ver todos los detalles y fechas en que lo usó. |
+| TBU-04 | Sugerencias inteligentes de recetas         | Como usuario, quiero recibir sugerencias de recetas que se alineen con mis preferencias, alergias y objetivos.                                                  | **Escenario 1: Generación automática**<br>Given que el usuario ha completado su perfil con preferencias y objetivos<br>When accede a la sección de recetas<br>Then debe recibir recomendaciones personalizadas.<br><br>**Escenario 2: Filtro basado en alergias**<br>Given que el usuario tiene alergias registradas<br>When se muestran sugerencias<br>Then las recetas deben excluir ingredientes asociados a esas alergias. |
+| TBU-05 | Notificaciones sobre nuevos planes o recetas | Como usuario, quiero recibir notificaciones cuando se publiquen nuevos planes o recetas que se ajusten a mis preferencias.                                     | **Escenario 1: Notificación automática**<br>Given que el usuario tiene activadas las notificaciones<br>When se publica una nueva receta compatible<br>Then el usuario debe recibir una notificación en la app.<br><br>**Escenario 2: Redirección**<br>Given que el usuario hace clic en la notificación<br>When accede<br>Then debe ser dirigido directamente al detalle del plan o receta sugerido. |
+| TBU-06 | Calendario nutricional           | Como usuario, quiero ver mis planes organizados en un calendario por día y hora, para tener una visualización clara de mis comidas programadas.               | **Escenario 1: Visualización del calendario**<br>Given que el usuario tiene un plan activo<br>When accede a la sección "Calendario"<br>Then debe ver las comidas asignadas por día y por tipo (desayuno, almuerzo, cena).<br><br>**Escenario 2: Cambio manual de comida**<br>Given que el usuario desea personalizar una comida del calendario<br>When selecciona una celda editable<br>Then puede elegir otra receta compatible desde un desplegable y guardarla.                                                                                                                                          |
+| TBU-07 | Evaluación de planes y recetas   | Como usuario, quiero poder calificar y dejar comentarios sobre los planes o recetas utilizados, para compartir mi experiencia y ver la de otros.              | **Escenario 1: Enviar valoración**<br>Given que el usuario ha completado una receta o plan<br>When accede al detalle<br>Then debe poder dejar una puntuación (1 a 5 estrellas) y un comentario.<br><br>**Escenario 2: Visualizar calificaciones de otros usuarios**<br>Given que el usuario visualiza un plan o receta<br>When entra al detalle<br>Then debe poder ver calificaciones promedio, estrellas y comentarios de otros usuarios registrados.                                                                                                                                                |
+
+
 ### 8.3.2. To-Be Product Backlog.
+
+| #  | User Story ID | Título                                     | Story Points |
+|----|---------------|--------------------------------------------|--------------|
+| 1  | TBU-01        | Método de Pago: Plan Gratuito y Premium     | 3            |
+| 2  | TBU-02        | Contactar con Nutricionista Premium         | 5            |
+| 3  | TBU-03        | Historial de progreso y planes usados       | 3            |
+| 4  | TBU-04        | Sugerencias inteligentes de recetas         | 5            |
+| 5  | TBU-05        | Notificaciones sobre nuevos planes o recetas| 3            |
+| 6  | TBU-06        | Calendario nutricional                      | 5            |
+| 7  | TBU-07        | Evaluación de planes y recetas              | 2            |
