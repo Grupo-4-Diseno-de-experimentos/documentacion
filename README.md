@@ -1380,7 +1380,7 @@ Generación de Ingresos y Valor (Premium): Se sostiene que la introducción de u
 |---|---|
 | **Why** | Al ofrecer opciones de personalización visual, se mejora la usabilidad para los usuarios que desean adaptar la interfaz a sus preferencias estéticas o a diferentes condiciones de luz ambiental. Esto no solo reduce la fatiga visual y aumenta la comodidad, sino que también puede potenciar el sentido de propiedad y compromiso con la aplicación. |
 | **What** | Implementar un sistema de temas o esquemas de color personalizables que los usuarios puedan seleccionar fácilmente en la configuración de la aplicación. Esto incluiría ajustar colores de fondo, texto y elementos interactivos para ofrecer una experiencia de navegación más cómoda y atractiva. |
-| **Hypothesis** | Se espera que, al añadir opciones de personalización visual, un número significativo de usuarios reporten una mejora en la comodidad de uso y que el tiempo promedio de sesión en la aplicación se vea positivamente impactado para aquellos que activen estas opciones. |
+| **Hypothesis** | Se espera que, al añadir opciones de personalización visual, se mejore la experiencia del usuario en al menos un 30%, reduciendo la fatiga visual y aumentando el tiempo de uso promedio. Sabremos que esto es cierto cuando se observe un aumento del 30% en la satisfacción del usuario con la interfaz visual. |
 
 <br>
 
@@ -1388,7 +1388,7 @@ Generación de Ingresos y Valor (Premium): Se sostiene que la introducción de u
 |---|---|
 | **Why** | La visualización clara y dinámica del progreso es un potente motivador. Al permitir a los usuarios ver su avance en tiempo real hacia sus objetivos nutricionales (ej. seguimiento de calorías, macronutrientes, ingesta de agua, días de adherencia), se refuerzan sus hábitos positivos y se mantiene su compromiso a largo plazo con la aplicación y sus metas de salud. Coincide con la heurística de "Visibilidad del estado del sistema". |
 | **What** | Desarrollar una sección en el perfil del usuario o en el panel principal que presente gráficos interactivos y resúmenes visuales de su progreso. Esto podría incluir barras de cumplimiento diario/semanal, tendencias de peso, o medallas/insignias por hitos alcanzados (ej. "5 días seguidos sin azúcares añadidos"). |
-| **Hypothesis** | Se espera que, con la implementación de un panel de progreso interactivo, los usuarios que lo utilicen demuestren una mayor consistencia en el registro de sus comidas y reporten sentirse más motivados hacia sus objetivos. |
+| **Hypothesis** | Se espera que, con la implementación de un panel de progreso interactivo y visualmente atractivo, se incremente la motivación y adherencia del usuario en al menos un 35%. Sabremos que esto es cierto cuando se observe un aumento del 35% en la tasa de cumplimiento del plan alimenticio (ej. porcentaje de comidas registradas o días de adherencia completa). |
 
 <br>
 
@@ -1396,7 +1396,7 @@ Generación de Ingresos y Valor (Premium): Se sostiene que la introducción de u
 |---|---|
 | **Why** | Los recordatorios son una herramienta valiosa para impulsar la adherencia, pero su efectividad depende de su personalización. Al adaptar los recordatorios al horario, las preferencias y el plan específico de cada usuario, se maximiza su utilidad y se minimiza la intrusividad. |
 | **What** | Implementar un sistema de recordatorios que permita al usuario configurar sus horarios preferidos y el tipo de recordatorios que desea recibir (ej. para registrar comidas, para seguir una receta específica, para beber agua). La aplicación utilizará esta información, junto con los datos del plan del usuario, para enviar recordatorios relevantes y oportunos. |
-| **Hypothesis** | Se espera que, con la implementación de recordatorios inteligentes y personalizados, la frecuencia con la que los usuarios registran sus comidas y siguen las recetas recomendadas aumente significativamente. |
+| **Hypothesis** | Se espera que, con la implementación de recordatorios inteligentes y personalizados, se incrementará la constancia del usuario en al menos un 25%. Sabremos que esto es cierto cuando se observe un aumento del 25% en la frecuencia de registro de comidas y seguimiento de recetas o en el uso diario de la aplicación. |
 
 <br>
 
@@ -1404,7 +1404,7 @@ Generación de Ingresos y Valor (Premium): Se sostiene que la introducción de u
 |---|---|
 | **Why** | Ofrecer un modelo de suscripción Premium con acceso directo a un nutricionista brinda un valor significativo a los usuarios que buscan orientación personalizada y apoyo experto para sus objetivos de salud. Esto puede diferenciarse de la competencia, atraer a un segmento de usuarios dispuesto a invertir en su salud y generar una fuente de ingresos recurrente. |
 | **What** | Implementar un sistema de suscripción Premium que, al activarse, dé acceso a los usuarios a un módulo de comunicación (chat/videollamada) con nutricionistas certificados. El servicio se adaptaría a los objetivos específicos del usuario (ej. pérdida de peso, ganancia muscular, dieta equilibrada). |
-| **Hypothesis** | Se espera que, tras la implementación del modelo Premium, un porcentaje significativo de usuarios activos se suscriba, y que la satisfacción de los usuarios Premium con el apoyo del nutricionista sea consistentemente alta. |
+| **Hypothesis** | Se espera que, tras la implementación del modelo Premium, se incremente el valor percibido de la aplicación y se generen ingresos recurrentes, logrando que al menos el 15% de los usuarios activos se suscriban al plan Premium. Sabremos que esto es cierto cuando se alcance esta tasa de conversión. |
 
 <br>
 
