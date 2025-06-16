@@ -1181,7 +1181,29 @@ Los Core Entities Unit Tests son fundamentales en el desarrollo de software, ya 
   <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1750051058/RecipeTest.png" alt="RecipeTest" width="750">
 </p>
 
+#### MealPlanRecipe Service Test:
+<p align="center">
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1750086623/MealPlanRecipeServiceTest.png" alt="MealPlanRecipeTest" width="750">
+</p>
+
+#### RecipeIngredient Service Test:
+<p align="center">
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1750088677/RecipeIngredientServiceTest.png" alt="RecipeIngredientTest" width="750">
+</p>
+
 ### 6.1.2. Core Integration Tests
+Los Core Integration Tests son esenciales para verificar que los controladores se comuniquen de manera adecuada con otros elementos del sistema, como servicios y bases de datos. Al analizar situaciones de fallos, estas pruebas aseguran que el sistema gestione correctamente circunstancias imprevistas y reaccione con los códigos de estado apropiados. Esto beneficia la experiencia del usuario, simplifica la identificación de errores y ayuda a crear un software confiable y de alta calidad.
+
+#### MealPlanRecipeController Integration Test
+<p align="center">
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1750108019/MealPlanRecipeControllerIntegrationTest.png" alt="MealPlanRecipeControllerIntegrationTest" width="750">
+</p>
+
+#### RecipeIngredientController Integration Test
+<p align="center">
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1750117234/RecipeIngredientControllerIntegrationTest.png" alt="RecipeIngredientControllerIntegrationTest" width="750">
+</p>
+
 ### 6.1.3. Core Behavior-Driven Development
 ### 6.1.4. Core System Tests
 
