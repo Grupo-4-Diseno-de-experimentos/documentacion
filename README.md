@@ -1169,9 +1169,17 @@ Para esta entrega, se decidió no presentar la native mobile.
 ## Capítulo VI: Product Verification & Validation
 ### 6.1. Testing Suites & Validation
 ### 6.1.1. Core Entities Unit Tests
+Los Core Entities Unit Tests son fundamentales en el desarrollo de software, ya que aseguran la calidad y el correcto funcionamiento de las entidades clave del negocio, evitando así diversos fallos y simplificando el mantenimiento del código.
 
-Evidencia de codigo de un unit test para usuario nutricionista.
+#### Meal Plan Test:
+<p align="center">
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1750049954/MealPlanTest.png" alt="MealPlanTest" width="750">
+</p>
 
+#### Recipe Test:
+<p align="center">
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1750051058/RecipeTest.png" alt="RecipeTest" width="750">
+</p>
 
 ### 6.1.2. Core Integration Tests
 ### 6.1.3. Core Behavior-Driven Development
