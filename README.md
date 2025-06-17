@@ -11,7 +11,7 @@
 
 <br>
 
-<h1 align="center"> TB1 Report </h1>
+<h1 align="center"> TB2 Report </h1>
 
 <h3 align="center"> Diseño de Experimentos de Ingeniería de Software - 4436 </h3>
 
@@ -157,12 +157,14 @@
     - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
   - [5.2. Product Implementation & Deployment](#52-landing-page-services--applications-implementation)
     - [5.2.1. Sprint Backlogs](#521-sprint)
-    - [5.2.2. Implemented Landing Page Evidence](#521-sprint)
-    - [5.2.3. Implemented Frontend-Web Application Evidence](#521-sprint)
-    - [5.2.4. Implemented Native-Mobile Application Evidence](#521-sprint)
-    - [5.2.5. Implemented RESTful API and/or Serverless Backend Evidence](#521-sprint)
-    - [5.2.6. RESTful API documentation](#521-sprint)
-    - [5.2.7. Team Collaboration Insights](#521-sprint)
+    - [5.2.2. Implemented Landing Page Evidence](#522-sprint)
+    - [5.2.3. Implemented Frontend-Web Application Evidence](#523-sprint)
+    - [5.2.4. Acuerdo de Servicio - SaaS](#524-sprint)
+    - [5.2.5. Implemented Native-Mobile Application Evidence](#525-sprint)
+    - [5.2.6. Implemented RESTful API and/or Serverless Backend Evidence](#526-sprint)
+    - [5.2.7. RESTful API documentation](#527-sprint)
+    - [5.2.8. Team Collaboration Insights](#528-sprint)
+  - [5.3. Video About-the-Product](#53-sprint)
 
 ### [Capítulo VI: Product Verification & Validation](#capc3adtulo-v-product-implementation-validation--deployment-1)
   - [6.1. Testing Suites & Validation](#51-software-configuration-management)
@@ -170,7 +172,26 @@
     - [6.1.2. Core Integration Tests](#512-source-code-management)
     - [6.1.3. Core Behavior-Driven Development](#513-source-code-style-guide--conventions)
     - [6.1.4. Core System Tests](#514-software-deployment-configuration)
-
+  - [6.2. Static testing & Verification](#51-software-configuration-management)
+    - [6.2.1. Static Code Analysis](#511-software-development-environment-configuration)
+      - [6.2.1.1. Coding standard & Code conventions](#512-source-code-management)
+      - [6.2.1.2. Code Quality & Code Security](#513-source-code-style-guide--conventions)
+    - [6.2.2. Reviews](#511-software-development-environment-configuration)
+  - [6.3. Validation Interviews](#51-software-configuration-management)
+    - [6.3.1. Diseño de Entrevistas](#511-software-development-environment-configuration)
+    - [6.3.2. Registro de Entrevistas](#512-source-code-management)
+    - [6.3.3. Evaluaciones según heurísticas](#513-source-code-style-guide--conventions)
+  - [6.4. Auditoría de Experiencias de Usuario](#51-software-configuration-management)
+    - [6.4.1. Auditoría realizada](#511-software-development-environment-configuration)
+      - [6.4.1.1. Información del grupo auditado](#512-source-code-management)
+      - [6.4.1.2. Cronograma de auditoría realizada](#513-source-code-style-guide--conventions)
+      - [6.4.1.3. Contenido de auditoría realizada](#513-source-code-style-guide--conventions)
+    - [6.4.2. Auditoría recibida](#512-source-code-management)
+      - [6.4.2.1. Información del grupo auditor](#512-source-code-management)
+      - [6.4.2.2. Cronograma de auditoría recibida](#513-source-code-style-guide--conventions)
+      - [6.4.2.3. Contenido de auditoría recibida](#513-source-code-style-guide--conventions)
+      - [6.4.2.4. Resumen de modificaciones para subsanar hallazgos](#513-source-code-style-guide--conventions)
+  
 ### [Capítulo VII: DevOps Practices](#capc3adtulo-v-product-implementation-validation--deployment-1)
   - [7.1. Continuous Integration](#51-software-configuration-management) 
     - [7.1.1. Tools and Practices](#511-software-development-environment-configuration)
@@ -181,6 +202,29 @@
   - [7.3. Continuous deployment](#51-software-configuration-management) 
     - [7.3.1. Tools and Practices](#511-software-development-environment-configuration)
     - [7.3.2. Production Deployment Pipeline Components](#511-software-development-environment-configuration)
+  - [7.4. Continuous deployment](#51-software-configuration-management) 
+    - [7.4.1. Tools and Practices](#511-software-development-environment-configuration)
+    - [7.4.2. Monitoring Pipeline Components](#511-software-development-environment-configuration)
+    - [7.4.3. Alerting Pipeline Components](#511-software-development-environment-configuration)
+    - [7.4.4. Notification Pipeline Components](#511-software-development-environment-configuration)
+### [Capítulo VIII: Experiment-Driven Development](#capc3adtulo-v-product-implementation-validation--deployment-1)
+  - [8.1. Continuous Integration](#51-software-configuration-management) 
+    - [8.1.1. As-Is Summary](#511-software-development-environment-configuration)
+    - [8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims.](#511-software-development-environment-configuration)
+    - [8.1.3. Experiment-Ready Questions](#511-software-development-environment-configuration)
+    - [8.1.4. Question Backlog](#511-software-development-environment-configuration)
+    - [8.1.5. Experiment Cards](#511-software-development-environment-configuration)
+  - [8.2. Experiment Design](#51-software-configuration-management) 
+    - [8.2.1. Hypotheses.](#511-software-development-environment-configuration)
+    - [8.2.2. Measures.](#511-software-development-environment-configuration)
+    - [8.2.3. Conditions.](#511-software-development-environment-configuration)
+    - [8.2.4. Scale Calcutaions and Decisions](#511-software-development-environment-configuration)
+    - [8.2.5. Methods Selection](#511-software-development-environment-configuration)
+    - [8.2.6. Data Analytics: Goals, KPIs and Metrics Selection](#511-software-development-environment-configuration)
+    - [8.2.7. Web and Mobile Tracking Plan.](#511-software-development-environment-configuration)
+  - [8.3. Experimentation](#51-software-configuration-management) 
+    - [8.3.1. To-Be User Stories](#511-software-development-environment-configuration)
+    - [8.3.2. To-Be Product Backlog](#511-software-development-environment-configuration)
 
 ### [Conclusiones](#conclusiones-1)
 
