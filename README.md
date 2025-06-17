@@ -1410,6 +1410,36 @@ Generación de Ingresos y Valor (Premium): Se sostiene que la introducción de u
 
 ## 8.2. Experiment Design
 ### 8.2.1. Hypotheses.
+
+| Hypothesis 1     | Description     |
+| ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Question**        | ¿Mejorará la experiencia del usuario permitir la personalización visual (colores, íconos y estilo) del plan de alimentación?                                                             |
+| **Belief**          | Permitir que los usuarios personalicen visualmente su plan alimenticio aumentará su percepción de control y compromiso con el sistema, lo que se reflejará en mayor adherencia.          |
+| **Hypothesis**      | La habilitación de opciones de personalización visual incrementará la tasa de adherencia diaria a los planes de alimentación en al menos un 20% dentro de las primeras 2 semanas de uso. |
+| **Null Hypothesis** | La personalización visual no tendrá un efecto significativo en la tasa de adherencia diaria a los planes de alimentación.                                                                |
+
+| Hypothesis 2     | Description     |
+| ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Question**        | ¿Aumentará la adherencia a los planes alimenticios la implementación de recordatorios inteligentes personalizados?                                                           |
+| **Belief**          | Recordatorios enviados en momentos estratégicos (según comportamiento y preferencias del usuario) reducirán el olvido o la omisión de comidas, aumentando la adherencia.     |
+| **Hypothesis**      | La implementación de recordatorios inteligentes aumentará la tasa de cumplimiento de comidas en un 25% respecto a usuarios sin recordatorios durante las primeras 3 semanas. |
+| **Null Hypothesis** | La implementación de recordatorios inteligentes no tendrá un impacto significativo en la tasa de cumplimiento de comidas.                                                    |
+
+| Hypothesis 3     | Description     |
+| ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Question**        | ¿Motivará a los usuarios a seguir su plan el mostrar un panel de progreso con visualización de métricas alcanzadas?                                            |
+| **Belief**          | Un panel que muestre visualmente el progreso (calorías cumplidas, metas diarias, seguimiento semanal) reforzará el sentido de logro y motivará la continuidad. |
+| **Hypothesis**      | La inclusión del panel de progreso aumentará en un 30% la tasa de retención semanal en usuarios nuevos durante el primer mes.                                  |
+| **Null Hypothesis** | El panel de progreso no tendrá un impacto significativo en la tasa de retención semanal de usuarios nuevos.                                                    |
+
+| Hypothesis 4     | Description     |
+| ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Question**        | ¿Mejorará la percepción de valor y compromiso del usuario ofrecer un modelo Premium con contacto directo con nutricionistas?                                              |
+| **Belief**          | Permitir que usuarios Premium se comuniquen con nutricionistas brindará confianza, aumentará la personalización y motivará su continuidad dentro del sistema.             |
+| **Hypothesis**      | Los usuarios Premium con acceso a nutricionistas mostrarán una tasa de retención mensual un 35% mayor que los usuarios del plan gratuito, durante los primeros dos meses. |
+| **Null Hypothesis** | El acceso a nutricionistas en el modelo Premium no influirá significativamente en la retención mensual comparado con el plan gratuito.                                    |
+
+
 ### 8.2.2. Measures.
 ### 8.2.3. Conditions.
 ### 8.2.4. Scale Calculations and Decisions.
