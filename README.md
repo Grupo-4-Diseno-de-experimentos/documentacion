@@ -1757,3 +1757,50 @@ Base de Datos – Railway (MySQL):
 - Pruebas de validación del esquema: Tras aplicar migraciones, se ejecutan scripts que validan la estructura de tablas, relaciones y restricciones.
 
 - Integración con logs del backend: Cualquier error en consultas o accesos a datos se registra en Railway y en el backend para análisis detallado.
+
+## 7.4 Continuous Monitoring
+### 7.4.1. Tools and Practices
+Documentación y Pruebas de APIs: Se utilizará Swagger para documentar y probar las APIs de forma interactiva. Esta herramienta no solo facilita la validación funcional del backend (como creación de planes, gestión de recetas o autenticación), sino que también permite a los desarrolladores y testers realizar pruebas repetibles que aseguren el correcto funcionamiento de los endpoints.
+<p align="center">
+  <img src="./imagenes/Swagger.png" alt="Swagger" width="500">
+</p>
+Monitoreo de Experiencia del Usuario: Para comprender cómo los usuarios interactúan con funcionalidades clave (como visualizar sus métricas nutricionales o personalizar sus planes), se emplearán herramientas como Plausible Analytics o Hotjar. Plausible permite una analítica ligera y respetuosa con la privacidad, mientras que Hotjar ofrece mapas de calor y grabaciones de sesiones que permiten visualizar cómo los usuarios navegan por la interfaz, detectando zonas de fricción o desuso.
+<p align="center">
+  <img src="./imagenes/plausible-analytics.webp" alt="plausible" width="500">
+</p>
+<p align="center">
+  <img src="./imagenes/hotjar.webp" alt="hotjar" width="500">
+</p>
+Supervisión de APIs: Dado que la app hace uso intensivo de APIs internas (y eventualmente externas para datos nutricionales), herramientas como Postman serán empleadas para validar la disponibilidad y latencia de los endpoints. Esto asegura que los servicios críticos, como el cálculo nutricional o la generación de menús, estén disponibles de forma constante.
+
+Auditorías de Calidad Web: Google Lighthouse será utilizada para evaluar métricas clave de calidad en la interfaz web de la aplicación, incluyendo accesibilidad, rendimiento y SEO. Adicionalmente, Catchpoint permitirá realizar pruebas desde múltiples ubicaciones geográficas y dispositivos, asegurando que los usuarios tengan una experiencia uniforme sin importar desde dónde accedan.
+
+### 7.4.2. Monitoring Pipeline Components
+El pipeline de monitoreo continuo de la app incluirá etapas clave como la recopilación de datos de uso, almacenamiento de métricas, análisis automatizado de rendimiento y visualización a través de dashboards interactivos.
+
+Google Lighthouse permitirá ejecutar auditorías regulares como parte del proceso de CI/CD, identificando problemas que impacten la experiencia del usuario, tales como tiempos de carga elevados, prácticas inadecuadas de accesibilidad o configuraciones que afecten el posicionamiento SEO. Esta herramienta proporciona un análisis detallado y accionable para mejorar la calidad del frontend de la app.
+<p align="center">
+  <img src="./imagenes/lighthouse-google.jpeg" alt="lighthouse" width="500">
+</p>
+WebPageTest complementará el monitoreo con evaluaciones más específicas de rendimiento desde diferentes ubicaciones, navegadores y dispositivos. Su capacidad para simular condiciones de red reales (como 3G o conexiones lentas) permite identificar cuellos de botella, tiempos de carga excesivos y recursos pesados que podrían afectar la experiencia en contextos móviles o con infraestructura limitada.
+<p align="center">
+  <img src="./imagenes/web-page-test.jpg" alt="web-page-test" width="500">
+</p>
+Los datos recolectados serán analizados y visualizados mediante paneles personalizados, permitiendo al equipo identificar tendencias, recibir alertas tempranas sobre degradación del servicio y priorizar mejoras según el impacto real sobre el usuario final.
+
+### 7.4.3. Alerting Pipeline Components
+
+El pipeline de alertas es responable de detectar automáticamente condiciones anómalas que puedan afectar la disponibilidad o rendimiento de la aplicación, y generar advertencias inmediatas que permitan una intervención oportuna.
+
+- Prometheus y Alertmanager: Prometheus recopila métricas en tiempo real y permite definir reglas para generar alertas cuando superan ciertos umbrales. Estas alertas son gestionadas por Alertmanager, que permite su agrupación, filtrado, escalamiento, silenciamiento y distribución por diferentes canales (correo, Slack, Microsoft Teams, etc).
+- Grafana: Se utiliza para la creación de dashboards personalizados y configuración de alertas visuales. Grafana puede integrarse con Prometheus para activar notificaciones automáticas en función de patrones críticos detectados en las métricas.
+
+Estas herramientas permiten crear un sistema de alertas robusto, proactivo y altamente configurable, que ayuda a los equipos a reaccionar rápidamente frente a cualquier incidente antes de que afecte al usuario final.
+
+### 7.4.4. Notification Pipeline Components
+
+El pipeline de notificaciones complementa al de alerats, encargándose de comunicar de forma automática el estado del sistema y los resultados de cada fase del pipeline a los equipos responsables. Jenkins, en nuestra aplicación, se encarga de orquestar los pipelines de integración y despliegue continuo. Se configura para enviar notificaciones automáticas al finalizar cada etapa del pipeline, informando sobre el resultado de las pruebas unitarias, los análisis de calidad de código (por ejemplo, con SonarQube), el éxito o fallo del build y el despliegue de nuevas versiones. Las notificaciones se pueden integrar con herramientas de colaboración como Slack, Microsoft Teams o correo electrónico, permitiendo que todo el equipo esté al tanto de posibles errores en los builds, nuevas versiones desplegadas o regresiones detectadas.
+
+(Image)
+
+Este sistema de notificación automatizada asegura que cualquier problema en el pipeline sea comunicado de inmediato, promoviendo una cultura de mejora continua y permitiendo una reacción oportuna ante cualquier incidente. De esta forma, el pipeline de notificaciones garantiza una comunicación efectiva y en tiempo real, mejorando la coordinación del equipo y reduciendo el tiempo de respuesta ante cualquier eventualidad.
