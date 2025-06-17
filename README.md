@@ -1439,9 +1439,47 @@ Generación de Ingresos y Valor (Premium): Se sostiene que la introducción de u
 | **Hypothesis**      | Los usuarios Premium con acceso a nutricionistas mostrarán una tasa de retención mensual un 35% mayor que los usuarios del plan gratuito, durante los primeros dos meses. |
 | **Null Hypothesis** | El acceso a nutricionistas en el modelo Premium no influirá significativamente en la retención mensual comparado con el plan gratuito.                                    |
 
-
 ### 8.2.2. Measures.
+
+- **Question 1:** ¿Mejorará la experiencia del usuario permitir la personalización visual (colores, íconos y estilo) del plan de alimentación? <br>
+  **Measure:** Registrar y comparar la tasa de adherencia diaria (número de planes cumplidos vs. planificados por día) entre usuarios con acceso a personalización visual y aquellos sin acceso. Medir durante 2 semanas. Además, analizar el tiempo promedio de uso por sesión y número de visitas diarias a la sección de plan personalizado.
+
+- **Question 2:** ¿Aumentará la adherencia a los planes alimenticios la implementación de recordatorios inteligentes personalizados? <br>
+  **Measure:** Comparar la tasa de cumplimiento de comidas entre dos grupos: uno con recordatorios inteligentes activados y otro sin ellos. Medir el número promedio de comidas registradas por día y la cantidad de días con adherencia completa durante 3 semanas.
+
+- **Question 3:** ¿Motivará a los usuarios a seguir su plan el mostrar un panel de progreso con visualización de métricas alcanzadas? <br>
+  **Measure:** Observar la tasa de retención semanal (usuarios que siguen usando la app cada semana) en dos grupos: con y sin panel de progreso visible. Medir también la frecuencia de acceso a la aplicación y el número de veces que el usuario consulta su progreso en un período de 4 semanas.
+
+- **Question 4:** ¿Mejorará la percepción de valor y compromiso del usuario ofrecer un modelo Premium con contacto directo con nutricionistas? <br>
+  **Measure:** Comparar la tasa de retención mensual entre usuarios Premium con acceso a nutricionistas y usuarios gratuitos. Medir también la cantidad de mensajes o consultas realizadas a nutricionistas y su correlación con el uso activo de planes. Observar durante los primeros dos meses tras la activación del plan.
+  
 ### 8.2.3. Conditions.
+
+|     1      |                          |
+| -------------------------- | ------------------ |
+| **Question**               | ¿Mejorará la experiencia del usuario permitir la personalización visual (colores, íconos y estilo) del plan de alimentación?                                                                                            |
+| **Condición Experimental** | Los usuarios que acceden a la funcionalidad de personalización visual mostrarán un incremento del 20% o más en la tasa de adherencia diaria y mayor satisfacción subjetiva (medida por encuesta) tras 2 semanas de uso. |
+| **Condición de Control**   | Los usuarios que no tienen acceso a personalización visual no presentarán diferencias significativas en adherencia ni en percepción de control sobre el plan.                                                           |
+
+|     2      |                          |
+| -------------------------- | ------------------ |
+| **Question**               | ¿Aumentará la adherencia a los planes alimenticios la implementación de recordatorios inteligentes personalizados?                                             |
+| **Condición Experimental** | Los usuarios que reciben recordatorios personalizados tendrán una tasa de cumplimiento de comidas al menos 25% mayor y mayor percepción de utilidad de la app. |
+| **Condición de Control**   | Los usuarios que no reciben recordatorios no mostrarán cambios significativos en la tasa de cumplimiento de comidas ni en satisfacción con la app.             |
+
+|     3      |                          |
+| -------------------------- | ------------------ |
+| **Question**               | ¿Motivará a los usuarios a seguir su plan el mostrar un panel de progreso con visualización de métricas alcanzadas?                            |
+| **Condición Experimental** | Los usuarios con panel de progreso habilitado mantendrán una tasa de retención semanal al menos 30% mayor y visitarán más veces la aplicación. |
+| **Condición de Control**   | Los usuarios sin acceso al panel no mostrarán mejora significativa en retención ni en engagement con la app.                                   |
+
+|     4      |                          |
+| -------------------------- | ------------------ |
+| **Question**               | ¿Mejorará la percepción de valor y compromiso del usuario ofrecer un modelo Premium con contacto directo con nutricionistas?               |
+| **Condición Experimental** | Los usuarios del plan Premium que contactan nutricionistas mostrarán una retención mensual un 35% superior y mayor valoración del sistema. |
+| **Condición de Control**   | Los usuarios del plan gratuito no mostrarán un cambio relevante en retención ni en percepción de valor comparado con los Premium.          |
+
+
 ### 8.2.4. Scale Calculations and Decisions.
 
 Este enfoque permite evaluar la efectividad de las hipótesis del proyecto a partir de métricas asociadas a cada funcionalidad clave. Cada hipótesis cuenta con una métrica de validación que puede ubicarse en uno de los siguientes rangos:
