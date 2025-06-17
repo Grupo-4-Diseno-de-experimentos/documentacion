@@ -701,7 +701,6 @@ EC-03: Visualizacion de y personalizacion de Recetas y Planes Nutricionales
 a. **Principal**: "Inter" (Sans-serif)
 
 - Headers: Semibold 600
-
 - Body: Regular 400
 
 b. Secundaria: "Roboto" para citas y notas.
@@ -841,7 +840,7 @@ Hemos diseñado un sistema de navegación claro para que usuarios y nutricionist
 <p align="center">
   <img src="./imagenes/faq-mockup.png" alt="faq-mockup" width="850">
 </p>
-
+  
 ### 4.4. Mobile Applications UX/UI Design
 
 #### 4.4.1. Mobile Applications Wireframes
@@ -928,7 +927,7 @@ Hemos diseñado un sistema de navegación claro para que usuarios y nutricionist
 <p align="center">
   <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1747170602/goal-signup.png" alt="goal-signup" width="500" height="600">
 </p>
-
+  
 ### 4.6. Web Applications UX/UI Design
 #### 4.6.1. Web Applications Wireframes
 **Inicio Sesión**
@@ -1079,7 +1078,7 @@ c
 #### 4.10.1. Relational/Non-Relational Database Diagram
 
 <p align="center">
-  <img src="./imagenes/diagramaDB.png" alt="faq-mockup" width="850">
+  <img src="./imagenes/NutriSmartDB-2025-05-07_09-28.png" alt="faq-mockup" width="850">
 </p>
 
 ## Capítulo V: Product Implementation, Validation & Deployment
@@ -1334,6 +1333,15 @@ La aplicación no almacena datos personales sensibles más allá de los necesari
 #### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
 
 <p align="center">
+  <img src="./imagenes/usercontroller.png" alt="FAQ Section" width="750">
+</p>
+
+<p align="center">
+  <img src="./imagenes/nutricontroller.png" alt="FAQ Section" width="750">
+</p>
+
+<p align="center">
+  <img src="./imagenes/mealplancontroller.png" alt="FAQ Section" width="750">
   <img src="./imagenes/backevidence.png" alt="FAQ Section" width="750">
 </p>
 <p align="center">
@@ -1358,6 +1366,8 @@ La aplicación no almacena datos personales sensibles más allá de los necesari
 
 #### 5.2.6. RESTful API documentation
 
+# Cuadro
+
 <p align="center">
   <img src="./imagenes/restfulapi.png" alt="FAQ Section" width="750">
 </p>
@@ -1379,6 +1389,27 @@ La aplicación no almacena datos personales sensibles más allá de los necesari
 ## Capítulo VI: Product Verification & Validation
 ### 6.1. Testing Suites & Validation
 ### 6.1.1. Core Entities Unit Tests
+  
+Los Core Entities Unit Tests son fundamentales en el desarrollo de software, ya que aseguran la calidad y el correcto funcionamiento de las entidades clave del negocio, evitando así diversos fallos y simplificando el mantenimiento del código.
+
+#### Meal Plan Test:
+<p align="center">
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1750049954/MealPlanTest.png" alt="MealPlanTest" width="750">
+</p>
+
+#### Recipe Test:
+<p align="center">
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1750051058/RecipeTest.png" alt="RecipeTest" width="750">
+</p>
+
+#### MealPlanRecipe Service Test:
+<p align="center">
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1750086623/MealPlanRecipeServiceTest.png" alt="MealPlanRecipeTest" width="750">
+</p>
+
+#### RecipeIngredient Service Test:
+<p align="center">
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1750088677/RecipeIngredientServiceTest.png" alt="RecipeIngredientTest" width="750">
 
 Evidencia de codigo de un unit test para usuario nutricionista.
 
@@ -1387,6 +1418,18 @@ Evidencia de codigo de un unit test para usuario nutricionista.
 </p>
 
 ### 6.1.2. Core Integration Tests
+Los Core Integration Tests son esenciales para verificar que los controladores se comuniquen de manera adecuada con otros elementos del sistema, como servicios y bases de datos. Al analizar situaciones de fallos, estas pruebas aseguran que el sistema gestione correctamente circunstancias imprevistas y reaccione con los códigos de estado apropiados. Esto beneficia la experiencia del usuario, simplifica la identificación de errores y ayuda a crear un software confiable y de alta calidad.
+
+#### MealPlanRecipeController Integration Test
+<p align="center">
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1750108019/MealPlanRecipeControllerIntegrationTest.png" alt="MealPlanRecipeControllerIntegrationTest" width="750">
+</p>
+
+#### RecipeIngredientController Integration Test
+<p align="center">
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1750117234/RecipeIngredientControllerIntegrationTest.png" alt="RecipeIngredientControllerIntegrationTest" width="750">
+</p>
+
 ### 6.1.3. Core Behavior-Driven Development
 ### 6.1.4. Core System Tests
 
@@ -1414,7 +1457,175 @@ Test App Web
 <p align="center">
   <img src="./imagenes/test-app-web-front.png" alt="test-front" width="750">
 </p>
+  
+### 6.2. Static Testing & Verification
+#### 6.2.1. Static Code Analysis
+El Static Code Analysis es una técnica de verificación que examina el código fuente sin ejecutarlo, con el objetivo de identificar posibles errores, vulnerabilidades de seguridad, malas prácticas y violaciones de estándares de codificación. En el desarrollo de NutriSmart, esta técnica se aplicó tanto en el frontend (Angular) como en el backend (Spring Boot) utilizando herramientas automatizadas como SonarQube, ESLint y Checkstyle, garantizando un código limpio, mantenible y libre de defectos críticos antes de su despliegue.
 
+Este análisis permitió detectar problemas tempranos, como variables no utilizadas, posibles fugas de memoria, violaciones de principios SOLID y vulnerabilidades de seguridad, asegurando que el código cumpliera con los estándares definidos en el Source Code Style Guide. Además, se integró en el pipeline de CI/CD para validar automáticamente cada commit, mejorando la calidad del producto final y reduciendo riesgos en producción.
+
+##### 6.2.1.1. Coding Standards & Conventions
+Para garantizar consistencia, mantenibilidad y escalabilidad en el desarrollo de NutriSmart, se establecieron estándares y convenciones de código basados en mejores prácticas. Estos lineamientos abarcaron desde la estructura de archivos hasta patrones de diseño clave, asegurando un código limpio y alineado con los objetivos del proyecto.
+
+- **Domain-Driven Design:**
+  NutriSmart aplicó DDD para organizar el código en dominios claros (Usuario, Nutricionista, Planes). Usamos agregados como MealPlan y un lenguaje ubicuo (ej: generatePersonalizedPlan()) para alinear código y requisitos del negocio.
+
+-**Convenciones de Nomenclatura:**
+  Frontend (Angular): PascalCase para componentes (MealPlanComponent), sufijo .service.ts para servicios. 
+  Backend (Java): PascalCase en clases, camelCase en variables, paquetes por dominio (com.nutrismart.user).
+
+-**Principios SOLID:**
+  Cumplimos SOLID con: Clases de única responsabilidad (AuthService), Inyección de dependencias (Spring/Angular DI), y Interfaces extensibles (DietaryRestrictionValidator) para mantener el código modular.
+
+##### 6.2.1.2. Code Quality & Security
+La calidad del código y la seguridad son pilares fundamentales para garantizar un software confiable y mantenible en NutriSmart:
+
+• Calidad del Código
+Se midió mediante métricas como cobertura de pruebas (JUnit/Jasmine) y complejidad ciclomática, utilizando SonarQube para análisis estático continuo. Esta herramienta detectó code smells, duplicación y violaciones de estándares (como principios SOLID), logrando una cobertura del 92% en el backend (Spring Boot) y corrigiendo problemas críticos antes del despliegue.
+
+• Seguridad del Código
+- Se implementaron protecciones contra vulnerabilidades OWASP:
+
+- Validación estricta en formularios: Restricción de caracteres en contraseñas y verificación de formatos de correo electrónico.
+
+- Autenticación JWT: Tokens firmados para endpoints sensibles (ej: gestión de planes nutricionales).
+
+- Prevención de inyecciones SQL: Uso de parámetros enlazados en Spring Data JPA.
+
+Además, se integró SonarLint en los IDEs (IntelliJ, VS Code) para detectar riesgos en tiempo real, como hardcoded credentials o lógica insegura, reforzando una cultura de seguridad desde el desarrollo inicial.
+
+##### 6.2.2. Reviews
+Las revisiones de código en NutriSmart fueron clave para mantener la calidad, seguridad y coherencia con los estándares del proyecto. 
+Este proceso combinó revisiones manuales y automatizadas bajo un flujo estructurado:
+
+* Tipos de Revisiones
+Revisión por Pares: Cada Pull Request (PR) fue evaluado por al menos otro desarrollador, verificando claridad, alineación con DDD y cumplimiento de SOLID.
+
+* Revisión Formal: En sprints clave, se realizaron sesiones grupales con checklists basados en el Source Code Style Guide (ej: nomenclatura, inyección de dependencias).
+
+* Revisión Automática: Integración de SonarQube y ESLint en el pipeline de GitHub Actions para bloquear PRs con deuda técnica, code smells o cobertura insuficiente (<80%).
+
+Proceso de Revisión:
+* Pull Requests: Cada cambio requirió un PR con descripción detallada, pruebas asociadas y evidencia de impacto (ej: *"Fix: Validación de contraseñas con regex [US-02]"*).
+
+* Checklist Obligatorio: Incluyó:
+
+  - Cumplimiento de convenciones (PascalCase, camelCase).
+
+  - Cobertura de pruebas unitarias (JUnit/Jasmine).
+
+  - Validación de seguridad (OWASP Top 10, sanitización de inputs).
+
+* Feedback Accionable: Comentarios específicos en GitHub (ej: "Refactorizar método generatePlan() para cumplir Single Responsibility").
+
+* Aprobación: Requirió al menos 2 aprobaciones (incluido un lead developer) antes del merge a main.
+
+Criterios de Aceptación:
+* Código Limpio: Zero findings críticos en SonarQube.
+
+* Pruebas: Cobertura mínima del 80% (back/front).
+
+* Seguridad: Sin vulnerabilidades en dependencias (reporte de npm audit y OWASP Dependency-Check).
+
+Frecuencia:
+* Revisiones diarias (PRs pequeños) y retrospectivas al final de cada sprint para ajustar estándares.
+
+### 6.3. Validation Interviews
+##### 6.3.1. Diseño de Entrevistas
+##### 6.3.2. Registro de Entrevistas
+##### 6.3.3. Evaluaciones según heurísticas 
+
+### Aplicación para evaluar: NutriSmart
+#### Tareas que evaluar:
+- Funcionalidad no operativa en el icono de perfil de usuario (todas las imágenes): El icono de perfil de usuario al lado de "¡Hola, Usuario!" en la esquina superior derecha es clickeable pero no desencadena ninguna acción o navegación.
+- Mensaje de bienvenida genérico: El mensaje "¡Hola, Usuario!" es poco personal y no aprovecha la oportunidad de dirigirse al usuario por su nombre una vez que ha iniciado sesión.
+- Ilegibilidad de los campos "Título del Plan" y "Descripción" : El texto dentro de los campos de entrada "Título del Plan" y "Descripción" es difícil de leer debido al contraste o tamaño de fuente, lo que dificulta la comprensión del contenido por parte del usuario.
+- Elemento de interfaz de "recuadro" confuso: Se presenta un "recuadro" visual en la interfaz que no tiene un propósito claro o una interacción evidente, lo que puede generar confusión y distraer al usuario de la tarea principal.
+- Ilegibilidad del contenido en tarjetas de "Recetas Favoritas": A excepción de las calorías, el texto dentro de las tarjetas de recetas favoritas es ilegible debido al bajo contraste entre el color de la fuente y el fondo oscuro, afectando la visibilidad de información clave como nombre, descripción y macronutrientes.
+- Ilegibilidad del texto de descripción de receta en sección de favoritos: El texto de la descripción de la receta y las "Instrucciones" son difíciles de leer debido al contraste insuficiente del color de la fuente sobre el fondo verde claro o blanco, lo que afecta la legibilidad general de la información vital de la receta.
+
+<br>
+
+<table border="1" style="border-collapse: collapse; text-align: center;">
+  <tr>
+    <th colspan="6">Escala de Severidad</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+    <td>4</td>
+    <td>5</td>
+  </tr>
+  <tr>
+    <td>No tan grave</td>
+    <td>Leve</td>
+    <td>Moderado</td>
+    <td>Grave</td>
+    <td>Muy grave</td>
+  </tr>
+</table>
+
+<br>
+
+| #Orden | Problema | Escala de Severidad | Heurística / Principio |
+| --- | --- | --- | --- |
+| #1  | El icono de perfil de usuario al lado de "¡Hola, Usuario!" en la esquina superior derecha es clickeable pero no desencadena ninguna acción o navegación. | 4   | Visibilidad del estado del sistema, Consistencia y estándares |
+| #2  | El mensaje "¡Hola, Usuario!" es poco personal y no aprovecha la oportunidad de dirigirse al usuario por su nombre una vez que ha iniciado sesión. | 2   | Coincidencia entre el sistema y el mundo real |
+| #3  | El texto dentro de los campos de entrada "Título del Plan" y "Descripción" es difícil de leer debido al contraste o tamaño de fuente, lo que dificulta la comprensión del contenido por parte del usuario. | 4   | Estética y diseño minimalista |
+| #4  | Se presenta un "recuadro" visual en la interfaz que no tiene un propósito claro o una interacción evidente, lo que puede generar confusión y distraer al usuario de la tarea principal. | 3   | Estética y diseño minimalista |
+| #5  | A excepción de las calorías, el texto dentro de las tarjetas de recetas favoritas es ilegible debido al bajo contraste entre el color de la fuente y el fondo oscuro, afectando la visibilidad de información clave. | 5   | Estética y diseño minimalista |
+| #6  | El texto de la descripción de la receta y las "Instrucciones" son difíciles de leer debido al contraste insuficiente del color de la fuente sobre el fondo verde claro o blanco | 5   | Estética y diseño minimalista |
+
+<br>
+
+**Problema #1: Funcionalidad no operativa en el icono de perfil de usuario.** 
+* **Heurística violada:** Visibilidad del estado del sistema, Consistencia y estándares. 
+* **Descripción del problema:** El icono de perfil de usuario, ubicado junto al mensaje "¡Hola, Usuario!"  en la esquina superior derecha de la interfaz, es clickeable pero no desencadena ninguna acción o navegación.  Esto impide que el usuario acceda a su perfil, configuraciones o información personal, lo cual es una expectativa estándar en aplicaciones web. 
+* **Recomendación:** Implementar la funcionalidad para que al hacer clic en el icono de perfil, el usuario sea redirigido a la sección de edición de su perfil o a un menú desplegable con opciones relacionadas con la cuenta (ej. "Mi Perfil", "Configuración", "Cerrar Sesión"). 
+
+[![cap-1.png](https://i.postimg.cc/7YdsCrrd/image-1.png)](https://postimg.cc/LnkB77X3)
+<br>
+
+**Problema #2: Mensaje de bienvenida genérico.** 
+* **Heurística violada:** Coincidencia entre el sistema y el mundo real. 
+* **Descripción del problema:** El mensaje de bienvenida "¡Hola, Usuario!" es impersonal.  No utiliza el nombre del usuario una vez que ha iniciado sesión, perdiendo la oportunidad de crear una experiencia más personalizada y amigable. 
+* **Recomendación:** Modificar el mensaje de bienvenida para que se dirija al usuario por su nombre registrado (ej. "¡Hola, (Nombre de Usuario)!"), lo que contribuirá a una experiencia más personal y cercana con la plataforma. 
+
+[![cap-2.png](https://i.postimg.cc/3wCnby0Q/image-2.png)](https://postimg.cc/p9rfmLBs)
+<br>
+
+**Problema #3: Ilegibilidad de los campos "Título del Plan" y "Descripción".** 
+* **Heurística violada:** Estética y diseño minimalista. 
+* **Descripción del problema:** El texto de marcador de posición (placeholder) o el texto ya ingresado dentro de los campos de entrada "Título del Plan" y "Descripción" presenta un bajo contraste o un tamaño de fuente inadecuado, lo que dificulta significativamente su lectura y comprensión por parte del usuario. 
+* **Recomendación:** Ajustar el color de la fuente y/o el tamaño del texto dentro de estos campos para asegurar un contraste suficiente con el fondo, mejorando así la legibilidad y la usabilidad al completar o revisar la información del plan. 
+
+[![cap-3.png](https://i.postimg.cc/PrpKnVv4/image-3.png)](https://postimg.cc/qzr28LLh)
+<br>
+
+**Problema #4: Elemento de interfaz de "recuadro" confuso.** 
+* **Heurística violada:** Estética y diseño minimalista. 
+* **Descripción del problema:** Se observa un "recuadro" visual en la interfaz que carece de un propósito claro, una etiqueta explicativa o una interacción definida.  Este elemento confuso puede distraer al usuario, generar preguntas sobre su función y desviar la atención de las funcionalidades principales de la página. 
+* **Recomendación:** Eliminar el "recuadro" si no tiene una función específica, o bien, si es un elemento previsto, definir claramente su propósito, añadir una etiqueta descriptiva y habilitar su interacción para que el usuario entienda cómo usarlo o qué información contiene. 
+
+[![cap-3.png](https://i.postimg.cc/PrpKnVv4/image-3.png)](https://postimg.cc/qzr28LLh)
+<br>
+
+**Problema #5: Ilegibilidad del contenido en tarjetas de "Recetas Favoritas".** 
+* **Heurística violada:** Estética y diseño minimalista. 
+* **Descripción del problema:** El texto de la mayoría del contenido dentro de las tarjetas de "Recetas Favoritas" es ilegible, con la excepción de las calorías.  Esto se debe a un contraste insuficiente entre el color de la fuente (probablemente oscuro) y el fondo también oscuro de las tarjetas, lo que impide al usuario leer el nombre de la receta, descripción y macronutrientes. 
+* **Recomendación:** Mejorar el contraste de la fuente sobre el fondo de las tarjetas, ya sea cambiando el color del texto a uno más claro (ej. blanco o gris claro) o ajustando el color del fondo de la tarjeta para garantizar una legibilidad óptima de toda la información. 
+
+[![cap-5.png](https://i.postimg.cc/cLfmrKmt/image-5.png)](https://postimg.cc/RWVfYZ2v)
+<br>
+
+**Problema #6: Ilegibilidad del texto de descripción de receta en sección de favoritos.** 
+* **Heurística violada:** Estética y diseño minimalista. 
+* **Descripción del problema:** Tanto el texto de la descripción de la receta como las instrucciones presentan problemas de legibilidad debido a un contraste insuficiente entre el color de la fuente y el fondo (verde claro o blanco).  Esto dificulta la lectura de pasos clave e información nutricional vital. 
+* **Recomendación:** Ajustar la combinación de colores de la fuente y el fondo en la sección de descripción e instrucciones de las recetas para garantizar un contraste adecuado.  Esto podría implicar oscurecer la fuente o aclarar ligeramente los fondos para mejorar la accesibilidad y la experiencia de lectura. 
+
+[![cap-6.png](https://i.postimg.cc/7LDN7xss/image-6.png)](https://postimg.cc/21cvNffh)
+<br>
 # Capítulo VII: DevOps Practices
 ## 7.1. Continuous Integration
 La Integración Continua (CI) tiene como objetivo principal detectar errores rápidamente, automatizando la compilación y ejecución de pruebas cada vez que se realiza un cambio en el código. Esta práctica asegura que las nuevas funcionalidades no rompan lo existente, promoviendo un desarrollo estable y confiable.
