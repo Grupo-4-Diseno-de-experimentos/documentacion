@@ -1866,6 +1866,8 @@ Usabilidad:
 
 - Elementos visuales confusos o no funcionales (ej. icono de perfil sin acción, "recuadro" confuso).
 
+- Falta de un mecanismo dinámico para descubrir nuevas recetas o platos populares más allá de las favoritas del usuario.
+  
 Experiencia del Usuario (UX):
 
 - La interfaz carece de opciones de personalización visual que permitan al usuario adaptar la experiencia a sus preferencias o a diferentes condiciones de luz, lo que puede causar fatiga visual o incomodidad.
@@ -1883,6 +1885,7 @@ Para abordar los problemas identificados y mejorar la aplicación NutriSmart, se
 - <b> Mejora de la Usabilidad y Accesibilidad: <b> Implementar ajustes de contraste y tamaño de fuente, añadir funcionalidad a elementos interactivos y clarificar elementos visuales confusos.
 - <b> Optimización de la Experiencia del Usuario: <b> Ofrecer opciones de personalización de temas o esquemas de color para mejorar la comodidad visual y la experiencia de usuario en diversas condiciones ambientales.
 - <b> Fomento de la Adherencia y Seguimiento Proactivo: <b> Implementar recordatorios inteligentes y personalizados que ayuden al usuario a seguir su plan de alimentación y a registrar sus comidas de forma consistente.
+- <b> Mejora del Descubrimiento de Contenido y Engagement: <b> Introducir un sistema que permita a los usuarios calificar recetas y que la aplicación use estas calificaciones para sugerir contenido dinámico y relevante.
 - <b> Expansión de la Funcionalidad Premium: <b> Introducir un modelo de suscripción Premium para desbloquear características avanzadas, como el acceso a nutricionistas personalizados.
 <br>
 
@@ -1892,13 +1895,13 @@ Assumptions:
 
 Personalización Visual: Se asume que los usuarios valoran la capacidad de adaptar la interfaz de usuario a sus preferencias visuales y a las condiciones de luz ambiental, lo que podría mejorar su comodidad, reducir la fatiga visual y aumentar el tiempo de uso.
 
-
 Comunicación con Nutricionista (Premium): Se asume que los usuarios están interesados en recibir orientación nutricional personalizada y que estarían dispuestos a pagar por un servicio Premium que les conecte directamente con un experto para alcanzar sus objetivos de salud.
 
 Motivación por Progreso Visual: Se asume que la visualización clara y atractiva del progreso en sus objetivos nutricionales (ej. ingesta calórica, macronutrientes, hábitos) motivará a los usuarios a mantener la adherencia y el compromiso con la aplicación.
 
 Efectividad de los Recordatorios Personalizados: Se asume que los recordatorios que se adaptan al horario y preferencias del usuario, y que se centran en las comidas y recetas específicas de su plan, son más efectivos para fomentar la adherencia.
 
+Valor del Contenido Curado por Usuarios: Se asume que los usuarios confían en las calificaciones de otros usuarios para descubrir nuevas recetas y que la recomendación de un "Plato del Día" basado en estas calificaciones será atractiva.
 
 <br>
 Knowledge Gaps:
@@ -1911,6 +1914,8 @@ Métricas de Motivación Visual: No hay suficiente información sobre qué tipo 
 
 Estrategias Óptimas de Recordatorios: Se requiere más investigación sobre la frecuencia, el tono y el momento ideal para enviar recordatorios que sean útiles y no intrusivos, y que realmente impulsen el seguimiento del plan.
 
+Uso del Sistema de Calificación: No hay datos sobre la disposición de los usuarios a calificar platos y la frecuencia con la que utilizarían la sección "Plato del Día" o buscarían recetas basándose en las calificaciones.
+
 <br>
 Ideas:
 
@@ -1919,6 +1924,8 @@ Implementar Encuestas: Realizar encuestas o entrevistas a los usuarios actuales 
 Desarrollar un Panel de Progreso Interactivo: Crear una sección visualmente atractiva que muestre el progreso del usuario hacia sus objetivos (ej. ingesta de agua, macronutrientes, días de dieta exitosos) con gráficos dinámicos y medallas/logros virtuales.
 
 Integrar Recordatorios Inteligentes y Personalizados: Desarrollar un sistema de recordatorios que se adapte al horario del usuario y a su plan de alimentación, recordándole las comidas específicas, las recetas a seguir y la importancia de registrar sus ingestas.
+
+Implementar Sistema de Calificación de Platos y "Plato del Día": Añadir una funcionalidad para que los usuarios califiquen las recetas y crear una sección destacada en la aplicación que muestre el "Plato del Día" basado en las mejores calificaciones o popularidad.
 
 Diseñar y Prototipar Módulo Premium: Desarrollar maquetas y prototipos para la funcionalidad de comunicación con nutricionistas, incluyendo la interfaz de chat o videollamada.
 
@@ -1934,6 +1941,8 @@ Aumento de la Adherencia (Panel de Progreso): Se postula que un panel de progres
 
 Seguimiento Consistente (Recordatorios Inteligentes): Se afirma que los recordatorios personalizados y adaptados al plan del usuario aumentarán significativamente la consistencia en el registro de comidas y el seguimiento de las recetas recomendadas.
 
+Mejora del Descubrimiento y Engagement (Calificación de Platos): Se afirma que un sistema de calificación de platos y la sección "Plato del Día" aumentarán el descubrimiento de nuevas recetas y el engagement general del usuario con el contenido de la aplicación.
+
 Generación de Ingresos y Valor (Premium): Se sostiene que la introducción de un modelo Premium con acceso a nutricionistas personalizados no solo generará ingresos adicionales, sino que también ofrecerá un valor significativo a los usuarios que buscan apoyo experto para sus objetivos de salud.
 
 
@@ -1943,8 +1952,9 @@ Generación de Ingresos y Valor (Premium): Se sostiene que la introducción de u
 | Question | Confidence | Risk | Impact | Interest | Total Score |
 |---|---|---|---|---|---|
 | ¿Mejorará la experiencia de usuario ofreciendo opciones de personalización visual (ej. temas, esquemas de color)? | 7 - Es una funcionalidad valorada por usuarios que buscan adaptar la interfaz a sus preferencias y condiciones de luz. | 2 - Bajo riesgo, ya que es una implementación técnica estándar y reversible. | 6 - Mejora la comodidad visual y la experiencia del usuario, permitiendo mayor adaptabilidad. | 5 - Interés moderado entre los usuarios que prefieren personalizar sus aplicaciones. | 20 |
-| ¿Aumentará la adherencia y motivación del usuario al implementar un panel de progreso interactivo y visualmente atractivo? | 8 - La visualización clara de logros es un potente motivador en aplicaciones de seguimiento de hábitos. | 3 - Riesgo bajo a medio, principalmente en la complejidad de la visualización de datos. | 8 - Puede impactar significativamente la retención y la consecución de objetivos al mantener al usuario comprometido con su progreso. | 7 - Alto interés para usuarios que buscan validación de su esfuerzo y desean ver sus avances de forma clara. | 26 |
+| ¿Mejorará el descubrimiento de recetas y el engagement del usuario la implementación de un sistema de calificación de platos y una sección de "Plato del Día" basada en ratings? | 7 - Las calificaciones y recomendaciones son métodos probados para el descubrimiento de contenido. | 3 - Riesgo moderado, implica desarrollo de UI y lógica de recomendación. | 7 - Puede aumentar la exploración de recetas y el uso general de la aplicación. | 7 - Los usuarios suelen buscar nuevas recetas bien valoradas. | 24 |
 | ¿Aumentará la consistencia en el seguimiento del plan la implementación de recordatorios inteligentes y personalizados? | 8 - Los recordatorios adaptados al usuario y a su plan han demostrado ser efectivos para aumentar la adherencia. | 3 - Riesgo bajo a medio, principalmente en la complejidad de la personalización y la intrusividad. | 7 - Puede mejorar significativamente el seguimiento del plan y el registro de comidas. | 8 - Alto interés para usuarios que buscan ayuda para mantenerse enfocados en sus objetivos. | 26 |
+| ¿Aumentará la adherencia y motivación del usuario al implementar un panel de progreso interactivo y visualmente atractivo? | 8 - La visualización clara de logros es un potente motivador en aplicaciones de seguimiento de hábitos. | 3 - Riesgo bajo a medio, principalmente en la complejidad de la visualización de datos. | 8 - Puede impactar significativamente la retención y la consecución de objetivos al mantener al usuario comprometido con su progreso. | 7 - Alto interés para usuarios que buscan validación de su esfuerzo y desean ver sus avances de forma clara. | 26 |
 | ¿Aumentará el valor percibido de la aplicación y generará ingresos la inclusión de un modelo de suscripción Premium con acceso a un nutricionista? | 7 - Se basa en la idea de que los usuarios buscan guía experta personalizada en nutrición. | 4 - Riesgo medio debido a la competencia en servicios de nutrición y la disposición a pagar. | 10 - Potencial alto para generar ingresos recurrentes y ofrecer un diferenciador clave en el mercado. | 9 - Alto interés para los usuarios que buscan apoyo personalizado para sus metas de salud y nutrición. | 30 |
 
 ### 8.1.4. Question Backlog.
@@ -1953,6 +1963,7 @@ Generación de Ingresos y Valor (Premium): Se sostiene que la introducción de u
 | Prioridad (1,2,3,5,8) | Pregunta |
 |---|---|
 | 1 | ¿Mejorará la experiencia de usuario ofreciendo opciones de personalización visual (ej. temas, esquemas de color)? |
+| 2 | ¿Mejorará el descubrimiento de recetas y el engagement del usuario la implementación de un sistema de calificación de platos y una sección de "Plato del Día" basada en ratings? |
 | 3 | ¿Aumentará la consistencia en el seguimiento del plan la implementación de recordatorios inteligentes y personalizados? |
 | 5 | ¿Aumentará la adherencia y motivación del usuario al implementar un panel de progreso interactivo y visualmente atractivo? |
 | 8 | ¿Aumentará el valor percibido de la aplicación y generará ingresos la inclusión de un modelo de suscripción Premium con acceso a un nutricionista? |
@@ -1967,11 +1978,11 @@ Generación de Ingresos y Valor (Premium): Se sostiene que la introducción de u
 
 <br>
 
-| Question | ¿Aumentará la adherencia y motivación del usuario al implementar un panel de progreso interactivo y visualmente atractivo? |
+| Question | ¿Mejorará el descubrimiento de recetas y el engagement del usuario la implementación de un sistema de calificación de platos y una sección de "Plato del Día" basada en ratings? |
 |---|---|
-| **Why** | La visualización clara y dinámica del progreso es un potente motivador. Al permitir a los usuarios ver su avance en tiempo real hacia sus objetivos nutricionales (ej. seguimiento de calorías, macronutrientes, ingesta de agua, días de adherencia), se refuerzan sus hábitos positivos y se mantiene su compromiso a largo plazo con la aplicación y sus metas de salud. Coincide con la heurística de "Visibilidad del estado del sistema". |
-| **What** | Desarrollar una sección en el perfil del usuario o en el panel principal que presente gráficos interactivos y resúmenes visuales de su progreso. Esto podría incluir barras de cumplimiento diario/semanal, tendencias de peso, o medallas/insignias por hitos alcanzados (ej. "5 días seguidos sin azúcares añadidos"). |
-| **Hypothesis** | Se espera que, con la implementación de un panel de progreso interactivo y visualmente atractivo, se incremente la motivación y adherencia del usuario en al menos un 35%. Sabremos que esto es cierto cuando se observe un aumento del 35% en la tasa de cumplimiento del plan alimenticio (ej. porcentaje de comidas registradas o días de adherencia completa). |
+| **Why** | Un sistema de calificación permite a los usuarios expresar su opinión sobre las recetas, creando un contenido validado por la comunidad. La integración de un "Plato del Día" basado en estas calificaciones o en la popularidad ofrece a los usuarios una forma dinámica y atractiva de descubrir nuevas opciones, fomentando la exploración y la interacción con el contenido de la aplicación. |
+| **What** | Desarrollar una funcionalidad para que los usuarios puedan calificar las recetas con un sistema de estrellas o similar. Implementar una sección visible en la pantalla principal (o en una sección de exploración) denominada "Plato del Día" que muestre la receta mejor calificada o más popular en un período determinado, posiblemente con un breve resumen nutricional. |
+| **Hypothesis** | Se espera que, con la implementación de un sistema de calificación de platos y una sección de "Plato del Día" basada en ratings, **se aumente el descubrimiento de nuevas recetas en al menos un 20%**. Sabremos que esto es cierto cuando se observe un **aumento del 20% en las interacciones de los usuarios con recetas que no estaban previamente en sus favoritos** y una tasa de clics significativa en la sección "Plato del Día". |
 
 <br>
 
@@ -1979,7 +1990,15 @@ Generación de Ingresos y Valor (Premium): Se sostiene que la introducción de u
 |---|---|
 | **Why** | Los recordatorios son una herramienta valiosa para impulsar la adherencia, pero su efectividad depende de su personalización. Al adaptar los recordatorios al horario, las preferencias y el plan específico de cada usuario, se maximiza su utilidad y se minimiza la intrusividad. |
 | **What** | Implementar un sistema de recordatorios que permita al usuario configurar sus horarios preferidos y el tipo de recordatorios que desea recibir (ej. para registrar comidas, para seguir una receta específica, para beber agua). La aplicación utilizará esta información, junto con los datos del plan del usuario, para enviar recordatorios relevantes y oportunos. |
-| **Hypothesis** | Se espera que, con la implementación de recordatorios inteligentes y personalizados, se incrementará la constancia del usuario en al menos un 25%. Sabremos que esto es cierto cuando se observe un aumento del 25% en la frecuencia de registro de comidas y seguimiento de recetas o en el uso diario de la aplicación. |
+| **Hypothesis** | Se espera que, con la implementación de recordatorios inteligentes y personalizados, **se incrementará la constancia del usuario en al menos un 25%**. Sabremos que esto es cierto cuando se observe un **aumento del 25% en la frecuencia de registro de comidas y seguimiento de recetas** o en el uso diario de la aplicación. |
+
+<br>
+
+| Question | ¿Aumentará la adherencia y motivación del usuario al implementar un panel de progreso interactivo y visualmente atractivo? |
+|---|---|
+| **Why** | La visualización clara y dinámica del progreso es un potente motivador. Al permitir a los usuarios ver su avance en tiempo real hacia sus objetivos nutricionales (ej. seguimiento de calorías, macronutrientes, ingesta de agua, días de adherencia), se refuerzan sus hábitos positivos y se mantiene su compromiso a largo plazo con la aplicación y sus metas de salud. Coincide con la heurística de "Visibilidad del estado del sistema". |
+| **What** | Desarrollar una sección en el perfil del usuario o en el panel principal que presente gráficos interactivos y resúmenes visuales de su progreso. Esto podría incluir barras de cumplimiento diario/semanal, tendencias de peso, o medallas/insignias por hitos alcanzados (ej. "5 días seguidos sin azúcares añadidos"). |
+| **Hypothesis** | Se espera que, con la implementación de un panel de progreso interactivo y visualmente atractivo, **se incremente la motivación y adherencia del usuario en al menos un 35%**. Sabremos que esto es cierto cuando se observe un **aumento del 35% en la tasa de cumplimiento del plan alimenticio** (ej. porcentaje de comidas registradas o días de adherencia completa). |
 
 <br>
 
