@@ -1670,6 +1670,53 @@ Frecuencia:
 
 [![cap-6.png](https://i.postimg.cc/7LDN7xss/image-6.png)](https://postimg.cc/21cvNffh)
 <br>
+
+
+## 6.4. Auditoría de Experiencias de Usuario
+### 6.4.1. Auditoría realizada.
+### 6.4.1.1. Información del grupo auditado.
+### 6.4.1.2. Cronograma de auditoría realizada.
+### 6.4.1.3. Contenido de auditoría realizada
+
+
+## 6.4.2. Auditoría recibida.
+El presente apartado detalla la auditoría de procesos y gestión recibida por el grupo, la cual sirvió como una valiosa oportunidad para la identificación de fortalezas y áreas de mejora en la dinámica y los entregables del equipo. Se destaca la gestión y la respuesta del líder del grupo ante este proceso.
+
+### 6.4.2.1. Información del grupo auditor.
+En este contexto, el "grupo auditor" se refiere a los propios miembros del equipo de proyecto de NutriSmart. Esta auditoría interna se concibió como un proceso de evaluación constructiva y feedback 360 grados dirigido a la figura del líder del grupo.
+
+El objetivo principal fue recopilar percepciones y experiencias directas de los integrantes del equipo respecto al desempeño, estilo de liderazgo, capacidad de gestión, soporte ofrecido y la eficacia en la toma de decisiones del líder. Esta iniciativa busca fomentar la mejora continua del liderazgo, fortalecer la dinámica interna del equipo y optimizar el ambiente de trabajo para futuros proyectos.
+
+### 6.4.2.2. Cronograma de auditoría recibida.
+La auditoría se desarrolló de manera estructurada a lo largo de un período de varias semanas, específicamente del 30 de mayo al 18 de junio de 2025. El cronograma incluyó las siguientes fases clave:
+
+- Semana 1 (30 de mayo al 06 de junio): Se realizó una reunión de apertura con el líder para explicar el propósito y la metodología de la evaluación. Posteriormente, los miembros del grupo procedieron a completar encuestas anónimas y/o proporcionar feedback individualizado sobre diversos aspectos del liderazgo.
+- Semana 2 (09 de junio al 17 de junio): El equipo compiló y analizó el feedback recibido, identificando patrones, fortalezas comunes y áreas de oportunidad. Se consolidaron los hallazgos en un informe preliminar para su revisión interna por parte del grupo.
+- Día final (18 de junio): Concluyó con una reunión de feedback entre el grupo y el líder, donde se presentó de manera constructiva el informe consolidado de la evaluación, discutiendo los hallazgos y proponiendo acciones de mejora.
+  
+### 6.4.2.3. Contenido de auditoría recibida.
+La evaluación realizada por los miembros del grupo abarcó diversas áreas críticas del desempeño del líder, incluyendo:
+
+- Comunicación: Claridad y frecuencia en la transmisión de información, capacidad de escucha y retroalimentación.
+- Toma de Decisiones: Eficacia en la resolución de problemas y la dirección del proyecto.
+- Soporte y Motivación: Nivel de apoyo proporcionado a los miembros del equipo, fomento del crecimiento profesional y mantenimiento de la moral.
+- Gestión de Tareas y Recursos: Eficiencia en la asignación de responsabilidades y la administración de los recursos disponibles.
+- Gestión de Conflictos: Capacidad para abordar y resolver desacuerdos o tensiones dentro del equipo.
+  
+Los hallazgos de esta evaluación interna destacaron varias fortalezas clave en el liderazgo, como la responsabilidad del líder en la consecución de objetivos, su compromiso con el equipo y su habilidad para mantener la dirección del proyecto. Asimismo, se identificaron oportunidades de mejora específicas, principalmente relacionadas con el perfeccionamiento de ciertos aspectos de la comunicación interna o la delegación de tareas. El informe fue diseñado para ser constructivo y orientado al crecimiento profesional del líder.
+
+### 6.4.2.4. Resumen de modificaciones para subsanar hallazgos.
+La respuesta del líder ante el informe de evaluación fue ejemplar y demostró un alto grado de profesionalismo y madurez. Desde la reunión de feedback, el líder acogió los comentarios con una actitud abierta y receptiva, reconociendo las áreas de oportunidad identificadas por el equipo.
+
+De inmediato, el líder demostró su capacidad proactiva al elaborar un plan de acción concreto para abordar los hallazgos. Este plan incluyó:
+
+- Implementación de sesiones de feedback más regulares: Para asegurar una comunicación bidireccional continua y transparente.
+- Establecimiento de roles y responsabilidades más definidos: Para optimizar la delegación y empoderar a los miembros del equipo.
+- Desarrollo de estrategias para potenciar la autonomía del equipo: Fomentando la iniciativa y la resolución de problemas a nivel de grupo.
+  
+Gracias al compromiso, la dedicación y la meticulosa gestión del líder, los hallazgos de la evaluación fueron subsanados de manera eficiente y en los plazos acordados. Este proceso no solo permitió al líder fortalecer sus habilidades de gestión y liderazgo, sino que también mejoró significativamente la cohesión y la eficacia operativa del grupo, transformando un ejercicio de evaluación en una valiosa plataforma para el crecimiento colectivo.
+
+
 # Capítulo VII: DevOps Practices
 ## 7.1. Continuous Integration
 La Integración Continua (CI) tiene como objetivo principal detectar errores rápidamente, automatizando la compilación y ejecución de pruebas cada vez que se realiza un cambio en el código. Esta práctica asegura que las nuevas funcionalidades no rompan lo existente, promoviendo un desarrollo estable y confiable.
