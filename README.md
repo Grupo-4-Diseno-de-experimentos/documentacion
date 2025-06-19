@@ -2174,6 +2174,49 @@ Estas evaluaciones permiten validar o ajustar funcionalidades estratégicas seg�
 | **Lighthouse**       | Plan gratuito, disponible para ejecución local| Análisis de experiencia de usuario, rendimiento, accesibilidad y mejores prácticas         | Información resumida en valores clave                        | Evaluación clara con métricas clave para mejorar la experiencia del usuario                     |
 
 ### 8.2.6. Data Analytics: Goals, KPIs and Metrics Selection.
+
+A continuación, se llevarán a cabo pruebas de rendimiento, accesibilidad y SEO con Lighthouse para poder evaluar el desempeño de nuestra aplicación. Se mostrarán capturas de pruebas realizadas en el ambito web y mobile.
+
+**Ejemplo de Test para Web**
+
+<p align="center">
+  <img src="./imagenes/test1imageweb.png" alt="web-page-test" width="500">
+</p>
+<p align="center">
+  <img src="./imagenes/test3imageweb.png" alt="web-page-test" width="500">
+</p>
+<p align="center">
+  <img src="./imagenes/test5imageweb.png" alt="web-page-test" width="500">
+</p>
+
+**Ejemplo de Test para Mobile**
+
+<p align="center">
+  <img src="./imagenes/Test1image.png" alt="web-page-test" width="500">
+</p>
+<p align="center">
+  <img src="./imagenes/Test3image.png" alt="web-page-test" width="500">
+</p>
+<p align="center">
+  <img src="./imagenes/test5image.png" alt="web-page-test" width="500">
+</p>
+
+**Diagnostico**
+
+<p align="center">
+  <img src="./imagenes/excel1.png" alt="web-page-test" width="500">
+</p>
+<p align="center">
+  <img src="./imagenes/excel2.png" alt="web-page-test" width="500">
+</p>
+<p align="center">
+  <img src="./imagenes/excel3.png" alt="web-page-test" width="500">
+</p>
+<p align="center">
+  <img src="./imagenes/excel4.png" alt="web-page-test" width="500">
+</p>
+
+
 ### 8.2.7. Web and Mobile Tracking Plan.
 
 En NutriSmart, nuestro objetivo es monitorear y optimizar continuamente el rendimiento de la plataforma web, garantizando una experiencia personalizada y efectiva tanto para los usuarios (clientes) como para los nutricionistas. Con este fin, se ha definido un plan de seguimiento estructurado que permitirá evaluar el impacto de nuevas funcionalidades y fomentar el uso sostenido de la plataforma.
