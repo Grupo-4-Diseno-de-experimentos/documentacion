@@ -49,6 +49,7 @@
 | :-----: | :--------: | :------------------------------: | :--------------------------: |
 |   TB1   |    24/04   | George Aliaga, Daniel Chirinos, Carlos Pingus y Jorge Linares | Se estableció la solución propuesta, se realizó un análisis Lean UX, se definió el segmento objetivo y se recopilaron los requisitos necesarios para desarrollar las herramientas necesarias. A su vez, se implementó el landing page y un avance del backend. | 
 | TP     | 12/05 | George Aliaga, Daniel Chirinos, Carlos Pingus y Jorge Linares | Se realizaron los avances de la aplicación en base a la retroalimentación de la primera entrega |
+| TB2     | 12/05 | George Aliaga, Daniel Chirinos, Carlos Pingus y Jorge Linares | Se concluyó la aplicación web, y se empezaron a realizar las hypothesis de funcionalidades que no llegamos a implementar en la web |
 
 </div>
 
@@ -252,7 +253,7 @@ Conoce al menos un sector empresarial o dominio de aplicación de soluciones de 
 <tr>
     <td><b>Participa en equipos multidisciplinarios con eficacia, eficiencia y objetividad, en el marco de un proyecto en soluciones de ingeniería de software.</b></td>
     <td>
-    <td>TP<br>
+    <td>TB2<br>
     <b>Chirinos Arevalo, Daniel Rodrigo</b>
         <br>
         - Realicé mis tareas asignadas en el horario correspondiente<br/>
@@ -286,7 +287,7 @@ Conoce al menos un sector empresarial o dominio de aplicación de soluciones de 
 <td><b>
 Conoce al menos un sector empresarial o dominio de aplicación de soluciones de software.</b></td>
     <td>
-    <td>TP<br>
+    <td>TB2<br>
     <b>Chirinos Arevalo, Daniel Rodrigo</b>
         <br>
         - Realicé mis tareas asignadas en el horario correspondiente<br/>
@@ -1674,12 +1675,39 @@ Frecuencia:
 
 ## 6.4. Auditoría de Experiencias de Usuario
 ### 6.4.1. Auditoría realizada.
+
+El presente apartado detalla la auditoría de los procesos y la gestión del equipo, realizada por el líder del grupo con el fin de evaluar el cumplimiento de las tareas asignadas, la calidad del trabajo entregado y el cumplimiento del cronograma establecido.
+A lo largo del proyecto, todos los miembros del equipo cumplieron con sus responsabilidades asignadas. Se evidenció un alto grado de compromiso y coordinación entre los integrantes. Si bien surgieron algunos percances durante el desarrollo, estos fueron resueltos a tiempo mediante comunicación efectiva y trabajo colaborativo, sin afectar significativamente el progreso del proyecto.
+
 ### 6.4.1.1. Información del grupo auditado.
+
+El grupo estuvo conformado por Daniel Rodrigo Chirinos Arevalo, Aliaga Pimentel George Arturo, Pingus Rodriguez Carlos Daniel, Linares Arroyo Jorge Alexandro. 
+Cada miembro tuvo asignadas tareas específicas dentro del proyecto, incluyendo el desarrollo frontend, backend, pruebas y documentación.
+
 ### 6.4.1.2. Cronograma de auditoría realizada.
+
+La auditoría fue realizada de forma continua durante las siguientes etapas del proyecto:
+
+- Inicio del proyecto: Verificación de la planificación y asignación de tareas.
+
+- Durante el desarrollo: Revisión periódica de avances en reuniones semanales y seguimiento del cronograma.
+
+- Previo a la entrega final: Validación de entregables, funcionamiento de la aplicación y revisión del documento.
+
 ### 6.4.1.3. Contenido de auditoría realizada
 
+Los aspectos revisados durante la auditoría fueron:
+
+- Cumplimiento de tareas asignadas: Se verificó que cada miembro haya desarrollado su parte del proyecto de acuerdo con los requerimientos definidos.
+
+- Calidad del producto y documentación: Se evaluó que la aplicación fuera funcional, bien estructurado y acompañado de documentación adecuada.
+
+- Colaboración y comunicación: Se valoró la participación activa del equipo en reuniones, la resolución oportuna de inconvenientes y la disponibilidad para apoyar a otros miembros.
+
+- Entrega de productos: Se comprobó que todas las entregas se hayan realizado en los plazos establecidos.
 
 ## 6.4.2. Auditoría recibida.
+
 El presente apartado detalla la auditoría de procesos y gestión recibida por el grupo, la cual sirvió como una valiosa oportunidad para la identificación de fortalezas y áreas de mejora en la dinámica y los entregables del equipo. Se destaca la gestión y la respuesta del líder del grupo ante este proceso.
 
 ### 6.4.2.1. Información del grupo auditor.
@@ -1890,10 +1918,7 @@ Estas herramientas permiten crear un sistema de alertas robusto, proactivo y alt
 
 ### 7.4.4. Notification Pipeline Components
 
-El pipeline de notificaciones complementa al de alerats, encargándose de comunicar de forma automática el estado del sistema y los resultados de cada fase del pipeline a los equipos responsables. Jenkins, en nuestra aplicación, se encarga de orquestar los pipelines de integración y despliegue continuo. Se configura para enviar notificaciones automáticas al finalizar cada etapa del pipeline, informando sobre el resultado de las pruebas unitarias, los análisis de calidad de código (por ejemplo, con SonarQube), el éxito o fallo del build y el despliegue de nuevas versiones. Las notificaciones se pueden integrar con herramientas de colaboración como Slack, Microsoft Teams o correo electrónico, permitiendo que todo el equipo esté al tanto de posibles errores en los builds, nuevas versiones desplegadas o regresiones detectadas.
-
-(Image)
-
+El pipeline de notificaciones complementa al de alertas, encargándose de comunicar de forma automática el estado del sistema y los resultados de cada fase del pipeline a los equipos responsables. Jenkins, en nuestra aplicación, se encarga de orquestar los pipelines de integración y despliegue continuo. Se configura para enviar notificaciones automáticas al finalizar cada etapa del pipeline, informando sobre el resultado de las pruebas unitarias, los análisis de calidad de código (por ejemplo, con SonarQube), el éxito o fallo del build y el despliegue de nuevas versiones. Las notificaciones se pueden integrar con herramientas de colaboración como Slack, Microsoft Teams o correo electrónico, permitiendo que todo el equipo esté al tanto de posibles errores en los builds, nuevas versiones desplegadas o regresiones detectadas.
 Este sistema de notificación automatizada asegura que cualquier problema en el pipeline sea comunicado de inmediato, promoviendo una cultura de mejora continua y permitiendo una reacción oportuna ante cualquier incidente. De esta forma, el pipeline de notificaciones garantiza una comunicación efectiva y en tiempo real, mejorando la coordinación del equipo y reduciendo el tiempo de respuesta ante cualquier eventualidad.
 
 
