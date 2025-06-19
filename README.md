@@ -1578,7 +1578,43 @@ Frecuencia:
 
 ### 6.3. Validation Interviews
 ##### 6.3.1. Diseño de Entrevistas
+
+#### Entrevista General:
+
+1. ¿Cuál es tu nombre y apellidos?
+2. ¿Cuántos años tienes?
+3. ¿En qué distrito reside actualmente?
+4. ¿A qué se dedica actualmente?
+
+#### Entrevista para usuarios y nutricionistas:
+
+- ¿Cómo calificarías el diseño visual de la aplicación? (Colores, tipografía, organización)
+- ¿Te parece atractiva nuestra aplicación?
+- ¿Sientes que la aplicación está sobrecargada de información o se ve limpia?
+- ¿Fue facil para ti encontrar las funciones principales como ver recetas? ¿o crear un plan de comida?
+- ¿Hubo alguna parte que te haya confundido o no sabías como usar?
+- ¿Que función te pareció más útil?
+- ¿La información nutricional fue clara y comprensible?
+- ¿Faltó algún tipo de información que consideres importante?
+
 ##### 6.3.2. Registro de Entrevistas
+
+**Nutricionistas**
+
+**Entrevista - Nutricionista**
+
+- Nombre: Adrian
+- Apellidos: Zapata
+- Edad: 22 años
+- Distrito: Carabayllo - Lima
+- Minuto donde Empieza: 0:00
+- Duración: 13:32 minutos
+
+Evidencia de la reunión:
+
+![ImagenZapata](https://i.ibb.co/6cVC23zv/image.png)
+
+
 ##### 6.3.3. Evaluaciones según heurísticas 
 
 ### Aplicación para evaluar: NutriSmart
