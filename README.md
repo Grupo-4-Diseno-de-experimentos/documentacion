@@ -1349,7 +1349,7 @@ El sistema está diseñado para ser accedido mediante navegadores modernos y act
 
 ### 5.3.6 Vigencia del Acuerdo
 
-Este acuerdo es válido durante el periodo de desarrollo y evaluación del proyecto académico correspondiente al ciclo [Nombre del ciclo académico], con fecha de inicio el **[fecha de inicio]** y fecha de finalización el **[fecha de entrega]**.  
+Este acuerdo es válido durante el periodo de desarrollo y evaluación del proyecto académico correspondiente al ciclo 2025-01, con fecha de inicio el 15/04 y fecha de finalización el 28/06.  
 Para cualquier uso extendido o comercial del sistema, será necesario establecer un nuevo acuerdo con el equipo de desarrollo.
 
 ---
