@@ -694,10 +694,10 @@ EC-03: Visualizacion de y personalizacion de Recetas y Planes Nutricionales
 7.	US-07: Como usuario, quiero poder marcar recetas como favoritas, para guardarlas y acceder fácilmente a las que más me gustan o son útiles.
 8.	US-08: Como nutricionista, quiero acceder a la lista de todos los planes de comida, para revisar y gestionar mis planes creados.
 9.	US-09: Como nutricionista, quiero poder crear nuevos planes de comida, asignando recetas por día y tipo de comida, para ofrecer opciones personalizadas a los clientes.
-10.	US-10: Como nutricionista, quiero editar o actualizar los planes de comida existentes, para mantener la información actualizada y adaptarla a nuevas necesidades o descubrimientos.
-11.	US-11: Como nutricionista, quiero acceder a una lista de recetas y gestionarlas, pudiendo crear nuevas recetas o editar las existentes según los ingredientes y valores nutricionales.
-12.	US-12: Como nutricionista, quiero marcar recetas como favoritas, para tener a mano aquellas que suelo usar o recomendar frecuentemente.
-13.	US-13: Como nutricionista, quiero editar mi perfil profesional, para mantener actualizada mi información personal o profesional dentro de la plataforma.
+11.	US-11: Como nutricionista, quiero crear una receta, para ofrecer a los usuarios, nuevas recetas y poder utilizarlo dentro del plan de comida.
+12. US-11: Como nutricionista, quiero editar una receta, para poder realizar ajustes a las recetas para los usuarios.
+13.	US-12: Como nutricionista, quiero marcar recetas como favoritas, para tener a mano aquellas que suelo usar o recomendar frecuentemente.
+13.	US-13: Como usuario, quiero visualizar una pantalla principal acerca de lo que contiene la pagina web, para verificar si dicha pagina es confiable.
 
 
 
@@ -713,11 +713,11 @@ EC-03: Visualizacion de y personalizacion de Recetas y Planes Nutricionales
 | US-06 | Visualizar detalle de recetas (ingredientes, macros, instrucciones)           | Alta      | 5             |
 | US-07 | Marcar recetas como favoritas                                           | Baja     | 2             |
 | US-08 | Visualizar lista de planes como nutricionista                                  | Media      | 3             |
-| US-09 | Crear nuevos planes de comida                                           | Alta      | 5             |
-| US-10 | Editar planes de comida                                                 | Alta      | 5             |
-| US-11 | Gestionar recetas (crear y editar)                                      | Alta      | 5             |
+| US-09 | Crear nuevos planes de comida                                           | Alta      | 8             |
+| US-10 | Crear una nueva receta como nutricionista                                      | Alta      | 8             |
+| US-11 | Editar una receta como nutricionista                                      | Alta      | 5             |
 | US-12 | Marcar recetas favoritas como nutricionista                             | Baja     | 2             |
-| US-13 | Editar perfil profesional del nutricionista                             | Media     | 3             |
+| US-13 | Visualizar un dashboard de la pagina web                            | Baja     | 1             |
 
 ### 3.4.- Impact Mapping:
 <p align="center">
@@ -1447,11 +1447,6 @@ Los Core Entities Unit Tests son fundamentales en el desarrollo de software, ya 
   <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1750051058/RecipeTest.png" alt="RecipeTest" width="750">
 </p>
 
-#### MealPlanRecipe Service Test:
-<p align="center">
-  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1750086623/MealPlanRecipeServiceTest.png" alt="MealPlanRecipeTest" width="750">
-</p>
-
 #### RecipeIngredient Service Test:
 <p align="center">
   <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1750088677/RecipeIngredientServiceTest.png" alt="RecipeIngredientTest" width="750">
@@ -1476,6 +1471,12 @@ Los Core Integration Tests son esenciales para verificar que los controladores s
 </p>
 
 ### 6.1.3. Core Behavior-Driven Development
+
+#### MealPlanRecipe Service Test:
+<p align="center">
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1750086623/MealPlanRecipeServiceTest.png" alt="MealPlanRecipeTest" width="750">
+</p>
+
 ### 6.1.4. Core System Tests
 
 Lista de planes disponibles
