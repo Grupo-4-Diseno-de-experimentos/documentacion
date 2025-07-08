@@ -233,11 +233,8 @@
   - [8.3.2. To-Be Product Backlog](#832-to-be-product-backlog)
   - [8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle](#833-pipeline-supported-experiment-driven-to-be-software-platform-lifecycle)
     - [8.3.3.1. To-Be Sprint Backlogs](#8331-to-be-sprint-backlogs)
-    - [8.3.3.2. Implemented To-Be Landing Page Evidence](#8332-implemented-to-be-landing-page-evidence)
-    - [8.3.3.3. Implemented To-Be Frontend-Web Application Evidence](#8333-implemented-to-be-frontend-web-application-evidence)
-    - [8.3.3.4. Implemented To-Be Native-Mobile Application Evidence](#8334-implemented-to-be-native-mobile-application-evidence)
-    - [8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence](#8335-implemented-to-be-restful-api-andor-serverless-backend-evidence)
-    - [8.3.3.6. Team Collaboration Insights](#8336-team-collaboration-insights)
+    - [8.3.3.2. Implemented To-Be Frontend-Web Application Evidence](#8332-implemented-to-be-frontend-web-application-evidence)
+    - [8.3.3.3. Team Collaboration Insights](#8336-team-collaboration-insights)
   - [8.3.4. To-Be Validation Interviews](#834-to-be-validation-interviews)
     - [8.3.4.1. Diseño de Entrevistas](#8341-diseño-de-entrevistas)
     - [8.3.4.2. Registro de Entrevistas](#8342-registro-de-entrevistas)
@@ -1635,7 +1632,6 @@ Evidencia de la reunión:
 
 ![ImagenZapata](https://i.ibb.co/6cVC23zv/image.png)
 
-
 ##### 6.3.3. Evaluaciones según heurísticas 
 
 ### Aplicación para evaluar: NutriSmart
@@ -2150,28 +2146,21 @@ Generación de Ingresos y Valor (Premium): Se sostiene que la introducción de u
 | **Hypothesis**      | La habilitación de opciones de personalización visual incrementará la tasa de adherencia diaria a los planes de alimentación en al menos un 20% dentro de las primeras 2 semanas de uso. |
 | **Null Hypothesis** | La personalización visual no tendrá un efecto significativo en la tasa de adherencia diaria a los planes de alimentación.                                                                |
 
-| Hypothesis 2        | Description                                   |
-| ------------------- | ------------------- |
-| **Question**        | ¿Mejorará el descubrimiento de recetas y el engagement del usuario la implementación de un sistema de calificación de platos y una sección de "Plato del Día" basada en ratings?           |
-| **Belief**          | Incluir un sistema de calificación de recetas permitirá destacar las más valoradas, lo que motivará a los usuarios a descubrir nuevas opciones, incrementar su participación y sentirse parte activa del sistema.    |
-| **Hypothesis**      | La implementación del sistema de calificaciones y la sección “Plato del Día” aumentará la interacción con recetas (consultas y guardados) en al menos un 25% durante las 2 primeras semanas. |
-| **Null Hypothesis** | El sistema de calificación y la sección “Plato del Día” no tendrán un impacto significativo en la interacción con recetas ni en el engagement general del usuario.          |
-
-| Hypothesis 3     | Description     |
+| Hypothesis 2     | Description     |
 | ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Question**        | ¿Aumentará la consistencia en el seguimiento del plan la implementación de recordatorios de alimentación?                                                      |
 | **Belief**          | Los recordatorios ayudarán a los usuarios a recordar sus objetivos y mantener el hábito.     |
 | **Hypothesis**      | La incorporación de recordatorios de alimentación aumentará la tasa de adherencia diaria al plan en al menos un 25% durante las primeras 2 semanas de uso.         |
 | **Null Hypothesis** | Los recordatorios no influirán significativamente en la tasa de cumplimiento del plan alimenticio diario por parte de los usuarios.        |
 
-| Hypothesis 4     | Description     |
+| Hypothesis 3     | Description     |
 | ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Question**        | ¿Aumentará la adherencia y motivación del usuario al implementar un panel de progreso visualmente atractivo?          |
 | **Belief**          | Visualizar avances motiva y refuerza el compromiso del usuario. |
 | **Hypothesis**      | Los usuarios que tengan acceso a un panel de progreso visual incrementarán su tasa de retención semanal en un 30% y consultarán su panel al menos tres veces por semana.                                 |
 | **Null Hypothesis** | La implementación del panel de progreso no tendrá un impacto relevante en la retención de usuarios ni en la frecuencia con que consultan su avance.   |
 
-| Hypothesis 5     | Description     |
+| Hypothesis 4     | Description     |
 | ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Question**        | ¿Aumentará el valor percibido de la app y generará ingresos ofrecer un modelo Premium con contacto con un nutricionista?          |
 | **Belief**          | Permitir que usuarios Premium se comuniquen con nutricionistas brindará confianza, aumentará la personalización y motivará su continuidad dentro del sistema.             |
@@ -2183,18 +2172,15 @@ Generación de Ingresos y Valor (Premium): Se sostiene que la introducción de u
 - **Question 1:** ¿Mejorará la experiencia del usuario permitir la personalización visual (colores, íconos y estilo) del plan de alimentación? <br>
   **Measure:** Registrar y comparar la tasa de adherencia diaria (número de planes cumplidos vs. planificados por día) entre usuarios con acceso a personalización visual y aquellos sin acceso. Medir durante 2 semanas. Además, analizar el tiempo promedio de uso por sesión y número de visitas diarias a la sección de plan personalizado.
 
-- **Question 2:** 	¿Mejorará el descubrimiento de recetas y el engagement del usuario la implementación de un sistema de calificación de platos y una sección de "Plato del Día" basada en ratings? <br>
-  **Measure:** 	Medir el número de recetas vistas, recetas guardadas en planes y calificaciones realizadas antes y después de la implementación. También se rastreará la frecuencia de visitas a la sección “Plato del Día” y la duración promedio de sesión en esa sección. Comparar métricas entre usuarios con y sin acceso a esta funcionalidad durante 2 semanas.
-
-- **Question 3:** ¿Aumentará la adherencia a los planes alimenticios la implementación de recordatorios de alimentación? <br>
+- **Question 2:** ¿Aumentará la adherencia a los planes alimenticios la implementación de recordatorios inteligentes personalizados? <br>
   **Measure:** Comparar la tasa de cumplimiento de comidas entre dos grupos: uno con recordatorios inteligentes activados y otro sin ellos. Medir el número promedio de comidas registradas por día y la cantidad de días con adherencia completa durante 3 semanas.
 
-- **Question 4:** ¿Aumentará la adherencia y motivación del usuario al implementar un panel de progreso visualmente atractivo? <br>
+- **Question 3:** ¿Motivará a los usuarios a seguir su plan el mostrar un panel de progreso con visualización de métricas alcanzadas? <br>
   **Measure:** Observar la tasa de retención semanal (usuarios que siguen usando la app cada semana) en dos grupos: con y sin panel de progreso visible. Medir también la frecuencia de acceso a la aplicación y el número de veces que el usuario consulta su progreso en un período de 4 semanas.
 
-- **Question 5:** ¿Aumentará el valor percibido de la app y generará ingresos ofrecer un modelo Premium con contacto con un nutricionista? <br>
+- **Question 4:** ¿Mejorará la percepción de valor y compromiso del usuario ofrecer un modelo Premium con contacto directo con nutricionistas? <br>
   **Measure:** Comparar la tasa de retención mensual entre usuarios Premium con acceso a nutricionistas y usuarios gratuitos. Medir también la cantidad de mensajes o consultas realizadas a nutricionistas y su correlación con el uso activo de planes. Observar durante los primeros dos meses tras la activación del plan.
-  
+
 ### 8.2.3. Conditions.
 
 |     1      |                          |
@@ -2205,27 +2191,22 @@ Generación de Ingresos y Valor (Premium): Se sostiene que la introducción de u
 
 |     2      |                          |
 | -------------------------- | ------------------ |
-| **Question**               | ¿Mejorará el descubrimiento de recetas y el engagement del usuario la implementación de un sistema de calificación de platos y una sección de "Plato del Día" basada en ratings?                                             |
-| **Condición Experimental** | Los usuarios con acceso al sistema de calificación y sección “Plato del Día” mostrarán un aumento del 25% o más en visualización, guardado y calificación de recetas, así como mayor frecuencia de uso. |
-| **Condición de Control**   | Los usuarios sin acceso al sistema de calificación ni a la sección destacada no presentarán diferencias significativas en las métricas de interacción con recetas.      |
-
-| 3                          |                     |
-| -------------------------- | -------------------- |
 | **Question**               | ¿Aumentará la adherencia a los planes alimenticios la implementación de recordatorios inteligentes personalizados?                                             |
 | **Condición Experimental** | Los usuarios que reciben recordatorios personalizados tendrán una tasa de cumplimiento de comidas al menos 25% mayor y mayor percepción de utilidad de la app. |
 | **Condición de Control**   | Los usuarios que no reciben recordatorios no mostrarán cambios significativos en la tasa de cumplimiento de comidas ni en satisfacción con la app.             |
 
-|     4      |                          |
+|     3      |                          |
 | -------------------------- | ------------------ |
 | **Question**               | ¿Motivará a los usuarios a seguir su plan el mostrar un panel de progreso con visualización de métricas alcanzadas?                            |
 | **Condición Experimental** | Los usuarios con panel de progreso habilitado mantendrán una tasa de retención semanal al menos 30% mayor y visitarán más veces la aplicación. |
 | **Condición de Control**   | Los usuarios sin acceso al panel no mostrarán mejora significativa en retención ni en engagement con la app.                                   |
 
-|     5      |                          |
+|     4      |                          |
 | -------------------------- | ------------------ |
 | **Question**               | ¿Mejorará la percepción de valor y compromiso del usuario ofrecer un modelo Premium con contacto directo con nutricionistas?               |
 | **Condición Experimental** | Los usuarios del plan Premium que contactan nutricionistas mostrarán una retención mensual un 35% superior y mayor valoración del sistema. |
 | **Condición de Control**   | Los usuarios del plan gratuito no mostrarán un cambio relevante en retención ni en percepción de valor comparado con los Premium.          |
+
 
 ### 8.2.4. Scale Calculations and Decisions.
 
@@ -2394,36 +2375,286 @@ Evaluación y Ajustes:
 ### 8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle
 
 #### 8.3.3.1. To-Be Sprint Backlogs
+| Sprint | User Story ID | Task ID | Título de la Tarea                             | Descripción de la Tarea                                                                                 | Estimación (Story Points) | Asignado a | Estado         |
+|--------|----------------|---------|--------------------------------------------------|----------------------------------------------------------------------------------------------------------|----------------------------|-------------|----------------|
+| 1      | TBU-01         | TK01    | Diseñar selector de plan gratuito o premium     | Crear interfaz en perfil de usuario para elegir entre plan gratuito y premium.                          | 2                          | Daniel       | Done           |
+| 1      | TBU-01         | TK02    | Implementar lógica de activación del plan       | Desarrollar backend que active funciones premium al confirmar pago.                                     | 1                          | Daniel     | Done           |
+| 1      | TBU-02         | TK03    | Crear botón de contacto a nutricionista         | Añadir botón “Hablar con nutricionista” visible solo para usuarios premium.                             | 2                          | George       | Done           |
+| 1      | TBU-02         | TK04    | Implementar sistema de asignación automática    | Conectar al usuario con un nutricionista según sus objetivos registrados.                               | 3                          | George       | Done    |
+| 1      | TBU-03         | TK05    | Añadir sistema de calificación en recetas       | Implementar estrellas para valorar recetas, y guardar puntuaciones.                                     | 2                          | Daniel         | Done           |
+| 1      | TBU-03         | TK06    | Crear sección destacada "Plato del Día"         | Mostrar receta con mayor calificación del día anterior en la pantalla de inicio.                        | 3                          | Jorge         | Done          |
+| 1      | TBU-04         | TK07    | Diseñar historial de planes usados              | Crear pantalla donde se liste el historial de planes anteriores.                                        | 2                          | Jorge    | Done           |
+| 1      | TBU-04         | TK08    | Implementar detalle de cada plan histórico      | Mostrar recetas, fechas y estado de cumplimiento por cada plan usado.                                   | 1                          | Carlos    | Done      |
+| 1      | TBU-05         | TK09    | Implementar sugerencias inteligentes            | Crear lógica de recomendaciones personalizadas con base en perfil y objetivos.                          | 3                          | Jorge     | Done          |
+| 1      | TBU-05         | TK10    | Filtrar sugerencias según alergias              | Filtrar recetas que contienen ingredientes sensibles o prohibidos según el perfil del usuario.          | 2                          | Carlos       | Done    |
+| 1      | TBU-06         | TK11    | Agregar sistema de notificaciones inteligentes  | Desarrollar módulo para notificar sobre planes o recetas compatibles.                                   | 3                          | George       | Done           |
+| 1      | TBU-06         | TK12    | Redirigir a plan o receta desde la notificación | Permitir navegación directa desde la notificación hacia el contenido correspondiente.                   | 2                          | Jorge         | Done          |
+| 1      | TBU-07         | TK13    | Crear calendario nutricional interactivo        | Mostrar comidas asignadas por día y hora.                                                               | 3                          | Carlos       | Done          |
+| 1      | TBU-07         | TK14    | Permitir edición manual de comidas              | Agregar funcionalidad para personalizar recetas del calendario.                                         | 2                          | Jorge     | Done          |
+| 1      | TBU-08         | TK15    | Permitir enviar comentarios y rating            | Añadir sección para dejar opiniones tras completar plan o receta.                                       | 1                          | Daniel    | Done           |
+| 1      | TBU-08         | TK16    | Mostrar valoraciones de otros usuarios          | Mostrar promedio de estrellas y comentarios recibidos en detalle de recetas o planes.                   | 1                          | George         | Done    |
 
-#### 8.3.3.2. Implemented To-Be Landing Page Evidence
 
-#### 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence
+#### 8.3.3.2. Implemented To-Be Frontend-Web Application Evidence
+<p align="center">
+  <img src="./imagenes/to-be1.png" alt="FAQ Section" width="750">
+</p>
+<p align="center">
+  <img src="./imagenes/to-be2.png" alt="FAQ Section" width="750">
+</p>
+<p align="center">
+  <img src="./imagenes/to-be3.png" alt="FAQ Section" width="750">
+</p>
+<p align="center">
+  <img src="./imagenes/to-be4.png" alt="FAQ Section" width="750">
+</p>
+<p align="center">
+  <img src="./imagenes/to-be5.png" alt="FAQ Section" width="750">
+</p>
 
-#### 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence
-
-#### 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence
-
-#### 8.3.3.6. Team Collaboration Insights
+#### 8.3.3.3. Team Collaboration Insights
+<p align="center">
+  <img src="./imagenes/insight.png" alt="FAQ Section" width="750">
+</p>
+<p align="center">
+  <img src="./imagenes/insight2.png" alt="FAQ Section" width="750">
+</p>
+<p align="center">
+  <img src="./imagenes/insight3.png" alt="FAQ Section" width="750">
+</p>
+<p align="center">
+  <img src="./imagenes/insight4.png" alt="FAQ Section" width="750">
+</p>
 
 ### 8.3.4. To-Be Validation Interviews
 #### 8.3.4.1. Diseño de Entrevistas.
 
+1.	¿Sueles activar el modo oscuro en las apps que usas a diario? ¿Por qué?
+2.	¿Te gustaría tener un tema oscuro en esta app de planes de comida?
+3.	¿Te gustaría poder calificar los planes de comida que usas?
+4.	¿Qué opinas de que el sistema elija un "plato del día" según las calificaciones de otros usuarios? ¿Te sería útil?
+5.	¿Qué tipo de notificaciones te parecerían útiles en una app de alimentación o nutrición?
+6.	¿Prefieres recibir notificaciones diarias, semanales, o solo cuando haya algo importante?
+7.	¿Te interesaría ver un panel con tu progreso nutricional o de objetivos?
+8.	¿Qué tipo de metas te motivarían más: calorías consumidas, constancia de uso, o seguimiento de objetivos?
+9.	¿Te parecería útil tener un botón para contactar rápidamente a un nutricionista desde la app?
+10.	¿Te sentirías cómodo usando un sistema de pago dentro de la app para servicios extra como asesorías o planes premium?
+
+
 #### 8.3.4.2. Registro de Entrevistas.
+### Segmento objetivo: Nutricionista
+
+**Entrevista 01**
+* **Nombres:** Gabriel
+* **Apellidos:** Díaz
+* **Edad:** 23
+* **Distrito:** San Miguel
+* **Evidencia de la reunión:** 
+
+[![image.png](https://i.postimg.cc/Pq2fV655/image.png)](https://postimg.cc/3y0HdFGs)
+
+**Enlace de entrevista:** [https://upcedupe-my.sharepoint.com/personal/u20211c273_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20211c273_upc_edu_pe%2FDocuments%2F2025-07-08%2012-04-14.mkv&referrer=StreamWebApp.Web&referrerScenario=AddressBarCopied.view.d58a3aa0-dbab-4d95-919a-17ad78ae1d8b](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211c273_upc_edu_pe/EYjwX6Tk1wlOqDJOK2LsyvIBrt1Vgvx27V34sZj2-HneCw?e=i8BqSl&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+
+**Resumen de la entrevista:**
+
+Gabriel Díaz, un **estudiante de sexto año de medicina**, ofreció sus impresiones sobre la aplicación NutriSmart. Consideró la propuesta "bastante **interesante**" y "completa", valorando la función que permite a los usuarios **publicar y calificar recetas y planes**, lo que para él genera una valiosa retroalimentación. Aunque acostumbra usar el **modo oscuro** en otras aplicaciones para reducir la fatiga visual, para una app de nutrición preferiría el **modo claro** por ser más "llamativo" y estético en relación con la comida.
+Gabriel también encontró muy útil la **calificación de planes de comida** y la idea de un "plato del día" sugerido por el sistema. Sobre las **notificaciones**, solo las vería útiles para avisos de contacto para usuarios premium, y sugirió que su frecuencia se adaptara al objetivo individual del usuario. Finalmente, cree que un **panel de progreso nutricional** y la posibilidad de **contactar rápidamente a un nutricionista** son beneficiosos, y que los usuarios se sentirían cómodos pagando por **servicios premium** dentro de la aplicación.
+
+### Segmento objetivo: Usuario
+**Entrevista 01**
+* **Nombres:** Luis
+* **Apellidos:** Moreno
+* **Edad:** 21
+* **Distrito:** San Martin de Porres
+* **Evidencia de la reunión:** 
+
+<img src= "https://res.cloudinary.com/dydklnicb/image/upload/v1752008975/entrevista-Luis-NutriSmart.png">
+
+**Enlace de entrevista:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113280_upc_edu_pe/ERgvbIFkER5Asn01Qupk-i8BW5WjwM-TTsV1OmbCVxW8jw?e=kNY9FT
+
+Luis Moreno, desarrollador de software independiente, compartió su opinión sobre la aplicación NutriSmart. Destacó que la propuesta le pareció atractiva y bien estructurada, y valoró especialmente la opción que permite a los usuarios compartir y calificar recetas y planes alimenticios, ya que considera que esto genera una retroalimentación valiosa. Comentó que suele utilizar el modo oscuro en otras plataformas para reducir la fatiga visual, debido a una leve sensibilidad ocular.
+También resaltó como muy útil la calificación de planes de comida y la función del "plato del día" sugerido automáticamente. En cuanto a las notificaciones, las consideró efectivas para ayudar al usuario a mantenerse enfocado en sus metas, aunque recomendó ajustar su frecuencia en función de los objetivos personales de cada usuario. Por último, consideró que tanto el panel de progreso nutricional como la posibilidad de acceder rápidamente a un nutricionista aportan un gran valor, y opinó que los usuarios estarían dispuestos a pagar por funcionalidades premium dentro de la app.
 
 ## 8.4. Experiment Aftermath & Analysis
 ### 8.4.1. Analysis and Interpretation of Results
 
+En el estudio, las preguntas originales diseñadas para validar las nuevas funcionalidades experimentales de la aplicación **NutriSmart** fueron estructuradas y adaptadas en formato de formulario digital. El objetivo fue recopilar datos claros y accionables sobre las percepciones, preferencias y necesidades de los usuarios respecto a las características clave del producto. Esta estrategia facilitó una mejor comprensión del valor percibido de cada funcionalidad y sirvió como insumo para la toma de decisiones sobre el desarrollo futuro de la app.
+
+#### Preguntas Formuladas
+
+A continuación se detallan las 10 preguntas aplicadas a una muestra de **25 usuarios**:
+
+1. ¿Cuál es tu rango de edad?  
+2. ¿Cuánto tiempo usas la app semanalmente?  
+3. ¿Qué tan útil consideras el modo oscuro en la app?  
+4. ¿Te gustaría que los planes de comida incluyan una calificación de otros usuarios?  
+5. ¿Te parece útil que el plan mejor calificado del día se muestre como “Plan recomendado”?  
+6. ¿Las notificaciones personalizadas te ayudan a mantener tu plan de comidas?  
+7. ¿Te gustaría ver un panel de progreso con tus avances semanales?  
+8. ¿Considerarías contactar a un nutricionista desde la app si se habilita esa opción?  
+9. ¿Te gustaría contar con una pantalla para añadir un método de pago para servicios extra?  
+10. ¿Qué tan intuitiva consideras la interfaz de la app?
+
+Estas preguntas fueron respondidas por los participantes según su experiencia o expectativas con la aplicación, y permitieron extraer conclusiones sobre el nivel de aceptación y usabilidad de las funcionalidades propuestas.
+
+
+**Análisis de Datos Demográficos y de Características - App de Planes de Comida NutriSmart**
+
+---
+
+**Distribución de edades:**
+La mayoría de los usuarios se encuentra en el rango de 18 a 25 años, lo que sugiere que NutriSmart tiene una fuerte aceptación entre jóvenes adultos, probablemente estudiantes o personas interesadas en adoptar hábitos saludables desde temprano.
+
+<p align="center">
+  <img src="./imagenes/form1.png" alt="test-front1" width="750">
+</p>
+
+**Frecuencia de uso semanal:**
+Un alto porcentaje de usuarios utiliza la app entre 3 y 6 días a la semana, lo cual evidencia un buen nivel de compromiso y sugiere que la app forma parte de su rutina alimentaria. 
+<p align="center">
+  <img src="./imagenes/form2.png" alt="test-front1" width="750">
+</p>
+---
+
+**Evaluación de Características:**
+
+**Modo Oscuro:**
+El modo oscuro es ampliamente valorado, especialmente por usuarios que usan la app de noche. Esto refuerza su inclusión como una mejora esencial en términos de accesibilidad y experiencia de usuario. 
+<p align="center">
+  <img src="./imagenes/form3.png" alt="test-front1" width="750">
+</p>
+
+**Interés en calificaciones de los planes:**
+La mayoría considera útil que los planes de comida puedan ser calificados por otros usuarios. Esto valida la idea de incorporar un sistema de ratings que promueva la interacción y ayude a descubrir contenido relevante.
+<p align="center">
+  <img src="./imagenes/form4.png" alt="test-front1" width="750">
+</p>
+
+**Aceptación del “Plan del Día”:**
+La propuesta de destacar un “Plan del Día” según la calificación de los usuarios fue bien recibida, lo que indica que esta funcionalidad puede mejorar la personalización y dinamismo de la app.
+<p align="center">
+  <img src="./imagenes/form5.png" alt="test-front1" width="750">
+</p>
+
+**Notificaciones Personalizadas:**
+Las notificaciones son percibidas como una ayuda para mantener la constancia en los hábitos alimenticios. Se recomienda permitir a los usuarios personalizarlas para maximizar su efectividad y evitar molestias.
+<p align="center">
+  <img src="./imagenes/form6.png" alt="test-front1" width="750">
+</p>
+
+**Panel de Progreso:**
+La gran mayoría desea contar con un panel visual que refleje su avance semanal, lo que indica que esta funcionalidad no solo motiva, sino que también fomenta el cumplimiento de objetivos personales.
+<p align="center">
+  <img src="./imagenes/form7.png" alt="test-front1" width="750">
+</p>
+
+**Pantalla de Contacto con Nutricionista:**
+Existe un interés significativo en poder contactar a un nutricionista desde la app, especialmente si se ofrece un canal directo como chat o llamada. Esta funcionalidad tiene potencial como parte de un servicio premium.
+<p align="center">
+  <img src="./imagenes/form8.png" alt="test-front1" width="750">
+</p>
+
+**Método de Pago Integrado:**
+Una parte considerable de los usuarios está dispuesta a pagar por servicios adicionales, como planes personalizados o asesorías. Esto abre la posibilidad de implementar funcionalidades freemium o paquetes premium.
+<p align="center">
+  <img src="./imagenes/form9.png" alt="test-front1" width="750">
+</p>
+
+**Percepción de la interfaz:**
+La mayoría considera que la app es intuitiva o muy intuitiva, aunque una minoría señaló que puede mejorarse. Esto sugiere que la interfaz ya está bien diseñada, pero podrían aplicarse ajustes menores para mejorar la experiencia de nuevos usuarios.
+<p align="center">
+  <img src="./imagenes/form10.png" alt="test-front1" width="750">
+</p>
+---
+
+**Recomendaciones de los Usuarios:**
+
+* Mayor control de notificaciones
+* Permitir configurar qué tipo de notificaciones desea recibir cada usuario.
+* Fortalecer las funcionalidades sociales, como comentarios y compartir planes.
+* Habilitar una interfaz amigable para consultar o reservar con un nutricionista.
+* Incorporar gráficas de progreso y estadísticas claras.
+
+---
+
+**Conclusión:**
+La encuesta demuestra un alto nivel de satisfacción y compromiso con la app NutriSmart. Las características experimentales como el sistema de ratings, el modo oscuro y los paneles de progreso son altamente valoradas. Las recomendaciones brindan una hoja de ruta clara para priorizar mejoras que refuercen el valor percibido por los usuarios.
+
 ### 8.4.2. Re-scored and Re-prioritized Question Backlog
+| **Prioridad (1,2,3,5,8)** | **Pregunta**                                                                                                                           |
+| ------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| 1                         | ¿Mejorará la experiencia del usuario al añadir un modo oscuro a la app móvil y web?                                                    |
+| 2                         | ¿Aumentará la constancia de uso con un sistema de notificaciones personalizadas que recuerden tareas como seguir el plan o beber agua? |
+| 3                         | ¿Incrementará la interacción el permitir calificar los planes de comida y mostrar un “Plan del Día” según el rating?                   |
+| 5                         | ¿Aumentará la motivación del usuario al incorporar un panel de progreso semanal con metas cumplidas y calorías consumidas?             |
+| 2                         | ¿Facilitará la toma de decisiones integrar una pantalla para contactar a un nutricionista desde la app?                                |
+| 5                         | ¿Elevará el valor percibido incluir métodos de pago dentro de la app para servicios premium como asesorías o recetas exclusivas?       |
+| 3                         | ¿Ampliará la base de usuarios ofrecer la app en varios idiomas, como inglés o portugués?                                               |
+| 5                         | ¿Sería viable a futuro agregar una comunidad o foro para compartir recetas, tips de alimentación o experiencias?                       |
 
 ## 8.5. Continuous Learning
 ### 8.5.1. Shareback Session Artifacts: Learning Workflow
 
+Encuesta de Google Forms: Se diseñó un formulario de Google con 10 preguntas divididas en dos secciones: datos demográficos y evaluación de características experimentales de la app NutriSmart. El objetivo fue recopilar la opinión de 25 usuarios sobre funciones como el modo oscuro, notificaciones, panel de progreso, contacto con nutricionistas y métodos de pago. Esta herramienta facilitó la recolección rápida y estructurada de datos para analizar la aceptación y utilidad percibida de cada funcionalidad.
+
+link: https://docs.google.com/forms/d/e/1FAIpQLSdybFadC1Lss_7STekqZNGxTeKRrIfwjR0ZQVjLUBkiwpPZ_g/viewform?usp=dialog
+<p align="center">
+  <img src="./imagenes/google-form.png" alt="test-front1" width="750">
+</p>
+
+
 ## 8.6. To-Be Software Platform Pre-launch
+
 ## 8.6.1. About-the-Product Intro Video
 
+<p align="center">
+  <img src="./imagenes/abouttheproduct.png" alt="test-front1" width="750">
+</p>
+
+Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202019577_upc_edu_pe/ERs9Ow-L1D1Dh8W1QKkc4kMBHvD0XxiOXK5pLvBllfAbNA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ewupXN
 
 # Conclusiones
 ## Conclusiones y recomendaciones.
+**Conclusiones**
+El desarrollo del proyecto NutriSmart ha demostrado, a través de entrevistas, encuestas y validaciones experimentales, que existe un alto interés por herramientas que ayuden a los usuarios a gestionar su alimentación de forma saludable y personalizada. Funcionalidades como el modo oscuro, las notificaciones personalizadas, el sistema de calificaciones y el contacto con nutricionistas fueron altamente valoradas, destacando su impacto positivo en la experiencia del usuario.
+
+Se validó que la combinación de funcionalidades prácticas con una interfaz amigable y opciones de personalización favorece la retención de usuarios y genera un mayor compromiso con la aplicación.
+
+**Recomendaciones**
+Potenciar la personalización de planes y notificaciones según objetivos nutricionales y preferencias del usuario.
+
+Implementar mejoras continuas en accesibilidad, como el modo oscuro completo y opciones multilingües.
+
+Ampliar las funciones sociales, incluyendo valoraciones, comentarios y foros de interacción entre usuarios.
+
+Optimizar el canal de contacto con nutricionistas, permitiendo opciones de reserva, chat o llamadas dentro de la app.
+
+Realizar nuevas validaciones periódicas con usuarios reales para seguir priorizando funcionalidades con base en evidencia.
+
 ## Video About-The-Team.
+
+<p align="center">
+  <img src="./imagenes/abouttheteam.png" alt="test-front1" width="750">
+</p>
+
+Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202019577_upc_edu_pe/EexXFwg61sZFpoW1K3sC1EYBEtoErzjhOQ8OTPLu76wXaA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=BBeKo6
+
+
 ## Bibliografía
+Cooper, A., Reimann, R., Cronin, D., & Noessel, C. (2014). About Face: The Essentials of Interaction Design. Wiley.
+
+Nielsen, J. (1994). Heuristic Evaluation. Usability Inspection Methods.
+
+Ries, E. (2011). The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses. Crown Publishing.
+
+IDEO.org (2015). The Field Guide to Human-Centered Design. IDEO.
+
 ## Anexos
+Landing page Desplegado: https://experimentos-b4e9f.web.app/
+
+Backend Desplegado: https://nutrismart-dfhga8ddf6fcddbb.brazilsouth-01.azurewebsites.net/swagger-ui/index.html#/
+
+Frontend Desplegado: https://nutrismart-da407.web.app/login
+
+Experimentos Desplegado: https://studio--nutrismart-a4plp.us-central1.hosted.app/dashboard
