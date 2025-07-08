@@ -233,11 +233,8 @@
   - [8.3.2. To-Be Product Backlog](#832-to-be-product-backlog)
   - [8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle](#833-pipeline-supported-experiment-driven-to-be-software-platform-lifecycle)
     - [8.3.3.1. To-Be Sprint Backlogs](#8331-to-be-sprint-backlogs)
-    - [8.3.3.2. Implemented To-Be Landing Page Evidence](#8332-implemented-to-be-landing-page-evidence)
-    - [8.3.3.3. Implemented To-Be Frontend-Web Application Evidence](#8333-implemented-to-be-frontend-web-application-evidence)
-    - [8.3.3.4. Implemented To-Be Native-Mobile Application Evidence](#8334-implemented-to-be-native-mobile-application-evidence)
-    - [8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence](#8335-implemented-to-be-restful-api-andor-serverless-backend-evidence)
-    - [8.3.3.6. Team Collaboration Insights](#8336-team-collaboration-insights)
+    - [8.3.3.2. Implemented To-Be Frontend-Web Application Evidence](#8332-implemented-to-be-frontend-web-application-evidence)
+    - [8.3.3.3. Team Collaboration Insights](#8336-team-collaboration-insights)
   - [8.3.4. To-Be Validation Interviews](#834-to-be-validation-interviews)
     - [8.3.4.1. Diseño de Entrevistas](#8341-diseño-de-entrevistas)
     - [8.3.4.2. Registro de Entrevistas](#8342-registro-de-entrevistas)
@@ -2397,15 +2394,37 @@ Evaluación y Ajustes:
 | 1      | TBU-08         | TK15    | Permitir enviar comentarios y rating            | Añadir sección para dejar opiniones tras completar plan o receta.                                       | 1                          | Daniel    | Done           |
 | 1      | TBU-08         | TK16    | Mostrar valoraciones de otros usuarios          | Mostrar promedio de estrellas y comentarios recibidos en detalle de recetas o planes.                   | 1                          | George         | Done    |
 
-#### 8.3.3.2. Implemented To-Be Landing Page Evidence
 
-#### 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence
+#### 8.3.3.2. Implemented To-Be Frontend-Web Application Evidence
+<p align="center">
+  <img src="./imagenes/to-be1.png" alt="FAQ Section" width="750">
+</p>
+<p align="center">
+  <img src="./imagenes/to-be2.png" alt="FAQ Section" width="750">
+</p>
+<p align="center">
+  <img src="./imagenes/to-be3.png" alt="FAQ Section" width="750">
+</p>
+<p align="center">
+  <img src="./imagenes/to-be4.png" alt="FAQ Section" width="750">
+</p>
+<p align="center">
+  <img src="./imagenes/to-be5.png" alt="FAQ Section" width="750">
+</p>
 
-#### 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence
-
-#### 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence
-
-#### 8.3.3.6. Team Collaboration Insights
+#### 8.3.3.3. Team Collaboration Insights
+<p align="center">
+  <img src="./imagenes/insight.png" alt="FAQ Section" width="750">
+</p>
+<p align="center">
+  <img src="./imagenes/insight2.png" alt="FAQ Section" width="750">
+</p>
+<p align="center">
+  <img src="./imagenes/insight3.png" alt="FAQ Section" width="750">
+</p>
+<p align="center">
+  <img src="./imagenes/insight4.png" alt="FAQ Section" width="750">
+</p>
 
 ### 8.3.4. To-Be Validation Interviews
 #### 8.3.4.1. Diseño de Entrevistas.
@@ -2591,6 +2610,35 @@ link: https://docs.google.com/forms/d/e/1FAIpQLSdybFadC1Lss_7STekqZNGxTeKRrIfwjR
 
 # Conclusiones
 ## Conclusiones y recomendaciones.
+**Conclusiones**
+El desarrollo del proyecto NutriSmart ha demostrado, a través de entrevistas, encuestas y validaciones experimentales, que existe un alto interés por herramientas que ayuden a los usuarios a gestionar su alimentación de forma saludable y personalizada. Funcionalidades como el modo oscuro, las notificaciones personalizadas, el sistema de calificaciones y el contacto con nutricionistas fueron altamente valoradas, destacando su impacto positivo en la experiencia del usuario.
+
+Se validó que la combinación de funcionalidades prácticas con una interfaz amigable y opciones de personalización favorece la retención de usuarios y genera un mayor compromiso con la aplicación.
+
+**Recomendaciones**
+Potenciar la personalización de planes y notificaciones según objetivos nutricionales y preferencias del usuario.
+
+Implementar mejoras continuas en accesibilidad, como el modo oscuro completo y opciones multilingües.
+
+Ampliar las funciones sociales, incluyendo valoraciones, comentarios y foros de interacción entre usuarios.
+
+Optimizar el canal de contacto con nutricionistas, permitiendo opciones de reserva, chat o llamadas dentro de la app.
+
+Realizar nuevas validaciones periódicas con usuarios reales para seguir priorizando funcionalidades con base en evidencia.
+
 ## Video About-The-Team.
+
 ## Bibliografía
+Cooper, A., Reimann, R., Cronin, D., & Noessel, C. (2014). About Face: The Essentials of Interaction Design. Wiley.
+
+Nielsen, J. (1994). Heuristic Evaluation. Usability Inspection Methods.
+
+Ries, E. (2011). The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses. Crown Publishing.
+
+IDEO.org (2015). The Field Guide to Human-Centered Design. IDEO.
+
 ## Anexos
+Landing page Desplegado: https://experimentos-b4e9f.web.app/
+Backend Desplegado: https://nutrismart-dfhga8ddf6fcddbb.brazilsouth-01.azurewebsites.net/swagger-ui/index.html#/
+Frontend Desplegado: https://nutrismart-da407.web.app/login
+Experimentos Desplegado: https://studio--nutrismart-a4plp.us-central1.hosted.app/dashboard
