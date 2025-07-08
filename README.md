@@ -2453,7 +2453,7 @@ Evaluación y Ajustes:
 
 [![image.png](https://i.postimg.cc/Pq2fV655/image.png)](https://postimg.cc/3y0HdFGs)
 
-**Enlace de entrevista:** [https://upcedupe-my.sharepoint.com/personal/u20211c273_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20211c273_upc_edu_pe%2FDocuments%2F2025-07-08%2012-04-14.mkv&referrer=StreamWebApp.Web&referrerScenario=AddressBarCopied.view.d58a3aa0-dbab-4d95-919a-17ad78ae1d8b](https://upcedupe-my.sharepoint.com/personal/u20211c273_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20211c273_upc_edu_pe%2FDocuments%2F2025-07-08%2012-04-14.mkv&referrer=StreamWebApp.Web&referrerScenario=AddressBarCopied.view.d58a3aa0-dbab-4d95-919a-17ad78ae1d8b)
+**Enlace de entrevista:** [https://upcedupe-my.sharepoint.com/personal/u20211c273_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20211c273_upc_edu_pe%2FDocuments%2F2025-07-08%2012-04-14.mkv&referrer=StreamWebApp.Web&referrerScenario=AddressBarCopied.view.d58a3aa0-dbab-4d95-919a-17ad78ae1d8b](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211c273_upc_edu_pe/EYjwX6Tk1wlOqDJOK2LsyvIBrt1Vgvx27V34sZj2-HneCw?e=i8BqSl&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 
 **Resumen de la entrevista:**
