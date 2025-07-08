@@ -2398,10 +2398,130 @@ Evaluación y Ajustes:
 ## 8.4. Experiment Aftermath & Analysis
 ### 8.4.1. Analysis and Interpretation of Results
 
+En el estudio, las preguntas originales diseñadas para validar las nuevas funcionalidades experimentales de la aplicación **NutriSmart** fueron estructuradas y adaptadas en formato de formulario digital. El objetivo fue recopilar datos claros y accionables sobre las percepciones, preferencias y necesidades de los usuarios respecto a las características clave del producto. Esta estrategia facilitó una mejor comprensión del valor percibido de cada funcionalidad y sirvió como insumo para la toma de decisiones sobre el desarrollo futuro de la app.
+
+#### Preguntas Formuladas
+
+A continuación se detallan las 10 preguntas aplicadas a una muestra de **25 usuarios**:
+
+1. ¿Cuál es tu rango de edad?  
+2. ¿Cuánto tiempo usas la app semanalmente?  
+3. ¿Qué tan útil consideras el modo oscuro en la app?  
+4. ¿Te gustaría que los planes de comida incluyan una calificación de otros usuarios?  
+5. ¿Te parece útil que el plan mejor calificado del día se muestre como “Plan recomendado”?  
+6. ¿Las notificaciones personalizadas te ayudan a mantener tu plan de comidas?  
+7. ¿Te gustaría ver un panel de progreso con tus avances semanales?  
+8. ¿Considerarías contactar a un nutricionista desde la app si se habilita esa opción?  
+9. ¿Te gustaría contar con una pantalla para añadir un método de pago para servicios extra?  
+10. ¿Qué tan intuitiva consideras la interfaz de la app?
+
+Estas preguntas fueron respondidas por los participantes según su experiencia o expectativas con la aplicación, y permitieron extraer conclusiones sobre el nivel de aceptación y usabilidad de las funcionalidades propuestas.
+
+
+**Análisis de Datos Demográficos y de Características - App de Planes de Comida NutriSmart**
+
+---
+
+**Distribución de edades:**
+La mayoría de los usuarios se encuentra en el rango de 18 a 25 años, lo que sugiere que NutriSmart tiene una fuerte aceptación entre jóvenes adultos, probablemente estudiantes o personas interesadas en adoptar hábitos saludables desde temprano.
+
+<p align="center">
+  <img src="./imagenes/form1.png" alt="test-front1" width="750">
+</p>
+
+**Frecuencia de uso semanal:**
+Un alto porcentaje de usuarios utiliza la app entre 3 y 6 días a la semana, lo cual evidencia un buen nivel de compromiso y sugiere que la app forma parte de su rutina alimentaria. 
+<p align="center">
+  <img src="./imagenes/form2.png" alt="test-front1" width="750">
+</p>
+---
+
+**Evaluación de Características:**
+
+**Modo Oscuro:**
+El modo oscuro es ampliamente valorado, especialmente por usuarios que usan la app de noche. Esto refuerza su inclusión como una mejora esencial en términos de accesibilidad y experiencia de usuario. 
+<p align="center">
+  <img src="./imagenes/form3.png" alt="test-front1" width="750">
+</p>
+
+**Interés en calificaciones de los planes:**
+La mayoría considera útil que los planes de comida puedan ser calificados por otros usuarios. Esto valida la idea de incorporar un sistema de ratings que promueva la interacción y ayude a descubrir contenido relevante.
+<p align="center">
+  <img src="./imagenes/form4.png" alt="test-front1" width="750">
+</p>
+
+**Aceptación del “Plan del Día”:**
+La propuesta de destacar un “Plan del Día” según la calificación de los usuarios fue bien recibida, lo que indica que esta funcionalidad puede mejorar la personalización y dinamismo de la app.
+<p align="center">
+  <img src="./imagenes/form5.png" alt="test-front1" width="750">
+</p>
+
+**Notificaciones Personalizadas:**
+Las notificaciones son percibidas como una ayuda para mantener la constancia en los hábitos alimenticios. Se recomienda permitir a los usuarios personalizarlas para maximizar su efectividad y evitar molestias.
+<p align="center">
+  <img src="./imagenes/form6.png" alt="test-front1" width="750">
+</p>
+
+**Panel de Progreso:**
+La gran mayoría desea contar con un panel visual que refleje su avance semanal, lo que indica que esta funcionalidad no solo motiva, sino que también fomenta el cumplimiento de objetivos personales.
+<p align="center">
+  <img src="./imagenes/form7.png" alt="test-front1" width="750">
+</p>
+
+**Pantalla de Contacto con Nutricionista:**
+Existe un interés significativo en poder contactar a un nutricionista desde la app, especialmente si se ofrece un canal directo como chat o llamada. Esta funcionalidad tiene potencial como parte de un servicio premium.
+<p align="center">
+  <img src="./imagenes/form8.png" alt="test-front1" width="750">
+</p>
+
+**Método de Pago Integrado:**
+Una parte considerable de los usuarios está dispuesta a pagar por servicios adicionales, como planes personalizados o asesorías. Esto abre la posibilidad de implementar funcionalidades freemium o paquetes premium.
+<p align="center">
+  <img src="./imagenes/form9.png" alt="test-front1" width="750">
+</p>
+
+**Percepción de la interfaz:**
+La mayoría considera que la app es intuitiva o muy intuitiva, aunque una minoría señaló que puede mejorarse. Esto sugiere que la interfaz ya está bien diseñada, pero podrían aplicarse ajustes menores para mejorar la experiencia de nuevos usuarios.
+<p align="center">
+  <img src="./imagenes/form10.png" alt="test-front1" width="750">
+</p>
+---
+
+**Recomendaciones de los Usuarios:**
+
+* Mayor control de notificaciones
+* Permitir configurar qué tipo de notificaciones desea recibir cada usuario.
+* Fortalecer las funcionalidades sociales, como comentarios y compartir planes.
+* Habilitar una interfaz amigable para consultar o reservar con un nutricionista.
+* Incorporar gráficas de progreso y estadísticas claras.
+
+---
+
+**Conclusión:**
+La encuesta demuestra un alto nivel de satisfacción y compromiso con la app NutriSmart. Las características experimentales como el sistema de ratings, el modo oscuro y los paneles de progreso son altamente valoradas. Las recomendaciones brindan una hoja de ruta clara para priorizar mejoras que refuercen el valor percibido por los usuarios.
+
 ### 8.4.2. Re-scored and Re-prioritized Question Backlog
+| **Prioridad (1,2,3,5,8)** | **Pregunta**                                                                                                                           |
+| ------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| 1                         | ¿Mejorará la experiencia del usuario al añadir un modo oscuro a la app móvil y web?                                                    |
+| 2                         | ¿Aumentará la constancia de uso con un sistema de notificaciones personalizadas que recuerden tareas como seguir el plan o beber agua? |
+| 3                         | ¿Incrementará la interacción el permitir calificar los planes de comida y mostrar un “Plan del Día” según el rating?                   |
+| 5                         | ¿Aumentará la motivación del usuario al incorporar un panel de progreso semanal con metas cumplidas y calorías consumidas?             |
+| 2                         | ¿Facilitará la toma de decisiones integrar una pantalla para contactar a un nutricionista desde la app?                                |
+| 5                         | ¿Elevará el valor percibido incluir métodos de pago dentro de la app para servicios premium como asesorías o recetas exclusivas?       |
+| 3                         | ¿Ampliará la base de usuarios ofrecer la app en varios idiomas, como inglés o portugués?                                               |
+| 5                         | ¿Sería viable a futuro agregar una comunidad o foro para compartir recetas, tips de alimentación o experiencias?                       |
 
 ## 8.5. Continuous Learning
 ### 8.5.1. Shareback Session Artifacts: Learning Workflow
+
+Encuesta de Google Forms: Se diseñó un formulario de Google con 10 preguntas divididas en dos secciones: datos demográficos y evaluación de características experimentales de la app NutriSmart. El objetivo fue recopilar la opinión de 25 usuarios sobre funciones como el modo oscuro, notificaciones, panel de progreso, contacto con nutricionistas y métodos de pago. Esta herramienta facilitó la recolección rápida y estructurada de datos para analizar la aceptación y utilidad percibida de cada funcionalidad.
+
+link: https://docs.google.com/forms/d/e/1FAIpQLSdybFadC1Lss_7STekqZNGxTeKRrIfwjR0ZQVjLUBkiwpPZ_g/viewform?usp=dialog
+<p align="center">
+  <img src="./imagenes/google-form.png" alt="test-front1" width="750">
+</p>
+
 
 ## 8.6. To-Be Software Platform Pre-launch
 ## 8.6.1. About-the-Product Intro Video
