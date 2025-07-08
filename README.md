@@ -1635,6 +1635,24 @@ Evidencia de la reunión:
 
 ![ImagenZapata](https://i.ibb.co/6cVC23zv/image.png)
 
+**Usuarios**
+
+**Entrevista - Usuario**
+
+- Nombre: Luis
+- Apellidos: Moreno
+- Edad: 21 años
+- Distrito: San Martin de Porres - Lima
+- Minuto donde Empieza: 07:40
+- Duración: 17:45 minutos
+
+Evidencia de la reunión:
+
+<p>
+  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1752008975/entrevista-Luis-NutriSmart.png" alt="Entrevista-Luis_Nutrismart">
+</p>
+
+Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113280_upc_edu_pe/ERgvbIFkER5Asn01Qupk-i8BW5WjwM-TTsV1OmbCVxW8jw?e=pSTWZN
 
 ##### 6.3.3. Evaluaciones según heurísticas 
 
