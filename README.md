@@ -2639,6 +2639,9 @@ IDEO.org (2015). The Field Guide to Human-Centered Design. IDEO.
 
 ## Anexos
 Landing page Desplegado: https://experimentos-b4e9f.web.app/
+
 Backend Desplegado: https://nutrismart-dfhga8ddf6fcddbb.brazilsouth-01.azurewebsites.net/swagger-ui/index.html#/
+
 Frontend Desplegado: https://nutrismart-da407.web.app/login
+
 Experimentos Desplegado: https://studio--nutrismart-a4plp.us-central1.hosted.app/dashboard
