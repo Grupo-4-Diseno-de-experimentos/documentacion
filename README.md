@@ -2379,6 +2379,24 @@ Evaluación y Ajustes:
 ### 8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle
 
 #### 8.3.3.1. To-Be Sprint Backlogs
+| Sprint | User Story ID | Task ID | Título de la Tarea                             | Descripción de la Tarea                                                                                 | Estimación (Story Points) | Asignado a | Estado         |
+|--------|----------------|---------|--------------------------------------------------|----------------------------------------------------------------------------------------------------------|----------------------------|-------------|----------------|
+| 1      | TBU-01         | TK01    | Diseñar selector de plan gratuito o premium     | Crear interfaz en perfil de usuario para elegir entre plan gratuito y premium.                          | 2                          | Daniel       | Done           |
+| 1      | TBU-01         | TK02    | Implementar lógica de activación del plan       | Desarrollar backend que active funciones premium al confirmar pago.                                     | 1                          | Daniel     | Done           |
+| 1      | TBU-02         | TK03    | Crear botón de contacto a nutricionista         | Añadir botón “Hablar con nutricionista” visible solo para usuarios premium.                             | 2                          | George       | Done           |
+| 1      | TBU-02         | TK04    | Implementar sistema de asignación automática    | Conectar al usuario con un nutricionista según sus objetivos registrados.                               | 3                          | George       | Done    |
+| 1      | TBU-03         | TK05    | Añadir sistema de calificación en recetas       | Implementar estrellas para valorar recetas, y guardar puntuaciones.                                     | 2                          | Daniel         | Done           |
+| 1      | TBU-03         | TK06    | Crear sección destacada "Plato del Día"         | Mostrar receta con mayor calificación del día anterior en la pantalla de inicio.                        | 3                          | Jorge         | Done          |
+| 1      | TBU-04         | TK07    | Diseñar historial de planes usados              | Crear pantalla donde se liste el historial de planes anteriores.                                        | 2                          | Jorge    | Done           |
+| 1      | TBU-04         | TK08    | Implementar detalle de cada plan histórico      | Mostrar recetas, fechas y estado de cumplimiento por cada plan usado.                                   | 1                          | Carlos    | Done      |
+| 1      | TBU-05         | TK09    | Implementar sugerencias inteligentes            | Crear lógica de recomendaciones personalizadas con base en perfil y objetivos.                          | 3                          | Jorge     | Done          |
+| 1      | TBU-05         | TK10    | Filtrar sugerencias según alergias              | Filtrar recetas que contienen ingredientes sensibles o prohibidos según el perfil del usuario.          | 2                          | Carlos       | Done    |
+| 1      | TBU-06         | TK11    | Agregar sistema de notificaciones inteligentes  | Desarrollar módulo para notificar sobre planes o recetas compatibles.                                   | 3                          | George       | Done           |
+| 1      | TBU-06         | TK12    | Redirigir a plan o receta desde la notificación | Permitir navegación directa desde la notificación hacia el contenido correspondiente.                   | 2                          | Jorge         | Done          |
+| 1      | TBU-07         | TK13    | Crear calendario nutricional interactivo        | Mostrar comidas asignadas por día y hora.                                                               | 3                          | Carlos       | Done          |
+| 1      | TBU-07         | TK14    | Permitir edición manual de comidas              | Agregar funcionalidad para personalizar recetas del calendario.                                         | 2                          | Jorge     | Done          |
+| 1      | TBU-08         | TK15    | Permitir enviar comentarios y rating            | Añadir sección para dejar opiniones tras completar plan o receta.                                       | 1                          | Daniel    | Done           |
+| 1      | TBU-08         | TK16    | Mostrar valoraciones de otros usuarios          | Mostrar promedio de estrellas y comentarios recibidos en detalle de recetas o planes.                   | 1                          | George         | Done    |
 
 #### 8.3.3.2. Implemented To-Be Landing Page Evidence
 
