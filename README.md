@@ -2605,8 +2605,14 @@ link: https://docs.google.com/forms/d/e/1FAIpQLSdybFadC1Lss_7STekqZNGxTeKRrIfwjR
 
 
 ## 8.6. To-Be Software Platform Pre-launch
+
 ## 8.6.1. About-the-Product Intro Video
 
+<p align="center">
+  <img src="./imagenes/abouttheproduct.png" alt="test-front1" width="750">
+</p>
+
+Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202019577_upc_edu_pe/ERs9Ow-L1D1Dh8W1QKkc4kMBHvD0XxiOXK5pLvBllfAbNA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ewupXN
 
 # Conclusiones
 ## Conclusiones y recomendaciones.
@@ -2627,6 +2633,13 @@ Optimizar el canal de contacto con nutricionistas, permitiendo opciones de reser
 Realizar nuevas validaciones periódicas con usuarios reales para seguir priorizando funcionalidades con base en evidencia.
 
 ## Video About-The-Team.
+
+<p align="center">
+  <img src="./imagenes/abouttheteam.png" alt="test-front1" width="750">
+</p>
+
+Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202019577_upc_edu_pe/EexXFwg61sZFpoW1K3sC1EYBEtoErzjhOQ8OTPLu76wXaA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=BBeKo6
+
 
 ## Bibliografía
 Cooper, A., Reimann, R., Cronin, D., & Noessel, C. (2014). About Face: The Essentials of Interaction Design. Wiley.
