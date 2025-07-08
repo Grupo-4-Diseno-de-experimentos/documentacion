@@ -2411,7 +2411,37 @@ Evaluación y Ajustes:
 ### 8.3.4. To-Be Validation Interviews
 #### 8.3.4.1. Diseño de Entrevistas.
 
+1.	¿Sueles activar el modo oscuro en las apps que usas a diario? ¿Por qué?
+2.	¿Te gustaría tener un tema oscuro en esta app de planes de comida?
+3.	¿Te gustaría poder calificar los planes de comida que usas?
+4.	¿Qué opinas de que el sistema elija un "plato del día" según las calificaciones de otros usuarios? ¿Te sería útil?
+5.	¿Qué tipo de notificaciones te parecerían útiles en una app de alimentación o nutrición?
+6.	¿Prefieres recibir notificaciones diarias, semanales, o solo cuando haya algo importante?
+7.	¿Te interesaría ver un panel con tu progreso nutricional o de objetivos?
+8.	¿Qué tipo de metas te motivarían más: calorías consumidas, constancia de uso, o seguimiento de objetivos?
+9.	¿Te parecería útil tener un botón para contactar rápidamente a un nutricionista desde la app?
+10.	¿Te sentirías cómodo usando un sistema de pago dentro de la app para servicios extra como asesorías o planes premium?
+
+
 #### 8.3.4.2. Registro de Entrevistas.
+### Segmento objetivo: Nutricionista
+
+**Entrevista 01**
+* **Nombres:** Gabriel
+* **Apellidos:** Díaz
+* **Edad:** 23
+* **Distrito:** San Miguel
+* **Evidencia de la reunión:** 
+
+[![image.png](https://i.postimg.cc/Pq2fV655/image.png)](https://postimg.cc/3y0HdFGs)
+
+**Enlace de entrevista:** [https://upcedupe-my.sharepoint.com/personal/u20211c273_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20211c273_upc_edu_pe%2FDocuments%2F2025-07-08%2012-04-14.mkv&referrer=StreamWebApp.Web&referrerScenario=AddressBarCopied.view.d58a3aa0-dbab-4d95-919a-17ad78ae1d8b](https://upcedupe-my.sharepoint.com/personal/u20211c273_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20211c273_upc_edu_pe%2FDocuments%2F2025-07-08%2012-04-14.mkv&referrer=StreamWebApp.Web&referrerScenario=AddressBarCopied.view.d58a3aa0-dbab-4d95-919a-17ad78ae1d8b)
+
+
+**Resumen de la entrevista:**
+
+Gabriel Díaz, un **estudiante de sexto año de medicina**, ofreció sus impresiones sobre la aplicación AgroTech. Consideró la propuesta "bastante **interesante**" y "completa", valorando la función que permite a los usuarios **publicar y calificar recetas y planes**, lo que para él genera una valiosa retroalimentación. Aunque acostumbra usar el **modo oscuro** en otras aplicaciones para reducir la fatiga visual, para una app de nutrición preferiría el **modo claro** por ser más "llamativo" y estético en relación con la comida.
+Gabriel también encontró muy útil la **calificación de planes de comida** y la idea de un "plato del día" sugerido por el sistema. Sobre las **notificaciones**, solo las vería útiles para avisos de contacto para usuarios premium, y sugirió que su frecuencia se adaptara al objetivo individual del usuario. Finalmente, cree que un **panel de progreso nutricional** y la posibilidad de **contactar rápidamente a un nutricionista** son beneficiosos, y que los usuarios se sentirían cómodos pagando por **servicios premium** dentro de la aplicación.
 
 ## 8.4. Experiment Aftermath & Analysis
 ### 8.4.1. Analysis and Interpretation of Results
