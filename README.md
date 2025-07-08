@@ -1635,25 +1635,6 @@ Evidencia de la reunión:
 
 ![ImagenZapata](https://i.ibb.co/6cVC23zv/image.png)
 
-**Usuarios**
-
-**Entrevista - Usuario**
-
-- Nombre: Luis
-- Apellidos: Moreno
-- Edad: 21 años
-- Distrito: San Martin de Porres - Lima
-- Minuto donde Empieza: 07:40
-- Duración: 17:45 minutos
-
-Evidencia de la reunión:
-
-<p>
-  <img src="https://res.cloudinary.com/dydklnicb/image/upload/v1752008975/entrevista-Luis-NutriSmart.png" alt="Entrevista-Luis_Nutrismart">
-</p>
-
-Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113280_upc_edu_pe/ERgvbIFkER5Asn01Qupk-i8BW5WjwM-TTsV1OmbCVxW8jw?e=pSTWZN
-
 ##### 6.3.3. Evaluaciones según heurísticas 
 
 ### Aplicación para evaluar: NutriSmart
@@ -2460,6 +2441,21 @@ Evaluación y Ajustes:
 
 Gabriel Díaz, un **estudiante de sexto año de medicina**, ofreció sus impresiones sobre la aplicación NutriSmart. Consideró la propuesta "bastante **interesante**" y "completa", valorando la función que permite a los usuarios **publicar y calificar recetas y planes**, lo que para él genera una valiosa retroalimentación. Aunque acostumbra usar el **modo oscuro** en otras aplicaciones para reducir la fatiga visual, para una app de nutrición preferiría el **modo claro** por ser más "llamativo" y estético en relación con la comida.
 Gabriel también encontró muy útil la **calificación de planes de comida** y la idea de un "plato del día" sugerido por el sistema. Sobre las **notificaciones**, solo las vería útiles para avisos de contacto para usuarios premium, y sugirió que su frecuencia se adaptara al objetivo individual del usuario. Finalmente, cree que un **panel de progreso nutricional** y la posibilidad de **contactar rápidamente a un nutricionista** son beneficiosos, y que los usuarios se sentirían cómodos pagando por **servicios premium** dentro de la aplicación.
+
+### Segmento objetivo: Usuario
+**Entrevista 01**
+* **Nombres:** Luis
+* **Apellidos:** Moreno
+* **Edad:** 21
+* **Distrito:** San Martin de Porres
+* **Evidencia de la reunión:** 
+
+<img src= "https://res.cloudinary.com/dydklnicb/image/upload/v1752008975/entrevista-Luis-NutriSmart.png">
+
+**Enlace de entrevista:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113280_upc_edu_pe/ERgvbIFkER5Asn01Qupk-i8BW5WjwM-TTsV1OmbCVxW8jw?e=kNY9FT
+
+Luis Moreno, desarrollador de software independiente, compartió su opinión sobre la aplicación NutriSmart. Destacó que la propuesta le pareció atractiva y bien estructurada, y valoró especialmente la opción que permite a los usuarios compartir y calificar recetas y planes alimenticios, ya que considera que esto genera una retroalimentación valiosa. Comentó que suele utilizar el modo oscuro en otras plataformas para reducir la fatiga visual, debido a una leve sensibilidad ocular.
+También resaltó como muy útil la calificación de planes de comida y la función del "plato del día" sugerido automáticamente. En cuanto a las notificaciones, las consideró efectivas para ayudar al usuario a mantenerse enfocado en sus metas, aunque recomendó ajustar su frecuencia en función de los objetivos personales de cada usuario. Por último, consideró que tanto el panel de progreso nutricional como la posibilidad de acceder rápidamente a un nutricionista aportan un gran valor, y opinó que los usuarios estarían dispuestos a pagar por funcionalidades premium dentro de la app.
 
 ## 8.4. Experiment Aftermath & Analysis
 ### 8.4.1. Analysis and Interpretation of Results
