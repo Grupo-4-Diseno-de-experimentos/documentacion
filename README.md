@@ -2440,7 +2440,7 @@ Evaluación y Ajustes:
 
 **Resumen de la entrevista:**
 
-Gabriel Díaz, un **estudiante de sexto año de medicina**, ofreció sus impresiones sobre la aplicación AgroTech. Consideró la propuesta "bastante **interesante**" y "completa", valorando la función que permite a los usuarios **publicar y calificar recetas y planes**, lo que para él genera una valiosa retroalimentación. Aunque acostumbra usar el **modo oscuro** en otras aplicaciones para reducir la fatiga visual, para una app de nutrición preferiría el **modo claro** por ser más "llamativo" y estético en relación con la comida.
+Gabriel Díaz, un **estudiante de sexto año de medicina**, ofreció sus impresiones sobre la aplicación NutriSmart. Consideró la propuesta "bastante **interesante**" y "completa", valorando la función que permite a los usuarios **publicar y calificar recetas y planes**, lo que para él genera una valiosa retroalimentación. Aunque acostumbra usar el **modo oscuro** en otras aplicaciones para reducir la fatiga visual, para una app de nutrición preferiría el **modo claro** por ser más "llamativo" y estético en relación con la comida.
 Gabriel también encontró muy útil la **calificación de planes de comida** y la idea de un "plato del día" sugerido por el sistema. Sobre las **notificaciones**, solo las vería útiles para avisos de contacto para usuarios premium, y sugirió que su frecuencia se adaptara al objetivo individual del usuario. Finalmente, cree que un **panel de progreso nutricional** y la posibilidad de **contactar rápidamente a un nutricionista** son beneficiosos, y que los usuarios se sentirían cómodos pagando por **servicios premium** dentro de la aplicación.
 
 ## 8.4. Experiment Aftermath & Analysis
