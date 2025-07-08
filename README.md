@@ -2090,9 +2090,9 @@ Generación de Ingresos y Valor (Premium): Se sostiene que la introducción de u
 |---|---|
 | 1 | ¿Mejorará la experiencia de usuario ofreciendo opciones de personalización visual (ej. temas, esquemas de color)? |
 | 2 | ¿Mejorará el descubrimiento de recetas y el engagement del usuario la implementación de un sistema de calificación de platos y una sección de "Plato del Día" basada en ratings? |
-| 3 | ¿Aumentará la consistencia en el seguimiento del plan la implementación de recordatorios inteligentes y personalizados? |
-| 5 | ¿Aumentará la adherencia y motivación del usuario al implementar un panel de progreso interactivo y visualmente atractivo? |
-| 8 | ¿Aumentará el valor percibido de la aplicación y generará ingresos la inclusión de un modelo de suscripción Premium con acceso a un nutricionista? |
+| 3 | ¿Aumentará la consistencia en el seguimiento del plan la implementación de recordatorios de alimentación? |
+| 5 | ¿Aumentará la adherencia y motivación del usuario al implementar un panel de progreso visualmente atractivo? |
+| 8 | ¿Aumentará el valor percibido de la aplicación y generará ingresos la inclusión de un modelo de suscripción Premium con acceso al contacto con un nutricionista? |
 
 ### 8.1.5. Experiment Cards.
 
@@ -2112,27 +2112,27 @@ Generación de Ingresos y Valor (Premium): Se sostiene que la introducción de u
 
 <br>
 
-| Question | ¿Aumentará la consistencia en el seguimiento del plan la implementación de recordatorios inteligentes y personalizados? |
+| Question | ¿Aumentará la consistencia en el seguimiento del plan la implementación de recordatorios de alimentación? |
 |---|---|
-| **Why** | Los recordatorios son una herramienta valiosa para impulsar la adherencia, pero su efectividad depende de su personalización. Al adaptar los recordatorios al horario, las preferencias y el plan específico de cada usuario, se maximiza su utilidad y se minimiza la intrusividad. |
-| **What** | Implementar un sistema de recordatorios que permita al usuario configurar sus horarios preferidos y el tipo de recordatorios que desea recibir (ej. para registrar comidas, para seguir una receta específica, para beber agua). La aplicación utilizará esta información, junto con los datos del plan del usuario, para enviar recordatorios relevantes y oportunos. |
-| **Hypothesis** | Se espera que, con la implementación de recordatorios inteligentes y personalizados, **se incrementará la constancia del usuario en al menos un 25%**. Sabremos que esto es cierto cuando se observe un **aumento del 25% en la frecuencia de registro de comidas y seguimiento de recetas** o en el uso diario de la aplicación. |
+| **Why** | El principal motivo de incumplimiento de planes alimenticios suele ser el olvido. Implementar recordatorios en momentos estratégicos del día ayudará a los usuarios a recordar cuándo deben comer y registrar su progreso. Esto contribuirá a establecer hábitos saludables y mejorará la adherencia a largo plazo, lo cual es clave para el éxito del sistema. |
+| **What** | Diseñar un sistema de notificaciones programadas que envíe recordatorios antes de cada comida, adaptados a las horas personalizadas del usuario. Las notificaciones incluirán mensajes motivacionales y accesos rápidos para registrar la comida o revisar el plan del día. |
+| **Hypothesis** | Se espera que **el grupo de usuarios con recordatorios activos aumente su tasa de cumplimiento de comidas en un 25%** respecto al grupo sin recordatorios, y que **al menos el 60% de los usuarios interactúe con las notificaciones durante el periodo de prueba**. |
 
 <br>
 
-| Question | ¿Aumentará la adherencia y motivación del usuario al implementar un panel de progreso interactivo y visualmente atractivo? |
+| Question | ¿Aumentará la adherencia y motivación del usuario al implementar un panel de progreso visualmente atractivo? |
 |---|---|
-| **Why** | La visualización clara y dinámica del progreso es un potente motivador. Al permitir a los usuarios ver su avance en tiempo real hacia sus objetivos nutricionales (ej. seguimiento de calorías, macronutrientes, ingesta de agua, días de adherencia), se refuerzan sus hábitos positivos y se mantiene su compromiso a largo plazo con la aplicación y sus metas de salud. Coincide con la heurística de "Visibilidad del estado del sistema". |
-| **What** | Desarrollar una sección en el perfil del usuario o en el panel principal que presente gráficos interactivos y resúmenes visuales de su progreso. Esto podría incluir barras de cumplimiento diario/semanal, tendencias de peso, o medallas/insignias por hitos alcanzados (ej. "5 días seguidos sin azúcares añadidos"). |
-| **Hypothesis** | Se espera que, con la implementación de un panel de progreso interactivo y visualmente atractivo, **se incremente la motivación y adherencia del usuario en al menos un 35%**. Sabremos que esto es cierto cuando se observe un **aumento del 35% en la tasa de cumplimiento del plan alimenticio** (ej. porcentaje de comidas registradas o días de adherencia completa). |
+| **Why** | Los usuarios tienden a mantener el compromiso con sus objetivos cuando pueden visualizar su progreso de forma clara. Un panel visual atractivo que muestre avances diarios y semanales en relación a metas nutricionales proporcionará retroalimentación positiva, aumentará la motivación y reforzará el hábito de continuar con el plan. |
+| **What** | Desarrollar un panel visual dentro de la aplicación que presente gráficamente el cumplimiento de calorías, metas nutricionales, días consecutivos cumplidos, y otros indicadores relevantes. El diseño debe ser intuitivo, colorido y fácilmente accesible desde la pantalla principal. |
+| **Hypothesis** | Se espera que **los usuarios que tengan acceso al panel de progreso aumenten su retención semanal en al menos un 30%**, y que **más del 50% de ellos revisen su progreso al menos tres veces por semana durante el periodo experimental**. |
 
 <br>
 
-| Question | ¿Aumentará el valor percibido de la aplicación y generará ingresos la inclusión de un modelo de suscripción Premium con acceso a un nutricionista? |
+| Question | ¿Aumentará el valor percibido de la aplicación y generará ingresos la inclusión de un modelo de suscripción Premium con acceso al contacto con un nutricionista? |
 |---|---|
-| **Why** | Ofrecer un modelo de suscripción Premium con acceso directo a un nutricionista brinda un valor significativo a los usuarios que buscan orientación personalizada y apoyo experto para sus objetivos de salud. Esto puede diferenciarse de la competencia, atraer a un segmento de usuarios dispuesto a invertir en su salud y generar una fuente de ingresos recurrente. |
-| **What** | Implementar un sistema de suscripción Premium que, al activarse, dé acceso a los usuarios a un módulo de comunicación (chat/videollamada) con nutricionistas certificados. El servicio se adaptaría a los objetivos específicos del usuario (ej. pérdida de peso, ganancia muscular, dieta equilibrada). |
-| **Hypothesis** | Se espera que, tras la implementación del modelo Premium, se incremente el valor percibido de la aplicación y se generen ingresos recurrentes, logrando que al menos el 15% de los usuarios activos se suscriban al plan Premium. Sabremos que esto es cierto cuando se alcance esta tasa de conversión. |
+| **Why** | El acompañamiento de un profesional de la salud puede marcar una diferencia significativa en la percepción de valor del servicio. Contar con un canal directo para resolver dudas o recibir retroalimentación por parte de un nutricionista aumenta la confianza del usuario y justifica el pago por una suscripción, lo cual puede traducirse en ingresos sostenibles para el producto. |
+| **What** | Habilitar una funcionalidad en la que los usuarios Premium puedan comunicarse con nutricionistas mediante chat, mensajería programada o videollamadas limitadas. La propuesta incluirá además seguimiento personalizado y respuestas a consultas en menos de 24 horas. |
+| **Hypothesis** | Se espera que **al menos un 10% de los usuarios adopte el modelo Premium durante el piloto**, y que la tasa de retención mensual entre **los usuarios con acceso a un nutricionista sea un 35% mayor que entre los usuarios del modelo gratuito**. |
 
 <br>
 
@@ -2148,21 +2148,21 @@ Generación de Ingresos y Valor (Premium): Se sostiene que la introducción de u
 
 | Hypothesis 2     | Description     |
 | ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Question**        | ¿Aumentará la adherencia a los planes alimenticios la implementación de recordatorios inteligentes personalizados?                                                           |
-| **Belief**          | Recordatorios enviados en momentos estratégicos (según comportamiento y preferencias del usuario) reducirán el olvido o la omisión de comidas, aumentando la adherencia.     |
-| **Hypothesis**      | La implementación de recordatorios inteligentes aumentará la tasa de cumplimiento de comidas en un 25% respecto a usuarios sin recordatorios durante las primeras 3 semanas. |
-| **Null Hypothesis** | La implementación de recordatorios inteligentes no tendrá un impacto significativo en la tasa de cumplimiento de comidas.                                                    |
+| **Question**        | ¿Aumentará la consistencia en el seguimiento del plan la implementación de recordatorios de alimentación?                                                      |
+| **Belief**          | Los recordatorios ayudarán a los usuarios a recordar sus objetivos y mantener el hábito.     |
+| **Hypothesis**      | La incorporación de recordatorios de alimentación aumentará la tasa de adherencia diaria al plan en al menos un 25% durante las primeras 2 semanas de uso.         |
+| **Null Hypothesis** | Los recordatorios no influirán significativamente en la tasa de cumplimiento del plan alimenticio diario por parte de los usuarios.        |
 
 | Hypothesis 3     | Description     |
 | ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Question**        | ¿Motivará a los usuarios a seguir su plan el mostrar un panel de progreso con visualización de métricas alcanzadas?                                            |
-| **Belief**          | Un panel que muestre visualmente el progreso (calorías cumplidas, metas diarias, seguimiento semanal) reforzará el sentido de logro y motivará la continuidad. |
-| **Hypothesis**      | La inclusión del panel de progreso aumentará en un 30% la tasa de retención semanal en usuarios nuevos durante el primer mes.                                  |
-| **Null Hypothesis** | El panel de progreso no tendrá un impacto significativo en la tasa de retención semanal de usuarios nuevos.                                                    |
+| **Question**        | ¿Aumentará la adherencia y motivación del usuario al implementar un panel de progreso visualmente atractivo?          |
+| **Belief**          | Visualizar avances motiva y refuerza el compromiso del usuario. |
+| **Hypothesis**      | Los usuarios que tengan acceso a un panel de progreso visual incrementarán su tasa de retención semanal en un 30% y consultarán su panel al menos tres veces por semana.                                 |
+| **Null Hypothesis** | La implementación del panel de progreso no tendrá un impacto relevante en la retención de usuarios ni en la frecuencia con que consultan su avance.   |
 
 | Hypothesis 4     | Description     |
 | ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Question**        | ¿Mejorará la percepción de valor y compromiso del usuario ofrecer un modelo Premium con contacto directo con nutricionistas?                                              |
+| **Question**        | ¿Aumentará el valor percibido de la app y generará ingresos ofrecer un modelo Premium con contacto con un nutricionista?          |
 | **Belief**          | Permitir que usuarios Premium se comuniquen con nutricionistas brindará confianza, aumentará la personalización y motivará su continuidad dentro del sistema.             |
 | **Hypothesis**      | Los usuarios Premium con acceso a nutricionistas mostrarán una tasa de retención mensual un 35% mayor que los usuarios del plan gratuito, durante los primeros dos meses. |
 | **Null Hypothesis** | El acceso a nutricionistas en el modelo Premium no influirá significativamente en la retención mensual comparado con el plan gratuito.                                    |
@@ -2180,7 +2180,7 @@ Generación de Ingresos y Valor (Premium): Se sostiene que la introducción de u
 
 - **Question 4:** ¿Mejorará la percepción de valor y compromiso del usuario ofrecer un modelo Premium con contacto directo con nutricionistas? <br>
   **Measure:** Comparar la tasa de retención mensual entre usuarios Premium con acceso a nutricionistas y usuarios gratuitos. Medir también la cantidad de mensajes o consultas realizadas a nutricionistas y su correlación con el uso activo de planes. Observar durante los primeros dos meses tras la activación del plan.
-  
+
 ### 8.2.3. Conditions.
 
 |     1      |                          |
