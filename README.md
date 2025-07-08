@@ -50,6 +50,7 @@
 |   TB1   |    24/04   | George Aliaga, Daniel Chirinos, Carlos Pingus y Jorge Linares | Se estableció la solución propuesta, se realizó un análisis Lean UX, se definió el segmento objetivo y se recopilaron los requisitos necesarios para desarrollar las herramientas necesarias. A su vez, se implementó el landing page y un avance del backend. | 
 | TP     | 12/05 | George Aliaga, Daniel Chirinos, Carlos Pingus y Jorge Linares | Se realizaron los avances de la aplicación en base a la retroalimentación de la primera entrega |
 | TB2     | 12/05 | George Aliaga, Daniel Chirinos, Carlos Pingus y Jorge Linares | Se concluyó la aplicación web, y se empezaron a realizar las hypothesis de funcionalidades que no llegamos a implementar en la web |
+| TF     | 08/07 | George Aliaga, Daniel Chirinos, Carlos Pingus y Jorge Linares | Se concluyó la aplicacion web, mobile y los experimentos del to-be product backlog |
 
 </div>
 
@@ -262,79 +263,13 @@ Participa en equipos multidisciplinarios con eficacia, eficiencia y objetividad,
 
 Conoce al menos un sector empresarial o dominio de aplicación de soluciones de software.
 
-<table>
-<tr>
-    <td><b>Criterio específico</b></td>
-    <td><b>Acciones realizadas</b></td>
-    <td><b>Conclusiones</b></td>
-</tr>
-<tr>
-    <td><b>Participa en equipos multidisciplinarios con eficacia, eficiencia y objetividad, en el marco de un proyecto en soluciones de ingeniería de software.</b></td>
-    <td>
-    <td>TB2<br>
-    <b>Chirinos Arevalo, Daniel Rodrigo</b>
-        <br>
-        - Realicé mis tareas asignadas en el horario correspondiente<br/>
-        - Realicé las partes del trabajo como el diagrama de clases, c4 y el diseño temprano de la aplicación web y avance con el avance de la backend .<br/>
-        - Realicé el backend
-        <br>
-    <b>Aliaga Pimentel, George Arturo</b>
-        <br>
-        - Realicé mis tareas asignadas en el horario correspondiente<br/>
-        - Realicé las partes del trabajo como todo el capitulo 1 y el capitulo 2, identificando la problematica de nuestro tema.
-        - Realicé el frontend<br/>
-        <br>
-    <b>Carlos Daniel Pingus Rodriguez</b>
-        <br>
-        - Realicé mis tareas asignadas<br/>
-        - Realicé las partes del trabajo como los escenarios as-is y to-be, y los user personas .
-        - Realicé las correciones del informe<br/>
-        <br>
-    <b>Jorge Alexandro Linares Arroyo</b>
-        <br>
-        - Realicé mis tareas asignadas en el horario correspondiente<br/>
-        - Realicé la landing page y el capitulo 5 .<br/>
-        - Realicé el frontend
-        <br>
-    </td>
-    <td>
-    </td>
-    <br><br>
-</tr>
-<tr>
-<td><b>
-Conoce al menos un sector empresarial o dominio de aplicación de soluciones de software.</b></td>
-    <td>
-    <td>TB2<br>
-    <b>Chirinos Arevalo, Daniel Rodrigo</b>
-        <br>
-        - Realicé mis tareas asignadas en el horario correspondiente<br/>
-        - Realicé las partes del trabajo como el diagrama de clases, c4 y el diseño temprano de la aplicación web y avance con el avance de la backend .
-        - Realicé el backend<br/>
-        <br>
-    <b>Aliaga Pimentel, George Arturo</b>
-        <br>
-        - Realicé mis tareas asignadas en el horario correspondiente<br/>
-        - Realicé las partes del trabajo como todo el capitulo 1 y el capitulo 2, identificando la problematica de nuestro tema.
-        - Realicé el frontend<br/>
-        <br>
-    <b>Carlos Daniel Pingus Rodriguez</b>
-        <br>
-        - Realicé mis tareas asignadas<br/>
-        - Realicé las partes del trabajo como los escenarios as-is y to-be, y los user personas .
-        - Realicé las correciones<br/>
-        <br>
-    <b>Jorge Alexandro Linares Arroyo</b>
-        <br>
-        - Realicé mis tareas asignadas en el horario correspondiente<br/>
-        - Realicé la landing page y el capitulo 5 .
-        - Realicé el frontend<br/>
-        <br> 
-</td>
-    <td>
-    </td>
-</tr>
-</table>
+### Student Outcome
+
+| **Criterio específico** | **Acciones realizadas** | **Conclusiones** |
+|-------------------------|-------------------------|------------------|
+| Participa en equipos multidisciplinarios con eficacia, eficiencia y objetividad, en el marco de un proyecto en soluciones de ingeniería de software. | **TP**  <br><br> **Chirinos Arevalo, Daniel Rodrigo**  <br> - Desarrollo del backend de la app (API REST) <br> - Diseño de base de datos y estructura de clases DDD <br> - Implementación de seguridad y endpoints <br><br> **Aliaga Pimentel, George Arturo** <br> - Implementación del frontend en Angular <br> - Creación del capítulo 1 y 2 del informe <br> - Identificación de la problemática y público objetivo <br><br> **Carlos Daniel Pingus Rodriguez** <br> - Redacción de escenarios As-Is y To-Be <br> - Diseño de user personas <br> - Revisión final del informe y ajustes <br><br> **Jorge Alexandro Linares Arroyo** <br> - Desarrollo de landing page y despliegue en Firebase <br> - Implementación del sistema de validación y formulario de entrevistas <br> - Elaboración del capítulo 5 y redacción de documentación | El trabajo en equipo fue fundamental para lograr una app funcional e investigada. Cada miembro aportó desde su rol, logrando una colaboración efectiva entre backend, frontend, diseño y documentación. |
+| Conoce al menos un sector empresarial o dominio de aplicación de soluciones de software. | **TF**  <br><br> **Chirinos Arevalo, Daniel Rodrigo** <br> - Estudio del dominio nutricional y validación de datos <br> - Diseño de entidades como recetas, planes de comida y usuarios <br><br> **Aliaga Pimentel, George Arturo** <br> - Implementación de vista nutricional con Angular <br> - Visualización y edición de planes de comida <br><br> **Carlos Daniel Pingus Rodriguez** <br> - Análisis del mercado de apps de nutrición <br> - Identificación de funcionalidades clave como planes, recetas y metas <br><br> **Jorge Alexandro Linares Arroyo** <br> - Diseño e implementación de validaciones experimentales en el dominio de nutrición <br> - Desarrollo de encuestas para validación de funciones como modo oscuro y panel de progreso | Se logró un conocimiento práctico del dominio de apps de nutrición. A través del análisis de usuario, validación de hipótesis y desarrollo de funcionalidades clave, el equipo aplicó conceptos técnicos al entorno nutricional, simulando un contexto empresarial real. |
+
 
 <br><br>
 
